@@ -196,7 +196,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.hp,
                         percent: {
                             stat: pkmn.stats.max.hp / 5,
-                            color: (pkmn.stats.max.hp >= 200) ? "status-ok" : ((pkmn.stats.hp <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.hp >= 200) ? "status-ok" : ((pkmn.stats.max.hp <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
@@ -204,7 +204,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.attack,
                         percent: {
                             stat: pkmn.stats.max.attack / 5,
-                            color: (pkmn.stats.max.attack >= 200) ? "status-ok" : ((pkmn.stats.attack <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.attack >= 200) ? "status-ok" : ((pkmn.stats.max.attack <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
@@ -212,7 +212,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.defense,
                         percent: {
                             stat: pkmn.stats.max.defense / 5,
-                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.defense <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.defense <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
@@ -220,7 +220,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.sp_atk,
                         percent: {
                             stat: pkmn.stats.max.sp_atk / 5,
-                            color: (pkmn.stats.max.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.sp_atk <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.max.sp_atk <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
@@ -228,7 +228,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.sp_def,
                         percent: {
                             stat: pkmn.stats.max.sp_def / 5,
-                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.sp_def <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.sp_def <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
@@ -236,7 +236,7 @@ function StatBlock(props) {
                         value: pkmn.stats.max.speed,
                         percent: {
                             stat: pkmn.stats.max.speed / 5,
-                            color: (pkmn.stats.max.speed >= 200) ? "status-ok" : ((pkmn.stats.speed <= 100) ? "status-critical" : "status-warning")
+                            color: (pkmn.stats.max.speed >= 200) ? "status-ok" : ((pkmn.stats.max.speed <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                 ]}
