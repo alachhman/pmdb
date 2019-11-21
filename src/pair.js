@@ -1,13 +1,13 @@
 import React from 'react';
 import {Container, CardHeader, Card, CardBody, Row, Col} from "shards-react";
 import {Box, DataTable, Meter, Tab, Table, TableBody, TableCell, TableHeader, TableRow, Tabs, Text} from "grommet/es6";
+import {Helmet} from 'react-helmet'
 
 const units = [
     {
         name: "Player",
         pkmn: [
-            "pikachu",
-            "torchic"
+            "Pikachu"
         ]
     },
     {
@@ -20,40 +20,118 @@ const units = [
 
 const pkmnList = [
     {
-        name: "pikachu",
-        type: "thunder / fire",
-        weakness: "ground",
-        rarity: 3,
-        stats: [80, 150, 30, 20, 100, 90],
+        name: 'Pikachu',
+        type1: 'Electric',
+        type2: '',
+        weakness: 'Ground',
+        role: 'Strike (Special)',
+        image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0025_00_pikachu_256.ktx.png',
+        stats: {
+            base: {
+                attack: 10,
+                defense: 5,
+                hp: 62,
+                speed: 9,
+                sp_atk: 11,
+                sp_def: 6
+            },
+            max: {
+                attack: 194,
+                bulk: 338,
+                defense: 83,
+                hp: 399,
+                speed: 210,
+                sp_atk: 255,
+                sp_def: 110
+            }
+        },
         moves: [
             {
-                name: "move1 this is random text that should break the line limit",
-                pow: 40,
-                acc: 30,
-                type: "status",
+                name: 'Thunder Shock',
+                type: 'Electric',
+                category: 'Special',
+                power: {
+                    min_power: 17,
+                    max_power: 20
+                },
+                accuracy: 100,
+                target: 'An opponent',
+                cost: 1,
+                uses: null,
+                effect: 'Has a very small chance of leaving the target paralyzed.',
+                unlock_requirements: []
+            },
+            {
+                name: 'Potion',
+                type: '',
+                category: 'Status Effect',
+                power: {
+                    min_power: 0,
+                    max_power: 0
+                },
+                accuracy: 0,
+                target: 'An ally',
+                cost: '',
+                uses: 2,
+                effect: 'Restores a bit of an ally’s HP.',
+                unlock_requirements: []
+            },
+            {
+                name: 'Thunderbolt',
+                type: 'Electric',
+                category: 'Special',
+                power: {
+                    min_power: 47,
+                    max_power: 56
+                },
+                accuracy: 100,
+                target: 'An opponent',
                 cost: 2,
-                effect: "lorem ipsum"
-            },
-            {name: "move2", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move3", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move4", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-        ],
-        passives: [
-            {
-                name: "passive1",
-                desc: "passive 1 desc"
+                uses: null,
+                effect: 'Has a very small chance of leaving the target paralyzed.',
+                unlock_requirements: [
+                    'Training Machine x5'
+                ]
             },
             {
-                name: "passive2",
-                desc: "passive 2 desc"
+                name: 'Jump Start!',
+                type: '',
+                category: 'Status Effect',
+                power: {
+                    min_power: 0,
+                    max_power: 0
+                },
+                accuracy: 0,
+                target: 'Self',
+                cost: '',
+                uses: 2,
+                effect: 'Sharply raises the user’s Sp. Atk. Raises the user’s Speed.',
+                unlock_requirements: [
+                    'Great Buff Blend x10',
+                    'Ultra Buff Blend x3',
+                    'Training Machine x30',
+                    'Super Training Machine x5'
+                ]
             }
         ],
-        sync: {
-            name: "syncmove",
-            pow: 200,
-            type: "type",
-            effect: "lorem ipsum sync description goes here"
-        }
+        syncMove: {
+            name: 'Thunder of Newfound Passion',
+            type: ' Electric',
+            category: 'Special',
+            power: {
+                min_power: 250,
+                max_power: 300
+            },
+            target: 'An opponent',
+            effect_tag: '-',
+            description: 'No additional effect.'
+        },
+        passives: [
+            {
+                name: 'Endurance',
+                description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
+            }
+        ]
     },
     {
         name: "torchic",
@@ -117,7 +195,6 @@ const pkmnList = [
 
 export default function Info() {
     let unit = "";
-    let ownedPkmn = [];
     units.forEach((entry) => {
         if (entry.name === document.URL.toString().split("/")[6]) {
             unit = entry;
@@ -125,6 +202,9 @@ export default function Info() {
     });
     return (
         <Container>
+            <Helmet>
+                <title>{unit.name + " | Antnee.net"}</title>
+            </Helmet>
             <Col>
                 <h2>{unit.name}</h2>
                 <PkmnLevelInfo pkmn={unit.pkmn}/>
@@ -195,13 +275,20 @@ function InfoBlock(props) {
                     <TableBody>
                         <TableRow>
                             <TableCell>
-                                {pkmn.type}
+                                <Col>
+                                    <Row>
+                                        {pkmn.type1}
+                                    </Row>
+                                    <Row>
+                                        {pkmn.type2}
+                                    </Row>
+                                </Col>
                             </TableCell>
                             <TableCell>
                                 {pkmn.weakness}
                             </TableCell>
                             <TableCell>
-                                {pkmn.rarity}
+                                {pkmn.role.split(" ")[0]}
                             </TableCell>
                         </TableRow>
                     </TableBody>
@@ -223,20 +310,20 @@ function InfoBlock(props) {
                     <TableBody>
                         <TableRow>
                             <TableCell>
-                                {pkmn.sync.name}
+                                {pkmn.syncMove.name}
                             </TableCell>
                             <TableCell>
-                                {pkmn.sync.type}
+                                {pkmn.syncMove.type}
                             </TableCell>
                             <TableCell>
-                                {pkmn.sync.pow}
+                                {pkmn.syncMove.power.max_power}
                             </TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
                 <Text>
                     <blockquote>
-                        {pkmn.sync.effect}
+                        {pkmn.syncMove.description}
                     </blockquote>
                 </Text>
             </Container>
@@ -279,50 +366,50 @@ function StatBlock(props) {
                 data={[
                     {
                         name: 'HP',
-                        value: pkmn.stats[0],
+                        value: pkmn.stats.max.hp,
                         percent: {
-                            stat: pkmn.stats[0] / 2,
-                            color: (pkmn.stats[0] >= 150) ? "status-ok" : ((pkmn.stats[0] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.hp / 5,
+                            color: (pkmn.stats.max.hp >= 200) ? "status-ok" : ((pkmn.stats.hp <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'ATK',
-                        value: pkmn.stats[1],
+                        value: pkmn.stats.max.attack,
                         percent: {
-                            stat: pkmn.stats[1] / 2,
-                            color: (pkmn.stats[1] >= 150) ? "status-ok" : ((pkmn.stats[1] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.attack / 5,
+                            color: (pkmn.stats.max.attack >= 200) ? "status-ok" : ((pkmn.stats.attack <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'DEF',
-                        value: pkmn.stats[2],
+                        value: pkmn.stats.max.defense,
                         percent: {
-                            stat: pkmn.stats[2] / 2,
-                            color: (pkmn.stats[2] >= 150) ? "status-ok" : ((pkmn.stats[2] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.defense / 5,
+                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.defense <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPATK',
-                        value: pkmn.stats[3],
+                        value: pkmn.stats.max.sp_atk,
                         percent: {
-                            stat: pkmn.stats[3] / 2,
-                            color: (pkmn.stats[3] >= 150) ? "status-ok" : ((pkmn.stats[3] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.sp_atk / 5,
+                            color: (pkmn.stats.max.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.sp_atk <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPDEF',
-                        value: pkmn.stats[4],
+                        value: pkmn.stats.max.sp_def,
                         percent: {
-                            stat: pkmn.stats[4] / 2,
-                            color: (pkmn.stats[4] >= 150) ? "status-ok" : ((pkmn.stats[4] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.sp_def / 5,
+                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.sp_def <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPD',
-                        value: pkmn.stats[5],
+                        value: pkmn.stats.max.speed,
                         percent: {
-                            stat: pkmn.stats[5] / 2,
-                            color: (pkmn.stats[5] >= 150) ? "status-ok" : ((pkmn.stats[5] <= 45) ? "status-critical" : "status-warning")
+                            stat: pkmn.stats.max.speed / 5,
+                            color: (pkmn.stats.max.speed >= 200) ? "status-ok" : ((pkmn.stats.speed <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                 ]}
@@ -355,8 +442,8 @@ function MoveBlock(props) {
                         </TableHeader>
                         <TableBody>
                             <TableRow>
-                                <TableCell>{move.pow}</TableCell>
-                                <TableCell>{move.acc}</TableCell>
+                                <TableCell>{move.power.max_power}</TableCell>
+                                <TableCell>{move.accuracy}</TableCell>
                                 <TableCell>{move.type}</TableCell>
                                 <TableCell>{move.cost}</TableCell>
                             </TableRow>

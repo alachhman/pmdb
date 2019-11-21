@@ -23,15 +23,13 @@ const units = [
         ]
     },
 ];
-export default class UnitList extends React.Component {
-    render() {
-        return (
-            <Container>
-                <h3> Masters | Sync Pairs</h3>
-                <UnitDataMapping units={units}/>
-            </Container>
-        )
-    }
+export default function UnitList(){
+    return (
+        <Container>
+            <h3> Masters | Sync Pairs</h3>
+            <UnitDataMapping units={units}/>
+        </Container>
+    )
 }
 
 function UnitDataMapping(props) {
@@ -62,3 +60,4 @@ function UnitDisplay(unit) {
         </div>
     );
 }
+

@@ -20,6 +20,7 @@ import {
     Route,
 } from "react-router-dom";
 import Info from "./pair";
+import {Helmet} from "react-helmet";
 
 
 export default class App extends React.Component {
@@ -94,15 +95,27 @@ export default class App extends React.Component {
                             <Info/>
                         </Route>
                         <Route path="/masters/pairs">
+                            <Helmet>
+                                <title>{"Sync Pairs | Antnee.net"}</title>
+                            </Helmet>
                             <UnitList/>
                         </Route>
                         <Route path="/masters/gear">
+                            <Helmet>
+                                <title>{"Masters Gear | Antnee.net"}</title>
+                            </Helmet>
                             <h3> Masters | Gear</h3>
                         </Route>
                         <Route path="/masters/tier-list">
+                            <Helmet>
+                                <title>{"Tier List | Antnee.net"}</title>
+                            </Helmet>
                             <h3> Masters | Tier List</h3>
                         </Route>
                         <Route path="/">
+                            <Helmet>
+                                <title>{"Antnee.net"}</title>
+                            </Helmet>
                             <h3> HOME </h3>
                         </Route>
                     </Switch>
