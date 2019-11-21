@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pokemon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trainers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairsList.js" afterDir="false" />
-    </list>
+    <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
