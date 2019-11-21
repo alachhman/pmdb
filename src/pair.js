@@ -2,6 +2,8 @@ import React from 'react';
 import {Container, CardHeader, Card, CardBody, Row, Col} from "shards-react";
 import {Box, DataTable, Meter, Tab, Table, TableBody, TableCell, TableHeader, TableRow, Tabs, Text} from "grommet/es6";
 import {Helmet} from 'react-helmet'
+import pkmnList from './pokemon';
+import trainers from './trainers';
 
 const units = [
     {
@@ -18,185 +20,10 @@ const units = [
     },
 ];
 
-const pkmnList = [
-    {
-        name: 'Pikachu',
-        type1: 'Electric',
-        type2: '',
-        weakness: 'Ground',
-        role: 'Strike (Special)',
-        image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0025_00_pikachu_256.ktx.png',
-        stats: {
-            base: {
-                attack: 10,
-                defense: 5,
-                hp: 62,
-                speed: 9,
-                sp_atk: 11,
-                sp_def: 6
-            },
-            max: {
-                attack: 194,
-                bulk: 338,
-                defense: 83,
-                hp: 399,
-                speed: 210,
-                sp_atk: 255,
-                sp_def: 110
-            }
-        },
-        moves: [
-            {
-                name: 'Thunder Shock',
-                type: 'Electric',
-                category: 'Special',
-                power: {
-                    min_power: 17,
-                    max_power: 20
-                },
-                accuracy: 100,
-                target: 'An opponent',
-                cost: 1,
-                uses: null,
-                effect: 'Has a very small chance of leaving the target paralyzed.',
-                unlock_requirements: []
-            },
-            {
-                name: 'Potion',
-                type: '',
-                category: 'Status Effect',
-                power: {
-                    min_power: 0,
-                    max_power: 0
-                },
-                accuracy: 0,
-                target: 'An ally',
-                cost: '',
-                uses: 2,
-                effect: 'Restores a bit of an ally’s HP.',
-                unlock_requirements: []
-            },
-            {
-                name: 'Thunderbolt',
-                type: 'Electric',
-                category: 'Special',
-                power: {
-                    min_power: 47,
-                    max_power: 56
-                },
-                accuracy: 100,
-                target: 'An opponent',
-                cost: 2,
-                uses: null,
-                effect: 'Has a very small chance of leaving the target paralyzed.',
-                unlock_requirements: [
-                    'Training Machine x5'
-                ]
-            },
-            {
-                name: 'Jump Start!',
-                type: '',
-                category: 'Status Effect',
-                power: {
-                    min_power: 0,
-                    max_power: 0
-                },
-                accuracy: 0,
-                target: 'Self',
-                cost: '',
-                uses: 2,
-                effect: 'Sharply raises the user’s Sp. Atk. Raises the user’s Speed.',
-                unlock_requirements: [
-                    'Great Buff Blend x10',
-                    'Ultra Buff Blend x3',
-                    'Training Machine x30',
-                    'Super Training Machine x5'
-                ]
-            }
-        ],
-        syncMove: {
-            name: 'Thunder of Newfound Passion',
-            type: ' Electric',
-            category: 'Special',
-            power: {
-                min_power: 250,
-                max_power: 300
-            },
-            target: 'An opponent',
-            effect_tag: '-',
-            description: 'No additional effect.'
-        },
-        passives: [
-            {
-                name: 'Endurance',
-                description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
-            }
-        ]
-    },
-    {
-        name: "torchic",
-        type: "thunder",
-        weakness: "ground",
-        rarity: 3,
-        stats: [60, 50, 180, 10, 30, 110],
-        moves: [
-            {name: "move1", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move2", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move3", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move4", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-        ],
-        passives: [
-            {
-                name: "passive1",
-                desc: "passive 1 desc"
-            },
-            {
-                name: "passive2",
-                desc: "passive 2 desc"
-            }
-        ],
-        sync: {
-            name: "syncmove",
-            pow: 200,
-            type: "type",
-            effect: "lorem ipsum"
-        }
-    },
-    {
-        name: "snivy",
-        type: "thunder",
-        weakness: "ground",
-        rarity: 3,
-        stats: [40, 50, 140, 60, 20, 80],
-        moves: [
-            {name: "move1", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move2", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move3", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-            {name: "move4", pow: 40, acc: 30, type: "status", cost: 2, effect: "lorem ipsum"},
-        ],
-        passives: [
-            {
-                name: "passive1",
-                desc: "passive 1 desc"
-            },
-            {
-                name: "passive2",
-                desc: "passive 2 desc"
-            }
-        ],
-        sync: {
-            name: "syncmove",
-            pow: 200,
-            type: "type",
-            effect: "lorem ipsum"
-        }
-    }
-];
-
 export default function Info() {
     let unit = "";
-    units.forEach((entry) => {
-        if (entry.name === document.URL.toString().split("/")[6]) {
+    trainers.units.forEach((entry) => {
+        if (entry.name.replace("_","") === document.URL.toString().split("/")[6]) {
             unit = entry;
         }
     });
@@ -207,7 +34,7 @@ export default function Info() {
             </Helmet>
             <Col>
                 <h2>{unit.name}</h2>
-                <PkmnLevelInfo pkmn={unit.pkmn}/>
+                <PkmnLevelInfo pkmn={unit.pokemon_list}/>
             </Col>
         </Container>
     )
@@ -217,8 +44,8 @@ function PkmnLevelInfo(props) {
     const pkmn = props.pkmn;
     const ownedPkmn = [];
     pkmn.forEach(function (entry) {
-        for (const mon of pkmnList) {
-            if (entry.toUpperCase() === mon.name.toUpperCase()) {
+        for (const mon of pkmnList.pokemon) {
+            if (entry.split("& ")[1].toUpperCase() === mon.name.toUpperCase()) {
                 ownedPkmn.push(mon);
             }
         }

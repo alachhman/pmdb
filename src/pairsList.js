@@ -5,36 +5,19 @@ import {
     CardHeader,
     Button
 } from "shards-react";
+import trainers from './trainers';
 
-const units = [
-    {
-        name: "Player",
-        pkmn: [
-            "pikachu",
-            "torchic"
-        ]
-    },
-    {
-        name: "Rosa",
-        pkmn: [
-            "snivy",
-            "servine",
-            "serperior"
-        ]
-    },
-];
 export default function UnitList(){
     return (
         <Container>
             <h3> Masters | Sync Pairs</h3>
-            <UnitDataMapping units={units}/>
+            <UnitDataMapping units={trainers.units}/>
         </Container>
     )
 }
 
 function UnitDataMapping(props) {
-    const units = props.units;
-    const listItems = units.map((unit) => {
+    const listItems = props.units.map((unit) => {
             return (
                 UnitDisplay(unit)
             )
