@@ -51,14 +51,6 @@ module.exports = {
                 pokemon_list: ['Lt. Surge & Voltorb']
             },
             {
-                name: 'Sygna Suit Brock',
-                info: 'Known as the rock-solid Pokémon Trainer, he is a reliable Gym Leader who watches over and supports younger Trainers.\n' +
-                    'Obtain: Clear Interlude 1 (after Chapter 10) - The Journey Begins Anew.',
-                base_potential: 3,
-                recruit_method: 'Costume',
-                pokemon_list: ['Sygna Suit Brock & Tyranitar']
-            },
-            {
                 name: 'Acerola',
                 info: "Rumored to be descended from an ancient Alolan dynasty, this Ghost-type Pokémon user serves as one of the Alola region's Elite Four.",
                 base_potential: 5,
