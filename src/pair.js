@@ -28,9 +28,9 @@ export default function Info() {
     )
 }
 
-function TrainerInfo(props){
+function TrainerInfo(props) {
     const trainer = props.unit;
-    return(
+    return (
         <div>
             <Row>
                 <Col>
@@ -46,21 +46,30 @@ function TrainerInfo(props){
                 </Col>
                 <Col>
                     <Container className={"InfoTable"}>
+                        <DataTable
+                            columns={[
+                                {
+                                    property: "rarity",
+                                    header: <Text>Rarity</Text>,
+                                    primary: false
+                                },
+                                {
+                                    property: "recruit_method",
+                                    header: <Text>Obtain By</Text>
+                                }
+                            ]}
+                            data={[
+                                {
+                                    rarity: trainer.base_potential,
+                                    recruit_method: trainer.recruit_method
+                                }
+                            ]}
+                        />
                         <Text>
-                            <DataTable
-                                columns={[
-                                    {
-                                        property: "rarity",
-                                        header: <Text>Rarity</Text>,
-                                        primary: false
-                                    }
-                                ]}
-                                data={[
-                                    {rarity: trainer.base_potential}
-                                ]}
-                            />
 
-                            {trainer.info}
+                            <div style={{marginBottom: "8px"}}>
+                                {trainer.info}
+                            </div>
                         </Text>
                     </Container>
                 </Col>
@@ -125,9 +134,9 @@ function PkmnLevelInfo(props) {
     )
 }
 
-function PassivesBlock(props){
+function PassivesBlock(props) {
     const passives = props.passives;
-    return(
+    return (
         <Container className={"PassiveTable"}>
             <DataTable
                 columns={[

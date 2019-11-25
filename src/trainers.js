@@ -5,7 +5,7 @@ module.exports = {
                 name: 'Caitlin',
                 info: 'One of the Unova Pokémon League Elite Four, this refined young lady overcame her past weaknesses and became a stronger Trainer.\n',
                 base_potential: 5,
-                recruit_method: '',
+                recruit_method: 'Sync Pair Scout',
                 pokemon_list: ['Caitlin & Reuniclus']
             },
             {
