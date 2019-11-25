@@ -1,29 +1,15 @@
 import React from 'react';
-import {Container, CardHeader, Card, CardBody, Row, Col} from "shards-react";
+import {pokedexLookup, getPKMNIcon} from "./pokedex";
+import {Container, Row, Col} from "shards-react";
 import {Box, DataTable, Meter, Tab, Table, TableBody, TableCell, TableHeader, TableRow, Tabs, Text} from "grommet/es6";
 import {Helmet} from 'react-helmet'
 import pkmnList from './pokemon';
 import trainers from './trainers';
 
-const units = [
-    {
-        name: "Player",
-        pkmn: [
-            "Pikachu"
-        ]
-    },
-    {
-        name: "Rosa",
-        pkmn: [
-            "snivy"
-        ]
-    },
-];
-
 export default function Info() {
     let unit = "";
     trainers.units.forEach((entry) => {
-        if (entry.name.replace("_","") === document.URL.toString().split("/")[6]) {
+        if (entry.name.replace("_", "") === document.URL.toString().split("/")[6]) {
             unit = entry;
         }
     });
@@ -33,10 +19,53 @@ export default function Info() {
                 <title>{unit.name + " | Antnee.net"}</title>
             </Helmet>
             <Col>
-                <h2>{unit.name}</h2>
+                <h1>{unit.name}</h1>
+                <TrainerInfo unit={unit}/>
+                <div className={"divider"}/>
                 <PkmnLevelInfo pkmn={unit.pokemon_list}/>
             </Col>
         </Container>
+    )
+}
+
+function TrainerInfo(props){
+    const trainer = props.unit;
+    return(
+        <div>
+            <Row>
+                <Col>
+                    <div className={"ImageContainer"}>
+                        <img
+                            className={"image"}
+                            height={"360"}
+                            width={"auto"}
+                            src={'https://www.serebii.net/pokemonmasters/syncpairs/' + trainer.name.replace("Synga Suit ", "").toLowerCase().replace(" ", "") + '.png'}
+                            alt={'trainer'}
+                        />
+                    </div>
+                </Col>
+                <Col>
+                    <Container className={"InfoTable"}>
+                        <Text>
+                            <DataTable
+                                columns={[
+                                    {
+                                        property: "rarity",
+                                        header: <Text>Rarity</Text>,
+                                        primary: false
+                                    }
+                                ]}
+                                data={[
+                                    {rarity: trainer.base_potential}
+                                ]}
+                            />
+
+                            {trainer.info}
+                        </Text>
+                    </Container>
+                </Col>
+            </Row>
+        </div>
     )
 }
 
@@ -51,34 +80,69 @@ function PkmnLevelInfo(props) {
         }
     });
     const returnValues = ownedPkmn.map((pkmn) => {
+        const icon = getPKMNIcon(pkmn.name);
+        console.log(icon);
         return (
             <div>
-                <Card style={{marginBottom: "8px", marginTop: "8px"}}>
-                    <CardHeader><strong>
-                        <h4>{pkmn.name}</h4>
-                    </strong></CardHeader>
-                    <CardBody>
-                        <Row>
-                            <Col md>
-                                <StatBlock pkmn={pkmn}/>
-                            </Col>
-                            <Col md>
-                                <InfoBlock pkmn={pkmn}/>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                <MoveBlock pkmn={pkmn}/>
-                            </Col>
-                        </Row>
-                    </CardBody>
-                </Card>
+                <div style={{marginBottom: "8px", marginTop: "8px"}}>
+                    <strong>
+                        <h4>
+                            <span>
+                                <img
+                                    src={icon}
+                                    alt={"pkmnIcon"}
+                                />
+                            </span>
+                            {"  " + pkmn.name}
+                        </h4>
+                    </strong>
+                    <Row>
+                        <Col md>
+                            <StatBlock pkmn={pkmn}/>
+                        </Col>
+                        <Col md>
+                            <InfoBlock pkmn={pkmn}/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <MoveBlock pkmn={pkmn}/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <PassivesBlock passives={pkmn.passives}/>
+                        </Col>
+                    </Row>
+                </div>
                 <br/>
+                <div className={"divider"}/>
             </div>
         )
     });
     return (
         <div className={"pokemonList"} style={{listStyleType: "none"}}>{returnValues}</div>
+    )
+}
+
+function PassivesBlock(props){
+    const passives = props.passives;
+    return(
+        <Container className={"PassiveTable"}>
+            <DataTable
+                columns={[
+                    {
+                        property: "name",
+                        header: <Text>Passives</Text>,
+                        primary: true
+                    },
+                    {
+                        property: "description"
+                    }
+                ]}
+                data={passives}
+            />
+        </Container>
     )
 }
 
@@ -96,7 +160,7 @@ function InfoBlock(props) {
                             Weakness
                         </TableCell>
                         <TableCell scope="col" border="bottom">
-                            Rarity
+                            Role
                         </TableCell>
                     </TableHeader>
                     <TableBody>
@@ -176,67 +240,92 @@ function StatBlock(props) {
                         property: 'percent',
                         header: '',
                         render: datum => (
-                            <Box pad={{vertical: 'xsmall'}}>
-                                <Meter
-                                    values={[{
-                                        value: datum.percent.stat,
-                                        color: datum.percent.color
-                                    }]}
-                                    round={true}
-                                    thickness="small"
-                                    size="small"
-                                />
-                            </Box>
+                            <Col>
+                                <Box pad={{vertical: 'xsmall'}}>
+                                    <Meter
+                                        values={[{
+                                            value: datum.percent.min,
+                                            color: datum.percent.color
+                                        }]}
+                                        round={true}
+                                        thickness="xsmall"
+                                        size="small"
+                                    />
+                                </Box>
+                                <Box pad={{vertical: 'xsmall'}}>
+                                    <Meter
+                                        values={[{
+                                            value: datum.percent.max,
+                                            color: datum.percent.maxColor
+                                        }]}
+                                        round={true}
+                                        thickness="xsmall"
+                                        size="small"
+                                    />
+                                </Box>
+                            </Col>
                         ),
                     },
                 ]}
                 data={[
                     {
                         name: 'HP',
-                        value: pkmn.stats.max.hp,
+                        value: pkmn.stats.base.hp + "(" + pkmn.stats.max.hp + ")",
                         percent: {
-                            stat: pkmn.stats.max.hp / 5,
-                            color: (pkmn.stats.max.hp >= 200) ? "status-ok" : ((pkmn.stats.max.hp <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.hp / 5,
+                            minColor: (pkmn.stats.base.hp >= 400) ? "status-ok" : ((pkmn.stats.base.hp <= 200) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.hp / 5,
+                            maxColor: (pkmn.stats.max.hp >= 200) ? "status-ok" : ((pkmn.stats.max.hp <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'ATK',
-                        value: pkmn.stats.max.attack,
+                        value: pkmn.stats.base.attack + "(" + pkmn.stats.max.attack + ")",
                         percent: {
-                            stat: pkmn.stats.max.attack / 5,
-                            color: (pkmn.stats.max.attack >= 200) ? "status-ok" : ((pkmn.stats.max.attack <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.attack / 5,
+                            minColor: (pkmn.stats.base.attack >= 200) ? "status-ok" : ((pkmn.stats.base.attack <= 100) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.attack / 5,
+                            maxColor: (pkmn.stats.max.attack >= 200) ? "status-ok" : ((pkmn.stats.max.attack <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'DEF',
-                        value: pkmn.stats.max.defense,
+                        value: pkmn.stats.base.defense + "(" + pkmn.stats.max.defense + ")",
                         percent: {
-                            stat: pkmn.stats.max.defense / 5,
-                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.defense <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.defense / 5,
+                            minColor: (pkmn.stats.base.defense >= 200) ? "status-ok" : ((pkmn.stats.base.defense <= 100) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.defense / 5,
+                            maxColor: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.defense <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPATK',
-                        value: pkmn.stats.max.sp_atk,
+                        value: pkmn.stats.base.sp_atk + "(" + pkmn.stats.max.sp_atk + ")",
                         percent: {
-                            stat: pkmn.stats.max.sp_atk / 5,
-                            color: (pkmn.stats.max.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.max.sp_atk <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.sp_atk / 5,
+                            minColor: (pkmn.stats.base.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.base.sp_atk <= 100) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.sp_atk / 5,
+                            maxColor: (pkmn.stats.max.sp_atk >= 200) ? "status-ok" : ((pkmn.stats.max.sp_atk <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPDEF',
-                        value: pkmn.stats.max.sp_def,
+                        value: pkmn.stats.base.sp_def + "(" + pkmn.stats.max.sp_def + ")",
                         percent: {
-                            stat: pkmn.stats.max.sp_def / 5,
-                            color: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.sp_def <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.sp_def / 5,
+                            minColor: (pkmn.stats.base.sp_def >= 200) ? "status-ok" : ((pkmn.stats.base.sp_def <= 100) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.sp_def / 5,
+                            maxColor: (pkmn.stats.max.defense >= 200) ? "status-ok" : ((pkmn.stats.max.sp_def <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                     {
                         name: 'SPD',
-                        value: pkmn.stats.max.speed,
+                        value: pkmn.stats.base.speed + "(" + pkmn.stats.max.speed + ")",
                         percent: {
-                            stat: pkmn.stats.max.speed / 5,
-                            color: (pkmn.stats.max.speed >= 200) ? "status-ok" : ((pkmn.stats.max.speed <= 100) ? "status-critical" : "status-warning")
+                            min: pkmn.stats.base.speed / 5,
+                            minColor: (pkmn.stats.base.speed >= 200) ? "status-ok" : ((pkmn.stats.base.speed <= 100) ? "status-critical" : "status-warning"),
+                            max: pkmn.stats.max.speed / 5,
+                            maxColor: (pkmn.stats.max.speed >= 200) ? "status-ok" : ((pkmn.stats.max.speed <= 100) ? "status-critical" : "status-warning")
                         }
                     },
                 ]}
@@ -277,6 +366,10 @@ function MoveBlock(props) {
                         </TableBody>
                     </Table>
                     <div style={{marginBottom: "8px"}}>
+                        <Text>
+                            <strong>Target: </strong>{move.target}
+                        </Text>
+                        <br/>
                         <Text>
                             <strong>Description: </strong>{move.effect}
                         </Text>

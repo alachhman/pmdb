@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GPressData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alachhman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pokedex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pair.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
