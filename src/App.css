@@ -40,6 +40,7 @@
 
 .image{
     padding-top: 16px;
+    padding-bottom: 1px;
     max-width:350px;
     max-height:350px;
     position: absolute;

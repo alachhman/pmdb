@@ -1,15 +1,37 @@
 import React from 'react';
-import {pokedexLookup, getPKMNIcon} from "./pokedex";
+import {getPKMNIcon} from "./pokedex";
 import {Container, Row, Col} from "shards-react";
 import {Box, DataTable, Meter, Tab, Table, TableBody, TableCell, TableHeader, TableRow, Tabs, Text} from "grommet/es6";
 import {Helmet} from 'react-helmet'
 import pkmnList from './pokemon';
 import trainers from './trainers';
+import Fire from './assets/fire.png';
+import Water from './assets/water.png';
+import Bug from './assets/bug.png';
+import Dark from './assets/dark.png';
+import Dragon from './assets/dragon.png';
+import Fairy from './assets/fairy.png';
+import Fighting from './assets/fighting.png';
+import Flying from './assets/flying.png';
+import Ghost from './assets/ghost.png';
+import Grass from './assets/grass.png';
+import Ground from './assets/ground.png';
+import Ice from './assets/ice.png';
+import Normal from './assets/normal.png';
+import Psychic from './assets/psychic.png';
+import Poison from './assets/poison.png';
+import Rock from './assets/rock.png';
+import Steel from './assets/steel.png';
+import Thunder from './assets/thunder.png';
+import Star from './assets/star.png';
+import Status from './assets/status.png';
+import Special from './assets/special.png';
+import Physical from './assets/physical.png';
 
 export default function Info() {
     let unit = "";
     trainers.units.forEach((entry) => {
-        if (entry.name.replace("_", "") === document.URL.toString().split("/")[6]) {
+        if (entry.name === document.URL.toString().split("/")[6].replace("_", " ")) {
             unit = entry;
         }
     });
@@ -51,7 +73,18 @@ function TrainerInfo(props) {
                                 {
                                     property: "rarity",
                                     header: <Text>Rarity</Text>,
-                                    primary: false
+                                    primary: false,
+                                    render: datum => (
+                                        <Col>
+                                            <strong>
+                                                {datum.rarity}
+                                            </strong>
+                                            <img src={getStarImage()}
+                                                 height={16}
+                                                 width={16}
+                                            />
+                                        </Col>
+                                    )
                                 },
                                 {
                                     property: "recruit_method",
@@ -95,7 +128,7 @@ function PkmnLevelInfo(props) {
             <div>
                 <div style={{marginBottom: "8px", marginTop: "8px"}}>
                     <strong>
-                        <h4>
+                        <h3>
                             <span>
                                 <img
                                     src={icon}
@@ -103,7 +136,7 @@ function PkmnLevelInfo(props) {
                                 />
                             </span>
                             {"  " + pkmn.name}
-                        </h4>
+                        </h3>
                     </strong>
                     <Row>
                         <Col md>
@@ -175,17 +208,28 @@ function InfoBlock(props) {
                     <TableBody>
                         <TableRow>
                             <TableCell>
-                                <Col>
-                                    <Row>
-                                        {pkmn.type1}
-                                    </Row>
-                                    <Row>
-                                        {pkmn.type2}
-                                    </Row>
-                                </Col>
+                                <Row>
+                                    <Col>
+                                        <img src={typeToImage(pkmn.type1)}
+                                             alt={"type1"}
+                                             height={32}
+                                             width={32}
+                                        />
+                                        <img src={typeToImage(pkmn.type2)}
+                                             alt={"type2"}
+                                             height={(pkmn.type2 !== "") ? 32 : 0}
+                                             width={(pkmn.type2 !== "") ? 32 : 0}
+                                        />
+                                    </Col>
+                                </Row>
                             </TableCell>
                             <TableCell>
-                                {pkmn.weakness}
+                                <span>
+                                        <img src={typeToImage(pkmn.weakness)}
+                                             alt={"weakness"}
+                                             height={32}
+                                             width={32}/>
+                                </span>
                             </TableCell>
                             <TableCell>
                                 {pkmn.role.split(" ")[0]}
@@ -201,10 +245,13 @@ function InfoBlock(props) {
                             Sync
                         </TableCell>
                         <TableCell scope="col" border="bottom">
+                            Power
+                        </TableCell>
+                        <TableCell scope="col" border="bottom">
                             Type
                         </TableCell>
                         <TableCell scope="col" border="bottom">
-                            Power
+                            Cat.
                         </TableCell>
                     </TableHeader>
                     <TableBody>
@@ -213,11 +260,23 @@ function InfoBlock(props) {
                                 {pkmn.syncMove.name}
                             </TableCell>
                             <TableCell>
-                                {pkmn.syncMove.type}
+                                {pkmn.syncMove.power.min_power + "→" + pkmn.syncMove.power.max_power}
                             </TableCell>
                             <TableCell>
-                                {pkmn.syncMove.power.max_power}
+                                <img src={typeToImage(pkmn.syncMove.type.substring(1, pkmn.syncMove.type.length))}
+                                     alt={"syncType"}
+                                     height={(pkmn.syncMove.type !== "") ? 32 : 0}
+                                     width={(pkmn.syncMove.type !== "") ? 32 : 0}
+                                />
                             </TableCell>
+                            <TableCell>
+                                <img src={categoryToImage(pkmn.syncMove.category)}
+                                     alt={"syncCategory"}
+                                     height={25}
+                                     width={50}
+                                />
+                            </TableCell>
+
                         </TableRow>
                     </TableBody>
                 </Table>
@@ -353,7 +412,7 @@ function MoveBlock(props) {
                 <Container className={"MovesTable"}>
                     <div style={{marginTop: "12px", marginBottom: "8px"}}>
                         <Text>
-                            <strong>{move.name}:</strong>
+                            <strong><img src={categoryToImage(move.category)} alt={"category"}/>{"  " + move.name}:</strong>
                         </Text>
                     </div>
                     <Table>
@@ -367,10 +426,18 @@ function MoveBlock(props) {
                         </TableHeader>
                         <TableBody>
                             <TableRow>
-                                <TableCell>{move.power.max_power}</TableCell>
-                                <TableCell>{move.accuracy}</TableCell>
-                                <TableCell>{move.type}</TableCell>
-                                <TableCell>{move.cost}</TableCell>
+                                <TableCell>
+                                    {(move.power.max_power > 0) ? (move.power.min_power + "→" + move.power.max_power) : "-"}
+                                </TableCell>
+                                <TableCell>
+                                    {(move.accuracy > 0) ? move.accuracy : "-"}
+                                </TableCell>
+                                <TableCell>
+                                    <TypeOrNah type={move.type}/>
+                                </TableCell>
+                                <TableCell>
+                                    {(move.cost !== '') ? (move.cost + " cost") : (move.uses + " uses")}
+                                </TableCell>
                             </TableRow>
                         </TableBody>
                     </Table>
@@ -394,3 +461,80 @@ function MoveBlock(props) {
         </Tabs>
     )
 }
+
+function TypeOrNah(props) {
+    const type = props.type;
+    if (type === "") {
+        return ("-")
+    } else {
+        return (
+            <img src={typeToImage(type)}
+                 alt={"type"}
+                 height={32}
+                 width={32}
+            />
+        )
+    }
+}
+
+function typeToImage(type) {
+    switch (type) {
+        case "Fire":
+            return Fire;
+        case "Water":
+            return Water;
+        case "Bug":
+            return Bug;
+        case "Dark":
+            return Dark;
+        case "Dragon":
+            return Dragon;
+        case "Fairy":
+            return Fairy;
+        case "Fighting":
+            return Fighting;
+        case "Flying":
+            return Flying;
+        case "Ghost":
+            return Ghost;
+        case "Grass":
+            return Grass;
+        case "Ground":
+            return Ground;
+        case "Ice":
+            return Ice;
+        case "Normal":
+            return Normal;
+        case "Psychic":
+            return Psychic;
+        case "Poison":
+            return Poison;
+        case "Rock":
+            return Rock;
+        case "Steel":
+            return Steel;
+        case "Electric":
+            return Thunder;
+        default:
+            return Normal;
+    }
+}
+
+function categoryToImage(category) {
+    switch (category) {
+        case "Status":
+            return Status;
+        case "Special":
+            return Special;
+        case "Physical":
+            return Physical;
+        default:
+            return Status;
+    }
+}
+
+function getStarImage() {
+    return Star;
+}
+
+

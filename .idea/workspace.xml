@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fairy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fighting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/flying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/physical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/poison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/psychic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/special.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/star-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/star-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/steel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/thunder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/water.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,21 +52,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\pmdb\src" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\pmdb\assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574362897167</updated>
       <workItem from="1574362898682" duration="250000" />
+      <workItem from="1574732005787" duration="11962000" />
     </task>
     <servers />
   </component>
@@ -95,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
