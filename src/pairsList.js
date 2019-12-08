@@ -34,13 +34,13 @@ function UnitDisplay(unit) {
     let icon = "";
     if (unit.name.toUpperCase() === "PLAYER") {
         icon = 'https://images-ext-2.discordapp.net/external/tjpAph1skkuFCYRYKYLw3PBREDKI-ykqGp5UDeHuf9U/https/serebii.net//pokedex-sm/icon/025.png'
-    }
-    for (const trainer of GPressData.GpressData) {
-        if (unit.name === trainer.title) {
-            icon = 'https://pokemonmasters.gamepress.gg' + trainer.icon.substring(trainer.icon.indexOf('<img src="') + 10, trainer.icon.indexOf('" width'));
+    }else{
+        for (const trainer of GPressData.GpressData) {
+            if (unit.name === trainer.title) {
+                icon = 'https://pokemonmasters.gamepress.gg' + trainer.icon.substring(trainer.icon.indexOf('<img src="') + 10, trainer.icon.indexOf('" width'));
+            }
         }
     }
-
     return (
         <Card style={{marginBottom: "8px", marginTop: "8px"}}>
             <CardHeader>

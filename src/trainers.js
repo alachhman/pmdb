@@ -2,6 +2,42 @@ module.exports = {
     units:
         [
             {
+                name: 'Grimsley',
+                info: 'As an elegant member of the Elite Four and user of Dark-type Pokémon, this risk-taker has a good attitude about winning and losing.',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: [
+                    'Grimsely & Liepard'
+                ]
+            },
+            {
+                name: 'Giovanni',
+                info: 'This leader of the expansive Team Rainbow Rocket enterprise, which aims to use Pokémon to rule the world, believes Pokémon are no more than tools.\n',
+                base_potential: 5,
+                recruit_method: 'Legendary Event',
+                pokemon_list: [
+                    'Giovanni & Mewtwo'
+                ]
+            },
+            {
+                name: 'Christmas Rosa',
+                info: 'Dressed head to toe for warm hospitality during the holiday season, Rosa and Delibird deliver joy and cheer to all of their friends.\n',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: [
+                    'Rosa & Delibird'
+                ]
+            },
+            {
+                name: 'Christmas Siebold',
+                info: 'Though his uniform has changed, Siebold remains a chef at heart. He is working on his newest recipe, a lavish delicacy featuring Octillery ink.\n',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: [
+                    'Siebold & Octillery'
+                ]
+            },
+            {
                 name: 'Caitlin',
                 info: 'One of the Unova Pokémon League Elite Four, this refined young lady overcame her past weaknesses and became a stronger Trainer.\n',
                 base_potential: 5,

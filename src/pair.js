@@ -61,7 +61,13 @@ function TrainerInfo(props) {
                             className={"image"}
                             height={"360"}
                             width={"auto"}
-                            src={'https://www.serebii.net/pokemonmasters/syncpairs/' + trainer.name.replace("Synga Suit ", "").toLowerCase().replace(" ", "") + '.png'}
+                            src={
+                                (trainer.name.includes("Christmas"))
+                                    ? ((trainer.name.includes('Rosa'))
+                                        ? 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Christmas%20Rosa.png?itok=9uO9ketF'
+                                        : 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Siebold.png?itok=LEizSANS')
+                                    : 'https://www.serebii.net/pokemonmasters/syncpairs/' + trainer.name.replace("Synga Suit ", "").replace('Player','maincharacter').toLowerCase().replace(" ", "") + '.png'
+                            }
                             alt={'trainer'}
                         />
                     </div>
@@ -412,7 +418,8 @@ function MoveBlock(props) {
                 <Container className={"MovesTable"}>
                     <div style={{marginTop: "12px", marginBottom: "8px"}}>
                         <Text>
-                            <strong><img src={categoryToImage(move.category)} alt={"category"}/>{"  " + move.name}:</strong>
+                            <strong><img src={categoryToImage(move.category)}
+                                         alt={"category"}/>{"  " + move.name}:</strong>
                         </Text>
                     </div>
                     <Table>

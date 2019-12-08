@@ -1,6 +1,23 @@
 module.exports = {
     GpressData:
-        [{
+        [
+            {
+                "title": "Grimsley",
+                "icon": "<img src=\"/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/ch0048_00_gima_st_1003_128.ktx_.png?itok=v1OD6rcj\" width"
+            },
+            {
+                "title": "Giovanni",
+                "icon": "<img src=\"/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/ch0140_00_sakaki_st_1003_128.ktx_.png?itok=UHNH0On8\" width"
+            },
+            {
+                "title": "Christmas Rosa",
+                "icon": "<img src=\"/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/ch0101_10_mei_st_1003_128.ktx_.png?itok=naCdA3yl\" width"
+            },
+            {
+                "title": "Christmas Siebold",
+                "icon": "<img src=\"/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/ch0096_10_zumi_st_1003_128.ktx_.png?itok=3Vqw0rWC\" width"
+            },
+            {
             "title": "Pryce",
             "path": "\/pokemonmasters\/trainer\/pryce",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/pryce-seel\" hreflang=\"en\">Pryce &amp; Seel<\/a>",

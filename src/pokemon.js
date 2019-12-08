@@ -2,6 +2,450 @@ module.exports = {
     pokemon:
         [
             {
+                name: 'Delibird',
+                type1: 'Flying',
+                type2: '',
+                weakness: 'Steel',
+                role: 'Support',
+                image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0225_00_delibird_256.ktx_.png',
+                stats: {
+                    base: {
+                        attack: 9,
+                        defense: 13,
+                        hp: 80,
+                        speed: 13,
+                        sp_atk: 7,
+                        sp_def: 13
+                    },
+                    max: {
+                        attack: 166,
+                        bulk: 593,
+                        defense: 208,
+                        hp: 558,
+                        speed: 221,
+                        sp_atk: 105,
+                        sp_def: 183
+                    }
+                },
+                moves: [
+                    {
+                        name: 'Aerial Ace',
+                        type: 'Flying',
+                        category: 'Physical',
+                        power: {
+                            min_power: 45,
+                            max_power: 54
+                        },
+                        accuracy: 0,
+                        target: 'An opponent',
+                        cost: 2,
+                        uses: null,
+                        effect: 'Never misses.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'X Attack All',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'All allies',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Sharply raises the Attack of all allied sync pairs.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'All the Presents!',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'Allied side',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Makes move gauges accelerate on the allied field of play. Raises the Speed of all allied sync pairs. Sharply raises the Attack, Defense, Sp. Atk, Sp. Def, evasiveness, or accuracy of all allied sync pairs at random.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Drill Peck',
+                        type: 'Flying',
+                        category: 'Physical',
+                        power: {
+                            min_power: 100,
+                            max_power: 120
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 3,
+                        uses: null,
+                        effect: 'No additional effect.',
+                        unlock_requirements: []
+                    }
+                ],
+                syncMove: {
+                    name: 'Special Delivery Drill Peck',
+                    type: ' Flying',
+                    category: 'Physical',
+                    power: {
+                        min_power: 250,
+                        max_power: 300
+                    },
+                    target: 'An opponent',
+                    effect_tag: '-',
+                    description: 'No additional effect.'
+                },
+                passives: [
+                    {
+                        name: 'Wide Awake',
+                        description: 'Prevents the Pokémon from falling asleep.'
+                    },
+                    {
+                        name: 'Snow Shelter',
+                        description: 'Protects the Pokémon from damage from a hailstorm.'
+                    },
+                    {
+                        name: 'Healing Hail 1',
+                        description: 'Restores the Pokémon’s HP whenever it takes an action during a hailstorm.'
+                    }
+                ]
+            },
+            {
+                name: 'Octillery',
+                type1: 'Water',
+                type2: '',
+                weakness: 'Electric',
+                role: 'Tech',
+                image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0224_00_okutank_256.ktx_.png',
+                stats: {
+                    base: {
+                        attack: 8,
+                        defense: 16,
+                        hp: 101,
+                        speed: 9,
+                        sp_atk: 15,
+                        sp_def: 16
+                    },
+                    max: {
+                        attack: 139,
+                        bulk: 576,
+                        defense: 190,
+                        hp: 541,
+                        speed: 178,
+                        sp_atk: 231,
+                        sp_def: 190
+                    }
+                },
+                moves: [
+                    {
+                        name: 'Octazooka',
+                        type: 'Water',
+                        category: 'Special',
+                        power: {
+                            min_power: 56,
+                            max_power: 67
+                        },
+                        accuracy: 85,
+                        target: 'An opponent',
+                        cost: 2,
+                        uses: null,
+                        effect: 'Has a good chance of lowering the target’s accuracy.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'X Sp. Def',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'Self',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Sharply raises the user’s Sp. Def.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Scald',
+                        type: 'Water',
+                        category: 'Special',
+                        power: {
+                            min_power: 87,
+                            max_power: 104
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 3,
+                        uses: null,
+                        effect: 'Removes the frozen condition. Has a moderate chance of leaving the target burned.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Only the Best!',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'Self',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Sharply raises the user’s Defense and Sp. Atk.',
+                        unlock_requirements: []
+                    }
+                ],
+                syncMove: {
+                    name: 'Gourmet Octazooka',
+                    type: ' Water',
+                    category: 'Special',
+                    power: {
+                        min_power: 200,
+                        max_power: 240
+                    },
+                    target: 'An opponent',
+                    effect_tag: '-',
+                    description: 'Its power increases if the target is burned.'
+                },
+                passives: [
+                    {
+                        name: 'Hostile Environment 1',
+                        description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                    },
+                    {
+                        name: 'Fortuitous 4',
+                        description: 'Has a good chance of raising the user’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.\n'
+                    },
+                    {
+                        name: 'Piercing Gaze',
+                        description: 'Moves never miss.'
+                    }
+                ]
+            },
+            {
+                name: 'Liepard',
+                type1: 'Dark',
+                type2: '',
+                weakness: 'Bug',
+                role: 'Tech',
+                image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0510_00_lepardas_256.ktx_.png',
+                stats: {
+                    base: {
+                        attack: 15,
+                        defense: 12,
+                        hp: 88,
+                        speed: 24,
+                        sp_atk: 12,
+                        sp_def: 12
+                    },
+                    max: {
+                        attack: 222,
+                        bulk: 535,
+                        defense: 182,
+                        hp: 472,
+                        speed: 408,
+                        sp_atk: 132,
+                        sp_def: 182
+                    }
+                },
+                moves: [
+                    {
+                        name: 'Night Slash',
+                        type: 'Dark',
+                        category: 'Physical',
+                        power: {
+                            min_power: 40,
+                            max_power: 48
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 2,
+                        uses: null,
+                        effect: 'Critical hits land more easily.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Snatch',
+                        type: 'Dark',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'An opponent',
+                        cost: 2,
+                        uses: 2,
+                        effect: 'Returns the target’s raised stats to normal and raises the user’s stats by that amount.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'All or Nothing!',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'Self',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Sharply raises the user’s critical-hit rate. Drastically raises the user’s evasiveness. Drastically lowers the user’s Defense.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Dark Pulse',
+                        type: 'Dark',
+                        category: 'Special',
+                        power: {
+                            min_power: 95,
+                            max_power: 114
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 3,
+                        uses: null,
+                        effect: 'Has a small chance of making the target flinch.',
+                        unlock_requirements: []
+                    }
+                ],
+                syncMove: {
+                    name: 'Card Shark Night Slash',
+                    type: ' Dark',
+                    category: 'Physical',
+                    power: {
+                        min_power: 200,
+                        max_power: 240
+                    },
+                    target: 'An opponent',
+                    effect_tag: '-',
+                    description: 'The power of this move is increased if none of the opponent’s stats are raised.'
+                },
+                passives: [
+                    {
+                        name: 'Lithe',
+                        description: 'Prevents the Pokémon from getting paralyzed.'
+                    }
+                ]
+            },
+            {
+                name: 'Mewtwo',
+                type1: 'Psychic',
+                type2: '',
+                weakness: 'Dark',
+                role: 'Strike (Special)',
+                image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0150_00_mewtwo_256.ktx__0.png',
+                stats: {
+                    base: {
+                        attack: 15,
+                        defense: 10,
+                        hp: 82,
+                        speed: 25,
+                        sp_atk: 30,
+                        sp_def: 10
+                    },
+                    max: {
+                        attack: 359,
+                        bulk: 369,
+                        defense: 96,
+                        hp: 488,
+                        speed: 390,
+                        sp_atk: 440,
+                        sp_def: 96
+                    }
+                },
+                moves: [
+                    {
+                        name: 'Confusion',
+                        type: 'Psychic',
+                        category: 'Special',
+                        power: {
+                            min_power: 18,
+                            max_power: 21
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 1,
+                        uses: null,
+                        effect: 'Has a very small chance of leaving the target confused.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Psychic',
+                        type: 'Psychic',
+                        category: 'Special',
+                        power: {
+                            min_power: 99,
+                            max_power: 118
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 3,
+                        uses: null,
+                        effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Nowhere to Hide!',
+                        type: '',
+                        category: 'Status Effect',
+                        power: {
+                            min_power: 0,
+                            max_power: 0
+                        },
+                        accuracy: 0,
+                        target: 'Self',
+                        cost: '',
+                        uses: 2,
+                        effect: 'Raises the user’s evasiveness. Sharply raises the user’s critical-hit rate.',
+                        unlock_requirements: []
+                    },
+                    {
+                        name: 'Shadow Ball',
+                        type: 'Ghost',
+                        category: 'Special',
+                        power: {
+                            min_power: 99,
+                            max_power: 118
+                        },
+                        accuracy: 100,
+                        target: 'An opponent',
+                        cost: 3,
+                        uses: null,
+                        effect: 'Has a small chance of lowering the target’s Sp. Def.',
+                        unlock_requirements: []
+                    }
+                ],
+                syncMove: {
+                    name: 'World Domination Psystrike',
+                    type: ' Psychic',
+                    category: 'Special',
+                    power: {
+                        min_power: 250,
+                        max_power: 300
+                    },
+                    target: 'An opponent',
+                    effect_tag: '-',
+                    description: 'No additional effect.'
+                },
+                passives: [
+                    {
+                        name: 'Power Reserves 2',
+                        description: 'Powers up moves in a pinch.'
+                    }
+                ]
+            },
+            {
                 name: 'Abomasnow',
                 type1: 'Ice',
                 type2: '',

@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/bug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/dragon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fairy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fighting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/flying.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/poison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/psychic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/special.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/star-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/star-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/status.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/steel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/thunder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GPressData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GPressData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +91,10 @@
       <updated>1574362897167</updated>
       <workItem from="1574362898682" duration="250000" />
       <workItem from="1574732005787" duration="11962000" />
+      <workItem from="1574792714164" duration="1505000" />
+      <workItem from="1574804076565" duration="76000" />
+      <workItem from="1574809692450" duration="2732000" />
+      <workItem from="1575821981323" duration="4950000" />
     </task>
     <servers />
   </component>
