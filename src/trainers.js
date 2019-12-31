@@ -2,46 +2,10 @@ module.exports = {
     units:
         [
             {
-                name: 'Grimsley',
-                info: 'As an elegant member of the Elite Four and user of Dark-type Pokémon, this risk-taker has a good attitude about winning and losing.',
-                base_potential: 5,
-                recruit_method: 'Sync Pair Scout',
-                pokemon_list: [
-                    'Grimsely & Liepard'
-                ]
-            },
-            {
-                name: 'Giovanni',
-                info: 'This leader of the expansive Team Rainbow Rocket enterprise, which aims to use Pokémon to rule the world, believes Pokémon are no more than tools.\n',
-                base_potential: 5,
-                recruit_method: 'Legendary Event',
-                pokemon_list: [
-                    'Giovanni & Mewtwo'
-                ]
-            },
-            {
-                name: 'Christmas Rosa',
-                info: 'Dressed head to toe for warm hospitality during the holiday season, Rosa and Delibird deliver joy and cheer to all of their friends.\n',
-                base_potential: 5,
-                recruit_method: 'Sync Pair Scout',
-                pokemon_list: [
-                    'Rosa & Delibird'
-                ]
-            },
-            {
-                name: 'Christmas Siebold',
-                info: 'Though his uniform has changed, Siebold remains a chef at heart. He is working on his newest recipe, a lavish delicacy featuring Octillery ink.\n',
-                base_potential: 5,
-                recruit_method: 'Sync Pair Scout',
-                pokemon_list: [
-                    'Siebold & Octillery'
-                ]
-            },
-            {
                 name: 'Caitlin',
                 info: 'One of the Unova Pokémon League Elite Four, this refined young lady overcame her past weaknesses and became a stronger Trainer.\n',
                 base_potential: 5,
-                recruit_method: 'Sync Pair Scout',
+                recruit_method: '',
                 pokemon_list: ['Caitlin & Reuniclus']
             },
             {
@@ -52,11 +16,32 @@ module.exports = {
                 pokemon_list: ['Calem & Espurr']
             },
             {
+                name: 'Christmas Rosa',
+                info: 'Dressed head to toe for warm hospitality during the holiday season, Rosa and Delibird deliver joy and cheer to all of their friends.\n',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Christmas Rosa & Delibird']
+            },
+            {
+                name: 'Christmas Siebold',
+                info: 'Though his uniform has changed, Siebold remains a chef at heart. He is working on his newest recipe, a lavish delicacy featuring Octillery ink.\n',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Christmas Siebold & Octillery']
+            },
+            {
                 name: 'Crasher Wake',
                 info: 'A Gym Leader who uses Water-type Pokémon, Crasher Wake is beloved by his many fans for his passionate performances.',
                 base_potential: 3,
                 recruit_method: 'Sync Pair Scout',
                 pokemon_list: ['Crasher Wake & Floatzel']
+            },
+            {
+                name: 'Cynthia',
+                info: '#1 Best Girl',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Cynthia & Garchomp', 'Cynthia & Mega Garchomp']
             },
             {
                 name: 'Elesa',
@@ -66,11 +51,32 @@ module.exports = {
                 pokemon_list: ['Elesa & Zebstrika']
             },
             {
+                name: 'Ethan',
+                info: 'A reliable veteran Pokémon Trainer from Johto, this energetic nature lover can often be found roaming the mountains.',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Ethan & Cyndaquil', 'Ethan & Quilava', 'Ethan & Typhlosion']
+            },
+            {
+                name: 'Giovanni',
+                info: 'This leader of the expansive Team Rainbow Rocket enterprise, which aims to use Pokémon to rule the world, believes Pokémon are no more than tools.\n',
+                base_potential: 5,
+                recruit_method: 'Event Shop',
+                pokemon_list: ['Giovanni & Mewtwo']
+            },
+            {
                 name: 'Glacia',
                 info: 'One of the Hoenn League Elite Four, this elegant lady traveled far to hone her Pokémon’s Ice-type moves. She seeks opponents with a fiery passion for battle.\n',
                 base_potential: 5,
                 recruit_method: '',
                 pokemon_list: ['Glacia & Glalie', 'Glacia & Mega Glalie']
+            },
+            {
+                name: 'Grimsley',
+                info: 'As an elegant member of the Elite Four and user of Dark-type Pokémon, this risk-taker has a good attitude about winning and losing.',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Grimsley & Liepard']
             },
             {
                 name: 'Hilda',
@@ -80,11 +86,33 @@ module.exports = {
                 pokemon_list: ['Hilda & Tepig', 'Hilda & Pignite', 'Hilda & Emboar']
             },
             {
+                name: 'Lance',
+                info: 'The Indigo League Champion prefers his battles fair and square, and many find his caring demeanor very endearing.',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Lance & Dragonite']
+            },
+            {
+                name: 'Leaf',
+                info: 'This cheerful and friendly Trainer has an insatiable sense of adventure and absolute confidence in her battling skills.',
+                base_potential: 5,
+                recruit_method: 'Sync Pair Scout',
+                pokemon_list: ['Leaf & Eevee']
+            },
+            {
                 name: 'Lt. Surge',
                 info: 'This cautious Electric-type Gym Leader sets a lot of traps in his Gym. He excels at paralyzing his opponents in battle.',
                 base_potential: 3,
                 recruit_method: 'Sync Pair Scout',
                 pokemon_list: ['Lt. Surge & Voltorb']
+            },
+            {
+                name: 'Sygna Suit Brock',
+                info: 'Known as the rock-solid Pokémon Trainer, he is a reliable Gym Leader who watches over and supports younger Trainers.\n' +
+                    'Obtain: Clear Interlude 1 (after Chapter 10) - The Journey Begins Anew.',
+                base_potential: 3,
+                recruit_method: 'Costume',
+                pokemon_list: ['Sygna Suit Brock & Tyranitar']
             },
             {
                 name: 'Acerola',
@@ -413,7 +441,7 @@ module.exports = {
                 info: 'A new Trainer on a new adventure with their Pokémon, ready to take their important first steps toward becoming a Pokémon master.',
                 base_potential: 3,
                 recruit_method: 'Starting Trainer',
-                pokemon_list: ['Player & Torchic', 'Player & Pikachu']
+                pokemon_list: ['Player & Torchic', 'Player & Pikachu', 'Player & Solgaleo']
             },
             {
                 name: 'Pryce',

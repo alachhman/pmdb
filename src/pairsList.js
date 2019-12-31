@@ -57,7 +57,7 @@ function UnitDisplay(unit) {
                     </Col>
                     <Col>
                         <Button size={"sm"} outline pill style={{float: "right"}}
-                                href={"#/masters/pair/" + unit.name.replace(" ", "_")}>+</Button>
+                                href={"#/pm/pair/" + unit.name.replace(" ", "_")}>+</Button>
                     </Col>
                 </Row>
             </CardHeader>
