@@ -102,7 +102,7 @@ function RerollGuide() {
                                         <TableCell scope="row">
                                             <strong>Time:</strong>
                                         </TableCell>
-                                        <TableCell>1/1/2020 - 1/22/20</TableCell>
+                                        <TableCell>1/1/2020 - 1/22/2020</TableCell>
                                     </TableRow>
                                     <TableRow>
                                         <TableCell scope="row">
@@ -265,7 +265,7 @@ function RerollGuide() {
                                     <TableRow>
                                         <TableCell scope="row">
                                             <a href={"#/pm/pair/Hilbert"}>
-                                                <img alt={'Olivia'} src={Hilbert} className={"BannerImage"}/>
+                                                <img alt={'Hilbert'} src={Hilbert} className={"BannerImage"}/>
                                             </a>
                                         </TableCell>
                                         <TableCell><img alt={'sup'} src={support}/></TableCell>

@@ -5,5 +5,90 @@ module.exports = {
             src: "reroll-guide",
             description: "New to the game? Read this guide to figure out what the best starting pairs are!",
         }
-    ]
+    ],
+    reRollGuideData: {
+        currentRelevantBanners: [
+            {
+                banner: 'Cynthia Spotlight Scout',
+                score: 'Great',
+                time: '1/1/2020 - 1/22/2020',
+                notes: "Doesn't include Lance. Does include Grimsley.",
+                img: './assets/bannerImages/cynthia.jpg'
+            },
+            {
+                banner: 'Lance Spotlight Scout',
+                score: 'Average',
+                time: '12/26/2019 - 1/22/2020',
+                notes: "Doesn't include Cynthia. Does include Grimsley.",
+                img: './assets/bannerImages/lance.jpg'
+            },
+            {
+                banner: 'Grimsley Spotlight Scout',
+                score: 'Bad',
+                time: '1/1/2020 - 1/8/2020',
+                notes: "Doesn't include Cynthia. Does include Grimsley.",
+                img: './assets/bannerImages/grimsley.jpg'
+            }
+        ],
+        primaryRolls: [
+            {
+                name: 'Olivia',
+                role: 'strikerPhy',
+                rate: '0.61%',
+                score: 'Highest',
+                image: './assets/trainerIcons/olivia.png'
+            },
+            {
+                name: 'Phoebe',
+                role: 'support',
+                rate: '0.61%',
+                score: 'Highest',
+                image: './assets/trainerIcons/phoebe.png'
+            },
+            {
+                name: 'Brendan',
+                role: 'strikerPhy',
+                rate: '0.61%',
+                score: 'High',
+                image: './assets/trainerIcons/brendan.png'
+            }
+        ],
+        secondaryRolls: [
+            {
+                name: 'Hilbert',
+                role: 'support',
+                rate: '0.61%',
+                score: 'High',
+                image: './assets/trainerIcons/hilbert.png'
+            },
+            {
+                name: 'Blue',
+                role: 'strikerSpe',
+                rate: '0.61%',
+                score: 'High',
+                image: './assets/trainerIcons/blue.png'
+            },
+            {
+                name: 'Karen',
+                role: 'strikerSpe',
+                rate: '0.61%',
+                score: 'Medium',
+                image: './assets/trainerIcons/karen.png'
+            },
+            {
+                name: 'Kris',
+                role: 'strikerPhy',
+                rate: '0.61%',
+                score: 'Medium',
+                image: './assets/trainerIcons/kriskross.png'
+            },
+            {
+                name: 'Will',
+                role: 'tech',
+                rate: '0.61%',
+                score: 'Low',
+                image: './assets/trainerIcons/will.png'
+            }
+        ]
+    }
 };
