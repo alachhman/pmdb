@@ -42,6 +42,7 @@ export default function UnitList() {
                         options={['Any', '3', '4', '5']}
                         value={rarity}
                         onChange={(event) => setRarity(event.target.value)}
+                        className={"RadioGroup"}
                     >
                         {(option, {checked, hover}) => {
                             let background;
@@ -68,13 +69,14 @@ export default function UnitList() {
                     overflow={"auto"}
                     value={type}
                     onChange={(event) => setType(event.target.value)}
+                    className={"RadioGroup"}
                 >
                     {(option, {checked, hover}) => {
                         let background;
                         if (checked) background = "brand";
                         else if (hover) background = "light-4";
                         return (
-                            <Box background={background} round={"full"} border={{
+                            <Box className={"FilterImage"} background={background} round={"full"} border={{
                                 "color": background,
                                 "size": "medium",
                                 "style": "solid",

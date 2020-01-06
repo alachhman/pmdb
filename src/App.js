@@ -20,6 +20,8 @@ import {
     Route,
 } from "react-router-dom";
 import Info from "./pair";
+import Guides from './guides'
+import Guide from './guide';
 import {Helmet} from "react-helmet";
 
 
@@ -85,6 +87,7 @@ export default class App extends React.Component {
                                         <DropdownMenu>
                                             <DropdownItem href={"#/pm/pairs"}>Sync Pairs</DropdownItem>
                                             <DropdownItem href={"#/pm/gear"}>Gear</DropdownItem>
+                                            <DropdownItem href={"#/pm/guides"}>Guides</DropdownItem>
                                             <DropdownItem href={"#/pm/tier-list"}>Tier List</DropdownItem>
                                         </DropdownMenu>
                                     </Dropdown>
@@ -109,7 +112,7 @@ export default class App extends React.Component {
                         </Collapse>
                     </Navbar>
                     <Alert>
-                        This site is currently a work in progress. For any errors message <strong><a className={'HeaderLink'} href={'https://discord.gg/XEyTDE9'}>Antnee#0777</a></strong> &rarr;
+                        This site is currently a work in progress. For any errors, message <strong><a className={'HeaderLink'} href={'https://discord.gg/XEyTDE9'}>Antnee#0777</a></strong> &rarr;
                     </Alert>
                     <Switch>
                         <Route path="/dl/units">
@@ -156,6 +159,15 @@ export default class App extends React.Component {
                                 <title>{"Tier List | Antnee.net"}</title>
                             </Helmet>
                             <h3> Masters | Tier List</h3>
+                        </Route>
+                        <Route path="/pm/guide/">
+                            <Guide/>
+                        </Route>
+                        <Route path="/pm/guides">
+                            <Helmet>
+                                <title>{"Guides | Antnee.net"}</title>
+                            </Helmet>
+                            <Guides/>
                         </Route>
                         <Route path="/">
                             <Helmet>
