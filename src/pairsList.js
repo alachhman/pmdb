@@ -3,28 +3,6 @@ import {Button, Card, CardColumns, CardHeader, CardTitle, Col, Container, Row} f
 import {Box, RadioButtonGroup} from "grommet/es6";
 //import trainers from './trainers';
 import GPressData from './GPressData';
-import Fire from './assets/fire.png';
-import Water from './assets/water.png';
-import Bug from './assets/bug.png';
-import Dark from './assets/dark.png';
-import Dragon from './assets/dragon.png';
-import Fairy from './assets/fairy.png';
-import Fighting from './assets/fighting.png';
-import Flying from './assets/flying.png';
-import Ghost from './assets/ghost.png';
-import Grass from './assets/grass.png';
-import Ground from './assets/ground.png';
-import Ice from './assets/ice.png';
-import Normal from './assets/normal.png';
-import Psychic from './assets/psychic.png';
-import Poison from './assets/poison.png';
-import Rock from './assets/rock.png';
-import Steel from './assets/steel.png';
-import Thunder from './assets/thunder.png';
-import Star from './assets/star.png';
-import Status from './assets/status.png';
-import Special from './assets/special.png';
-import Physical from './assets/physical.png';
 
 //TODO: Change >ms pooldata trainers to include type1 attr and any other sorting criteria, then refactor so this .js file pulls from trainers and not from gpressdata
 export default function UnitList() {
@@ -52,7 +30,7 @@ export default function UnitList() {
                                 <Box background={background} round={"small"}>
                                     <Container>
                                         <span>
-                                        {option} <img alt={option} src={getStarImage()}
+                                        {option} <img alt={option} src={process.env.PUBLIC_URL + '/assets/star.png'}
                                                       style={{width: '24px', height: '24px'}}/>
                                         </span>
                                     </Container>
@@ -65,7 +43,7 @@ export default function UnitList() {
                     name="type"
                     direction={'row'}
                     gap={'xsmall'}
-                    options={['All', 'Fire', 'Water', 'Grass', 'Electric', 'Steel', 'Psychic', 'Dark', 'Fighting', 'Rock', 'Ground', 'Flying', 'Fairy', 'Bug', 'Dragon', 'Poison', 'Ghost', 'Ice']}
+                    options={['Normal', 'Fire', 'Water', 'Grass', 'Electric', 'Steel', 'Psychic', 'Dark', 'Fighting', 'Rock', 'Ground', 'Flying', 'Fairy', 'Bug', 'Dragon', 'Poison', 'Ghost', 'Ice']}
                     overflow={"auto"}
                     value={type}
                     onChange={(event) => setType(event.target.value)}
@@ -82,7 +60,7 @@ export default function UnitList() {
                                 "style": "solid",
                                 "side": "all"
                             }}>
-                                <img alt={option} src={typeToImage(option)}
+                                <img alt={option} src={process.env.PUBLIC_URL + '/assets/' + option.toLowerCase() + '.png'}
                                      style={{width: '34px', height: '34px'}}/>
                             </Box>
                         );
@@ -155,64 +133,3 @@ function UnitDisplay(unit) {
         </Card>
     );
 }
-
-function typeToImage(type) {
-    switch (type) {
-        case "Fire":
-            return Fire;
-        case "Water":
-            return Water;
-        case "Bug":
-            return Bug;
-        case "Dark":
-            return Dark;
-        case "Dragon":
-            return Dragon;
-        case "Fairy":
-            return Fairy;
-        case "Fighting":
-            return Fighting;
-        case "Flying":
-            return Flying;
-        case "Ghost":
-            return Ghost;
-        case "Grass":
-            return Grass;
-        case "Ground":
-            return Ground;
-        case "Ice":
-            return Ice;
-        case "Normal":
-            return Normal;
-        case "Psychic":
-            return Psychic;
-        case "Poison":
-            return Poison;
-        case "Rock":
-            return Rock;
-        case "Steel":
-            return Steel;
-        case "Electric":
-            return Thunder;
-        default:
-            return Normal;
-    }
-}
-
-function categoryToImage(category) {
-    switch (category) {
-        case "Status":
-            return Status;
-        case "Special":
-            return Special;
-        case "Physical":
-            return Physical;
-        default:
-            return Status;
-    }
-}
-
-function getStarImage() {
-    return Star;
-}
-

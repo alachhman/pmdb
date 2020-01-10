@@ -13,44 +13,44 @@ module.exports = {
                 score: 'Great',
                 time: '1/1/2020 - 1/22/2020',
                 notes: "Doesn't include Lance. Does include Grimsley.",
-                img: './assets/bannerImages/cynthia.jpg'
+                img: '/assets/bannerImages/cynthia.jpg'
             },
             {
                 banner: 'Lance Spotlight Scout',
                 score: 'Average',
                 time: '12/26/2019 - 1/22/2020',
                 notes: "Doesn't include Cynthia. Does include Grimsley.",
-                img: './assets/bannerImages/lance.jpg'
+                img: '/assets/bannerImages/lance.jpg'
             },
             {
                 banner: 'Grimsley Spotlight Scout',
                 score: 'Bad',
                 time: '1/1/2020 - 1/8/2020',
                 notes: "Doesn't include Cynthia. Does include Grimsley.",
-                img: './assets/bannerImages/grimsley.jpg'
+                img: '/assets/bannerImages/grimsley.png'
             }
         ],
         primaryRolls: [
             {
                 name: 'Olivia',
-                role: 'strikerPhy',
+                role: 'strikerPHY',
                 rate: '0.61%',
                 score: 'Highest',
-                image: './assets/trainerIcons/olivia.png'
+                image: '/assets/rolesIcons/olivia.png'
             },
             {
                 name: 'Phoebe',
                 role: 'support',
                 rate: '0.61%',
                 score: 'Highest',
-                image: './assets/trainerIcons/phoebe.png'
+                image: '/assets/rolesIcons/phoebe.png'
             },
             {
                 name: 'Brendan',
-                role: 'strikerPhy',
+                role: 'strikerPHY',
                 rate: '0.61%',
                 score: 'High',
-                image: './assets/trainerIcons/brendan.png'
+                image: '/assets/rolesIcons/brenden.png'
             }
         ],
         secondaryRolls: [
@@ -59,35 +59,35 @@ module.exports = {
                 role: 'support',
                 rate: '0.61%',
                 score: 'High',
-                image: './assets/trainerIcons/hilbert.png'
+                image: '/assets/rolesIcons/hilbert.png'
             },
             {
                 name: 'Blue',
-                role: 'strikerSpe',
+                role: 'strikerSPE',
                 rate: '0.61%',
                 score: 'High',
-                image: './assets/trainerIcons/blue.png'
+                image: '/assets/rolesIcons/blue.png'
             },
             {
                 name: 'Karen',
-                role: 'strikerSpe',
+                role: 'strikerSPE',
                 rate: '0.61%',
                 score: 'Medium',
-                image: './assets/trainerIcons/karen.png'
+                image: '/assets/rolesIcons/karen.png'
             },
             {
                 name: 'Kris',
-                role: 'strikerPhy',
+                role: 'strikerPHY',
                 rate: '0.61%',
                 score: 'Medium',
-                image: './assets/trainerIcons/kriskross.png'
+                image: '/assets/rolesIcons/kriskross.png'
             },
             {
                 name: 'Will',
                 role: 'tech',
                 rate: '0.61%',
                 score: 'Low',
-                image: './assets/trainerIcons/will.png'
+                image: '/assets/rolesIcons/will.png'
             }
         ]
     }

@@ -3,8 +3,163 @@
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EDkYGPQXsAEBa8J.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EDkYGPQXsAEBa8J.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EEAfxWSXoAAUu8C.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EEAfxWSXoAAUu8C.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EEIbR14VAAAZAkR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EEIbR14VAAAZAkR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EEseXCiXoAApP-q.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EEseXCiXoAApP-q.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EFQhgU1WwAE-WuR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EFQhgU1WwAE-WuR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EFvbAxoXYAM4qUK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EFvbAxoXYAM4qUK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EG8q_yEWwAYiAIg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EG8q_yEWwAYiAIg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EHgt_7_WsAYfyNx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EHgt_7_WsAYfyNx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EIPEUSxWoAA7ycz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EIPEUSxWoAA7ycz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EIoLFEEWwAElUOY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EIoLFEEWwAElUOY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EJXYSVqXYAEqqFs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EJXYSVqXYAEqqFs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EJxIQ5oWkAAb8ur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EJxIQ5oWkAAb8ur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/EKSCwiIWoAAlGSM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/EKSCwiIWoAAlGSM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/Pokemon-Masters-Flying-Fighting-1038x576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/Pokemon-Masters-Flying-Fighting-1038x576.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/cynthia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/cynthia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/grimsley.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/grimsley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/hqdefault.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/hqdefault.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/l3pruso9zy041.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/l3pruso9zy041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/lance.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/lance.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bannerImages/mqdefault.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bannerImages/mqdefault.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/bug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/dragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fairy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fairy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fighting.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fighting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fire.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/flying.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/flying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/ghost.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ground.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/ground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/poison.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/poison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/psychic.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/psychic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rarities/3-star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rarities/3-star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rarities/4-star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rarities/4-star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rarities/5-star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rarities/5-star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/acerola.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/acerola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/agatha.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/agatha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/barry.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/barry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/blaine.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/blaine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/brawley.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/brawley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/brenden.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/brenden.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/brock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/brock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/bruno.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/bruno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/brycen.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/brycen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/bugsy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/bugsy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/caitlin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/caitlin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/calem.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/calem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/candice.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/candice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/cheren.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/cheren.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/cheryl.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/cheryl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/clair.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/clair.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/clay.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/clay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/coolmos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/coolmos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/crasherwake.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/crasherwake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/cynthia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/cynthia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/drake.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/drake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/elesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/elesa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/erika.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/erika.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/flannery.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/flannery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/flint.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/flint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/gardenia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/gardenia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/giovanni.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/giovanni.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/glacia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/glacia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/grimsley.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/grimsley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/hapu.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/hapu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/hau.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/hau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/hilbert.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/hilbert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/hilda.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/hilda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/iris.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/iris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/janine.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/janine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/kahili.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/kahili.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/karen.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/karen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/koga.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/koga.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/korrina.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/korrina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/kriskross.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/kriskross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/lance.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/lance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/liza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/liza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/lorelei.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/lorelei.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/ltsurge.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/ltsurge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/lyra.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/lyra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/marley.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/marley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/marlon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/marlon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/marshal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/marshal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/maylene.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/maylene.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/mcchic.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/mcchic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/mcchu.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/mcchu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/mcleo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/mcleo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/mina.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/mina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/mistyu.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/mistyu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/nanu.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/nanu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/noland.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/noland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/norman.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/norman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/olivia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/olivia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/phoebe.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/phoebe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/pryce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/pryce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/ramos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/ramos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/reallydontrememberyou.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/reallydontrememberyou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/roark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/roark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/rosa holiday 2019.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/rosa holiday 2019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/rosa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/rosa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/roxanne.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/roxanne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/roxie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/roxie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/shauntal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/shauntal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/siebold holiday 2019.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/siebold holiday 2019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/siegbold.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/siegbold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/skyla.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/skyla.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/sophocles.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/sophocles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/strikerPHY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/strikerPHY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/strikerSPE.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/strikerSPE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/support.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/support.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/syg brock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/syg brock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/tate.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/tate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/tech.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/thorton.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/thorton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/viola.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/viola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/whitney.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/whitney.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/whodis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/whodis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/wikstrom.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/wikstrom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/will.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/will.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/rolesIcons/wulfric.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/rolesIcons/wulfric.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/special.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/special.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/star-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/star-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/star-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/star-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/status.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/status.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/steel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/steel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/thunder.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/electric.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Bug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Dragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Electric.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Electric.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Fairy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Fairy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Fighting.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Fighting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Fire.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Fire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Flying.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Flying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Ghost.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Ground.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Ground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Poison.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Poison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Psychic.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Psychic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Steel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Steel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/typesIcons/Water.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/typesIcons/Water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/water.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guidesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/guidesData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairsList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +186,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.2.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,14 +195,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming\pmdb\assets" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="D:\Programming\pmdb\src" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\pmdb\src" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="D:\Programming\pmdb\assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -67,6 +223,9 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="pair.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/pair.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -77,6 +236,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.pair.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

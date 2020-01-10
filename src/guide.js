@@ -1,32 +1,17 @@
 import React from 'react';
 import {
-    Button,
     Card,
-    CardBody, CardFooter,
-    CardHeader, CardImg,
-    CardTitle,
+    CardBody,
+    CardFooter,
+    CardHeader,
+    CardImg,
     Col,
     Container,
     ListGroup,
     ListGroupItem,
     Row
 } from "shards-react";
-import {guides} from './guidesData';
-import Lance from './assets/bannerImages/lance.jpg';
-import Cynthia from './assets/bannerImages/cynthia.jpg';
-import Grimsley from './assets/bannerImages/grimsley.png';
-import Olivia from './assets/rolesIcons/olivia.png';
-import Phoebe from './assets/rolesIcons/phoebe.png';
-import Brendan from './assets/rolesIcons/brenden.png';
-import Hilbert from './assets/rolesIcons/hilbert.png';
-import Blue from './assets/rolesIcons/blue.png';
-import Karen from './assets/rolesIcons/karen.png';
-import Kris from './assets/rolesIcons/kriskross.png';
-import Will from './assets/rolesIcons/will.png';
-import support from './assets/rolesIcons/support.jpg';
-import tech from './assets/rolesIcons/tech.jpg';
-import strikerPhys from './assets/rolesIcons/strikerPHY.jpg';
-import strikerSpec from './assets/rolesIcons/strikerSPE.png';
+import {guides, reRollGuideData} from './guidesData';
 import {Table, TableBody, TableCell, TableHeader, TableRow} from "grommet";
 
 
@@ -81,243 +66,110 @@ function RerollGuide() {
                     those)
                 </ListGroupItem>
             </ListGroup>
-            <h4>Current Relevant Banners</h4>
-            <div className={'divider'}/>
-            <Row style={{marginBottom: "8px"}}>
-                <Col>
-                    <Card>
-                        <CardHeader>
-                            <strong>Cynthia Spotlight Scout</strong>
-                        </CardHeader>
-                        <CardBody>
-                            <Table>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Score:</strong>
-                                        </TableCell>
-                                        <TableCell>Great</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Time:</strong>
-                                        </TableCell>
-                                        <TableCell>1/1/2020 - 1/22/2020</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Notes:</strong>
-                                        </TableCell>
-                                        <TableCell>Doesn't include Lance. Does include Grimsley.</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
-                        </CardBody>
-                        <CardImg src={Cynthia} className={'BannerImage'}/>
-                        <CardFooter/>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card>
-                        <CardHeader>
-                            <strong>Lance Spotlight Scout</strong>
-                        </CardHeader>
-                        <CardBody>
-                            <Table>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Score:</strong>
-                                        </TableCell>
-                                        <TableCell>Average</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Time:</strong>
-                                        </TableCell>
-                                        <TableCell>12/26/2019 - 1/22/20</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Notes:</strong>
-                                        </TableCell>
-                                        <TableCell>Doesn't include Cynthia. Does include Grimsley.</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
-                        </CardBody>
-                        <CardImg src={Lance} className={'BannerImage'}/>
-                        <CardFooter/>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card>
-                        <CardHeader>
-                            <strong>Grimsley Spotlight Scout</strong>
-                        </CardHeader>
-                        <CardBody>
-                            <Table>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Score:</strong>
-                                        </TableCell>
-                                        <TableCell>Bad</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Time:</strong>
-                                        </TableCell>
-                                        <TableCell>1/1/2020 - 1/8/20</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <strong>Notes:</strong>
-                                        </TableCell>
-                                        <TableCell>Does not include Lance or Cynthia.</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
-                        </CardBody>
-                        <CardImg src={Grimsley} className={'BannerImage'}/>
-                        <CardFooter/>
-                    </Card>
-                </Col>
-            </Row>
+            <BannerDisplay banners={reRollGuideData.currentRelevantBanners}/>
             <h4>Units To Look Out For</h4>
             <div className={'divider'}/>
             <Container>
                 <Row>
-                    <Col>
-                        <div className={'Border'}>
-                            <Table>
-                                <TableHeader>
-                                    <TableRow>
-                                        <TableCell scope="col" border="bottom">
-                                            Primary Targets
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Role
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Odds
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Priority
-                                        </TableCell>
-                                    </TableRow>
-                                </TableHeader>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Olivia"}>
-                                                <img alt={'Olivia'} src={Olivia} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sphys'} src={strikerPhys}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Highest</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Phoebe"}>
-                                                <img alt={'Phoebe'} src={Phoebe} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sup'} src={support}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Highest</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Brendan"}>
-                                                <img alt={'Brendan'} src={Brendan} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sphys'} src={strikerPhys}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>High</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className={'Border'}>
-                            <Table>
-                                <TableHeader>
-                                    <TableRow>
-                                        <TableCell scope="col" border="bottom">
-                                            Secondary Targets
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Role
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Odds
-                                        </TableCell>
-                                        <TableCell scope="col" border="bottom">
-                                            Priority
-                                        </TableCell>
-                                    </TableRow>
-                                </TableHeader>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Hilbert"}>
-                                                <img alt={'Hilbert'} src={Hilbert} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sup'} src={support}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Great</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Blue"}>
-                                                <img alt={'Blue'} src={Blue} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sspec'} src={strikerSpec}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Great</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Karen"}>
-                                                <img alt={'Karen'} src={Karen} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sspec'} src={strikerSpec}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Good</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Kris"}>
-                                                <img alt={'Kris'} src={Kris} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'sphys'} src={strikerPhys}/></TableCell>
-                                        <TableCell>0.61%</TableCell>
-                                        <TableCell>Good</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell scope="row">
-                                            <a href={"#/pm/pair/Will"}>
-                                                <img alt={'Will'} src={Will} className={"BannerImage"}/>
-                                            </a>
-                                        </TableCell>
-                                        <TableCell><img alt={'tech'} src={tech}/></TableCell>
-                                        <TableCell>1.11</TableCell>
-                                        <TableCell>Good</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
-                        </div>
-                    </Col>
+                    <ListElems rows={reRollGuideData.primaryRolls} tableName={'Primary Targets'}/>
+                    <ListElems rows={reRollGuideData.secondaryRolls} tableName={'Secondary Targets'}/>
                 </Row>
             </Container>
         </Container>
+    )
+}
+
+
+function BannerDisplay(props) {
+    const banners = props.banners.map((elem) => {
+        return (
+            <Col>
+                <Card>
+                    <CardHeader>
+                        <strong>{elem.banner}</strong>
+                    </CardHeader>
+                    <CardBody>
+                        <Table>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell scope="row">
+                                        <strong>Score:</strong>
+                                    </TableCell>
+                                    <TableCell>{elem.score}</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell scope="row">
+                                        <strong>Time:</strong>
+                                    </TableCell>
+                                    <TableCell>{elem.time}</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell scope="row">
+                                        <strong>Notes:</strong>
+                                    </TableCell>
+                                    <TableCell>{elem.notes}</TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
+                    </CardBody>
+                    <CardImg src={process.env.PUBLIC_URL + elem.img} className={'BannerImage'}/>
+                    <CardFooter/>
+                </Card>
+            </Col>
+        )
+    });
+    return (
+        <div>
+            <h4>Current Relevant Banners</h4>
+            <div className={'divider'}/>
+            <Row style={{marginBottom: "8px"}}>
+                {banners}
+            </Row>
+        </div>
+    )
+}
+
+function ListElems(props) {
+    const tableName = props.tableName;
+    const elems = props.rows.map((elem) => {
+        return (
+            <TableRow>
+                <TableCell scope="row">
+                    <a href={"#/pm/pair/" + elem.name}>
+                        <img alt={elem.name} src={process.env.PUBLIC_URL + elem.image} className={"BannerImage"}/>
+                    </a>
+                </TableCell>
+                <TableCell><img alt={elem.role} src={process.env.PUBLIC_URL + '/assets/rolesIcons/' + elem.role + '.jpg'}/></TableCell>
+                <TableCell>{elem.rate}</TableCell>
+                <TableCell>{elem.score}</TableCell>
+            </TableRow>
+        )
+    });
+    return(
+        <Col>
+            <div className={'Border'}>
+                <Table>
+                    <TableHeader>
+                        <TableRow>
+                            <TableCell scope="col" border="bottom">
+                                {tableName}
+                            </TableCell>
+                            <TableCell scope="col" border="bottom">
+                                Role
+                            </TableCell>
+                            <TableCell scope="col" border="bottom">
+                                Odds
+                            </TableCell>
+                            <TableCell scope="col" border="bottom">
+                                Priority
+                            </TableCell>
+                        </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                        {elems}
+                    </TableBody>
+                </Table>
+            </div>
+        </Col>
     )
 }
