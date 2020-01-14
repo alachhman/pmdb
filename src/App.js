@@ -13,15 +13,18 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 import "./App.css";
-import UnitList from "./pairsList";
+import MastersUnitList from "./masters/pairsList";
 import {
     HashRouter,
     Switch,
     Route,
 } from "react-router-dom";
-import Info from "./pair";
-import Guides from './guides'
-import Guide from './guide';
+import Info from "./masters/pair";
+import Guides from './masters/guides'
+import Guide from './masters/guide';
+import DragUnitList from './dragalia/unitList';
+import DragUnitInfo from'./dragalia/unitInfo';
+import DragDragList from './dragalia/dragonList'
 import {Helmet} from "react-helmet";
 
 
@@ -115,17 +118,14 @@ export default class App extends React.Component {
                         This site is currently a work in progress. For any errors, message <strong><a className={'HeaderLink'} href={'https://discord.gg/XEyTDE9'}>Antnee#0777</a></strong> &rarr;
                     </Alert>
                     <Switch>
+                        <Route path="/dl/unit/">
+                            <DragUnitInfo/>
+                        </Route>
                         <Route path="/dl/units">
-                            <Helmet>
-                                <title>{"Adventurers | Antnee.net"}</title>
-                            </Helmet>
-                            <h3> Dragalia | Adventurers </h3>
+                            <DragUnitList/>
                         </Route>
                         <Route path="/dl/dragons">
-                            <Helmet>
-                                <title>{"Dragons | Antnee.net"}</title>
-                            </Helmet>
-                            <h3> Dragalia | Dragons </h3>
+                            <DragDragList/>
                         </Route>
                         <Route path="/dl/weapons">
                             <Helmet>
@@ -146,7 +146,7 @@ export default class App extends React.Component {
                             <Helmet>
                                 <title>{"Sync Pairs | Antnee.net"}</title>
                             </Helmet>
-                            <UnitList/>
+                            <MastersUnitList/>
                         </Route>
                         <Route path="/pm/gear">
                             <Helmet>

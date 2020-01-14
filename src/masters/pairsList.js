@@ -10,7 +10,7 @@ export default function UnitList() {
     const [type, setType] = React.useState('All');
     return (
         <Container>
-            <h3> Masters | Sync Pairs</h3>
+            <h3>Masters | Sync Pairs</h3>
             <div className={'Border'} background={"light-2"}>
                 <div className={'FilterSpacing'}>
                     <RadioButtonGroup

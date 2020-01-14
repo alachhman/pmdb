@@ -57,6 +57,22 @@
     min-width: 350px;
 }
 
+.CardImage {
+    padding-bottom: 8px;
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.CardImageContainer {
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 250px;
+    min-width: 250px;
+}
+
 .HeaderLink {
     color: white;
 }

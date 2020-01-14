@@ -12,23 +12,16 @@ module.exports = {
                 banner: 'Cynthia Spotlight Scout',
                 score: 'Great',
                 time: '1/1/2020 - 1/22/2020',
-                notes: "Doesn't include Lance. Does include Grimsley.",
+                notes: "Doesn't include Lance.",
                 img: '/assets/bannerImages/cynthia.jpg'
             },
             {
                 banner: 'Lance Spotlight Scout',
                 score: 'Average',
                 time: '12/26/2019 - 1/22/2020',
-                notes: "Doesn't include Cynthia. Does include Grimsley.",
+                notes: "Doesn't include Cynthia.",
                 img: '/assets/bannerImages/lance.jpg'
             },
-            {
-                banner: 'Grimsley Spotlight Scout',
-                score: 'Bad',
-                time: '1/1/2020 - 1/8/2020',
-                notes: "Doesn't include Cynthia. Does include Grimsley.",
-                img: '/assets/bannerImages/grimsley.png'
-            }
         ],
         primaryRolls: [
             {
