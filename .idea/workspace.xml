@@ -2,194 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dragalia/data/dragons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/data/prints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/data/units.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/data/weapons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/dragonList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/unitInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dragalia/unitList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/abomasnow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/abomasnow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/aegislash-blade-forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/aegislash-blade-forme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/aegislash-shield-forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/aegislash-shield-forme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/amaura.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/amaura.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/arcanine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/arcanine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/ariados.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/ariados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/avalugg.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/avalugg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/bayleef.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/bayleef.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/beedrill.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/beedrill.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/blissey.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/blissey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/bronzong.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/bronzong.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/carracosta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/carracosta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/chandelure.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/chandelure.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/chikorita.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/chikorita.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/clawitzer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/clawitzer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/conkeldurr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/conkeldurr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/cranidos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/cranidos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/crobat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/crobat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/croconaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/croconaw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/cryogonal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/cryogonal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/dewgong.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/dewgong.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/dusclops.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/dusclops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/emboar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/emboar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/empoleon.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/empoleon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/espurr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/espurr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/feraligatr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/feraligatr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/floatzel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/floatzel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/gengar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/gengar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/glalie.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/glalie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/granbull.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/granbull.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/grovyle.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/grovyle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/haxorus.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/haxorus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/houndoom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/houndoom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/infernape.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/infernape.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/kingdra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/kingdra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/lapras.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/lapras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/lucario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/lucario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/lunatone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/lunatone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/lycanroc-midnight-form.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/lycanroc-midnight-form.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/machamp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/machamp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/makuhita.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/makuhita.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/masquerain.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/masquerain.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/meditite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/meditite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-beedrill.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-beedrill.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-gengar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-gengar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-glalie.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-glalie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-houndoom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-houndoom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-lucario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-lucario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-pidgeot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-pidgeot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mega-pinsir.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mega-pinsir.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/meganium.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/meganium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/miltank.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/miltank.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/mudsdale.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/mudsdale.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/nosepass.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/nosepass.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/onix.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/onix.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/oshawott.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/oshawott.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/palossand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/palossand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/palpitoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/palpitoad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/pelipper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/pelipper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/persian.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/persian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/pidgeot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/pidgeot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/pignite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/pignite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/pikachu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/pikachu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/pinsir.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/pinsir.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/piplup.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/piplup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/ponyta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/ponyta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/prinplup.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/prinplup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/raichu-alola-form.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/raichu-alola-form.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/reuniclus.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/reuniclus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/roserade.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/roserade.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/salamence.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/salamence.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/sceptile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/sceptile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/seel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/seel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/serperior.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/serperior.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/servine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/servine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/slaking.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/slaking.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/snivy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/snivy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/solrock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/solrock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/starmie.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/starmie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/stoutland.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/stoutland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/surskit.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/surskit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/swanna.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/swanna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/tepig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/tepig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/togedemaru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/togedemaru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/torchic.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/torchic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/torkoal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/torkoal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/totodile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/totodile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/toucannon.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/toucannon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/treecko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/treecko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/tyranitar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/tyranitar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/vileplume.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/vileplume.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/voltorb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/voltorb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/weepinbell.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/weepinbell.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/whirlipede.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/whirlipede.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/xatu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/xatu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pokemon/zebstrika.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/pokemon/zebstrika.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Caitlin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Caitlin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Calem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Calem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Crasher Wake.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Crasher Wake.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Elesa.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Elesa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Glacia.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Glacia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Hilda.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Hilda.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Lt. Surge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Lt. Surge.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/Sygna Suit Brock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/Sygna Suit Brock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/acerola.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/acerola.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/agatha.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/agatha.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/barry.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/barry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/blaine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/blaine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/blue.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/blue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/brawly.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/brawly.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/brendan.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/brendan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/brock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/brock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/bruno.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/bruno.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/brycen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/brycen.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/bugsy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/bugsy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/candice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/candice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/cheren.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/cheren.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/cheryl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/cheryl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/clair.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/clair.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/clay.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/clay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/drake.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/drake.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/erika.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/erika.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/flannery.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/flannery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/flint.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/flint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/gardenia.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/gardenia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/grant.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/grant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/hapu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/hapu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/hau.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/hau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/hilbert.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/hilbert.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/iris.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/iris.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/janine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/janine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/kahili.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/kahili.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/karen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/karen.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/koga.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/koga.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/korrina.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/korrina.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/kris.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/kris.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/liza.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/liza.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/lorelei.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/lorelei.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/lyra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/lyra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/marley.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/marley.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/marlon.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/marlon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/marshal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/marshal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/maylene.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/maylene.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/mina.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/mina.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/misty.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/misty.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/nanu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/nanu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/noland.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/noland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/norman.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/norman.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/olivia.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/olivia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/phoebe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/phoebe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/player.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/player.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/pryce.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/pryce.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/ramos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/ramos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/roark.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/roark.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/rosa.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/rosa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/roxanne.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/roxanne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/roxie.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/roxie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/shauntal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/shauntal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/siebold.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/siebold.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/skyla.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/skyla.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/sophocles.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/sophocles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/tate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/tate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/thorton.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/thorton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/viola.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/viola.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/whitney.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/whitney.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/wikstrom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/wikstrom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/will.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/will.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/winona.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/winona.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainers/wulfric.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/data/trainers/wulfric.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GPressData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/GPressData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/guide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/guides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guidesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/guidesData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pairsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokedex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pokedex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pokemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/trainers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dragalia/unitInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dragalia/unitInfo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,11 +33,15 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.2.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Users\Anthony\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\192.6262.59\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -292,6 +111,7 @@
       <workItem from="1575821981323" duration="4950000" />
       <workItem from="1576506429415" duration="8356000" />
       <workItem from="1578272566677" duration="10275000" />
+      <workItem from="1579052934512" duration="2687000" />
     </task>
     <servers />
   </component>

@@ -21,13 +21,13 @@ export default function UnitInfo() {
                 <h1>{unit.name}</h1>
                 <h5>{unit.title}</h5>
                 <div className={"divider"}/>
-                <TrainerInfo unit={unit}/>
+                <Info unit={unit}/>
             </Col>
         </Container>
     )
 }
 
-function TrainerInfo(props) {
+function Info(props) {
     const unit = props.unit;
     return (
         <div>
@@ -56,11 +56,6 @@ function TrainerInfo(props) {
                                             <strong>
                                                 {datum.rarity}
                                             </strong>
-                                            <img src={process.env.PUBLIC_URL + '/assets/star.png'}
-                                                 height={16}
-                                                 width={16}
-                                                 alt={'star'}
-                                            />
                                         </Col>
                                     )
                                 },
@@ -88,11 +83,11 @@ function TrainerInfo(props) {
                         />
                         <Text>
                             <div className={'divider'}/>
-                            <div style={{marginBottom: "8px"}}>
+                            <div style={{marginBottom: "10px"}}>
                                 {unit.description}
                             </div>
                             <div className={'divider'}/>
-                            <div>
+                            <div style={{marginBottom: "10px"}}>
                                 <strong>
                                     {'CV: ' + unit.cv[0] + ' / ' + unit.cv[1]}
                                 </strong>
