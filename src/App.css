@@ -58,7 +58,7 @@
 }
 
 .CardImage {
-    padding-bottom: 8px;
+    padding-bottom: 32px;
     max-width: 250px;
     max-height: 250px;
     position: absolute;
@@ -129,4 +129,16 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
+}
+
+.footer {
+    margin-top: 16px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+    background-color: #007bff!important;
+    color: white;
+    text-align: center;
 }

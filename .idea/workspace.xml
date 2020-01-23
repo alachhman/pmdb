@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bannerImages/ethan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bannerImages/leaf.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dragalia/unitInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dragalia/unitInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masters/guidesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/guidesData.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,31 +47,19 @@
     <property name="ts.external.directory.path" value="C:\Users\Anthony\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\192.6262.59\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/dragalia" />
-      <recent name="$PROJECT_DIR$/src/masters" />
-      <recent name="$PROJECT_DIR$/src/dragalia/data" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="D:\Programming\pmdb\assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/bannerImages" />
+      <recent name="$PROJECT_DIR$/src/dragalia" />
+      <recent name="$PROJECT_DIR$/src/masters" />
+      <recent name="$PROJECT_DIR$/src/dragalia/data" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -92,6 +83,18 @@
         <item itemvalue="Node.js.pair.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -133,5 +136,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1579795479310">
+      <screen x="699" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479310" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1579795479308">
+      <screen x="699" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.center/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479308" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1579795479307">
+      <screen x="699" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.left/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479307" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1579795479309">
+      <screen x="699" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.right/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479309" />
+    <state x="1324" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1579802191342">
+      <screen x="699" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="1324" y="-822" width="670" height="676" key="search.everywhere.popup/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579802191342" />
   </component>
 </project>

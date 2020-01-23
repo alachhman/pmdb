@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "shards-react";
-import {DataTable, Text} from "grommet/es6";
+import {DataTable, Table, TableBody, TableCell, TableRow, Text} from "grommet/es6";
 import {Helmet} from 'react-helmet'
 import {units} from './data/units';
 
@@ -22,6 +22,17 @@ export default function UnitInfo() {
                 <h5>{unit.title}</h5>
                 <div className={"divider"}/>
                 <Info unit={unit}/>
+                <div className={"divider"}/>
+                <Container>
+                    <Row>
+                        <Col>
+                            <AbilityDisplay unit={unit}/>
+                        </Col>
+                        <Col>
+                            <SkillDisplay unit={unit}/>
+                        </Col>
+                    </Row>
+                </Container>
             </Col>
         </Container>
     )
@@ -39,7 +50,7 @@ function Info(props) {
                             height={"360"}
                             width={"auto"}
                             src={unit.image}
-                            alt={'trainer'}
+                            alt={unit.name}
                         />
                     </div>
                 </Col>
@@ -81,13 +92,34 @@ function Info(props) {
                                 }
                             ]}
                         />
+                        <div className={'divider'}/>
+                        <Container style={{marginBottom: "16px"}}>
+                            <Row>
+                                <Col>
+                                    <strong>
+                                        Strength:
+                                        <span style={{color: "red"}}>
+                                            {" " + unit.atk}
+                                        </span>
+                                    </strong>
+                                </Col>
+                                <Col>
+                                    <strong>
+                                        HP:
+                                        <span style={{color: "green"}}>
+                                            {" " + unit.hp}
+                                        </span>
+                                    </strong>
+                                </Col>
+                            </Row>
+                        </Container>
                         <Text>
                             <div className={'divider'}/>
-                            <div style={{marginBottom: "10px"}}>
+                            <div style={{marginBottom: "13px"}}>
                                 {unit.description}
                             </div>
                             <div className={'divider'}/>
-                            <div style={{marginBottom: "10px"}}>
+                            <div style={{marginBottom: "14px"}}>
                                 <strong>
                                     {'CV: ' + unit.cv[0] + ' / ' + unit.cv[1]}
                                 </strong>
@@ -99,3 +131,100 @@ function Info(props) {
         </div>
     )
 }
+
+function SkillDisplay(props) {
+    const unit = props.unit;
+    let skillOut = [];
+
+    unit.skills.forEach((skill) => {
+        const skillLevelDisplay = skill.levels.map((level) => {
+            return (
+                <TableRow>
+                    <TableCell>
+                        <strong>
+                            {level.level}
+                        </strong>
+                    </TableCell>
+                    <TableCell>
+                        <Text>
+                            {level.description}
+                        </Text>
+                    </TableCell>
+                </TableRow>
+            )
+        });
+        let returnHTML = (
+            <Container className={"InfoTable"}>
+                <div style={{marginBottom: "16px", marginTop: "8px"}}>
+                    <strong>
+                        {skill.name}
+                    </strong>
+                    {" | " + skill.iframe + " i-Frames"}
+                    <div>
+                        {"SP: " + skill.cost}
+                        {" | Regen: " + skill.regen}
+                    </div>
+                </div>
+                <div className={'divider'}/>
+                <Table>
+                    <TableBody>
+                        {skillLevelDisplay}
+                    </TableBody>
+                </Table>
+            </Container>
+        );
+        skillOut.push(returnHTML);
+    });
+    return (
+        <div>
+            <h3>
+                Skills
+            </h3>
+            {skillOut}
+        </div>
+    )
+}
+
+function AbilityDisplay(props) {
+    const unit = props.unit;
+    let count = 0;
+    const abilitiesOut = unit.abilities.map((ability) => {
+        const levels = ability.map((level) => {
+            return (
+                <div>
+                    <Text>
+                        <strong>
+                            {level.name + ": "}
+                        </strong>
+                        {level.effect}
+                    </Text>
+                </div>
+            )
+        });
+        count++;
+        return (
+            <Container className={"InfoTable"}>
+                <div style={{marginTop: "8px"}}>
+                    <strong>
+                        Ability{" " + count}
+                    </strong>
+                </div>
+                <div className={'divider'}/>
+                <div style={{marginBottom: "8px"}}>
+                    {levels}
+                </div>
+            </Container>
+        )
+    });
+    return (
+        <div>
+            <h3>
+                Abilities
+            </h3>
+            {abilitiesOut}
+        </div>
+    )
+}
+
+
+

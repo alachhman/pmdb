@@ -177,6 +177,8 @@ export default class App extends React.Component {
                         </Route>
                     </Switch>
                 </HashRouter>
+                <div className="footer">
+                </div>
             </div>
         )
     }

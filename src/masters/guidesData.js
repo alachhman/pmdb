@@ -9,18 +9,18 @@ module.exports = {
     reRollGuideData: {
         currentRelevantBanners: [
             {
-                banner: 'Cynthia Spotlight Scout',
-                score: 'Great',
-                time: '1/1/2020 - 1/22/2020',
-                notes: "Doesn't include Lance.",
-                img: '/assets/bannerImages/cynthia.jpg'
+                banner: 'Leaf Spotlight Scout',
+                score: "Average",
+                time: "02/22/2020 - 02/06/2020",
+                notes: "Doesn't include Ethan.",
+                img: '/assets/bannerImages/leaf.png'
             },
             {
-                banner: 'Lance Spotlight Scout',
-                score: 'Average',
-                time: '12/26/2019 - 1/22/2020',
-                notes: "Doesn't include Cynthia.",
-                img: '/assets/bannerImages/lance.jpg'
+                banner: 'Ethan Spotlight Scout',
+                score: "Bad",
+                time: "01/15/2020 - 01/30/2020",
+                notes: "Doesnt include Leaf.",
+                img: '/assets/bannerImages/ethan.png'
             },
         ],
         primaryRolls: [
