@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer {
     margin-top: 16px;
-    position: relative;
+    position: sticky;
     left: 0;
     bottom: 0;
     height: 64px;
@@ -141,4 +141,9 @@ body::-webkit-scrollbar-thumb {
     background-color: #007bff!important;
     color: white;
     text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0
 }

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/bannerImages/ethan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bannerImages/leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dragalia/unitInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dragalia/unitInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/guidesData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/guidesData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +25,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.2.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -115,6 +116,7 @@
       <workItem from="1576506429415" duration="8356000" />
       <workItem from="1578272566677" duration="10275000" />
       <workItem from="1579052934512" duration="2687000" />
+      <workItem from="1581028325025" duration="689000" />
     </task>
     <servers />
   </component>
@@ -138,22 +140,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1579795479310">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1580234275728">
       <screen x="699" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479310" />
-    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1579795479308">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275728" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1580234275727">
       <screen x="699" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.center/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479308" />
-    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1579795479307">
+    <state width="1899" height="268" key="GridCell.Tab.0.center/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1580234275726">
       <screen x="699" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.left/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479307" />
-    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1579795479309">
+    <state width="1899" height="268" key="GridCell.Tab.0.left/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275726" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1580234275727">
       <screen x="699" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.right/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579795479309" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
     <state x="1324" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1579802191342">
       <screen x="699" y="-1057" width="1920" height="1057" />
     </state>
