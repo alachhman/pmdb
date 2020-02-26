@@ -544,7 +544,7 @@ module.exports = {
             Type: 'Psychic',
             base_potential: 3,
             recruit_method: 'Story Progression',
-            pokemon_list: ['Oak & Mew', 'Mew (After Sync)']
+            pokemon_list: ['Oak & Mew', 'Oak & Mew (After Sync)']
         }
         ,
         {
