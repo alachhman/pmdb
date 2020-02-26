@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Card, CardColumns, CardHeader, CardTitle, Col, Container, Row} from "shards-react";
 import {Box, RadioButtonGroup} from "grommet/es6";
-//import trainers from './trainers';
+import trainers from './trainers';
 import GPressData from './GPressData';
 
 //TODO: Change >ms pooldata trainers to include type1 attr and any other sorting criteria, then refactor so this .js file pulls from trainers and not from gpressdata
@@ -60,15 +60,15 @@ export default function UnitList() {
                                 "style": "solid",
                                 "side": "all"
                             }}>
-                                <img alt={option} src={process.env.PUBLIC_URL + '/assets/' + option.toLowerCase() + '.png'}
+                                <img alt={option}
+                                     src={process.env.PUBLIC_URL + '/assets/' + option.toLowerCase() + '.png'}
                                      style={{width: '34px', height: '34px'}}/>
                             </Box>
                         );
                     }}
                 </RadioButtonGroup>
             </div>
-
-            <UnitDataMapping units={GPressData.GpressData} rarity={rarity} type={type}/>
+            <UnitDataMapping units={trainers.units} rarity={rarity} type={type}/>
         </Container>
     )
 }
@@ -76,8 +76,8 @@ export default function UnitList() {
 function UnitDataMapping(props) {
     let populatedCount = 0;
     const listItems = props.units.map((unit) => {
-            if (unit.rarity === props.rarity || props.rarity === 'Any') {
-                if (unit.type1 === props.type || props.type === 'All') {
+            if (unit.base_potential === parseInt(props.rarity) || props.rarity === 'Any') {
+                if (unit.type === props.type || props.type === 'All') {
                     populatedCount++;
                     return (
                         UnitDisplay(unit)
@@ -101,11 +101,14 @@ function UnitDataMapping(props) {
 
 function UnitDisplay(unit) {
     let icon = "";
-    if (unit.title.toUpperCase() === "PLAYER") {
+    if (unit.name.toUpperCase() === "PLAYER") {
         icon = 'https://images-ext-2.discordapp.net/external/tjpAph1skkuFCYRYKYLw3PBREDKI-ykqGp5UDeHuf9U/https/serebii.net//pokedex-sm/icon/025.png'
+    } else if (unit.name.toUpperCase() === "OAK") {
+        icon = "https://pokemonmasters.gamepress.gg" + "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/ch0137_00_orchid1_st_1001_128.ktx__0.png?itok=rP_xVXGZ";
     } else {
         for (const trainer of GPressData.GpressData) {
-            if (unit.title === trainer.title) {
+            //const trainer = JSON.parse(entry);
+            if (unit.name === trainer.title) {
                 icon = 'https://pokemonmasters.gamepress.gg' + trainer.icon.substring(trainer.icon.indexOf('<img src="') + 10, trainer.icon.indexOf('" width'));
             }
         }
@@ -120,13 +123,13 @@ function UnitDisplay(unit) {
                     <Col>
                         <strong>
                             <CardTitle>
-                                {unit.title}
+                                {unit.name}
                             </CardTitle>
                         </strong>
                     </Col>
                     <Col>
                         <Button size={"sm"} outline pill style={{float: "right"}}
-                                href={"#/pm/pair/" + unit.title.replace(" ", "_")}>+</Button>
+                                href={"#/pm/pair/" + unit.name.replace(" ", "_")}>+</Button>
                     </Col>
                 </Row>
             </CardHeader>

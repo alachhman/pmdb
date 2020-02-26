@@ -3,6 +3,15 @@ module.exports = {
         return dexnumMap[name];
     },
     getPKMNIcon: function (name) {
+
+        //special cases
+        if(name.includes("Charizard")){
+            return "https://serebii.net//pokedex-sm/icon/006.png";
+        }
+        if(name.includes("Mew (")){
+            return "https://serebii.net//pokedex-sm/icon/151.png";
+        }
+
         if (name.includes('Mega ')) {
             return 'https://serebii.net//pokedex-sm/icon/' + pokedexLookup(name.substring(5, name.length)) + '.png';
         } else {

@@ -107,7 +107,6 @@ function PkmnLevelInfo(props) {
     });
     const returnValues = ownedPkmn.map((pkmn) => {
         const icon = getPKMNIcon(pkmn.name);
-        console.log(icon);
         return (
             <div>
                 <div style={{marginBottom: "8px", marginTop: "8px"}}>

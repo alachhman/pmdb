@@ -1,6 +1,149 @@
 module.exports = {
-    GpressData:
-        [{
+    GpressData: [
+        {
+            "title": "Barry",
+            "path": "\/pokemonmasters\/trainer\/barry",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/barry-piplup\" hreflang=\"en\">Barry &amp; Piplup<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/barry-piplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Piplup.png?itok=cJqbHBWX\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Water",
+            "type2": "",
+            "element": "Water",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/barry\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0099_00_jun_st_1003_128.ktx.png?itok=KMVMqkTe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/barry-piplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0393_00_pochama_256.ktx.png?itok=CBvG7Dom\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Pryce",
+            "path": "\/pokemonmasters\/trainer\/pryce",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\" hreflang=\"en\">Pryce &amp; Dewgong<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Dewgong.png?itok=88RzK3Ky\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ice",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/pryce\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0032_00_yanagi_st_1003_128.ktx.png?itok=EM8Za32X\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0087_00_jugon_256.ktx.png?itok=YGTrDNjF\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Marlon",
+            "path": "\/pokemonmasters\/trainer\/marlon",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\" hreflang=\"en\">Marlon &amp; Carracosta<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Carracosta.png?itok=J-zBGB_8\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Water",
+            "type2": "Rock",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/marlon\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0052_00_shizui_st_1003_128.ktx.png?itok=xWDIOEz6\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0565_00_abagoura_256.ktx.png?itok=mQhpAYC4\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Erika",
+            "path": "\/pokemonmasters\/trainer\/erika",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\" hreflang=\"en\">Erika &amp; Vileplume<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Vileplume.png?itok=qforOYZi\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Grass",
+            "type2": "",
+            "element": "Grass",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/erika\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0008_00_erika_st_1003_128.ktx.png?itok=W8PGguOG\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0045_01_ruffresia_256.ktx.png?itok=Sm5K5VWe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Ramos",
+            "path": "\/pokemonmasters\/trainer\/ramos",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ramos-victreebel\" hreflang=\"en\">Ramos &amp; Victreebel<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Grass",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/ramos\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0037_00_fukuji_st_1003_128.ktx.png?itok=enhzwTQ9\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ramos-victreebel\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0071_00_utsubot_256.ktx_.png?itok=gMjUSOfm\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Barry",
+            "path": "\/pokemonmasters\/trainer\/barry",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\" hreflang=\"en\">Barry &amp; Prinplup<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Prinplup.png?itok=yjZCE9-a\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Water",
+            "type2": "",
+            "element": "Water",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/barry\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0099_00_jun_st_1003_128.ktx.png?itok=KMVMqkTe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0394_00_pottaishi_256.ktx.png?itok=9J1Olhnt\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Hapu",
+            "path": "\/pokemonmasters\/trainer\/hapu",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\" hreflang=\"en\">Hapu &amp; Mudsdale<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Mudsdale.png?itok=GT_Ko-uK\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ground",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hapu\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0013_00_hapu_st_1003_128.ktx.png?itok=Nh3R0EWO\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0840_00_roba2_256.ktx.png?itok=xIxbO5aN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Pryce",
+            "path": "\/pokemonmasters\/trainer\/pryce",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/pryce-seel\" hreflang=\"en\">Pryce &amp; Seel<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-seel\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Seel.png?itok=IwwDZKoQ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ice",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/pryce\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0032_00_yanagi_st_1003_128.ktx.png?itok=EM8Za32X\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-seel\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0086_00_pawou_256.ktx.png?itok=iKRCT80R\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Professor Oak",
+            "path": "\/pokemonmasters\/trainer\/professor-oak",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/professor-oak-mew\" hreflang=\"en\">Professor Oak &amp; Mew<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/professor-oak\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0137_00_orchid1_st_1001_128.ktx__0.png?itok=rP_xVXGZ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/professor-oak-mew\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0151_00_mew_256.ktx_.png?itok=t8DXlDw3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Lt. Surge",
+            "path": "\/pokemonmasters\/trainer\/lt-surge",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\" hreflang=\"en\">Lt. Surge &amp; Voltorb<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Voltorb.png?itok=YxNSurUa\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Electric",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/lt-surge\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0035_00_matthies_st_1003_128.ktx.png?itok=QHsexg8M\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0100_00_biriridama_256.ktx.png?itok=REAvCAK0\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Roark",
+            "path": "\/pokemonmasters\/trainer\/roark",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/roark-rampardos\" hreflang=\"en\">Roark &amp; Rampardos<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Rock",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/roark\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0038_00_hyouta_st_1003_128.ktx.png?itok=8ULnykkY\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/roark-rampardos\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0409_00_rampald_256.ktx_.png?itok=bir1COvi\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Barry",
             "path": "\/pokemonmasters\/trainer\/barry",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/barry-empoleon\" hreflang=\"en\">Barry &amp; Empoleon<\/a>",
@@ -40,6 +183,19 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/norman\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0009_00_senri_st_1003_128.ktx.png?itok=poBdIK2Y\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/norman-slaking\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0289_00_kekking_256.ktx.png?itok=vypc9bVM\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Professor Oak",
+            "path": "\/pokemonmasters\/trainer\/professor-oak",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/professor-oak-mew-synced\" hreflang=\"en\">Professor Oak &amp; Mew (Synced)<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/professor-oak\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0137_00_orchid1_st_1001_128.ktx__0.png?itok=rP_xVXGZ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/professor-oak-mew-synced\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0151_00_mew_256.ktx__0.png?itok=qdzvzC56\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Ramos",
             "path": "\/pokemonmasters\/trainer\/ramos",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ramos-weepinbell\" hreflang=\"en\">Ramos &amp; Weepinbell<\/a>",
@@ -52,6 +208,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/ramos\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0037_00_fukuji_st_1003_128.ktx.png?itok=enhzwTQ9\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ramos-weepinbell\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0070_00_utsudon_256.ktx.png?itok=lVVJBgsY\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Brawly",
+            "path": "\/pokemonmasters\/trainer\/brawly",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/brawly-hariyama\" hreflang=\"en\">Brawly &amp; Hariyama<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fighting",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/brawly\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0043_00_toki_st_1003_128.ktx.png?itok=cE3YZeRH\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/brawly-hariyama\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0297_00_hariteyama_256.ktx_.png?itok=6C2i6EvL\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Candice",
             "path": "\/pokemonmasters\/trainer\/candice",
@@ -78,6 +247,19 @@ module.exports = {
             "recruit_method": "Story Progression",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/brock\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0015_00_takeshi_st_1003_128.ktx.png?itok=ZrVtEwp5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/brock-onix\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0095_00_iwark_256.ktx.png?itok=qp1NB8_f\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Roxanne",
+            "path": "\/pokemonmasters\/trainer\/roxanne",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/roxanne-probopass\" hreflang=\"en\">Roxanne &amp; Probopass<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Rock",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/roxanne\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0044_00_tsutsuji_st_1003_128.ktx.png?itok=VyYH86G-\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/roxanne-probopass\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0476_00_dainose_256.ktx_.png?itok=h6ea2vcw\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Clay",
             "path": "\/pokemonmasters\/trainer\/clay",
@@ -222,6 +404,19 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/sygna-suit-brock\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0015_01_takeshi_st_1003_128.ktx.png?itok=proYOQ7s\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/sygna-suit-brock-tyranitar\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0248_00_bangiras_256.ktx.png?itok=rjehA83S\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Maylene",
+            "path": "\/pokemonmasters\/trainer\/maylene",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/maylene-medicham\" hreflang=\"en\">Maylene &amp; Medicham<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fighting",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/maylene\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0050_00_sumomo_st_1003_128.ktx.png?itok=7DYKAI-B\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/maylene-medicham\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0308_01_charem_256.ktx_.png?itok=pO6JeNgg\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Janine",
             "path": "\/pokemonmasters\/trainer\/janine",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/janine-ariados\" hreflang=\"en\">Janine &amp; Ariados<\/a>",
@@ -273,19 +468,6 @@ module.exports = {
             "recruit_method": "Story Progression",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/flannery\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0029_00_asuna_st_1003_128.ktx.png?itok=Lx7YnLvs\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/flannery-torkoal\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0324_00_cotoise_256.ktx.png?itok=oEhLgB5-\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Player",
-            "path": "\/pokemonmasters\/trainer\/player",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/player-torchic\" hreflang=\"en\">Player &amp; Torchic<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Fire",
-            "type2": "",
-            "element": "Electric",
-            "rarity": "3",
-            "recruit_method": "Starting Trainer",
-            "icon": "",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/player-torchic\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/pm0255_00_achamo_256.ktx_.png?itok=rVf2dBQ3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Bugsy",
             "path": "\/pokemonmasters\/trainer\/bugsy",
@@ -339,19 +521,6 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/cheryl\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0023_00_momi_st_1003_128.ktx.png?itok=0k4Qf_k3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cheryl-blissey\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0242_00_happinas_256.ktx.png?itok=T1RAGQQo\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Player",
-            "path": "\/pokemonmasters\/trainer\/player",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/player-solgaleo\" hreflang=\"en\">Player &amp; Solgaleo<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Steel",
-            "type2": "",
-            "element": "Electric",
-            "rarity": "3",
-            "recruit_method": "Starting Trainer",
-            "icon": "",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/player-solgaleo\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0873_00_sun_256.ktx_.png?itok=EAn6FyCE\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
             "title": "Mina",
             "path": "\/pokemonmasters\/trainer\/mina",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/mina-granbull\" hreflang=\"en\">Mina &amp; Granbull<\/a>",
@@ -364,6 +533,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/mina\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0034_00_matsurika_st_1003_128.ktx.png?itok=lI4fV8Rj\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/mina-granbull\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0210_00_granbulu_256.ktx.png?itok=nggfEbPq\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Clay",
+            "path": "\/pokemonmasters\/trainer\/clay",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/clay-seismitoad\" hreflang=\"en\">Clay &amp; Seismitoad<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ground",
+            "type2": "",
+            "element": "",
+            "rarity": "3",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/clay\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0033_00_yakon_st_1003_128.ktx.png?itok=MTeCu404\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/clay-seismitoad\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0537_00_gamageroge_256.ktx_.png?itok=E4si-3UN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Player",
             "path": "\/pokemonmasters\/trainer\/player",
@@ -417,101 +599,10 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/iris\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0092_00_iris_st_1003_128.ktx.png?itok=7VbWl0bJ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/iris-haxorus\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0612_00_ononokus_256.ktx.png?itok=31Ne5Igh\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Barry",
-            "path": "\/pokemonmasters\/trainer\/barry",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/barry-piplup\" hreflang=\"en\">Barry &amp; Piplup<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/barry-piplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Piplup.png?itok=cJqbHBWX\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Water",
-            "type2": "",
-            "element": "Water",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/barry\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0099_00_jun_st_1003_128.ktx.png?itok=KMVMqkTe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/barry-piplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0393_00_pochama_256.ktx.png?itok=CBvG7Dom\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Pryce",
-            "path": "\/pokemonmasters\/trainer\/pryce",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\" hreflang=\"en\">Pryce &amp; Dewgong<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Dewgong.png?itok=88RzK3Ky\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Ice",
-            "type2": "",
-            "element": "",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/pryce\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0032_00_yanagi_st_1003_128.ktx.png?itok=EM8Za32X\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-dewgong\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0087_00_jugon_256.ktx.png?itok=YGTrDNjF\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Marlon",
-            "path": "\/pokemonmasters\/trainer\/marlon",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\" hreflang=\"en\">Marlon &amp; Carracosta<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Carracosta.png?itok=J-zBGB_8\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Water",
-            "type2": "Rock",
-            "element": "",
-            "rarity": "3",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/marlon\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0052_00_shizui_st_1003_128.ktx.png?itok=xWDIOEz6\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/marlon-carracosta\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0565_00_abagoura_256.ktx.png?itok=mQhpAYC4\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Erika",
-            "path": "\/pokemonmasters\/trainer\/erika",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\" hreflang=\"en\">Erika &amp; Vileplume<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Vileplume.png?itok=qforOYZi\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Grass",
-            "type2": "",
-            "element": "Grass",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/erika\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0008_00_erika_st_1003_128.ktx.png?itok=W8PGguOG\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/erika-vileplume\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0045_01_ruffresia_256.ktx.png?itok=Sm5K5VWe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Barry",
-            "path": "\/pokemonmasters\/trainer\/barry",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\" hreflang=\"en\">Barry &amp; Prinplup<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Prinplup.png?itok=yjZCE9-a\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Water",
-            "type2": "",
-            "element": "Water",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/barry\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0099_00_jun_st_1003_128.ktx.png?itok=KMVMqkTe\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/barry-prinplup\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0394_00_pottaishi_256.ktx.png?itok=9J1Olhnt\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Hapu",
-            "path": "\/pokemonmasters\/trainer\/hapu",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\" hreflang=\"en\">Hapu &amp; Mudsdale<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Mudsdale.png?itok=GT_Ko-uK\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Ground",
-            "type2": "",
-            "element": "",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hapu\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0013_00_hapu_st_1003_128.ktx.png?itok=Nh3R0EWO\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hapu-mudsdale\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0840_00_roba2_256.ktx.png?itok=xIxbO5aN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Pryce",
-            "path": "\/pokemonmasters\/trainer\/pryce",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/pryce-seel\" hreflang=\"en\">Pryce &amp; Seel<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-seel\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Seel.png?itok=IwwDZKoQ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Ice",
-            "type2": "",
-            "element": "",
-            "rarity": "3",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/pryce\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0032_00_yanagi_st_1003_128.ktx.png?itok=EM8Za32X\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/pryce-seel\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0086_00_pawou_256.ktx.png?itok=iKRCT80R\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
             "title": "Lt. Surge",
             "path": "\/pokemonmasters\/trainer\/lt-surge",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\" hreflang=\"en\">Lt. Surge &amp; Voltorb<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Voltorb.png?itok=YxNSurUa\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lt-surge-electrode\" hreflang=\"en\">Lt. Surge &amp; Electrode<\/a>",
+            "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/3-star.png?itok=PdMxz5Tg\" width=\"79\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
             "type1": "Electric",
             "type2": "",
@@ -519,7 +610,59 @@ module.exports = {
             "rarity": "3",
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/lt-surge\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0035_00_matthies_st_1003_128.ktx.png?itok=QHsexg8M\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lt-surge-voltorb\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0100_00_biriridama_256.ktx.png?itok=REAvCAK0\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lt-surge-electrode\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0101_00_marumine_256.ktx_.png?itok=dYSbAJ1l\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Whitney",
+            "path": "\/pokemonmasters\/trainer\/whitney",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\" hreflang=\"en\">Whitney &amp; Miltank<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Miltank.png?itok=ewSALaYQ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Normal",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/whitney\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0026_00_akane_st_1003_128.ktx.png?itok=y7PZp1_S\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0241_00_miltank_256.ktx.png?itok=AX1Fv3JN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Drake",
+            "path": "\/pokemonmasters\/trainer\/drake",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/drake-salamence\" hreflang=\"en\">Drake &amp; Salamence<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/drake-salamence\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Salamence.png?itok=qKR4o_GK\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Dragon",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/drake\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0094_00_genji_st_1003_128.ktx.png?itok=LzI-n-fn\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/drake-salamence\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0373_00_bohmander_256.ktx.png?itok=9nAQRIeZ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Shauntal",
+            "path": "\/pokemonmasters\/trainer\/shauntal",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\" hreflang=\"en\">Shauntal &amp; Chandelure<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Chandelure.png?itok=PKRjugq4\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ghost",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/shauntal\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0024_00_shikimi_st_1003_128.ktx.png?itok=l0pgZYMj\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0609_00_chandela_256.ktx.png?itok=a2x7OB3N\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Flint",
+            "path": "\/pokemonmasters\/trainer\/flint",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/flint-infernape\" hreflang=\"en\">Flint &amp; Infernape<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/flint-infernape\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Infernape.png?itok=qYFaeLgJ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "Fire",
+            "rarity": "4",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/flint\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0006_00_oba_st_1003_128.ktx.png?itok=PiJ70fCU\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/flint-infernape\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0392_00_goukazaru_256.ktx.png?itok=INzf90JM\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Noland",
             "path": "\/pokemonmasters\/trainer\/noland",
@@ -533,6 +676,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/noland\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0046_00_datsura_st_1003_128.ktx.png?itok=ajC9sFWK\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/noland-mega-pinsir\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0127_51_megakailios_256.ktx.png?itok=djAMOE5h\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Valerie",
+            "path": "\/pokemonmasters\/trainer\/valerie",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/valerie-sylveon\" hreflang=\"en\">Valerie &amp; Sylveon<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fairy",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/valerie\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0157_00_mache_st_1003_128.ktx_.png?itok=7rXaZb19\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/valerie-sylveon\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0767_00_ninnfi_256.ktx_.png?itok=DDegP9q0\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Siebold",
             "path": "\/pokemonmasters\/trainer\/siebold",
@@ -703,6 +859,19 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/nanu\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0056_00_kuchinashi_st_1003_128.ktx.png?itok=m8v5uY7i\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/nanu-persian\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0053_61_apersian_256.ktx.png?itok=uJyacDvw\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Roxie",
+            "path": "\/pokemonmasters\/trainer\/roxie",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/roxie-scolipede\" hreflang=\"en\">Roxie &amp; Scolipede<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Poison",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/roxie\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0011_00_homika_st_1003_128.ktx.png?itok=u-zpkf2T\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/roxie-scolipede\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0545_00_pendror_256.ktx_.png?itok=l7leAfeW\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Agatha",
             "path": "\/pokemonmasters\/trainer\/agatha",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/agatha-mega-gengar\" hreflang=\"en\">Agatha &amp; Mega Gengar<\/a>",
@@ -715,6 +884,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/agatha\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0061_00_kikuko_st_1003_128.ktx.png?itok=S6mnLndW\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/agatha-mega-gengar\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0094_51_megagangar_256.ktx.png?itok=Yy6LncW5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Grant",
+            "path": "\/pokemonmasters\/trainer\/grant",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/grant-aurorus\" hreflang=\"en\">Grant &amp; Aurorus<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Rock",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/grant\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0053_00_zakuro_st_1003_128.ktx.png?itok=kDlnBDg5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/grant-aurorus\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0740_00_aurora2_256.ktx_.png?itok=I1iWC3yA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Noland",
             "path": "\/pokemonmasters\/trainer\/noland",
@@ -754,6 +936,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/bruno\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0057_00_shiba_st_1003_128.ktx.png?itok=HcyyZ8Ce\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/bruno-machamp\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0068_00_kairiky_256.ktx.png?itok=3X8fTezX\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Blaine",
+            "path": "\/pokemonmasters\/trainer\/blaine",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/blaine-rapidash\" hreflang=\"en\">Blaine &amp; Rapidash<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "",
+            "rarity": "4",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/blaine\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0059_00_katsura_st_1003_128.ktx.png?itok=KCzd6uk7\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/blaine-rapidash\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0078_00_gallop_256.ktx_.png?itok=kKoW5Oxz\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Blaine",
             "path": "\/pokemonmasters\/trainer\/blaine",
@@ -833,57 +1028,96 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/gardenia\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0027_00_natane_st_1003_128.ktx.png?itok=KGdjmFjQ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/gardenia-roserade\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0407_01_roserade_256.ktx.png?itok=N306bW4-\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Whitney",
-            "path": "\/pokemonmasters\/trainer\/whitney",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\" hreflang=\"en\">Whitney &amp; Miltank<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Miltank.png?itok=ewSALaYQ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Normal",
+            "title": "Giovanni",
+            "path": "\/pokemonmasters\/trainer\/giovanni",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/giovanni-mewtwo\" hreflang=\"en\">Giovanni &amp; Mewtwo<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
             "type2": "",
             "element": "",
-            "rarity": "4",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/whitney\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0026_00_akane_st_1003_128.ktx.png?itok=y7PZp1_S\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/whitney-miltank\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0241_00_miltank_256.ktx.png?itok=AX1Fv3JN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/giovanni\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0140_00_sakaki_st_1003_128.ktx_.png?itok=UHNH0On8\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/giovanni-mewtwo\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0150_00_mewtwo_256.ktx__0.png?itok=SXNassu8\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Drake",
-            "path": "\/pokemonmasters\/trainer\/drake",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/drake-salamence\" hreflang=\"en\">Drake &amp; Salamence<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/drake-salamence\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Salamence.png?itok=qKR4o_GK\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Dragon",
+            "title": "Sabrina",
+            "path": "\/pokemonmasters\/trainer\/sabrina",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/sabrina-mega-alakazam\" hreflang=\"en\">Sabrina &amp; Mega Alakazam<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
             "type2": "",
             "element": "",
-            "rarity": "4",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/drake\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0094_00_genji_st_1003_128.ktx.png?itok=LzI-n-fn\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/drake-salamence\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0373_00_bohmander_256.ktx.png?itok=9nAQRIeZ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/sabrina\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0114_00_natsume_st_1003_128.ktx_.png?itok=ezx7Ayar\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/sabrina-mega-alakazam\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0065_51_megafoodin_256.ktx_.png?itok=3-B503P5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Shauntal",
-            "path": "\/pokemonmasters\/trainer\/shauntal",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\" hreflang=\"en\">Shauntal &amp; Chandelure<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Chandelure.png?itok=PKRjugq4\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "title": "Acerola",
+            "path": "\/pokemonmasters\/trainer\/acerola",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/acerola-palossand\" hreflang=\"en\">Acerola &amp; Palossand<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
             "type1": "Ghost",
             "type2": "",
             "element": "",
-            "rarity": "4",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/shauntal\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0024_00_shikimi_st_1003_128.ktx.png?itok=l0pgZYMj\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/shauntal-chandelure\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0609_00_chandela_256.ktx.png?itok=a2x7OB3N\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Flint",
-            "path": "\/pokemonmasters\/trainer\/flint",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/flint-infernape\" hreflang=\"en\">Flint &amp; Infernape<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/flint-infernape\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Infernape.png?itok=qYFaeLgJ\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/4-star.png?itok=eDlArqaU\" width=\"105\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Fire",
-            "type2": "",
-            "element": "Fire",
-            "rarity": "4",
+            "rarity": "5",
             "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/flint\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0006_00_oba_st_1003_128.ktx.png?itok=PiJ70fCU\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/flint-infernape\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0392_00_goukazaru_256.ktx.png?itok=INzf90JM\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/acerola\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0007_00_acerola_st_1003_128.ktx.png?itok=x524EEcw\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/acerola-palossand\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0823_00_sunaba2_256.ktx.png?itok=ALPRbxK3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Zinnia",
+            "path": "\/pokemonmasters\/trainer\/zinnia",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/zinnia-rayquaza\" hreflang=\"en\">Zinnia &amp; Rayquaza<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Dragon",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/zinnia\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/ch0129_00_higana_st_1003_128.ktx_.png?itok=etbuVWl-\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/zinnia-rayquaza\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/pm0384_00_rayquaza_256.ktx_.png?itok=n0iCWYGq\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Karen",
+            "path": "\/pokemonmasters\/trainer\/karen",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\" hreflang=\"en\">Karen &amp; Houndoom<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Houndoom.png?itok=3QwdUOpS\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Dark",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/karen\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0062_00_karin_st_1003_128.ktx.png?itok=ZQ-0pjXm\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0229_00_hellgar_256.ktx.png?itok=uyX_sPMA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Elesa",
+            "path": "\/pokemonmasters\/trainer\/elesa",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/elesa-zebstrika\" hreflang=\"en\">Elesa &amp; Zebstrika<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Electric",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/elesa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0106_00_kamitsure_st_1003_128.ktx_.png?itok=hbxuX_ka\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/elesa-zebstrika\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0523_00_zebraika_256.ktx_.png?itok=MktXo0iu\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Karen",
+            "path": "\/pokemonmasters\/trainer\/karen",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\" hreflang=\"en\">Karen &amp; Mega Houndoom<\/a>",
+            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Mega%20Houndoom.png?itok=WFrj2jw-\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Dark",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/karen\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0062_00_karin_st_1003_128.ktx.png?itok=ZQ-0pjXm\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0229_51_megahellgar_256.ktx.png?itok=4ZJ_B-8g\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Leaf",
             "path": "\/pokemonmasters\/trainer\/leaf",
@@ -897,6 +1131,58 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/leaf\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0017_00_leaf_st_1003_128.ktx_.png?itok=VxstT6w3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/leaf-eevee\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0133_00_eievui_256.ktx_.png?itok=O29RXbRl\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Fantina",
+            "path": "\/pokemonmasters\/trainer\/fantina",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/fantina-mismagius\" hreflang=\"en\">Fantina &amp; Mismagius<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ghost",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/fantina\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0151_00_melissa_st_1003_128.ktx_.png?itok=yyt8Bosx\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/fantina-mismagius\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0429_00_mumargi_256.ktx_.png?itok=2s6aVO2w\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Cheren",
+            "path": "\/pokemonmasters\/trainer\/cheren",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cheren-stoutland\" hreflang=\"en\">Cheren &amp; Stoutland<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Normal",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Story Progression",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/cheren\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0014_01_cheren_st_1003_128.ktx.png?itok=JHCAakrl\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cheren-stoutland\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0508_00_mooland_256.ktx.png?itok=JbmsW_is\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Calem",
+            "path": "\/pokemonmasters\/trainer\/calem",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/calem-espurr\" hreflang=\"en\">Calem &amp; Espurr<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/calem\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/ch0003_00_calme_st_1003_128.ktx_.png?itok=Pw6_Gae7\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/calem-espurr\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/pm0733_00_cat1_256.ktx_.png?itok=opGtV8Dn\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Cynthia",
+            "path": "\/pokemonmasters\/trainer\/cynthia-0",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cynthia-garchomp\" hreflang=\"en\">Cynthia &amp; Garchomp<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Ground",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/cynthia-0\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0091_00_shirona_st_1003_128.ktx_.png?itok=QnUrs63I\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cynthia-garchomp\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0445_01_gaburias_256.ktx_.png?itok=v0BtLsA5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Hilbert",
             "path": "\/pokemonmasters\/trainer\/hilbert",
@@ -939,7 +1225,7 @@ module.exports = {
         }, {
             "title": "Cynthia",
             "path": "\/pokemonmasters\/trainer\/cynthia-0",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cynthia-garchomp\" hreflang=\"en\">Cynthia &amp; Garchomp<\/a>",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cynthia-mega-garchomp\" hreflang=\"en\">Cynthia &amp; Mega Garchomp<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
             "type1": "Ground",
@@ -948,7 +1234,7 @@ module.exports = {
             "rarity": "5",
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/cynthia-0\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0091_00_shirona_st_1003_128.ktx_.png?itok=QnUrs63I\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cynthia-garchomp\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0445_01_gaburias_256.ktx_.png?itok=v0BtLsA5\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cynthia-mega-garchomp\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0445_51_megagaburias_256.ktx_.png?itok=xZ4sCtBV\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Rosa",
             "path": "\/pokemonmasters\/trainer\/rosa",
@@ -962,6 +1248,19 @@ module.exports = {
             "recruit_method": "Story Progression",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/rosa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0101_00_mei_st_1003_128.ktx.png?itok=LC7ysLH9\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/rosa-snivy\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0495_00_tsutarja_256.ktx.png?itok=pJMxSZcB\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Red",
+            "path": "\/pokemonmasters\/trainer\/red",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/red-charizard\" hreflang=\"en\">Red &amp; Charizard<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/red\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0000_00_red_st_1003_128.ktx_.png?itok=NWS7JZhx\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/red-charizard\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0006_00_lizardon_256.ktx_.png?itok=xK_CY8Xy\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Brendan",
             "path": "\/pokemonmasters\/trainer\/brendan",
@@ -989,18 +1288,31 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/rosa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0101_00_mei_st_1003_128.ktx.png?itok=LC7ysLH9\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/rosa-serperior\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0497_00_jalorda_256.ktx.png?itok=XwXlg5Bv\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Cynthia",
-            "path": "\/pokemonmasters\/trainer\/cynthia-0",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cynthia-mega-garchomp\" hreflang=\"en\">Cynthia &amp; Mega Garchomp<\/a>",
+            "title": "Lance",
+            "path": "\/pokemonmasters\/trainer\/lance",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lance-dragonite\" hreflang=\"en\">Lance &amp; Dragonite<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Ground",
+            "type1": "Dragon",
             "type2": "",
             "element": "",
             "rarity": "5",
             "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/cynthia-0\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0091_00_shirona_st_1003_128.ktx_.png?itok=QnUrs63I\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cynthia-mega-garchomp\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0445_51_megagaburias_256.ktx_.png?itok=xZ4sCtBV\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/lance\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0111_00_wataru_st_1003_128.ktx_.png?itok=c3tQqFF0\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lance-dragonite\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0149_00_kairyu_256.ktx_.png?itok=Ur0y4sRb\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Red",
+            "path": "\/pokemonmasters\/trainer\/red",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/red-mega-charizard-x\" hreflang=\"en\">Red &amp; Mega Charizard X<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/red\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0000_00_red_st_1003_128.ktx_.png?itok=NWS7JZhx\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/red-mega-charizard-x\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0006_51_megalizardonX_256.ktx_.png?itok=F_wfFWHN\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Caitlin",
             "path": "\/pokemonmasters\/trainer\/caitlin",
@@ -1015,18 +1327,44 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/caitlin\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/ch0095_00_cattleya_st_1003_128.ktx_.png?itok=pFg0yraQ\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/caitlin-reuniclus\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/pm0579_00_lanculus_256.ktx_.png?itok=Hoslw23L\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Lance",
-            "path": "\/pokemonmasters\/trainer\/lance",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lance-dragonite\" hreflang=\"en\">Lance &amp; Dragonite<\/a>",
+            "title": "Phoebe",
+            "path": "\/pokemonmasters\/trainer\/phoebe",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/phoebe-dusknoir\" hreflang=\"en\">Phoebe &amp; Dusknoir<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Dragon",
+            "type1": "Ghost",
             "type2": "",
             "element": "",
             "rarity": "5",
             "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/lance\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0111_00_wataru_st_1003_128.ktx_.png?itok=c3tQqFF0\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lance-dragonite\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0149_00_kairyu_256.ktx_.png?itok=Ur0y4sRb\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/phoebe\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0049_00_fuyo_st_1003_128.ktx.png?itok=ItOkU_og\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/phoebe-dusknoir\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0477_00_yonoir_256.ktx_.png?itok=2WDUm2FO\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Ethan",
+            "path": "\/pokemonmasters\/trainer\/ethan",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-cyndaquil\" hreflang=\"en\">Ethan &amp; Cyndaquil<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/ethan\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0112_00_hibiki_st_1003_128.ktx_.png?itok=DeL5bmIA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-cyndaquil\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0155_00_hinoarashi_256.ktx_.png?itok=YlpI-0MU\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Calem",
+            "path": "\/pokemonmasters\/trainer\/calem",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/calem-meowstic\" hreflang=\"en\">Calem &amp; Meowstic<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/calem\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/ch0003_00_calme_st_1003_128.ktx_.png?itok=Pw6_Gae7\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/calem-meowstic\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0734_00_cat2_256.ktx_.png?itok=-LUrUVum\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Glacia",
             "path": "\/pokemonmasters\/trainer\/glacia",
@@ -1056,7 +1394,7 @@ module.exports = {
         }, {
             "title": "Ethan",
             "path": "\/pokemonmasters\/trainer\/ethan",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-cyndaquil\" hreflang=\"en\">Ethan &amp; Cyndaquil<\/a>",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-quilava\" hreflang=\"en\">Ethan &amp; Quilava<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
             "type1": "Fire",
@@ -1065,7 +1403,7 @@ module.exports = {
             "rarity": "5",
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/ethan\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0112_00_hibiki_st_1003_128.ktx_.png?itok=DeL5bmIA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-cyndaquil\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0155_00_hinoarashi_256.ktx_.png?itok=YlpI-0MU\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-quilava\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0156_00_magmarashi_256.ktx_.png?itok=j0NarpaT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Phoebe",
             "path": "\/pokemonmasters\/trainer\/phoebe",
@@ -1108,7 +1446,7 @@ module.exports = {
         }, {
             "title": "Ethan",
             "path": "\/pokemonmasters\/trainer\/ethan",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-quilava\" hreflang=\"en\">Ethan &amp; Quilava<\/a>",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-typhlosion\" hreflang=\"en\">Ethan &amp; Typhlosion<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
             "type1": "Fire",
@@ -1117,7 +1455,7 @@ module.exports = {
             "rarity": "5",
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/ethan\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0112_00_hibiki_st_1003_128.ktx_.png?itok=DeL5bmIA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-quilava\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0156_00_magmarashi_256.ktx_.png?itok=j0NarpaT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-typhlosion\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0157_00_bakphoon_256.ktx_.png?itok=qzwFPI35\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Blue",
             "path": "\/pokemonmasters\/trainer\/blue",
@@ -1132,6 +1470,19 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/blue\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0021_00_green_st_1003_128.ktx_.png?itok=4flGSzws\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/blue-mega-pidgeot\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0018_51_megapigeot_256.ktx__0.png?itok=ltVCUUKC\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Hilbert",
+            "path": "\/pokemonmasters\/trainer\/hilbert",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hilbert-dewott\" hreflang=\"en\">Hilbert &amp; Dewott<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Water",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilbert\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0020_00_toya_st_1003_128.ktx.png?itok=7dDAYZwk\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilbert-dewott\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0502_00_futachimaru_256.ktx__0.png?itok=AohMzRou\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Kris",
             "path": "\/pokemonmasters\/trainer\/kris",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/kris-croconaw\" hreflang=\"en\">Kris &amp; Croconaw<\/a>",
@@ -1144,6 +1495,19 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/kris\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0018_00_chris_st_1003_128.ktx.png?itok=qmEWwB8h\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/kris-croconaw\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0159_00_alligates_256.ktx.png?itok=Cvna8pKi\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Grimsley",
+            "path": "\/pokemonmasters\/trainer\/grimsley-0",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/grimsley-liepard\" hreflang=\"en\">Grimsley &amp; Liepard<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Dark",
+            "type2": "",
+            "element": "Dark",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/grimsley-0\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0048_00_gima_st_1003_128.ktx_.png?itok=v1OD6rcj\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/grimsley-liepard\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0510_00_lepardas_256.ktx__1.png?itok=Epd0BYfV\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Lyra",
             "path": "\/pokemonmasters\/trainer\/lyra",
@@ -1158,18 +1522,18 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/lyra\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0002_00_kotone_st_1003_128.ktx.png?itok=--JInYuH\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lyra-chikorita\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0152_00_chicorita_256.ktx.png?itok=pmoGSStq\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
-            "title": "Ethan",
-            "path": "\/pokemonmasters\/trainer\/ethan",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/ethan-typhlosion\" hreflang=\"en\">Ethan &amp; Typhlosion<\/a>",
+            "title": "Kukui",
+            "path": "\/pokemonmasters\/trainer\/kukui",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/kukui-lycanroc\" hreflang=\"en\">Kukui &amp; Lycanroc<\/a>",
             "sync_icon_old": "",
             "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Fire",
+            "type1": "Rock",
             "type2": "",
             "element": "",
             "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/ethan\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/ch0112_00_hibiki_st_1003_128.ktx_.png?itok=DeL5bmIA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/ethan-typhlosion\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-12\/pm0157_00_bakphoon_256.ktx_.png?itok=qzwFPI35\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/kukui\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/ch0001_00_kukui_st_1003_128.ktx_.png?itok=35IcY8yc\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/kukui-lycanroc\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/pm0829_11_okami2noon_256.ktx_.png?itok=1gZpe3JS\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Kris",
             "path": "\/pokemonmasters\/trainer\/kris",
@@ -1197,6 +1561,19 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilda\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0004_00_toko_st_1003_128.ktx_.png?itok=yfh8X-CT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilda-tepig\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0498_00_pokabu_256.ktx_.png?itok=puZkCzGX\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Hilbert",
+            "path": "\/pokemonmasters\/trainer\/hilbert",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hilbert-samurott\" hreflang=\"en\">Hilbert &amp; Samurott<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Water",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilbert\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0020_00_toya_st_1003_128.ktx.png?itok=7dDAYZwk\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilbert-samurott\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0503_00_daikenki_256.ktx_.png?itok=WPsQuf8b\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Kris",
             "path": "\/pokemonmasters\/trainer\/kris",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/kris-feraligatr\" hreflang=\"en\">Kris &amp; Feraligatr<\/a>",
@@ -1209,45 +1586,6 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/kris\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0018_00_chris_st_1003_128.ktx.png?itok=qmEWwB8h\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/kris-feraligatr\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0160_00_ordile_256.ktx.png?itok=o9OsM-G_\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Grimsley",
-            "path": "\/pokemonmasters\/trainer\/grimsley-0",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/grimsley-liepard\" hreflang=\"en\">Grimsley &amp; Liepard<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Dark",
-            "type2": "",
-            "element": "Dark",
-            "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/grimsley-0\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0048_00_gima_st_1003_128.ktx_.png?itok=v1OD6rcj\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/grimsley-liepard\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0510_00_lepardas_256.ktx__1.png?itok=Epd0BYfV\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Lyra",
-            "path": "\/pokemonmasters\/trainer\/lyra",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lyra-bayleef\" hreflang=\"en\">Lyra &amp; Bayleef<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Grass",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/lyra\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0002_00_kotone_st_1003_128.ktx.png?itok=--JInYuH\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lyra-bayleef\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0153_00_bayleaf_256.ktx.png?itok=GqebOi1I\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Hilda",
-            "path": "\/pokemonmasters\/trainer\/hilda",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hilda-pignite\" hreflang=\"en\">Hilda &amp; Pignite<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Fire",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilda\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0004_00_toko_st_1003_128.ktx_.png?itok=yfh8X-CT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilda-pignite\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0499_00_chaoboo_256.ktx_.png?itok=45Up3HnL\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Christmas Siebold",
             "path": "\/pokemonmasters\/trainer\/christmas-siebold",
@@ -1262,6 +1600,84 @@ module.exports = {
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/christmas-siebold\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0096_10_zumi_st_1003_128.ktx_.png?itok=3Vqw0rWC\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/siebold-octillery\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0224_00_okutank_256.ktx_.png?itok=9NkVA7Yy\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
+            "title": "Sygna Suit Elesa",
+            "path": "\/pokemonmasters\/trainer\/sygna-suit-elesa",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/sygna-suit-elesa-rotom\" hreflang=\"en\">Sygna Suit Elesa &amp; Rotom<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Electric",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/sygna-suit-elesa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0106_10_kamitsure_st_1003_128.ktx_.png?itok=W-pMtx25\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/sygna-suit-elesa-rotom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0479_11_rotom_256.ktx_.png?itok=GIZ2KUQ2\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Lyra",
+            "path": "\/pokemonmasters\/trainer\/lyra",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lyra-bayleef\" hreflang=\"en\">Lyra &amp; Bayleef<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Grass",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/lyra\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0002_00_kotone_st_1003_128.ktx.png?itok=--JInYuH\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lyra-bayleef\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0153_00_bayleaf_256.ktx.png?itok=GqebOi1I\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Steven",
+            "path": "\/pokemonmasters\/trainer\/steven",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/steven-metagross\" hreflang=\"en\">Steven &amp; Metagross<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Steel",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/steven\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/ch0090_00_daigo_st_1003_128.ktx_.png?itok=L2DngO9L\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/steven-metagross\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/pm0376_00_metagross_256.ktx_.png?itok=dBqlbSKn\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Hilda",
+            "path": "\/pokemonmasters\/trainer\/hilda",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/hilda-pignite\" hreflang=\"en\">Hilda &amp; Pignite<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Fire",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilda\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0004_00_toko_st_1003_128.ktx_.png?itok=yfh8X-CT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilda-pignite\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0499_00_chaoboo_256.ktx_.png?itok=45Up3HnL\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Christmas Rosa",
+            "path": "\/pokemonmasters\/trainer\/christmas-rosa",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/rosa-delibird\" hreflang=\"en\">Rosa &amp; Delibird<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Flying",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/christmas-rosa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0101_10_mei_st_1003_128.ktx_.png?itok=naCdA3yl\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/rosa-delibird\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0225_00_delibird_256.ktx_.png?itok=z2nXnoWR\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Sabrina",
+            "path": "\/pokemonmasters\/trainer\/sabrina",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/sabrina-alakazam\" hreflang=\"en\">Sabrina &amp; Alakazam<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Psychic",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/sabrina\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/ch0114_00_natsume_st_1003_128.ktx_.png?itok=ezx7Ayar\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/sabrina-alakazam\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-02\/pm0065_00_foodin_256.ktx_.png?itok=Mr9QkURM\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
             "title": "Lyra",
             "path": "\/pokemonmasters\/trainer\/lyra",
             "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/lyra-meganium\" hreflang=\"en\">Lyra &amp; Meganium<\/a>",
@@ -1274,6 +1690,19 @@ module.exports = {
             "recruit_method": "",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/lyra\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0002_00_kotone_st_1003_128.ktx.png?itok=--JInYuH\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/lyra-meganium\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0154_01_meganium_256.ktx.png?itok=jT2mVZpA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
+        }, {
+            "title": "Steven",
+            "path": "\/pokemonmasters\/trainer\/steven",
+            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/steven-mega-metagross\" hreflang=\"en\">Steven &amp; Mega Metagross<\/a>",
+            "sync_icon_old": "",
+            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
+            "type1": "Steel",
+            "type2": "",
+            "element": "",
+            "rarity": "5",
+            "recruit_method": "Sync Pair Scout",
+            "icon": "  <a href=\"\/pokemonmasters\/trainer\/steven\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/ch0090_00_daigo_st_1003_128.ktx_.png?itok=L2DngO9L\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
+            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/steven-mega-metagross\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2020-01\/pm0376_51_megametagross_256.ktx_.png?itok=IildgKwa\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
         }, {
             "title": "Brendan",
             "path": "\/pokemonmasters\/trainer\/brendan",
@@ -1300,109 +1729,6 @@ module.exports = {
             "recruit_method": "Sync Pair Scout",
             "icon": "  <a href=\"\/pokemonmasters\/trainer\/hilda\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0004_00_toko_st_1003_128.ktx_.png?itok=yfh8X-CT\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
             "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/hilda-emboar\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0500_00_enbuoh_256.ktx_.png?itok=yG6VVGwq\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Christmas Rosa",
-            "path": "\/pokemonmasters\/trainer\/christmas-rosa",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/rosa-delibird\" hreflang=\"en\">Rosa &amp; Delibird<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Flying",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/christmas-rosa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0101_10_mei_st_1003_128.ktx_.png?itok=naCdA3yl\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/rosa-delibird\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0225_00_delibird_256.ktx_.png?itok=z2nXnoWR\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Acerola",
-            "path": "\/pokemonmasters\/trainer\/acerola",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/acerola-palossand\" hreflang=\"en\">Acerola &amp; Palossand<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Ghost",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/acerola\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0007_00_acerola_st_1003_128.ktx.png?itok=x524EEcw\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/acerola-palossand\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0823_00_sunaba2_256.ktx.png?itok=ALPRbxK3\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Karen",
-            "path": "\/pokemonmasters\/trainer\/karen",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\" hreflang=\"en\">Karen &amp; Houndoom<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Houndoom.png?itok=3QwdUOpS\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Dark",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/karen\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0062_00_karin_st_1003_128.ktx.png?itok=ZQ-0pjXm\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/karen-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0229_00_hellgar_256.ktx.png?itok=uyX_sPMA\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Elesa",
-            "path": "\/pokemonmasters\/trainer\/elesa",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/elesa-zebstrika\" hreflang=\"en\">Elesa &amp; Zebstrika<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Electric",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/elesa\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/ch0106_00_kamitsure_st_1003_128.ktx_.png?itok=hbxuX_ka\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/elesa-zebstrika\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-09\/pm0523_00_zebraika_256.ktx_.png?itok=MktXo0iu\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Karen",
-            "path": "\/pokemonmasters\/trainer\/karen",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\" hreflang=\"en\">Karen &amp; Mega Houndoom<\/a>",
-            "sync_icon_old": "  <a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/30x30\/public\/2019-07\/Mega%20Houndoom.png?itok=WFrj2jw-\" width=\"30\" height=\"30\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_0x30\" \/>\n\n<\/a>\n",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Dark",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Sync Pair Scout",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/karen\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0062_00_karin_st_1003_128.ktx.png?itok=ZQ-0pjXm\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/karen-mega-houndoom\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0229_51_megahellgar_256.ktx.png?itok=4ZJ_B-8g\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Giovanni",
-            "path": "\/pokemonmasters\/trainer\/giovanni",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/giovanni-mewtwo\" hreflang=\"en\">Giovanni &amp; Mewtwo<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Psychic",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/giovanni\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/ch0140_00_sakaki_st_1003_128.ktx_.png?itok=UHNH0On8\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/giovanni-mewtwo\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-11\/pm0150_00_mewtwo_256.ktx__0.png?itok=SXNassu8\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Cheren",
-            "path": "\/pokemonmasters\/trainer\/cheren",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/cheren-stoutland\" hreflang=\"en\">Cheren &amp; Stoutland<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Normal",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "Story Progression",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/cheren\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/ch0014_01_cheren_st_1003_128.ktx.png?itok=JHCAakrl\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/cheren-stoutland\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-08\/pm0508_00_mooland_256.ktx.png?itok=JbmsW_is\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }, {
-            "title": "Calem",
-            "path": "\/pokemonmasters\/trainer\/calem",
-            "sync_pokemon": "<a href=\"\/pokemonmasters\/pokemon\/calem-espurr\" hreflang=\"en\">Calem &amp; Espurr<\/a>",
-            "sync_icon_old": "",
-            "rarity_icon": "  <img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/25h\/public\/2019-07\/5-star.png?itok=XH3F26l4\" width=\"130\" height=\"25\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5h\" \/>\n\n\n",
-            "type1": "Psychic",
-            "type2": "",
-            "element": "",
-            "rarity": "5",
-            "recruit_method": "",
-            "icon": "  <a href=\"\/pokemonmasters\/trainer\/calem\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/ch0003_00_calme_st_1003_128.ktx_.png?itok=Pw6_Gae7\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n",
-            "sync_icon": "  <a href=\"\/pokemonmasters\/pokemon\/calem-espurr\"><img src=\"\/pokemonmasters\/sites\/pokemonmasters\/files\/styles\/55x55\/public\/2019-10\/pm0733_00_cat1_256.ktx_.png?itok=opGtV8Dn\" width=\"55\" height=\"55\" alt=\"\" typeof=\"foaf:Image\" class=\"image-style-_5x55\" \/>\n\n<\/a>\n"
-        }]
-}
+        }
+    ]
+};
