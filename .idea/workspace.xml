@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/GPressData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/GPressData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/masters/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pair.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/masters/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pairsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/pokedex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pokedex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pokemon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/masters/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/trainers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,8 @@
       <workItem from="1581028325025" duration="689000" />
       <workItem from="1582122662989" duration="5000" />
       <workItem from="1582238399770" duration="41000" />
-      <workItem from="1582730900576" duration="6142000" />
+      <workItem from="1582730900576" duration="6444000" />
+      <workItem from="1582816735535" duration="6988000" />
     </task>
     <servers />
   </component>
@@ -147,29 +147,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="522" height="352" key="GridCell.Tab.0.bottom" timestamp="1582756002019">
+    <state width="522" height="352" key="GridCell.Tab.0.bottom" timestamp="1582818227530">
       <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.bottom/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275728" />
-    <state width="522" height="352" key="GridCell.Tab.0.bottom/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582756002019" />
-    <state width="522" height="352" key="GridCell.Tab.0.center" timestamp="1582756002018">
+    <state width="522" height="352" key="GridCell.Tab.0.bottom/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227530" />
+    <state width="522" height="352" key="GridCell.Tab.0.center" timestamp="1582818227497">
       <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.center/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
-    <state width="522" height="352" key="GridCell.Tab.0.center/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582756002018" />
-    <state width="522" height="352" key="GridCell.Tab.0.left" timestamp="1582756002017">
+    <state width="522" height="352" key="GridCell.Tab.0.center/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227497" />
+    <state width="522" height="352" key="GridCell.Tab.0.left" timestamp="1582818227492">
       <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.left/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275726" />
-    <state width="522" height="352" key="GridCell.Tab.0.left/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582756002017" />
-    <state width="522" height="352" key="GridCell.Tab.0.right" timestamp="1582756002019">
+    <state width="522" height="352" key="GridCell.Tab.0.left/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227492" />
+    <state width="522" height="352" key="GridCell.Tab.0.right" timestamp="1582818227514">
       <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.right/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
-    <state width="522" height="352" key="GridCell.Tab.0.right/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582756002019" />
-    <state x="1324" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1579802191342">
-      <screen x="699" y="-1057" width="1920" height="1057" />
+    <state width="522" height="352" key="GridCell.Tab.0.right/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227514" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582840336366">
+      <screen x="-1080" y="-798" width="1080" height="1897" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582840336366" />
+    <state x="-728" y="-376" width="670" height="1214" key="search.everywhere.popup" timestamp="1582842501104">
+      <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
     <state x="1324" y="-822" width="670" height="676" key="search.everywhere.popup/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1579802191342" />
+    <state x="-728" y="-376" width="670" height="1214" key="search.everywhere.popup/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582842501104" />
   </component>
 </project>

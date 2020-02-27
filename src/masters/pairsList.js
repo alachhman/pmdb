@@ -4,41 +4,13 @@ import {Box, RadioButtonGroup} from "grommet/es6";
 import trainers from './trainers';
 import GPressData from './GPressData';
 
-//TODO: Change >ms pooldata trainers to include type1 attr and any other sorting criteria, then refactor so this .js file pulls from trainers and not from gpressdata
 export default function UnitList() {
-    const [rarity, setRarity] = React.useState('Any');
-    const [type, setType] = React.useState('All');
+    const [type, setType] = React.useState('Normal');
     return (
         <Container>
             <h3>Masters | Sync Pairs</h3>
             <div className={'Border'} background={"light-2"}>
-                <div className={'FilterSpacing'}>
-                    <RadioButtonGroup
-                        name="rarity"
-                        gap="xsmall"
-                        direction={"row"}
-                        options={['Any', '3', '4', '5']}
-                        value={rarity}
-                        onChange={(event) => setRarity(event.target.value)}
-                        className={"RadioGroup"}
-                    >
-                        {(option, {checked, hover}) => {
-                            let background;
-                            if (checked) background = "brand";
-                            else if (hover) background = "light-4";
-                            return (
-                                <Box background={background} round={"small"}>
-                                    <Container>
-                                        <span>
-                                        {option} <img alt={option} src={process.env.PUBLIC_URL + '/assets/star.png'}
-                                                      style={{width: '24px', height: '24px'}}/>
-                                        </span>
-                                    </Container>
-                                </Box>
-                            );
-                        }}
-                    </RadioButtonGroup>
-                </div>
+                <div className={"FilterSpacing"}/>
                 <RadioButtonGroup
                     name="type"
                     direction={'row'}
@@ -68,7 +40,7 @@ export default function UnitList() {
                     }}
                 </RadioButtonGroup>
             </div>
-            <UnitDataMapping units={trainers.units} rarity={rarity} type={type}/>
+            <UnitDataMapping units={trainers.units} type={type}/>
         </Container>
     )
 }
@@ -76,13 +48,11 @@ export default function UnitList() {
 function UnitDataMapping(props) {
     let populatedCount = 0;
     const listItems = props.units.map((unit) => {
-            if (unit.base_potential === parseInt(props.rarity) || props.rarity === 'Any') {
-                if (unit.type === props.type || props.type === 'All') {
-                    populatedCount++;
-                    return (
-                        UnitDisplay(unit)
-                    )
-                }
+            if (unit.type === props.type || props.type === 'All') {
+                populatedCount++;
+                return (
+                    UnitDisplay(unit)
+                )
             }
         }
     );
@@ -114,7 +84,7 @@ function UnitDisplay(unit) {
         }
     }
     return (
-        <Card style={{marginBottom: "8px", marginTop: "8px"}}>
+        <Card style={{marginBottom: "8px", marginTop: "8px", height:"80px"}}>
             <CardHeader>
                 <Row>
                     <Col>
@@ -129,7 +99,7 @@ function UnitDisplay(unit) {
                     </Col>
                     <Col>
                         <Button size={"sm"} outline pill style={{float: "right"}}
-                                href={"#/pm/pair/" + unit.name.replace(" ", "_")}>+</Button>
+                                href={"#/pm/pair/" + unit.name.replace(" ", "_").toLowerCase()}>+</Button>
                     </Col>
                 </Row>
             </CardHeader>

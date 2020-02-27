@@ -203,7 +203,7 @@ module.exports = {
             type: 'Electric',
             base_potential: 5,
             recruit_method: 'Sync Pair Scout',
-            pokemon_list: ['Elesa & Zebstrika']
+            pokemon_list: ['Elesa & Zebstrika', 'Elesa & Rotom']
         }
         ,
         {
@@ -698,23 +698,6 @@ module.exports = {
             base_potential: 5,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Steven & Metagross', 'Steven & Mega Metagross']
-        }
-        ,
-        {
-            name: 'Sygna Suit Brock',
-            info: 'In his sygna suit, Brock is ready for anything. His polished, rock-hard strength makes his attacks hit with the weight of a boulder.\n',
-            base_potential: 5,
-            recruit_method: 'Costume',
-            pokemon_list: ['Sygna Suit Brock & Tyranitar']
-        }
-        ,
-        {
-            name: 'Sygna Suit Elesa',
-            info: 'With her new sygna suit, Elesa makes sure that center stage is hers—be it in the world of Pokémon battles or fashion.\n',
-            type: 'Electric',
-            base_potential: 5,
-            recruit_method: '',
-            pokemon_list: ['Sygna Suit Elesa & Rotom']
         }
         ,
         {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {getPKMNIcon} from "./pokedex";
-import {Container, Row, Col} from "shards-react";
+import {Col, Container, Row} from "shards-react";
 import {Box, DataTable, Meter, Tab, Table, TableBody, TableCell, TableHeader, TableRow, Tabs, Text} from "grommet/es6";
 import {Helmet} from 'react-helmet'
 import pkmnList from './pokemon';
@@ -9,7 +9,10 @@ import trainers from './trainers';
 export default function Info() {
     let unit = "";
     trainers.units.forEach((entry) => {
-        if (entry.name === document.URL.toString().split("/")[6].replace("_", " ")) {
+        if (entry.name.toLowerCase() === document.URL
+            .toString()
+            .split("/")[6]
+            .replace("_", " ")) {
             unit = entry;
         }
     });
@@ -42,9 +45,9 @@ function TrainerInfo(props) {
                             src={
                                 (trainer.name.includes("Christmas"))
                                     ? ((trainer.name.includes('Rosa'))
-                                        ? 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Christmas%20Rosa.png?itok=9uO9ketF'
-                                        : 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Siebold.png?itok=LEizSANS')
-                                    : 'https://www.serebii.net/pokemonmasters/syncpairs/' + trainer.name.replace("Synga Suit ", "").replace('Player','maincharacter').toLowerCase().replace(" ", "") + '.png'
+                                    ? 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Christmas%20Rosa.png?itok=9uO9ketF'
+                                    : 'https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-11/Siebold.png?itok=LEizSANS')
+                                    : 'https://www.serebii.net/pokemonmasters/syncpairs/' + trainer.name.replace("Synga Suit ", "").replace('Player', 'maincharacter').toLowerCase().replace(" ", "") + '.png'
                             }
                             alt={'trainer'}
                         />
@@ -193,25 +196,28 @@ function InfoBlock(props) {
                             <TableCell>
                                 <Row>
                                     <Col>
-                                        <img src={process.env.PUBLIC_URL + '/assets/' + pkmn.type1.toLowerCase() + '.png'}
-                                             alt={"type1"}
-                                             height={32}
-                                             width={32}
+                                        <img
+                                            src={process.env.PUBLIC_URL + '/assets/' + pkmn.type1.toLowerCase() + '.png'}
+                                            alt={"type1"}
+                                            height={32}
+                                            width={32}
                                         />
-                                        <img src={process.env.PUBLIC_URL + '/assets/' + pkmn.type1.toLowerCase() + '.png'}
-                                             alt={"type2"}
-                                             height={(pkmn.type2 !== "") ? 32 : 0}
-                                             width={(pkmn.type2 !== "") ? 32 : 0}
+                                        <img
+                                            src={process.env.PUBLIC_URL + '/assets/' + pkmn.type1.toLowerCase() + '.png'}
+                                            alt={"type2"}
+                                            height={(pkmn.type2 !== "") ? 32 : 0}
+                                            width={(pkmn.type2 !== "") ? 32 : 0}
                                         />
                                     </Col>
                                 </Row>
                             </TableCell>
                             <TableCell>
                                 <span>
-                                        <img src={process.env.PUBLIC_URL + '/assets/' + pkmn.weakness.toLowerCase() + '.png'}
-                                             alt={"weakness"}
-                                             height={32}
-                                             width={32}/>
+                                        <img
+                                            src={process.env.PUBLIC_URL + '/assets/' + pkmn.weakness.toLowerCase() + '.png'}
+                                            alt={"weakness"}
+                                            height={32}
+                                            width={32}/>
                                 </span>
                             </TableCell>
                             <TableCell>
@@ -246,17 +252,19 @@ function InfoBlock(props) {
                                 {pkmn.syncMove.power.min_power + "→" + pkmn.syncMove.power.max_power}
                             </TableCell>
                             <TableCell>
-                                <img src={process.env.PUBLIC_URL + '/assets/' + pkmn.syncMove.type.replace(' ','').toLowerCase() + '.png'}
-                                     alt={"syncType"}
-                                     height={(pkmn.syncMove.type !== "") ? 32 : 0}
-                                     width={(pkmn.syncMove.type !== "") ? 32 : 0}
+                                <img
+                                    src={process.env.PUBLIC_URL + '/assets/' + pkmn.syncMove.type.replace(' ', '').toLowerCase() + '.png'}
+                                    alt={"syncType"}
+                                    height={(pkmn.syncMove.type !== "") ? 32 : 0}
+                                    width={(pkmn.syncMove.type !== "") ? 32 : 0}
                                 />
                             </TableCell>
                             <TableCell>
-                                <img src={process.env.PUBLIC_URL + '/assets/' + categoryToImage(pkmn.syncMove.category) + '.png'}
-                                     alt={"syncCategory"}
-                                     height={25}
-                                     width={50}
+                                <img
+                                    src={process.env.PUBLIC_URL + '/assets/' + categoryToImage(pkmn.syncMove.category) + '.png'}
+                                    alt={"syncCategory"}
+                                    height={25}
+                                    width={50}
                                 />
                             </TableCell>
 
@@ -395,8 +403,9 @@ function MoveBlock(props) {
                 <Container className={"MovesTable"}>
                     <div style={{marginTop: "12px", marginBottom: "8px"}}>
                         <Text>
-                            <strong><img src={process.env.PUBLIC_URL + '/assets/' + categoryToImage(move.category) + '.png'}
-                                         alt={"category"}/>{"  " + move.name}:</strong>
+                            <strong><img
+                                src={process.env.PUBLIC_URL + '/assets/' + categoryToImage(move.category) + '.png'}
+                                alt={"category"}/>{"  " + move.name}:</strong>
                         </Text>
                     </div>
                     <Table>

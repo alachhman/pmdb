@@ -131,19 +131,28 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid slategrey;
 }
 
+html, body {
+    height: 100%;
+    margin: 0
+}
+
 .footer {
     margin-top: 16px;
-    position: sticky;
+    position: absolute;
     left: 0;
     bottom: 0;
-    height: 64px;
+    height: 5rem;
     width: 100%;
     background-color: #007bff!important;
     color: white;
     text-align: center;
 }
 
-html, body {
-    height: 100%;
-    margin: 0
+#content-wrap {
+    padding-bottom: 7rem; /* Footer height */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
 }
