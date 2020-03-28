@@ -172,24 +172,28 @@ export default class App extends React.Component {
                                 <Helmet>
                                     <title>{"Antnee.net"}</title>
                                 </Helmet>
-                                <div style={{height:"400px"}}/>
+                                <div style={{height: "400px"}}/>
                                 <div style={{background: "#007bff"}}>
-                                    <Container style={{textAlign: "center", verticalAlign: "middle", lineHeight: "150px", margin:"auto"}}>
+                                    <Container style={{
+                                        textAlign: "center",
+                                        verticalAlign: "middle",
+                                        lineHeight: "150px",
+                                        margin: "auto"
+                                    }}>
                                         <Row>
                                             <Col>
                                                 <strong>
                                                     <div style={{
                                                         color: "#fff",
                                                         margin: "auto",
-                                                        textAlign:"center"
+                                                        textAlign: "center"
                                                     }}>
                                                         Join the Pokemon Masters Community &rarr;
                                                     </div>
                                                 </strong>
                                             </Col>
-                                            <iframe src="https://discordapp.com/widget?id=453732177058988034&theme=dark"
-                                                    width="400"
-                                                    height="200" allowTransparency="true" frameBorder="0"/>
+                                            <iframe src="https://discordapp.com/widget?id=583120259708616715&theme=dark"
+                                                    width="400" height="200" allowTransparency="true" frameBorder="0"/>
                                         </Row>
                                     </Container>
                                 </div>

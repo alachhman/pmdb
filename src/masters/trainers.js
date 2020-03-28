@@ -1,6 +1,30 @@
 module.exports = {
     units: [
         {
+            name: "Clemont",
+            info: "This Lumiose City Gym Leader has a burning passion for inventing. His scientific discoveries lead the path to the future and help out a large number of other Trainers.\n",
+            type: "Electric",
+            base_potential: 5,
+            recruit_method: "",
+            pokemon_list: ["Clemont & Heliolisk"]
+        },
+        {
+            name: "Guzma",
+            info: "He is the strong leader of a group of toughs in Alola called Team Skull. The group’s rowdy members obey him, and his kindness has earned their devoted respect.\n",
+            type: "Bug",
+            base_potential: 5,
+            recruit_method: "",
+            pokemon_list: ["Guzma & Golisopod"]
+        },
+        {
+            name: "Plumeria",
+            info: "This Team Skull Admin controls the rest of the team and is seen as something of a big sister type. She looks after the Grunts and won’t forgive anyone who bullies them.\n",
+            type: "Poison",
+            base_potential: 5,
+            recruit_method: "",
+            pokemon_list: ["Plumeria & Salazzle"]
+        },
+        {
             name: 'Acerola',
             info: 'Rumored to be descended from an ancient Alolan dynasty, this Ghost-type Pokémon user serves as one of the Alola region’s Elite Four.\n',
             type: 'Ghost',

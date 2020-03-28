@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cea970-cfb6-4ae6-ad0e-25772fd8b80a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masters/pairsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pairsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masters/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/pokemon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/masters/trainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/masters/trainers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,6 +51,9 @@
     <property name="ts.external.directory.path" value="C:\Users\Anthony\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\192.6262.59\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/alachhman/trashapp.git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/public" />
@@ -58,11 +61,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anthony\WebstormProjects\pmdb\src\masters\data\pokemon\trainers" />
+      <recent name="C:\Users\Anthony\WebstormProjects\pmdb\src\masters\data\pokemon" />
+      <recent name="C:\Users\Anthony\WebstormProjects\pmdb\src\masters\data\trainers" />
       <recent name="$PROJECT_DIR$/public/assets/bannerImages" />
       <recent name="$PROJECT_DIR$/src/dragalia" />
-      <recent name="$PROJECT_DIR$/src/masters" />
-      <recent name="$PROJECT_DIR$/src/dragalia/data" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -70,6 +73,9 @@
       <method v="2" />
     </configuration>
     <configuration name="pair.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/masters/pair.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/test.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -84,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.pair.js" />
       </list>
     </recent_temporary>
@@ -124,6 +131,13 @@
       <workItem from="1582238399770" duration="41000" />
       <workItem from="1582730900576" duration="6444000" />
       <workItem from="1582816735535" duration="6988000" />
+      <workItem from="1584378696166" duration="8342000" />
+      <workItem from="1584496614991" duration="89000" />
+      <workItem from="1584836519705" duration="403000" />
+      <workItem from="1584898595846" duration="673000" />
+      <workItem from="1585255527377" duration="42000" />
+      <workItem from="1585327494502" duration="13000" />
+      <workItem from="1585431272863" duration="639000" />
     </task>
     <servers />
   </component>
@@ -147,26 +161,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="522" height="352" key="GridCell.Tab.0.bottom" timestamp="1582818227530">
-      <screen x="-1080" y="-798" width="1080" height="1897" />
+    <state x="503" y="141" key="#npm_start" timestamp="1584378679028">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="503" y="141" key="#npm_start/0.0.1600.900/1600.0.1600.900@0.0.1600.900" timestamp="1584378679028" />
+    <state width="421" height="372" key="GridCell.Tab.0.bottom" timestamp="1585431971928">
+      <screen x="1600" y="0" width="1600" height="900" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.bottom/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275728" />
     <state width="522" height="352" key="GridCell.Tab.0.bottom/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227530" />
-    <state width="522" height="352" key="GridCell.Tab.0.center" timestamp="1582818227497">
-      <screen x="-1080" y="-798" width="1080" height="1897" />
+    <state width="268" height="372" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.0.1600.900@0.0.1600.900" timestamp="1584382391117" />
+    <state width="421" height="372" key="GridCell.Tab.0.bottom/0.0.1600.900/1600.0.1600.900@1600.0.1600.900" timestamp="1585431971928" />
+    <state width="421" height="372" key="GridCell.Tab.0.center" timestamp="1585431971928">
+      <screen x="1600" y="0" width="1600" height="900" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.center/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
     <state width="522" height="352" key="GridCell.Tab.0.center/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227497" />
-    <state width="522" height="352" key="GridCell.Tab.0.left" timestamp="1582818227492">
-      <screen x="-1080" y="-798" width="1080" height="1897" />
+    <state width="268" height="372" key="GridCell.Tab.0.center/0.0.1600.900/1600.0.1600.900@0.0.1600.900" timestamp="1584382391117" />
+    <state width="421" height="372" key="GridCell.Tab.0.center/0.0.1600.900/1600.0.1600.900@1600.0.1600.900" timestamp="1585431971928" />
+    <state width="421" height="372" key="GridCell.Tab.0.left" timestamp="1585431971928">
+      <screen x="1600" y="0" width="1600" height="900" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.left/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275726" />
     <state width="522" height="352" key="GridCell.Tab.0.left/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227492" />
-    <state width="522" height="352" key="GridCell.Tab.0.right" timestamp="1582818227514">
-      <screen x="-1080" y="-798" width="1080" height="1897" />
+    <state width="268" height="372" key="GridCell.Tab.0.left/0.0.1600.900/1600.0.1600.900@0.0.1600.900" timestamp="1584382391117" />
+    <state width="421" height="372" key="GridCell.Tab.0.left/0.0.1600.900/1600.0.1600.900@1600.0.1600.900" timestamp="1585431971928" />
+    <state width="421" height="372" key="GridCell.Tab.0.right" timestamp="1585431971928">
+      <screen x="1600" y="0" width="1600" height="900" />
     </state>
     <state width="1899" height="268" key="GridCell.Tab.0.right/-1221.-1057.1920.1057/0.23.1440.814/699.-1057.1920.1057@699.-1057.1920.1057" timestamp="1580234275727" />
     <state width="522" height="352" key="GridCell.Tab.0.right/-3000.-439.1920.1057/0.23.1440.877/-1080.-798.1080.1897@-1080.-798.1080.1897" timestamp="1582818227514" />
+    <state width="268" height="372" key="GridCell.Tab.0.right/0.0.1600.900/1600.0.1600.900@0.0.1600.900" timestamp="1584382391117" />
+    <state width="421" height="372" key="GridCell.Tab.0.right/0.0.1600.900/1600.0.1600.900@1600.0.1600.900" timestamp="1585431971928" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1582840336366">
       <screen x="-1080" y="-798" width="1080" height="1897" />
     </state>
