@@ -1,6 +1,48 @@
 module.exports = {
     units: [
         {
+            "name": "Silver",
+            "info": "Although known for aiming to be the strongest Trainer in the world, this boy no longer cares about strength alone. He’s also realized the importance of a kind heart.\n",
+            "type": "Fire",
+            "base_potential": 5,
+            "recruit_method": "Legendary Event",
+            "pokemon_list": [
+                "Silver & Ho-Oh"
+            ]
+        },
+        {
+            "name": "Jasmine",
+            "info": "This Gym Leader is known to have a heart that cares for Pokémon. While she appears calm and gentle, she can get quite fired up when talking about Steel-type Pokémon.\n",
+            "type": "Steel",
+            "base_potential": 5,
+            "recruit_method": "Sync Pair Scout",
+            "pokemon_list": [
+                "Jasmine & Steelix",
+                "Jasmine & Mega Steelix"
+            ]
+        },
+        {
+            "name": "Wally",
+            "info": "Known as a boy who loves Pokémon, adventures, and battling, he has put everything into growing stronger as a Pokémon Trainer.\n",
+            "type": "Fighting",
+            "base_potential": 5,
+            "recruit_method": "Sync Pair Scout",
+            "pokemon_list": [
+                "Wally & Gallade",
+                "Wally & Mega Gallade"
+            ]
+        },
+        {
+            "name": "Wallace",
+            "info": "A Gym Leader referred to as the “Prince of Water,” he carries an air of refinement about him. His elegant battle style has earned him many fans.\n",
+            "type": "Water",
+            "base_potential": 5,
+            "recruit_method": "Sync Pair Scout",
+            "pokemon_list": [
+                "Wallace & Milotic"
+            ]
+        },
+        {
             name: "Clemont",
             info: "This Lumiose City Gym Leader has a burning passion for inventing. His scientific discoveries lead the path to the future and help out a large number of other Trainers.\n",
             type: "Electric",

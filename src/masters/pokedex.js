@@ -274,7 +274,7 @@ const dexnumMap = {
     "Pupitar": "247",
     "Tyranitar": "248",
     "Lugia": "249",
-    "Ho-oh": "250",
+    "Ho-Oh": "250",
     "Celebi": "251",
     "Treecko": "252",
     "Grovyle": "253",

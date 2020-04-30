@@ -1,6 +1,480 @@
 module.exports = {
     pokemon: [
         {
+            "name": "Ho-Oh",
+            "type1": "Fire",
+            "type2": "",
+            "weakness": "Water",
+            "role": "Strike (Physical)",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0250_00_houou_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 20, "defense": 7, "hp": 84, "speed": 12, "sp_atk": 20, "sp_def": 8},
+                "max": {
+                    "attack": 224,
+                    "bulk": 462,
+                    "defense": 130,
+                    "hp": 553,
+                    "speed": 231,
+                    "sp_atk": 204,
+                    "sp_def": 131
+                }
+            },
+            "moves": [{
+                "name": "Overheat",
+                "type": "Fire",
+                "category": "Special",
+                "power": {"min_power": 136, "max_power": 163},
+                "accuracy": 90,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Sharply lowers the user’s Sp. Atk.",
+                "unlock_requirements": []
+            }, {
+                "name": "Solar Beam",
+                "type": "Grass",
+                "category": "Special",
+                "power": {"min_power": 125, "max_power": 150},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.",
+                "unlock_requirements": []
+            }, {
+                "name": "I’ll Show You!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Self",
+                "cost": "",
+                "uses": 2,
+                "effect": "Raises the user’s evasiveness and critical-hit rate. These stats are sharply raised when the weather is sunny.",
+                "unlock_requirements": []
+            }, {
+                "name": "Sacred Fire",
+                "type": "Fire",
+                "category": "Physical",
+                "power": {"min_power": 87, "max_power": 104},
+                "accuracy": 95,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Removes the frozen condition from the user. Has a good chance of leaving the target burned.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Power-Hungry Sacred Fire",
+                "type": " Fire",
+                "category": "Physical",
+                "power": {"min_power": 250, "max_power": 300},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "No additional effect."
+            },
+            "passives": [{
+                "name": "Charging Sun 6",
+                "description": "Powers up moves when the weather is sunny."
+            }, {
+                "name": "Speeding Sun 2",
+                "description": "Quickly charges the move gauge when the weather is sunny."
+            }, {"name": "Solarize", "description": "Makes the weather sunny after using a sync move."}]
+        },
+        {
+            "name": "Milotic",
+            "type1": "Water",
+            "type2": "",
+            "weakness": "Electric",
+            "role": "Tech",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0350_01_milokaross_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 9, "defense": 14, "hp": 128, "speed": 16, "sp_atk": 12, "sp_def": 16},
+                "max": {
+                    "attack": 102,
+                    "bulk": 567,
+                    "defense": 134,
+                    "hp": 740,
+                    "speed": 224,
+                    "sp_atk": 300,
+                    "sp_def": 164
+                }
+            },
+            "moves": [{
+                "name": "Brine",
+                "type": "Water",
+                "category": "Special",
+                "power": {"min_power": 38, "max_power": 45},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "Its power is doubled if the target’s HP is at half or below.",
+                "unlock_requirements": []
+            }, {
+                "name": "Whirlpool",
+                "type": "Water",
+                "category": "Special",
+                "power": {"min_power": 38, "max_power": 45},
+                "accuracy": 85,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "Leaves the target trapped.",
+                "unlock_requirements": []
+            }, {
+                "name": "Grand Illusion!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Allied side",
+                "cost": "",
+                "uses": 1,
+                "effect": "Reflects status conditions directed toward the allied field of play on the opponent instead. Makes the user able to endure the next hit it takes.",
+                "unlock_requirements": []
+            }, {
+                "name": "Mirror Coat",
+                "type": "Psychic",
+                "category": "Special",
+                "power": {"min_power": 100, "max_power": 120},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "The user takes up a counterattacking posture. Using this move again will cause the user to leave this posture. No other actions can be taken while in this posture. The user will attack if hit by a special move while it is in this counterattacking posture, then the user leaves this posture. The more damage the user has taken from the opponent’s move, the greater the power of this move.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Aquatic Prince Hydro Pump",
+                "type": " Water",
+                "category": "Special",
+                "power": {"min_power": 200, "max_power": 240},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "Its power increases if the target is trapped."
+            },
+            "passives": [{
+                "name": "Stationary Target 5",
+                "description": "Powers up moves when the target is trapped."
+            }, {
+                "name": "Pokey Trap 5",
+                "description": "Increases the amount of damage the target takes from being trapped."
+            }, {"name": "Recuperation 2", "description": "Restores the user’s HP after using a sync move."}]
+        },
+        {
+            "name": "Gallade",
+            "type1": "Fighting",
+            "type2": "",
+            "weakness": "Ghost",
+            "role": "Strike (Physical)",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_00_erureido_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 18, "defense": 9, "hp": 81, "speed": 12, "sp_atk": 17, "sp_def": 16},
+                "max": {
+                    "attack": 343,
+                    "bulk": 440,
+                    "defense": 123,
+                    "hp": 465,
+                    "speed": 220,
+                    "sp_atk": 306,
+                    "sp_def": 148
+                }
+            },
+            "moves": [{
+                "name": "Low Sweep",
+                "type": "Fighting",
+                "category": "Physical",
+                "power": {"min_power": 30, "max_power": 36},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "Lowers the target’s Speed.",
+                "unlock_requirements": []
+            }, {
+                "name": "Dire Hit",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Self",
+                "cost": "",
+                "uses": 2,
+                "effect": "Raises the user’s critical-hit rate.",
+                "unlock_requirements": []
+            }, {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "category": "Special",
+                "power": {"min_power": 142, "max_power": 170},
+                "accuracy": 70,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Has a very small chance of lowering the target’s Sp. Def.",
+                "unlock_requirements": []
+            }, {
+                "name": "Here I Come!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Self",
+                "cost": "",
+                "uses": 2,
+                "effect": "Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Rallying Close Combat",
+                "type": " Fighting",
+                "category": "Physical",
+                "power": {"min_power": 160, "max_power": 192},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate."
+            },
+            "passives": [{
+                "name": "Posthaste 9",
+                "description": "Sharply raises the user’s Speed when the user is hit by an attack move."
+            }]
+        },
+        {
+            "name": "Steelix",
+            "type1": "Steel",
+            "type2": "",
+            "weakness": "Water",
+            "role": "Support",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_01_haganeil_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 8, "defense": 17, "hp": 140, "speed": 9, "sp_atk": 10, "sp_def": 16},
+                "max": {
+                    "attack": 140,
+                    "bulk": 674,
+                    "defense": 300,
+                    "hp": 520,
+                    "speed": 140,
+                    "sp_atk": 120,
+                    "sp_def": 185
+                }
+            },
+            "moves": [{
+                "name": "Gyro Ball",
+                "type": "Steel",
+                "category": "Physical",
+                "power": {"min_power": 44, "max_power": 52},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "Its power is doubled if the target’s Speed has risen.",
+                "unlock_requirements": []
+            }, {
+                "name": "X Defense All",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "All allies",
+                "cost": "",
+                "uses": 2,
+                "effect": "Sharply raises the Defense of all allied sync pairs.",
+                "unlock_requirements": []
+            }, {
+                "name": "Clang!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Allied side",
+                "cost": "",
+                "uses": 2,
+                "effect": "Blocks both critical hits and stat-lowering effects from affecting the allied field of play.",
+                "unlock_requirements": []
+            }, {
+                "name": "Iron Tail",
+                "type": "Steel",
+                "category": "Physical",
+                "power": {"min_power": 132, "max_power": 158},
+                "accuracy": 75,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Has a moderate chance of lowering the target’s Defense.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Steel-Clad Iron Tail",
+                "type": " Steel",
+                "category": "Physical",
+                "power": {"min_power": 160, "max_power": 192},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move."
+            },
+            "passives": [{
+                "name": "Endurance",
+                "description": "If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left."
+            }]
+        },
+        {
+            "name": "Mega Gallade",
+            "type1": "Fighting",
+            "type2": "",
+            "weakness": "Ghost",
+            "role": "Strike (Physical)",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_51_megaerureido_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 21, "defense": 9, "hp": 81, "speed": 12, "sp_atk": 20, "sp_def": 16},
+                "max": {
+                    "attack": 411,
+                    "bulk": 440,
+                    "defense": 123,
+                    "hp": 465,
+                    "speed": 220,
+                    "sp_atk": 367,
+                    "sp_def": 148
+                }
+            },
+            "moves": [{
+                "name": "Close Combat",
+                "type": "Fighting",
+                "category": "Physical",
+                "power": {"min_power": 124, "max_power": 148},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Lowers the user’s Defense and Sp. Def.",
+                "unlock_requirements": []
+            }, {
+                "name": "Dire Hit",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Self",
+                "cost": "",
+                "uses": 2,
+                "effect": "Raises the user’s critical-hit rate.",
+                "unlock_requirements": []
+            }, {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "category": "Special",
+                "power": {"min_power": 142, "max_power": 170},
+                "accuracy": 70,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Has a very small chance of lowering the target’s Sp. Def.",
+                "unlock_requirements": []
+            }, {
+                "name": "Here I Come!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Self",
+                "cost": "",
+                "uses": 2,
+                "effect": "Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Rallying Close Combat",
+                "type": " Fighting",
+                "category": "Physical",
+                "power": {"min_power": 160, "max_power": 192},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate."
+            },
+            "passives": [{
+                "name": "Posthaste 9",
+                "description": "Sharply raises the user’s Speed when the user is hit by an attack move."
+            }, {"name": "Zero In 1", "description": "Critical hits land more easily when an attack move is used."}]
+        },
+        {
+            "name": "Mega Steelix",
+            "type1": "Steel",
+            "type2": "",
+            "weakness": "Water",
+            "role": "Support",
+            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_51_megahaganeil_256.ktx_.png",
+            "stats": {
+                "base": {"attack": 9, "defense": 20, "hp": 140, "speed": 9, "sp_atk": 10, "sp_def": 16},
+                "max": {
+                    "attack": 168,
+                    "bulk": 734,
+                    "defense": 360,
+                    "hp": 520,
+                    "speed": 140,
+                    "sp_atk": 120,
+                    "sp_def": 185
+                }
+            },
+            "moves": [{
+                "name": "Gyro Ball",
+                "type": "Steel",
+                "category": "Physical",
+                "power": {"min_power": 44, "max_power": 52},
+                "accuracy": 100,
+                "target": "An opponent",
+                "cost": 2,
+                "uses": null,
+                "effect": "Its power is doubled if the target’s Speed has risen.",
+                "unlock_requirements": []
+            }, {
+                "name": "X Defense All",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "All allies",
+                "cost": "",
+                "uses": 2,
+                "effect": "Sharply raises the Defense of all allied sync pairs.",
+                "unlock_requirements": []
+            }, {
+                "name": "Clang!",
+                "type": "",
+                "category": "Status Effect",
+                "power": {"min_power": 0, "max_power": 0},
+                "accuracy": 0,
+                "target": "Allied side",
+                "cost": "",
+                "uses": 2,
+                "effect": "Blocks both critical hits and stat-lowering effects from affecting the allied field of play.",
+                "unlock_requirements": []
+            }, {
+                "name": "Iron Tail",
+                "type": "Steel",
+                "category": "Physical",
+                "power": {"min_power": 132, "max_power": 158},
+                "accuracy": 75,
+                "target": "An opponent",
+                "cost": 3,
+                "uses": null,
+                "effect": "Has a moderate chance of lowering the target’s Defense.",
+                "unlock_requirements": []
+            }],
+            "syncMove": {
+                "name": "Steel-Clad Iron Tail",
+                "type": " Steel",
+                "category": "Physical",
+                "power": {"min_power": 160, "max_power": 192},
+                "target": "An opponent",
+                "effect_tag": "-",
+                "description": "Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move."
+            },
+            "passives": [{
+                "name": "Endurance",
+                "description": "If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left."
+            }, {"name": "Last Word", "description": "The Pokémon uses Explosion immediately before fainting."}]
+        },
+        {
             "name": "Golisopod",
             "type1": "Bug",
             "type2": "",
