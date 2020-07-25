@@ -1,72 +1,6 @@
 module.exports = {
     units: [
         {
-            "name": "Silver",
-            "info": "Although known for aiming to be the strongest Trainer in the world, this boy no longer cares about strength alone. He’s also realized the importance of a kind heart.\n",
-            "type": "Fire",
-            "base_potential": 5,
-            "recruit_method": "Legendary Event",
-            "pokemon_list": [
-                "Silver & Ho-Oh"
-            ]
-        },
-        {
-            "name": "Jasmine",
-            "info": "This Gym Leader is known to have a heart that cares for Pokémon. While she appears calm and gentle, she can get quite fired up when talking about Steel-type Pokémon.\n",
-            "type": "Steel",
-            "base_potential": 5,
-            "recruit_method": "Sync Pair Scout",
-            "pokemon_list": [
-                "Jasmine & Steelix",
-                "Jasmine & Mega Steelix"
-            ]
-        },
-        {
-            "name": "Wally",
-            "info": "Known as a boy who loves Pokémon, adventures, and battling, he has put everything into growing stronger as a Pokémon Trainer.\n",
-            "type": "Fighting",
-            "base_potential": 5,
-            "recruit_method": "Sync Pair Scout",
-            "pokemon_list": [
-                "Wally & Gallade",
-                "Wally & Mega Gallade"
-            ]
-        },
-        {
-            "name": "Wallace",
-            "info": "A Gym Leader referred to as the “Prince of Water,” he carries an air of refinement about him. His elegant battle style has earned him many fans.\n",
-            "type": "Water",
-            "base_potential": 5,
-            "recruit_method": "Sync Pair Scout",
-            "pokemon_list": [
-                "Wallace & Milotic"
-            ]
-        },
-        {
-            name: "Clemont",
-            info: "This Lumiose City Gym Leader has a burning passion for inventing. His scientific discoveries lead the path to the future and help out a large number of other Trainers.\n",
-            type: "Electric",
-            base_potential: 5,
-            recruit_method: "",
-            pokemon_list: ["Clemont & Heliolisk"]
-        },
-        {
-            name: "Guzma",
-            info: "He is the strong leader of a group of toughs in Alola called Team Skull. The group’s rowdy members obey him, and his kindness has earned their devoted respect.\n",
-            type: "Bug",
-            base_potential: 5,
-            recruit_method: "",
-            pokemon_list: ["Guzma & Golisopod"]
-        },
-        {
-            name: "Plumeria",
-            info: "This Team Skull Admin controls the rest of the team and is seen as something of a big sister type. She looks after the Grunts and won’t forgive anyone who bullies them.\n",
-            type: "Poison",
-            base_potential: 5,
-            recruit_method: "",
-            pokemon_list: ["Plumeria & Salazzle"]
-        },
-        {
             name: 'Acerola',
             info: 'Rumored to be descended from an ancient Alolan dynasty, this Ghost-type Pokémon user serves as one of the Alola region’s Elite Four.\n',
             type: 'Ghost',
@@ -79,7 +13,7 @@ module.exports = {
             name: 'Agatha',
             info: 'A strong-willed veteran with a penchant for battling, this member of the Elite Four tries to wear opponents down. She seems to have some history with Professor Oak.\n',
             type: 'Ghost',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Agatha & Mega Gengar', 'Agatha & Gengar']
         }
@@ -88,7 +22,7 @@ module.exports = {
             name: 'Barry',
             info: 'An incredibly impetuous, high-spirited young man who runs straight for what he wants without any hesitation, he has an earnest passion for Pokémon.\n',
             type: 'Water',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Barry & Empoleon', 'Barry & Piplup', 'Barry & Prinplup']
         }
@@ -97,7 +31,7 @@ module.exports = {
             name: 'Blaine',
             info: 'This old man with a passion for trivia is known as the hotheaded quiz master. He’s a Fire-type Gym Leader with a veteran Trainer’s skill and a researcher’s knowledge.\n',
             type: 'Fire',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Blaine & Ponyta', 'Blaine & Rapidash']
         }
@@ -115,7 +49,7 @@ module.exports = {
             name: 'Brawly',
             info: 'This Gym Leader is skilled with Fighting-type Pokémon and also trains his body to surf. He moved from Kanto to Hoenn for the waves.\n',
             type: 'Fighting',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Brawly & Makuhita']
         }
@@ -133,7 +67,7 @@ module.exports = {
             name: 'Brock',
             info: 'Known as the rock-solid Pokémon Trainer, he is a reliable Gym Leader who watches over and supports younger Trainers.\n',
             type: 'Rock',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Brock & Onix', 'Brock & Tyranitar']
         }
@@ -142,7 +76,7 @@ module.exports = {
             name: 'Bruno',
             info: 'A member of the Elite Four who believes that people and Pokémon can become stronger through rigorous—even extreme—training, he shouts “Hoo Hah!” to get fired up.\n',
             type: 'Fighting',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Bruno & Machamp']
         }
@@ -151,7 +85,7 @@ module.exports = {
             name: 'Brycen',
             info: 'This former movie star left the silver screen due to an on-set injury. Known for his stellar performance in the Brycen-Man movie, he is also a strong Gym Leader.\n',
             type: 'Ice',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Brycen & Cryogonal']
         }
@@ -160,9 +94,18 @@ module.exports = {
             name: 'Bugsy',
             info: 'The youngest Gym Leader in Johto and a lover of bug Pokémon, he has great knowledge of Bug types and wants to become a Pokémon Professor.\n',
             type: 'Bug',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Bugsy & Beedrill', 'Bugsy & Mega Beedrill']
+        }
+        ,
+        {
+            name: 'Burgh',
+            info: 'With Bug-type Pokémon as his eternal muse, this Castelia City Gym Leader and accomplished artist lives life at his own pace, keeping an open mind to new discoveries.\n',
+            type: 'Bug',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Burgh & Leavanny']
         }
         ,
         {
@@ -187,7 +130,7 @@ module.exports = {
             name: 'Candice',
             info: 'This passionate Gym Leader has a fixation on focus. However, she sometimes wonders if she should play it cooler as an Ice-type Pokémon user.\n',
             type: 'Ice',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Candice & Abomasnow']
         }
@@ -205,25 +148,16 @@ module.exports = {
             name: 'Cheryl',
             info: 'She claims that attacking in battles is not her forte. She is a kind Trainer who quickly heals up Pokémon that have been injured in battle.\n',
             type: 'Normal',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Cheryl & Blissey']
-        }
-        ,
-        {
-            name: 'Christmas Rosa',
-            info: 'Dressed head to toe for warm hospitality during the holiday season, Rosa and Delibird deliver joy and cheer to all of their friends.\n',
-            type: 'Flying',
-            base_potential: 5,
-            recruit_method: '',
-            pokemon_list: ['Rosa & Delibird']
         }
         ,
         {
             name: 'Clair',
             info: 'She is a proud, confident Gym Leader who uses Dragon-type Pokémon. Her cousin Lance is also a Dragon-type Pokémon user.\n',
             type: 'Dragon',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Story Progression',
             pokemon_list: ['Clair & Kingdra']
         }
@@ -232,33 +166,52 @@ module.exports = {
             name: 'Clay',
             info: 'This Ground-type Gym Leader runs a mining company in Unova. He is a bit pushy but is admired by his employees and the community for his strong sense of justice.\n',
             type: 'Ground',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Clay & Palpitoad', 'Clay & Seismitoad']
+        }
+        ,
+        {
+            name: 'Clemont',
+            info: 'This Lumiose City Gym Leader has a burning passion for inventing. His scientific discoveries lead the path to the future and help out a large number of other Trainers.\n',
+            type: 'Electric',
+            base_potential: 5,
+            recruit_method: '',
+            pokemon_list: ['Clemont & Heliolisk']
         }
         ,
         {
             name: 'Crasher Wake',
             info: 'A Gym Leader who uses Water-type Pokémon, Crasher Wake is beloved by his many fans for his passionate performances.\n',
             type: 'Water',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Crasher Wake & Floatzel']
         }
         ,
         {
             name: 'Cynthia',
-            info: '',
+            type: 'Ground',
+            info: '#1 Best Girl',
             base_potential: 5,
-            recruit_method: '',
+            recruit_method: 'PokeFair',
             pokemon_list: ['Cynthia & Garchomp', 'Cynthia & Mega Garchomp']
+        }
+        ,
+        {
+            name: 'Dawn',
+            info: 'This friendly and upbeat Trainer packs quite a punch, thanks to her travels in Sinnoh. Despite her skill as a Trainer, she can be a little scatterbrained at times.\n',
+            type: 'Grass',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Dawn & Turtwig', 'Dawn & Grotle', 'Dawn & Torterra']
         }
         ,
         {
             name: 'Drake',
             info: 'Once saved by a Pokémon, now he battles as one of the Elite Four to show his gratitude. He thinks Trainers should have virtuous hearts.\n',
             type: 'Dragon',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Drake & Salamence']
         }
@@ -276,7 +229,7 @@ module.exports = {
             name: 'Erika',
             info: 'A cute Gym Leader who loves Grass-type Pokémon, this well-mannered Trainer teaches flower arrangement in Kanto.\n',
             type: 'Grass',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Erika & Vileplume']
         }
@@ -284,7 +237,7 @@ module.exports = {
         {
             name: 'Ethan',
             info: 'A reliable veteran Pokémon Trainer from Johto, this energetic nature lover can often be found roaming the mountains.\n',
-            type: 'Fire',
+            type: ' Fire',
             base_potential: 5,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Ethan & Cyndaquil', 'Ethan & Quilava', 'Ethan & Typhlosion']
@@ -303,7 +256,7 @@ module.exports = {
             name: 'Flannery',
             info: 'A Gym Leader with a fiery, brave personality, she can be a bit too serious and sometimes tries too hard to conduct herself properly.\n',
             type: 'Fire',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Flannery & Torkoal']
         }
@@ -312,7 +265,7 @@ module.exports = {
             name: 'Flint',
             info: 'This member of the Elite Four is constantly on the verge of overheating. He’s a skillful Trainer of Fire-type Pokémon who is always burning for an all-out battle.\n',
             type: 'Fire',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Story Progression',
             pokemon_list: ['Flint & Infernape']
         }
@@ -321,7 +274,7 @@ module.exports = {
             name: 'Gardenia',
             info: 'This bold Gym Leader uses Grass-type Pokémon and is quite scared of ghosts and anything that surprises her. Her fear sometimes keeps her up at night.\n',
             type: 'Grass',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Gardenia & Roserade']
         }
@@ -348,24 +301,34 @@ module.exports = {
             name: 'Grant',
             info: 'A Gym Leader who excels at bouldering and is also a popular trendsetter, he tries to avoid sweets but they’re actually one of his favorite things.\n',
             type: 'Rock',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Grant & Amaura', 'Grant & Aurorus']
         }
         ,
         {
             name: 'Grimsley',
-            info: '',
+            info: 'As an elegant member of the Elite Four and user of Dark-type Pokémon, this risk taker has a good attitude about winning and losing.',
+            type: 'Dark',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Grimsley & Liepard']
+        }
+        ,
+        {
+            name: 'Guzma',
+            info: 'He is the strong leader of a group of toughs in Alola called Team Skull. The group’s rowdy members obey him, and his kindness has earned their devoted respect.\n',
+            type: 'Bug',
             base_potential: 5,
             recruit_method: '',
-            pokemon_list: ['Grimsely & Liepard']
+            pokemon_list: ['Guzma & Golisopod']
         }
         ,
         {
             name: 'Hapu',
             info: 'A kahuna who wanders the islands of Alola and has been accepted by its guardian deities, she inherited her title and speaking style from her greatly respected grandfather.\n',
             type: 'Ground',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Hapu & Mudsdale']
         }
@@ -374,7 +337,7 @@ module.exports = {
             name: 'Hau',
             info: 'An optimist whose constant smiling is infectious, he loves malasadas and fun. He takes Pokémon battles where Trainers are in sync with their Pokémon very seriously.\n',
             type: 'Electric',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Story Progression',
             pokemon_list: ['Hau & Raichu (Alola Form)']
         }
@@ -401,7 +364,7 @@ module.exports = {
             name: 'Iris',
             info: 'This lively young Trainer’s family lives among dragon Pokémon. Despite her youth, her skills in battle have made her a Champion.\n',
             type: 'Dragon',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Iris & Haxorus']
         }
@@ -410,16 +373,34 @@ module.exports = {
             name: 'Janine',
             info: 'Koga’s daughter and a ninja Gym Leader, she uses Poison-type Pokémon out of respect for her father. She also likes to argue like him from time to time.\n',
             type: 'Poison',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Janine & Ariados']
+        }
+        ,
+        {
+            name: 'Jasmine',
+            info: 'This Gym Leader is known to have a heart that cares for Pokémon. While she appears calm and gentle, she can get quite fired up when talking about Steel-type Pokémon.\n',
+            type: 'Steel',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Jasmine & Steelix', 'Jasmine & Mega Steelix']
+        }
+        ,
+        {
+            name: 'Jessie',
+            info: 'This member of Team Rocket denounces the evils of truth and love, and swears her loyalty to the boss, Giovanni. James and Meowth are her eternal partners in crime.\n',
+            type: 'Poison',
+            base_potential: 3,
+            recruit_method: '',
+            pokemon_list: ['Jessie & Arbok']
         }
         ,
         {
             name: 'Kahili',
             info: 'A genius pro golfer with a stoic personality who competes all over the world, she is also a diligent member of the Elite Four who never neglects Pokémon battles.\n',
             type: 'Flying',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Kahili & Toucannon']
         }
@@ -437,7 +418,7 @@ module.exports = {
             name: 'Koga',
             info: 'This modern-day ninja and member of the Elite Four wears down his opponents with his versatility and has also trained his daughter, Janine, in the ways of the ninja.\n',
             type: 'Poison',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: '',
             pokemon_list: ['Koga & Crobat']
         }
@@ -446,7 +427,7 @@ module.exports = {
             name: 'Korrina',
             info: 'A lively Gym Leader who speeds around on roller skates, she is known as the Mega Evolution successor in her native Kalos.\n',
             type: 'Fighting',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Korrina & Lucario', 'Korrina & Mega Lucario']
         }
@@ -491,7 +472,7 @@ module.exports = {
             name: 'Liza',
             info: 'One of a rare pair of twin Gym Leaders, she helps at the Mossdeep Space Center and excels at cooperation in battle—much like her twin, Tate.\n',
             type: 'Psychic',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Liza & Lunatone']
         }
@@ -500,7 +481,7 @@ module.exports = {
             name: 'Lorelei',
             info: 'This cool beauty who uses Ice-type Pokémon is one of the Elite Four. She likes cute things and has many plushies at home.\n',
             type: 'Ice',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Lorelei & Lapras']
         }
@@ -509,9 +490,18 @@ module.exports = {
             name: 'Lt. Surge',
             info: 'This cautious Electric-type Gym Leader sets a lot of traps in his Gym. He excels at paralyzing his opponents in battle.\n',
             type: 'Electric',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Lt. Surge & Voltorb', 'Lt. Surge & Electrode']
+        }
+        ,
+        {
+            name: 'Lucy',
+            info: 'The taciturn Frontier Brain of Hoenn’s Battle Pike prefers to let the roar of her fighting spirit speak for her. She never forgets the face of anyone who defeats her.\n',
+            type: 'Poison',
+            base_potential: 4,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Lucy & Seviper']
         }
         ,
         {
@@ -527,7 +517,7 @@ module.exports = {
             name: 'Marley',
             info: 'She doesn’t speak much and seems mysterious, but she simply doesn’t like to talk and is really a Trainer with a kind heart who cares about both people and Pokémon.\n',
             type: 'Fire',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Marley & Arcanine']
         }
@@ -536,7 +526,7 @@ module.exports = {
             name: 'Marlon',
             info: 'This Gym Leader loves the ocean so much, people say he is a bigger splash than the sea. Since his Gym is right by the ocean, he swims whenever he has no challengers.\n',
             type: 'Water',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Marlon & Carracosta']
         }
@@ -545,7 +535,7 @@ module.exports = {
             name: 'Marshal',
             info: 'One of the Unova League’s Elite Four, he knows the difficulty in becoming strong and yet he strives to grow even stronger in battle.\n',
             type: 'Fighting',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Marshal & Conkeldurr']
         }
@@ -554,7 +544,7 @@ module.exports = {
             name: 'Maylene',
             info: 'This young fighting genius is a Gym Leader who is always training with her Fighting-type Pokémon. She never forgets to express her gratitude to her opponents.\n',
             type: 'Fighting',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Maylene & Meditite', 'Maylene & Medicham']
         }
@@ -563,7 +553,7 @@ module.exports = {
             name: 'Mina',
             info: 'One of the captains of the Alola region, she travels around at her own pace, searching for subjects for her artwork that both people and Pokémon will enjoy.\n',
             type: 'Fairy',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Mina & Granbull']
         }
@@ -572,16 +562,25 @@ module.exports = {
             name: 'Misty',
             info: 'A Gym Leader known as the Tomboyish Mermaid, she has an upbeat personality but also acts tough and takes rules very seriously.\n',
             type: 'Water',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Misty & Starmie']
+        }
+        ,
+        {
+            name: 'Morty',
+            info: 'This Ghost-type Gym Leader has secretly trained at the Ecruteak City Gym his entire life. As a result, he can now see what others cannot.\n',
+            type: 'Ghost',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Morty & Drifblim']
         }
         ,
         {
             name: 'Nanu',
             info: 'This kahuna works as a police officer in the Alola region. He appears lazy, but he is truly skilled in Pokémon battles and also deeply compassionate.\n',
             type: 'Dark',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: '',
             pokemon_list: ['Nanu & Persian']
         }
@@ -590,7 +589,7 @@ module.exports = {
             name: 'Noland',
             info: 'Known for being a bit gruff, this Frontier Brain takes on Trainers and Pokémon with passion. As Factory Head, he also has deep knowledge of Pokémon.\n',
             type: 'Bug',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Noland & Mega Pinsir', 'Noland & Pinsir']
         }
@@ -599,7 +598,7 @@ module.exports = {
             name: 'Norman',
             info: 'This Gym Leader is a serious, stoic family man who never neglects his training to become stronger—nor caring for his family—in his pursuit of victory.\n',
             type: 'Normal',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Norman & Slaking']
         }
@@ -607,7 +606,7 @@ module.exports = {
         {
             name: 'Oak',
             info: 'This pioneering Pokémon Professor was an accomplished Trainer in his heyday and has since become an authority on Pokémon research. He is also Blue’s grandfather.',
-            Type: 'Psychic',
+            type: 'Psychic',
             base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Oak & Mew', 'Oak & Mew (After Sync)']
@@ -633,18 +632,40 @@ module.exports = {
         ,
         {
             name: 'Player',
-            info: "A new Trainer on a new adventure with [EN:Gen Ref='255' M='his' F='her' ] Pokémon, ready to take [EN:Gen Ref='255' M='his' F='her' ] important first steps toward becoming a Pokémon master.\n",
-            type: 'Electric',
+            info: 'Player\n',
+            type: 'Bug',
+            base_potential: null,
+            recruit_method: '',
+            pokemon_list: [
+                'Player & Torchic',
+                'Player & Pikachu',
+                'Player & Solgaleo',
+                'Player & Bulbasaur',
+                'Player & Ivysaur',
+                'Player & Venusaur',
+                'Player & Charmander',
+                'Player & Charmeleon',
+                'Player & Charizard',
+                'Player & Squirtle',
+                'Player & Wartortle',
+                'Player & Blastoise'
+            ]
+        }
+        ,
+        {
+            name: 'Plumeria',
+            info: 'This Team Skull Admin controls the rest of the team and is seen as something of a big sister type. She looks after the Grunts and won’t forgive anyone who bullies them.\n',
+            type: 'Poison',
             base_potential: 5,
-            recruit_method: 'Starting Trainer',
-            pokemon_list: ['Player & Torchic', 'Player & Pikachu', 'Player & Solgaleo']
+            recruit_method: '',
+            pokemon_list: ['Plumeria & Salazzle']
         }
         ,
         {
             name: 'Pryce',
             info: 'This veteran Gym Leader with over 50 years experience is known as the Winter Trainer. He stays healthy with his daily routine of early morning Pokémon battling.\n',
             type: 'Ice',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Pryce & Seel', 'Pryce & Dewgong']
         }
@@ -653,7 +674,7 @@ module.exports = {
             name: 'Ramos',
             info: 'An elderly Grass-type Gym Leader with a calm nature, his work as a gardener keeps him physically strong. He’ll go wherever he needs to to harvest his favorite tea leaves.\n',
             type: 'Grass',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Ramos & Weepinbell', 'Ramos & Victreebel']
         }
@@ -671,7 +692,7 @@ module.exports = {
             name: 'Roark',
             info: 'A Gym Leader who uses Rock types and works in a mine, he’s good at digging holes and likes to collect fossils. He respects his father, Byron, who is also a Gym Leader.\n',
             type: 'Rock',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Roark & Cranidos', 'Roark & Rampardos']
         }
@@ -682,14 +703,19 @@ module.exports = {
             type: 'Grass',
             base_potential: 5,
             recruit_method: 'Story Progression',
-            pokemon_list: ['Rosa & Servine', 'Rosa & Snivy', 'Rosa & Serperior']
+            pokemon_list: [
+                'Rosa & Servine',
+                'Rosa & Snivy',
+                'Rosa & Serperior',
+                'Rosa & Delibird'
+            ]
         }
         ,
         {
             name: 'Roxanne',
             info: 'An honors student at the Trainers’ School and a proud, skillful Gym Leader, she loves Rock-type Pokémon and fossils.\n',
             type: 'Rock',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Roxanne & Nosepass', 'Roxanne & Probopass']
         }
@@ -698,7 +724,7 @@ module.exports = {
             name: 'Roxie',
             info: 'Highly popular in the Unova region, this bassist balances her time between her band and being a Poison-type Gym Leader.\n',
             type: 'Poison',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Roxie & Whirlipede', 'Roxie & Scolipede']
         }
@@ -713,37 +739,46 @@ module.exports = {
         }
         ,
         {
-            name: 'Shauntal',
-            info: 'While she is one of the Unova Pokémon League’s Elite Four, she is also a novelist who sometimes uses Trainers who challenge her as material for her books.\n',
-            type: 'Ghost',
+            name: 'Serena',
+            info: 'This Trainer from Kalos loves Pokémon and fashion. She’s usually cheerful and upbeat, but when a battle starts, her demeanor shifts, revealing her calm, serious side.\n',
+            type: 'Fire',
             base_potential: 5,
             recruit_method: 'Sync Pair Scout',
-            pokemon_list: ['Shauntal & Chandelure']
+            pokemon_list: ['Serena & Fennekin', 'Serena & Braixen', 'Serena & Delphox']
         }
         ,
         {
-            name: 'Christmas Siebold',
-            info: 'Though his uniform has changed, Siebold remains a chef at heart. He is working on his newest recipe, a lavish delicacy featuring Octillery ink.\n',
-            type: 'Water',
-            base_potential: 5,
+            name: 'Shauntal',
+            info: 'While she is one of the Unova Pokémon League’s Elite Four, she is also a novelist who sometimes uses Trainers who challenge her as material for her books.\n',
+            type: 'Ghost',
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
-            pokemon_list: ['Siebold & Octillery']
+            pokemon_list: ['Shauntal & Chandelure']
         }
         ,
         {
             name: 'Siebold',
             info: 'This member of the Elite Four is serious about both cooking and Pokémon battles, striving to perfect them as works of art. His skill in both fields is undeniable.\n',
             type: 'Water',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
-            pokemon_list: ['Siebold & Clawitzer']
+            pokemon_list: ['Siebold & Clawitzer', 'Siebold & Octillery']
+        }
+        ,
+        {
+            name: 'Silver',
+            info: 'Although known for aiming to be the strongest Trainer in the world, this boy no longer cares about strength alone. He’s also realized the importance of a kind heart.\n',
+            type: 'Fire',
+            base_potential: 5,
+            recruit_method: '',
+            pokemon_list: ['Silver & Ho-Oh']
         }
         ,
         {
             name: 'Skyla',
             info: 'Normally a cargo plane pilot, this Gym Leader flies through the sky with her Pokémon. Her cheery personality has earned her many fans.\n',
             type: 'Flying',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Story Progression',
             pokemon_list: ['Skyla & Swanna']
         }
@@ -752,7 +787,7 @@ module.exports = {
             name: 'Sophocles',
             info: 'This young Trainer serves as one of the captains of the Alola region. Despite his youthfulness, he is an awesome engineer who has invented many devices.\n',
             type: 'Electric',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Sophocles & Togedemaru']
         }
@@ -770,7 +805,7 @@ module.exports = {
             name: 'Tate',
             info: 'This telepathic Gym Leader is Liza’s twin. They are more skilled at battling together than alone, though sometimes they do disagree with each other.\n',
             type: 'Psychic',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Tate & Solrock']
         }
@@ -779,7 +814,7 @@ module.exports = {
             name: 'Thorton',
             info: 'He analyzes his opponents, and his knowledge of and skills with any Pokémon are the real deal. As Factory Head, he battles challengers.\n',
             type: 'Steel',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Thorton & Bronzong']
         }
@@ -788,7 +823,7 @@ module.exports = {
             name: 'Valerie',
             info: 'A unique Trainer in both looks and mannerisms, she began designing Pokémon-inspired clothes in the hope that someday she could become a Pokémon.\n',
             type: 'Fairy',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: '',
             pokemon_list: ['Valerie & Sylveon']
         }
@@ -797,16 +832,34 @@ module.exports = {
             name: 'Viola',
             info: 'A well-traveled camerawoman who is also a Bug-type Gym Leader, she often goes out with her older sister, Alexa.\n',
             type: 'Bug',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: '',
             pokemon_list: ['Viola & Surskit', 'Viola & Masquerain']
+        }
+        ,
+        {
+            name: 'Wallace',
+            info: 'A Gym Leader referred to as the “Prince of Water,” he carries an air of refinement about him. His elegant battle style has earned him many fans.\n',
+            type: 'Water',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Wallace & Milotic']
+        }
+        ,
+        {
+            name: 'Wally',
+            info: 'Known as a boy who loves Pokémon, adventures, and battling, he has put everything into growing stronger as a Pokémon Trainer.\n',
+            type: 'Fighting',
+            base_potential: 5,
+            recruit_method: 'Sync Pair Scout',
+            pokemon_list: ['Wally & Gallade', 'Wally & Mega Gallade']
         }
         ,
         {
             name: 'Whitney',
             info: 'A lively, talkative, trend-following Gym Leader who’s proud of her cute Pokémon, she cries in disappointment when she loses a battle.\n',
             type: 'Normal',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Whitney & Miltank']
         }
@@ -815,7 +868,7 @@ module.exports = {
             name: 'Wikstrom',
             info: 'A Steel-type Pokémon user and member of the Elite Four who wears armor, he battles his opponents chivalrously and acknowledges their strength with respect.\n',
             type: 'Steel',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: [
                 'Wikstrom & Aegislash (Shield Forme)',
@@ -827,7 +880,7 @@ module.exports = {
             name: 'Will',
             info: 'This stoic, masked Trainer has traveled the world and trained constantly in his pursuit of strength, rising to become one of Kanto’s Elite Four.\n',
             type: 'Psychic',
-            base_potential: 5,
+            base_potential: 4,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Will & Xatu']
         }
@@ -836,7 +889,7 @@ module.exports = {
             name: 'Winona',
             info: 'This Gym Leader loves bird Pokémon more than anything. She has passionate fans in the Fortree City Gym thanks to her graceful appearance.\n',
             type: 'Flying',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Winona & Pelipper']
         }
@@ -845,7 +898,7 @@ module.exports = {
             name: 'Wulfric',
             info: 'A lover of Ice-type Pokémon and a family man, this Gym Leader cried when he saw the Brycen-Man movie and became a huge fan.\n',
             type: 'Ice',
-            base_potential: 5,
+            base_potential: 3,
             recruit_method: 'Sync Pair Scout',
             pokemon_list: ['Wulfric & Avalugg']
         }
@@ -858,5 +911,7 @@ module.exports = {
             recruit_method: '',
             pokemon_list: ['Zinnia & Rayquaza']
         }
+        ,
+
     ]
 };

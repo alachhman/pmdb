@@ -1,758 +1,12 @@
 module.exports = {
     pokemon: [
         {
-            "name": "Ho-Oh",
-            "type1": "Fire",
-            "type2": "",
-            "weakness": "Water",
-            "role": "Strike (Physical)",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0250_00_houou_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 20, "defense": 7, "hp": 84, "speed": 12, "sp_atk": 20, "sp_def": 8},
-                "max": {
-                    "attack": 224,
-                    "bulk": 462,
-                    "defense": 130,
-                    "hp": 553,
-                    "speed": 231,
-                    "sp_atk": 204,
-                    "sp_def": 131
-                }
-            },
-            "moves": [{
-                "name": "Overheat",
-                "type": "Fire",
-                "category": "Special",
-                "power": {"min_power": 136, "max_power": 163},
-                "accuracy": 90,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Sharply lowers the user’s Sp. Atk.",
-                "unlock_requirements": []
-            }, {
-                "name": "Solar Beam",
-                "type": "Grass",
-                "category": "Special",
-                "power": {"min_power": 125, "max_power": 150},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.",
-                "unlock_requirements": []
-            }, {
-                "name": "I’ll Show You!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s evasiveness and critical-hit rate. These stats are sharply raised when the weather is sunny.",
-                "unlock_requirements": []
-            }, {
-                "name": "Sacred Fire",
-                "type": "Fire",
-                "category": "Physical",
-                "power": {"min_power": 87, "max_power": 104},
-                "accuracy": 95,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Removes the frozen condition from the user. Has a good chance of leaving the target burned.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Power-Hungry Sacred Fire",
-                "type": " Fire",
-                "category": "Physical",
-                "power": {"min_power": 250, "max_power": 300},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "No additional effect."
-            },
-            "passives": [{
-                "name": "Charging Sun 6",
-                "description": "Powers up moves when the weather is sunny."
-            }, {
-                "name": "Speeding Sun 2",
-                "description": "Quickly charges the move gauge when the weather is sunny."
-            }, {"name": "Solarize", "description": "Makes the weather sunny after using a sync move."}]
-        },
-        {
-            "name": "Milotic",
-            "type1": "Water",
-            "type2": "",
-            "weakness": "Electric",
-            "role": "Tech",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0350_01_milokaross_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 9, "defense": 14, "hp": 128, "speed": 16, "sp_atk": 12, "sp_def": 16},
-                "max": {
-                    "attack": 102,
-                    "bulk": 567,
-                    "defense": 134,
-                    "hp": 740,
-                    "speed": 224,
-                    "sp_atk": 300,
-                    "sp_def": 164
-                }
-            },
-            "moves": [{
-                "name": "Brine",
-                "type": "Water",
-                "category": "Special",
-                "power": {"min_power": 38, "max_power": 45},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Its power is doubled if the target’s HP is at half or below.",
-                "unlock_requirements": []
-            }, {
-                "name": "Whirlpool",
-                "type": "Water",
-                "category": "Special",
-                "power": {"min_power": 38, "max_power": 45},
-                "accuracy": 85,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Leaves the target trapped.",
-                "unlock_requirements": []
-            }, {
-                "name": "Grand Illusion!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Allied side",
-                "cost": "",
-                "uses": 1,
-                "effect": "Reflects status conditions directed toward the allied field of play on the opponent instead. Makes the user able to endure the next hit it takes.",
-                "unlock_requirements": []
-            }, {
-                "name": "Mirror Coat",
-                "type": "Psychic",
-                "category": "Special",
-                "power": {"min_power": 100, "max_power": 120},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "The user takes up a counterattacking posture. Using this move again will cause the user to leave this posture. No other actions can be taken while in this posture. The user will attack if hit by a special move while it is in this counterattacking posture, then the user leaves this posture. The more damage the user has taken from the opponent’s move, the greater the power of this move.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Aquatic Prince Hydro Pump",
-                "type": " Water",
-                "category": "Special",
-                "power": {"min_power": 200, "max_power": 240},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "Its power increases if the target is trapped."
-            },
-            "passives": [{
-                "name": "Stationary Target 5",
-                "description": "Powers up moves when the target is trapped."
-            }, {
-                "name": "Pokey Trap 5",
-                "description": "Increases the amount of damage the target takes from being trapped."
-            }, {"name": "Recuperation 2", "description": "Restores the user’s HP after using a sync move."}]
-        },
-        {
-            "name": "Gallade",
-            "type1": "Fighting",
-            "type2": "",
-            "weakness": "Ghost",
-            "role": "Strike (Physical)",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_00_erureido_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 18, "defense": 9, "hp": 81, "speed": 12, "sp_atk": 17, "sp_def": 16},
-                "max": {
-                    "attack": 343,
-                    "bulk": 440,
-                    "defense": 123,
-                    "hp": 465,
-                    "speed": 220,
-                    "sp_atk": 306,
-                    "sp_def": 148
-                }
-            },
-            "moves": [{
-                "name": "Low Sweep",
-                "type": "Fighting",
-                "category": "Physical",
-                "power": {"min_power": 30, "max_power": 36},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Lowers the target’s Speed.",
-                "unlock_requirements": []
-            }, {
-                "name": "Dire Hit",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s critical-hit rate.",
-                "unlock_requirements": []
-            }, {
-                "name": "Focus Blast",
-                "type": "Fighting",
-                "category": "Special",
-                "power": {"min_power": 142, "max_power": 170},
-                "accuracy": 70,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Has a very small chance of lowering the target’s Sp. Def.",
-                "unlock_requirements": []
-            }, {
-                "name": "Here I Come!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Rallying Close Combat",
-                "type": " Fighting",
-                "category": "Physical",
-                "power": {"min_power": 160, "max_power": 192},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate."
-            },
-            "passives": [{
-                "name": "Posthaste 9",
-                "description": "Sharply raises the user’s Speed when the user is hit by an attack move."
-            }]
-        },
-        {
-            "name": "Steelix",
-            "type1": "Steel",
-            "type2": "",
-            "weakness": "Water",
-            "role": "Support",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_01_haganeil_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 8, "defense": 17, "hp": 140, "speed": 9, "sp_atk": 10, "sp_def": 16},
-                "max": {
-                    "attack": 140,
-                    "bulk": 674,
-                    "defense": 300,
-                    "hp": 520,
-                    "speed": 140,
-                    "sp_atk": 120,
-                    "sp_def": 185
-                }
-            },
-            "moves": [{
-                "name": "Gyro Ball",
-                "type": "Steel",
-                "category": "Physical",
-                "power": {"min_power": 44, "max_power": 52},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Its power is doubled if the target’s Speed has risen.",
-                "unlock_requirements": []
-            }, {
-                "name": "X Defense All",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "All allies",
-                "cost": "",
-                "uses": 2,
-                "effect": "Sharply raises the Defense of all allied sync pairs.",
-                "unlock_requirements": []
-            }, {
-                "name": "Clang!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Allied side",
-                "cost": "",
-                "uses": 2,
-                "effect": "Blocks both critical hits and stat-lowering effects from affecting the allied field of play.",
-                "unlock_requirements": []
-            }, {
-                "name": "Iron Tail",
-                "type": "Steel",
-                "category": "Physical",
-                "power": {"min_power": 132, "max_power": 158},
-                "accuracy": 75,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Has a moderate chance of lowering the target’s Defense.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Steel-Clad Iron Tail",
-                "type": " Steel",
-                "category": "Physical",
-                "power": {"min_power": 160, "max_power": 192},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move."
-            },
-            "passives": [{
-                "name": "Endurance",
-                "description": "If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left."
-            }]
-        },
-        {
-            "name": "Mega Gallade",
-            "type1": "Fighting",
-            "type2": "",
-            "weakness": "Ghost",
-            "role": "Strike (Physical)",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_51_megaerureido_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 21, "defense": 9, "hp": 81, "speed": 12, "sp_atk": 20, "sp_def": 16},
-                "max": {
-                    "attack": 411,
-                    "bulk": 440,
-                    "defense": 123,
-                    "hp": 465,
-                    "speed": 220,
-                    "sp_atk": 367,
-                    "sp_def": 148
-                }
-            },
-            "moves": [{
-                "name": "Close Combat",
-                "type": "Fighting",
-                "category": "Physical",
-                "power": {"min_power": 124, "max_power": 148},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Lowers the user’s Defense and Sp. Def.",
-                "unlock_requirements": []
-            }, {
-                "name": "Dire Hit",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s critical-hit rate.",
-                "unlock_requirements": []
-            }, {
-                "name": "Focus Blast",
-                "type": "Fighting",
-                "category": "Special",
-                "power": {"min_power": 142, "max_power": 170},
-                "accuracy": 70,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Has a very small chance of lowering the target’s Sp. Def.",
-                "unlock_requirements": []
-            }, {
-                "name": "Here I Come!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Rallying Close Combat",
-                "type": " Fighting",
-                "category": "Physical",
-                "power": {"min_power": 160, "max_power": 192},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate."
-            },
-            "passives": [{
-                "name": "Posthaste 9",
-                "description": "Sharply raises the user’s Speed when the user is hit by an attack move."
-            }, {"name": "Zero In 1", "description": "Critical hits land more easily when an attack move is used."}]
-        },
-        {
-            "name": "Mega Steelix",
-            "type1": "Steel",
-            "type2": "",
-            "weakness": "Water",
-            "role": "Support",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_51_megahaganeil_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 9, "defense": 20, "hp": 140, "speed": 9, "sp_atk": 10, "sp_def": 16},
-                "max": {
-                    "attack": 168,
-                    "bulk": 734,
-                    "defense": 360,
-                    "hp": 520,
-                    "speed": 140,
-                    "sp_atk": 120,
-                    "sp_def": 185
-                }
-            },
-            "moves": [{
-                "name": "Gyro Ball",
-                "type": "Steel",
-                "category": "Physical",
-                "power": {"min_power": 44, "max_power": 52},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Its power is doubled if the target’s Speed has risen.",
-                "unlock_requirements": []
-            }, {
-                "name": "X Defense All",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "All allies",
-                "cost": "",
-                "uses": 2,
-                "effect": "Sharply raises the Defense of all allied sync pairs.",
-                "unlock_requirements": []
-            }, {
-                "name": "Clang!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Allied side",
-                "cost": "",
-                "uses": 2,
-                "effect": "Blocks both critical hits and stat-lowering effects from affecting the allied field of play.",
-                "unlock_requirements": []
-            }, {
-                "name": "Iron Tail",
-                "type": "Steel",
-                "category": "Physical",
-                "power": {"min_power": 132, "max_power": 158},
-                "accuracy": 75,
-                "target": "An opponent",
-                "cost": 3,
-                "uses": null,
-                "effect": "Has a moderate chance of lowering the target’s Defense.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Steel-Clad Iron Tail",
-                "type": " Steel",
-                "category": "Physical",
-                "power": {"min_power": 160, "max_power": 192},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move."
-            },
-            "passives": [{
-                "name": "Endurance",
-                "description": "If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left."
-            }, {"name": "Last Word", "description": "The Pokémon uses Explosion immediately before fainting."}]
-        },
-        {
-            "name": "Golisopod",
-            "type1": "Bug",
-            "type2": "",
-            "weakness": "Electric",
-            "role": "Strike (Physical)",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0867_00_gusokumushi2_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 21, "defense": 15, "hp": 83, "speed": 8, "sp_atk": 7, "sp_def": 12},
-                "max": {
-                    "attack": 401,
-                    "bulk": 462,
-                    "defense": 189,
-                    "hp": 446,
-                    "speed": 198,
-                    "sp_atk": 155,
-                    "sp_def": 111
-                }
-            },
-            "moves": [{
-                "name": "Pin Missile",
-                "type": "Bug",
-                "category": "Physical",
-                "power": {"min_power": 16, "max_power": 19},
-                "accuracy": 95,
-                "target": "An opponent",
-                "cost": 2,
-                "uses": null,
-                "effect": "Attacks the target two to five times in a row.",
-                "unlock_requirements": []
-            }, {
-                "name": "Dire Hit +",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Sharply raises the user’s critical-hit rate.",
-                "unlock_requirements": []
-            }, {
-                "name": "First Impression",
-                "type": "Bug",
-                "category": "Physical",
-                "power": {"min_power": 200, "max_power": 240},
-                "accuracy": 100,
-                "target": "An opponent",
-                "cost": "",
-                "uses": 3,
-                "effect": "This move fails if this sync pair has used any moves since entering battle.",
-                "unlock_requirements": []
-            }, {
-                "name": "Beat ’Em Down!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Uses a maximum of three slots of the user’s move gauge. Based on the amount used, this move raises the user’s Attack and Defense by up to four stat ranks.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Your Boy’s X-Scissor",
-                "type": " Bug",
-                "category": "Physical",
-                "power": {"min_power": 250, "max_power": 300},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "No additional effect."
-            },
-            "passives": [{
-                "name": "Danger Dodge 2",
-                "description": "Sharply raises the user’s evasiveness when the user’s HP drops to half or below for the first time in a battle."
-            }]
-        },
-        {
-            "name": "Salazzle",
-            "type1": "Poison",
-            "type2": "",
-            "weakness": "Water",
-            "role": "Strike (Special)",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0806_00_dokutokage2_256.ktx_.png",
-            "stats": {
-                "base": {"attack": 7, "defense": 9, "hp": 80, "speed": 20, "sp_atk": 22, "sp_def": 9},
-                "max": {
-                    "attack": 100,
-                    "bulk": 455,
-                    "defense": 141,
-                    "hp": 476,
-                    "speed": 404,
-                    "sp_atk": 272,
-                    "sp_def": 141
-                }
-            },
-            "moves": [{
-                "name": "Smog",
-                "type": "Poison",
-                "category": "Special",
-                "power": {"min_power": 21, "max_power": 25},
-                "accuracy": 70,
-                "target": "An opponent",
-                "cost": 1,
-                "uses": null,
-                "effect": "Has a moderately good chance of leaving the target poisoned.",
-                "unlock_requirements": []
-            }, {
-                "name": "Move Gauge Boost",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Increases the user’s move gauge by three.",
-                "unlock_requirements": []
-            }, {
-                "name": "Sludge Wave",
-                "type": "Poison",
-                "category": "Special",
-                "power": {"min_power": 97, "max_power": 116},
-                "accuracy": 100,
-                "target": "All opponents",
-                "cost": 3,
-                "uses": null,
-                "effect": "Has a very small chance of leaving the target poisoned.",
-                "unlock_requirements": []
-            }, {
-                "name": "Outta My Way!",
-                "type": "",
-                "category": "Status Effect",
-                "power": {"min_power": 0, "max_power": 0},
-                "accuracy": 0,
-                "target": "Self",
-                "cost": "",
-                "uses": 2,
-                "effect": "Raises the user’s Sp. Atk and Speed by up to three stat ranks based on the amount remaining in the user’s move gauge.",
-                "unlock_requirements": []
-            }],
-            "syncMove": {
-                "name": "Wicked Enforcer Acid Downpour",
-                "type": " Poison",
-                "category": "Special",
-                "power": {"min_power": 250, "max_power": 300},
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "No additional effect."
-            },
-            "passives": [{
-                "name": "Superduper Effective 2",
-                "description": "Powers up moves that are super effective."
-            }, {
-                "name": "Antitoxin",
-                "description": "Prevents the Pokémon from getting poisoned or badly poisoned."
-            }, {"name": "Flameproof", "description": "Prevents the Pokémon from getting burned."}]
-        },
-        {
-            "name": "Heliolisk",
-            "type1": "Electric",
-            "type2": "",
-            "weakness": "Fighting",
-            "role": "Tech",
-            "image": "/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0732_00_frilledlizard2_256.ktx_.png",
-            "stats": {
-                "base": {
-                    "attack": 10,
-                    "defense": 14,
-                    "hp": 99,
-                    "speed": 19,
-                    "sp_atk": 16,
-                    "sp_def": 14
-                },
-                "max": {
-                    "attack": 103,
-                    "bulk": 556,
-                    "defense": 184,
-                    "hp": 518,
-                    "speed": 383,
-                    "sp_atk": 261,
-                    "sp_def": 184
-                }
-            },
-            "moves": [
-                {
-                    "name": "Electroweb",
-                    "type": "Electric",
-                    "category": "Special",
-                    "power": {
-                        "min_power": 39,
-                        "max_power": 46
-                    },
-                    "accuracy": 95,
-                    "target": "All opponents",
-                    "cost": 2,
-                    "uses": null,
-                    "effect": "Lowers the target’s Speed.",
-                    "unlock_requirements": []
-                },
-                {
-                    "name": "Mud-Slap",
-                    "type": "Ground",
-                    "category": "Special",
-                    "power": {
-                        "min_power": 13,
-                        "max_power": 15
-                    },
-                    "accuracy": 90,
-                    "target": "An opponent",
-                    "cost": 1,
-                    "uses": null,
-                    "effect": "Lowers the target’s accuracy.",
-                    "unlock_requirements": []
-                },
-                {
-                    "name": "Activate!",
-                    "type": "",
-                    "category": "Status Effect",
-                    "power": {
-                        "min_power": 0,
-                        "max_power": 0
-                    },
-                    "accuracy": 0,
-                    "target": "Self",
-                    "cost": "",
-                    "uses": 2,
-                    "effect": "Raises the user’s Speed and evasiveness. Ensures that the user’s next attack will be a critical hit.",
-                    "unlock_requirements": []
-                },
-                {
-                    "name": "Parabolic Charge",
-                    "type": "Electric",
-                    "category": "Special",
-                    "power": {
-                        "min_power": 46,
-                        "max_power": 55
-                    },
-                    "accuracy": 100,
-                    "target": "All opponents",
-                    "cost": 2,
-                    "uses": null,
-                    "effect": "Restores the user’s HP based on the amount of damage dealt to the target.",
-                    "unlock_requirements": []
-                }
-            ],
-            "syncMove": {
-                "name": "Light-Up-the-World Thunderbolt",
-                "type": " Electric",
-                "category": "Special",
-                "power": {
-                    "min_power": 200,
-                    "max_power": 240
-                },
-                "target": "An opponent",
-                "effect_tag": "-",
-                "description": "The more the target’s Speed is lowered, the greater the power of this move."
-            },
-            "passives": [
-                {
-                    "name": "Piercing Gaze",
-                    "description": "Moves never miss."
-                },
-                {
-                    "name": "Charging Sun 5",
-                    "description": "Powers up moves when the weather is sunny."
-                },
-                {
-                    "name": "HP Advantage 4",
-                    "description": "The more HP the user has remaining, the more it powers up moves."
-                }
-            ]
-        },
-        {
             name: 'Abomasnow',
+            trainer: 'Candice',
             type1: 'Ice',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0460_01_yukinooh_256.ktx.png',
             stats: {
@@ -766,7 +20,7 @@ module.exports = {
                 },
                 max: {
                     attack: 218,
-                    bulk: 433,
+                    bulk: 623,
                     defense: 123,
                     hp: 510,
                     speed: 230,
@@ -774,6 +28,7 @@ module.exports = {
                     sp_def: 125
                 }
             },
+            bulk: '623',
             moves: [
                 {
                     name: 'Ice Punch',
@@ -847,14 +102,17 @@ module.exports = {
                     name: 'Snow Shelter',
                     description: 'Protects the Pokémon from damage from a hailstorm.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Aegislash (Blade Forme)',
+            trainer: 'Wikstrom',
             type1: 'Steel',
             type2: '',
             weakness: 'Fire',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0746_12_sword3_256.ktx.png',
             stats: {
@@ -868,7 +126,7 @@ module.exports = {
                 },
                 max: {
                     attack: 249,
-                    bulk: 320,
+                    bulk: 438,
                     defense: 64,
                     hp: 529,
                     speed: 258,
@@ -876,6 +134,7 @@ module.exports = {
                     sp_def: 64
                 }
             },
+            bulk: '438',
             moves: [
                 {
                     name: 'Gyro Ball',
@@ -898,7 +157,7 @@ module.exports = {
                     target: 'Self',
                     cost: 2,
                     uses: 2,
-                    effect: 'The user takes up a defensive posture. Using this move again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies moves that target the user while it is in this defensive posture. Sharply lowers the Attack of opponents that use physical moves to attack the user while it is in this defensive posture.',
+                    effect: 'The user takes up a defensive posture. Using this move again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies an attack move that targets the user while it is in this defensive posture, then the user leaves the defensive posture. If the move was a physical attack move, sharply lowers the Attack of the opponent that used it.',
                     unlock_requirements: []
                 },
                 {
@@ -949,14 +208,17 @@ module.exports = {
                     name: 'Stance Change',
                     description: 'Changes to Blade Forme when the Pokémon attacks. Changes to Shield Forme when the Pokémon uses King’s Shield or switches out.'
                 }
-            ]
+            ],
+            otherForms: ['Aegislash (Shield Forme)']
         }
         ,
         {
             name: 'Aegislash (Shield Forme)',
+            trainer: 'Wikstrom',
             type1: 'Steel',
             type2: '',
             weakness: 'Fire',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0746_11_sword3_256.ktx.png',
             stats: {
@@ -970,7 +232,7 @@ module.exports = {
                 },
                 max: {
                     attack: 83,
-                    bulk: 622,
+                    bulk: 748,
                     defense: 215,
                     hp: 529,
                     speed: 258,
@@ -978,6 +240,7 @@ module.exports = {
                     sp_def: 215
                 }
             },
+            bulk: '748',
             moves: [
                 {
                     name: 'Gyro Ball',
@@ -1000,7 +263,7 @@ module.exports = {
                     target: 'Self',
                     cost: 2,
                     uses: 2,
-                    effect: 'The user takes up a defensive posture. Using this move again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies moves that target the user while it is in this defensive posture. Sharply lowers the Attack of opponents that use physical moves to attack the user while it is in this defensive posture.',
+                    effect: 'The user takes up a defensive posture. Using this move again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies an attack move that targets the user while it is in this defensive posture, then the user leaves the defensive posture. If the move was a physical attack move, sharply lowers the Attack of the opponent that used it.',
                     unlock_requirements: []
                 },
                 {
@@ -1051,14 +314,17 @@ module.exports = {
                     name: 'Stance Change',
                     description: 'Changes to Blade Forme when the Pokémon attacks. Changes to Shield Forme when the Pokémon uses King’s Shield or switches out.'
                 }
-            ]
+            ],
+            otherForms: ['Aegislash (Blade Forme)']
         }
         ,
         {
             name: 'Alakazam',
+            trainer: 'Sabrina',
             type1: 'Psychic',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0065_00_foodin_256.ktx_.png',
             stats: {
@@ -1072,7 +338,7 @@ module.exports = {
                 },
                 max: {
                     attack: 63,
-                    bulk: 584,
+                    bulk: 701,
                     defense: 160,
                     hp: 492,
                     speed: 326,
@@ -1080,6 +346,7 @@ module.exports = {
                     sp_def: 246
                 }
             },
+            bulk: '701',
             moves: [
                 {
                     name: 'Psybeam',
@@ -1149,14 +416,17 @@ module.exports = {
                     description: 'Raises the user’s Speed when the Pokémon enters a battle.'
                 },
                 {name: 'Dauntless', description: 'Sp. Atk cannot be lowered.'}
-            ]
+            ],
+            otherForms: ['Mega Alakazam']
         }
         ,
         {
             name: 'Amaura',
+            trainer: 'Grant',
             type1: 'Rock',
             type2: '',
             weakness: 'Steel',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0739_00_aurora1_256.ktx.png',
             stats: {
@@ -1170,7 +440,7 @@ module.exports = {
                 },
                 max: {
                     attack: 176,
-                    bulk: 508,
+                    bulk: 631,
                     defense: 144,
                     hp: 565,
                     speed: 262,
@@ -1178,6 +448,7 @@ module.exports = {
                     sp_def: 159
                 }
             },
+            bulk: '631',
             moves: [
                 {
                     name: 'Rock Tomb',
@@ -1255,14 +526,114 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Aurorus']
+        }
+        ,
+        {
+            name: 'Arbok',
+            trainer: 'Jessie',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0024_00_arbok_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 68,
+                    speed: 13,
+                    sp_atk: 11,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 229,
+                    bulk: 375,
+                    defense: 112,
+                    hp: 399,
+                    speed: 274,
+                    sp_atk: 228,
+                    sp_def: 118
+                }
+            },
+            bulk: '375',
+            moves: [
+                {
+                    name: 'Acid',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 19, max_power: 22},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Jab',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Blast Off!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Removes all status conditions from the user. Sharply raises the user’s Attack and Sp. Atk. Lowers the user’s Defense and Sp. Def.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Prepare for Trouble Acid',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Toxic Power 5',
+                    description: 'Powers up moves when the target is poisoned or badly poisoned.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Arcanine',
+            trainer: 'Marley',
             type1: 'Fire',
             type2: '',
             weakness: 'Ground',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0059_00_windie_256.ktx.png',
             stats: {
@@ -1276,7 +647,7 @@ module.exports = {
                 },
                 max: {
                     attack: 169,
-                    bulk: 584,
+                    bulk: 782,
                     defense: 191,
                     hp: 607,
                     speed: 213,
@@ -1284,6 +655,7 @@ module.exports = {
                     sp_def: 173
                 }
             },
+            bulk: '782',
             moves: [
                 {
                     name: 'Flame Wheel',
@@ -1348,14 +720,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'The more the user’s Speed has been raised, the greater the power of this move.'
             },
-            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}]
+            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Ariados',
+            trainer: 'Janine',
             type1: 'Poison',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0168_00_ariados_256.ktx.png',
             stats: {
@@ -1369,7 +744,7 @@ module.exports = {
                 },
                 max: {
                     attack: 206,
-                    bulk: 477,
+                    bulk: 669,
                     defense: 159,
                     hp: 451,
                     speed: 227,
@@ -1377,6 +752,7 @@ module.exports = {
                     sp_def: 154
                 }
             },
+            bulk: '669',
             moves: [
                 {
                     name: 'Cross Poison',
@@ -1446,14 +822,17 @@ module.exports = {
                     name: 'Hostile Environment 1',
                     description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Aurorus',
+            trainer: 'Grant',
             type1: 'Rock',
             type2: '',
             weakness: 'Steel',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0740_00_aurora2_256.ktx_.png',
             stats: {
@@ -1467,7 +846,7 @@ module.exports = {
                 },
                 max: {
                     attack: 184,
-                    bulk: 531,
+                    bulk: 655,
                     defense: 148,
                     hp: 582,
                     speed: 267,
@@ -1475,6 +854,7 @@ module.exports = {
                     sp_def: 172
                 }
             },
+            bulk: '655',
             moves: [
                 {
                     name: 'Rock Tomb',
@@ -1547,21 +927,24 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Amaura']
         }
         ,
         {
             name: 'Avalugg',
+            trainer: 'Wulfric',
             type1: 'Ice',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0751_00_ice3_256.ktx.png',
             stats: {
                 base: {attack: 17, defense: 10, hp: 90, speed: 9, sp_atk: 3, sp_def: 5},
                 max: {
                     attack: 306,
-                    bulk: 395,
+                    bulk: 581,
                     defense: 118,
                     hp: 493,
                     speed: 100,
@@ -1569,6 +952,7 @@ module.exports = {
                     sp_def: 98
                 }
             },
+            bulk: '581',
             moves: [
                 {
                     name: 'Ice Fang',
@@ -1603,7 +987,7 @@ module.exports = {
                     target: 'An opponent',
                     cost: 2,
                     uses: null,
-                    effect: 'The user gets ready to counterattack. Using this move again will cause the user to attack the target. No other actions can be taken while ready to counterattack. If the user is attacked with a move while ready to counterattack, the user then attacks the target with double that power.',
+                    effect: 'The user takes up a counterattacking posture. Using this move again will cause the user to attack, then leave this posture. No other actions can be taken while in this posture. If hit by an attack move while in this counterattacking posture, the user attacks the target with double that power, then the user leaves this posture.',
                     unlock_requirements: ['Training Machine x5']
                 },
                 {
@@ -1638,14 +1022,17 @@ module.exports = {
                     name: 'Clearheaded',
                     description: 'Prevents the Pokémon from becoming confused.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Bayleef',
+            trainer: 'Lyra',
             type1: 'Grass',
             type2: '',
             weakness: 'Fire',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0153_00_bayleaf_256.ktx.png',
             stats: {
@@ -1659,7 +1046,7 @@ module.exports = {
                 },
                 max: {
                     attack: 127,
-                    bulk: 556,
+                    bulk: 672,
                     defense: 119,
                     hp: 771,
                     speed: 171,
@@ -1667,6 +1054,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '672',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -1736,21 +1124,24 @@ module.exports = {
                     name: 'Solar Shield',
                     description: 'The Pokémon is not affected by status conditions when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Chikorita', 'Meganium']
         }
         ,
         {
             name: 'Beedrill',
+            trainer: 'Bugsy',
             type1: 'Bug',
             type2: '',
             weakness: 'Rock',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0015_00_spear_256.ktx.png',
             stats: {
                 base: {attack: 19, defense: 8, hp: 67, speed: 19, sp_atk: 8, sp_def: 8},
                 max: {
                     attack: 324,
-                    bulk: 340,
+                    bulk: 523,
                     defense: 82,
                     hp: 434,
                     speed: 305,
@@ -1758,6 +1149,7 @@ module.exports = {
                     sp_def: 101
                 }
             },
+            bulk: '523',
             moves: [
                 {
                     name: 'Fell Stinger',
@@ -1827,14 +1219,691 @@ module.exports = {
                     name: 'Critical Strike 2',
                     description: 'Powers up attacks if they become critical hits.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Beedrill']
+        }
+        ,
+        {
+            name: 'Beedrill (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0015_00_spear_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 21,
+                    defense: 8,
+                    hp: 73,
+                    speed: 21,
+                    sp_atk: 21,
+                    sp_def: 8
+                },
+                max: {
+                    attack: 170,
+                    bulk: 205,
+                    defense: 56,
+                    hp: 256,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '205',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Weedle (Strike Physical)', 'Kakuna (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Beedrill (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0015_00_spear_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 73,
+                    speed: 10,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 99,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 99,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Weedle (Support)', 'Kakuna (Support)']
+        }
+        ,
+        {
+            name: 'Beedrill (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0015_00_spear_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 7,
+                    hp: 75,
+                    speed: 28,
+                    sp_atk: 13,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 82,
+                    bulk: 204,
+                    defense: 37,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 37
+                }
+            },
+            bulk: '204',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Weedle (Tech)', 'Kakuna (Tech)']
+        }
+        ,
+        {
+            name: 'Bellsprout (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0069_00_madatsubomi_256.ktx__0_0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 5,
+                    hp: 53,
+                    speed: 13,
+                    sp_atk: 12,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 144,
+                    bulk: 191,
+                    defense: 53,
+                    hp: 236,
+                    speed: 116,
+                    sp_atk: 144,
+                    sp_def: 53
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: ['Weepinbell (Strike Physical)', 'Victreebel (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Bellsprout (Support)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0069_00_madatsubomi_256.ktx_.png',
+            stats: {
+                base: {attack: 12, defense: 6, hp: 53, speed: 7, sp_atk: 12, sp_def: 6},
+                max: {
+                    attack: 93,
+                    bulk: 163,
+                    defense: 36,
+                    hp: 252,
+                    speed: 59,
+                    sp_atk: 93,
+                    sp_def: 36
+                }
+            },
+            bulk: '163',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Def',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Keep Cool!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Def and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Victreebel (Support)', 'Weepinbell (Support)']
+        }
+        ,
+        {
+            name: 'Bellsprout (Tech)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0069_00_madatsubomi_256.ktx__0.png',
+            stats: {
+                base: {attack: 8, defense: 5, hp: 51, speed: 17, sp_atk: 8, sp_def: 5},
+                max: {
+                    attack: 77,
+                    bulk: 178,
+                    defense: 35,
+                    hp: 298,
+                    speed: 171,
+                    sp_atk: 77,
+                    sp_def: 35
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sleep Powder',
+                    type: 'Grass',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Weepinbell (Tech)', 'Victreebel (Tech)']
+        }
+        ,
+        {
+            name: 'Blastoise',
+            trainer: 'Player',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Grass',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0009_00_kamex_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 24,
+                    defense: 7,
+                    hp: 77,
+                    speed: 23,
+                    sp_atk: 24,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 218,
+                    bulk: 494,
+                    defense: 94,
+                    hp: 342,
+                    speed: 170,
+                    sp_atk: 218,
+                    sp_def: 94
+                }
+            },
+            bulk: '494',
+            moves: [
+                {
+                    name: 'Bubble Beam',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 49, max_power: 58},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hydro Pump',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 80,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Water Sync Beam',
+                type: ' Water',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Squirtle', 'Wartortle']
         }
         ,
         {
             name: 'Blissey',
+            trainer: 'Cheryl',
             type1: 'Normal',
             type2: 'Fire',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0242_00_happinas_256.ktx.png',
             stats: {
@@ -1848,7 +1917,7 @@ module.exports = {
                 },
                 max: {
                     attack: 79,
-                    bulk: 500,
+                    bulk: 691,
                     defense: 44,
                     hp: 715,
                     speed: 132,
@@ -1856,6 +1925,7 @@ module.exports = {
                     sp_def: 196
                 }
             },
+            bulk: '691',
             moves: [
                 {
                     name: 'Hyper Voice',
@@ -1923,16 +1993,124 @@ module.exports = {
             passives: [
                 {
                     name: 'Healing Hand 2',
-                    description: 'Occasionally removes all status conditions of all allied sync pairs after the Pokémon uses a move.'
+                    description: 'Has a moderate chance of removing all status conditions of all allied sync pairs after the Pokémon uses a move.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Braixen',
+            trainer: 'Serena',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0718_00_fox2_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 11,
+                    defense: 15,
+                    hp: 123,
+                    speed: 25,
+                    sp_atk: 17,
+                    sp_def: 17
+                },
+                max: {
+                    attack: 122,
+                    bulk: 495,
+                    defense: 129,
+                    hp: 599,
+                    speed: 325,
+                    sp_atk: 246,
+                    sp_def: 149
+                }
+            },
+            bulk: '495',
+            moves: [
+                {
+                    name: 'Fire Spin',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hypnosis',
+                    type: 'Psychic',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Can’t Stop Us!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Removes all status conditions from the user. Sharply raises the user’s Sp. Atk. Raises the user’s accuracy.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Overheat',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 136, max_power: 163},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Sharply lowers the user’s Sp. Atk.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Fire Sync Beam',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Stat Leech 4',
+                    description: 'Has a good chance of lowering the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful. Raises the user’s stat by the same amount.'
+                },
+                {
+                    name: 'Good Night-mare 5',
+                    description: 'Powers up moves when the target is asleep.'
+                },
+                {
+                    name: 'Go Viral 9',
+                    description: 'When a status move is used to inflict a status condition on an opponent, inflicts the same status condition on all opposing sync pairs.'
+                }
+            ],
+            otherForms: ['Fennekin', 'Delphox']
         }
         ,
         {
             name: 'Bronzong',
+            trainer: 'Thorton',
             type1: 'Steel',
             type2: 'Steel',
             weakness: 'Fire',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0437_00_dohtakun_256.ktx.png',
             stats: {
@@ -1946,7 +2124,7 @@ module.exports = {
                 },
                 max: {
                     attack: 233,
-                    bulk: 586,
+                    bulk: 711,
                     defense: 216,
                     hp: 430,
                     speed: 176,
@@ -1954,6 +2132,7 @@ module.exports = {
                     sp_def: 214
                 }
             },
+            bulk: '711',
             moves: [
                 {
                     name: 'Gyro Ball',
@@ -2023,14 +2202,114 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Bulbasaur',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0001_00_fushigidane_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 3,
+                    hp: 54,
+                    speed: 14,
+                    sp_atk: 13,
+                    sp_def: 3
+                },
+                max: {
+                    attack: 191,
+                    bulk: 478,
+                    defense: 90,
+                    hp: 319,
+                    speed: 161,
+                    sp_atk: 191,
+                    sp_def: 90
+                }
+            },
+            bulk: '478',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Solar Beam',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Ivysaur', 'Venusaur']
         }
         ,
         {
             name: 'Carracosta',
+            trainer: 'Marlon',
             type1: 'Water',
             type2: 'Rock',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0565_00_abagoura_256.ktx.png',
             stats: {
@@ -2044,7 +2323,7 @@ module.exports = {
                 },
                 max: {
                     attack: 213,
-                    bulk: 433,
+                    bulk: 620,
                     defense: 161,
                     hp: 427,
                     speed: 131,
@@ -2052,6 +2331,7 @@ module.exports = {
                     sp_def: 117
                 }
             },
+            bulk: '620',
             moves: [
                 {
                     name: 'Aqua Tail',
@@ -2116,14 +2396,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'The more the user’s Defense has been raised, the greater the power of this move.'
             },
-            passives: [{name: 'Unbending', description: 'Defense cannot be lowered.'}]
+            passives: [{name: 'Unbending', description: 'Defense cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Chandelure',
+            trainer: 'Shauntal',
             type1: 'Ghost',
             type2: '',
             weakness: 'Rock',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0609_00_chandela_256.ktx.png',
             stats: {
@@ -2137,7 +2420,7 @@ module.exports = {
                 },
                 max: {
                     attack: 111,
-                    bulk: 407,
+                    bulk: 528,
                     defense: 102,
                     hp: 448,
                     speed: 216,
@@ -2145,6 +2428,7 @@ module.exports = {
                     sp_def: 143
                 }
             },
+            bulk: '528',
             moves: [
                 {
                     name: 'Hex',
@@ -2218,35 +2502,136 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Charizard',
+            trainer: 'Player',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Water',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0006_00_lizardon_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 24,
+                    defense: 7,
+                    hp: 77,
+                    speed: 23,
+                    sp_atk: 24,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 218,
+                    bulk: 494,
+                    defense: 94,
+                    hp: 342,
+                    speed: 170,
+                    sp_atk: 218,
+                    sp_def: 94
+                }
+            },
+            bulk: '494',
+            moves: [
+                {
+                    name: 'Flamethrower',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Fire Blast',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 116, max_power: 139},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Fire Sync Beam',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Charmander', 'Charmeleon']
+        }
+        ,
+        {
+            name: 'Charizard',
+            trainer: 'Red',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0006_00_lizardon_256.ktx_.png',
             stats: {
                 base: {
-                    attack: 21,
-                    defense: 10,
-                    hp: 90,
-                    speed: 15,
-                    sp_atk: 21,
-                    sp_def: 10
+                    attack: 24,
+                    defense: 7,
+                    hp: 77,
+                    speed: 23,
+                    sp_atk: 24,
+                    sp_def: 7
                 },
                 max: {
-                    attack: 380,
-                    bulk: 498,
-                    defense: 129,
-                    hp: 660,
-                    speed: 265,
-                    sp_atk: 380,
-                    sp_def: 129
+                    attack: 218,
+                    bulk: 494,
+                    defense: 94,
+                    hp: 342,
+                    speed: 170,
+                    sp_atk: 218,
+                    sp_def: 94
                 }
             },
+            bulk: '614',
             moves: [
                 {
                     name: 'Heat Wave',
@@ -2293,7 +2678,7 @@ module.exports = {
                     target: 'Self',
                     cost: '',
                     uses: 2,
-                    effect: 'Drastically raises the user’s Sp. Atk and Speed. Lowers the user’s Defense and Sp. Def. If Charizard has Mega Evolved, drastically raises the user’s Attack.',
+                    effect: 'Drastically raises the user’s Sp. Atk and Speed. Lowers the user’s Defense and Sp. Def. If Charizard has Mega Evolved, also drastically raises the user’s Attack.',
                     unlock_requirements: []
                 }
             ],
@@ -2314,16 +2699,213 @@ module.exports = {
                 {name: 'Piercing Gaze', description: 'Moves never miss.'},
                 {
                     name: 'Move Gauge Refresh 4',
-                    description: 'Has a good chance of increasing the user’s move gauge by one when a move is successful.'
+                    description: 'Has a good chance of charging the user’s move gauge by one when a move is successful.\n'
                 }
-            ]
+            ],
+            otherForms: ['Mega Charizard X']
+        }
+        ,
+        {
+            name: 'Charmander',
+            trainer: 'Player',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Water',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0004_00_hitokage_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 3,
+                    hp: 54,
+                    speed: 14,
+                    sp_atk: 13,
+                    sp_def: 3
+                },
+                max: {
+                    attack: 191,
+                    bulk: 478,
+                    defense: 90,
+                    hp: 319,
+                    speed: 161,
+                    sp_atk: 191,
+                    sp_def: 90
+                }
+            },
+            bulk: '478',
+            moves: [
+                {
+                    name: 'Flamethrower',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Fire Blast',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 116, max_power: 139},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Fire Sync Beam',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Charmeleon', 'Charizard']
+        }
+        ,
+        {
+            name: 'Charmeleon',
+            trainer: 'Player',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Water',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0005_00_lizard_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 4,
+                    hp: 63,
+                    speed: 17,
+                    sp_atk: 17,
+                    sp_def: 4
+                },
+                max: {
+                    attack: 196,
+                    bulk: 483,
+                    defense: 91,
+                    hp: 328,
+                    speed: 164,
+                    sp_atk: 196,
+                    sp_def: 91
+                }
+            },
+            bulk: '483',
+            moves: [
+                {
+                    name: 'Flamethrower',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Fire Blast',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 116, max_power: 139},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Fire Sync Beam',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Charmander', 'Charizard']
         }
         ,
         {
             name: 'Chikorita',
+            trainer: 'Lyra',
             type1: 'Grass',
             type2: '',
             weakness: 'Fire',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0152_00_chicorita_256.ktx.png',
             stats: {
@@ -2337,7 +2919,7 @@ module.exports = {
                 },
                 max: {
                     attack: 125,
-                    bulk: 522,
+                    bulk: 638,
                     defense: 116,
                     hp: 707,
                     speed: 168,
@@ -2345,6 +2927,7 @@ module.exports = {
                     sp_def: 149
                 }
             },
+            bulk: '638',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -2414,14 +2997,17 @@ module.exports = {
                     name: 'Solar Shield',
                     description: 'The Pokémon is not affected by status conditions when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Bayleef', 'Meganium']
         }
         ,
         {
             name: 'Clawitzer',
+            trainer: 'Siebold',
             type1: 'Water',
             type2: 'Fighting',
             weakness: 'Electric',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0757_00_shrimp2_256.ktx.png',
             stats: {
@@ -2435,7 +3021,7 @@ module.exports = {
                 },
                 max: {
                     attack: 137,
-                    bulk: 493,
+                    bulk: 615,
                     defense: 154,
                     hp: 509,
                     speed: 238,
@@ -2443,6 +3029,7 @@ module.exports = {
                     sp_def: 154
                 }
             },
+            bulk: '615',
             moves: [
                 {
                     name: 'Water Pulse',
@@ -2512,14 +3099,17 @@ module.exports = {
                     name: 'Critical Focus 1',
                     description: 'Raises the Pokémon’s critical-hit rate when it lands a critical hit.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Conkeldurr',
+            trainer: 'Marshal',
             type1: 'Fighting',
             type2: '',
             weakness: 'Psychic',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0534_00_roubushin_256.ktx.png',
             stats: {
@@ -2533,7 +3123,7 @@ module.exports = {
                 },
                 max: {
                     attack: 296,
-                    bulk: 389,
+                    bulk: 509,
                     defense: 125,
                     hp: 514,
                     speed: 124,
@@ -2541,6 +3131,7 @@ module.exports = {
                     sp_def: 78
                 }
             },
+            bulk: '509',
             moves: [
                 {
                     name: 'Rock Smash',
@@ -2610,21 +3201,114 @@ module.exports = {
                     name: 'Gritty 5',
                     description: 'Powers up moves if the Pokémon is affected by a status condition.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Cottonee',
+            trainer: 'Youngster',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0546_00_monmen_256.ktx_.png',
+            stats: {
+                base: {attack: 6, defense: 9, hp: 82, speed: 8, sp_atk: 6, sp_def: 9},
+                max: {
+                    attack: 184,
+                    bulk: 518,
+                    defense: 154,
+                    hp: 579,
+                    speed: 202,
+                    sp_atk: 202,
+                    sp_def: 154
+                }
+            },
+            bulk: '518',
+            moves: [
+                {
+                    name: 'Energy Ball',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 49, max_power: 58},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Potion',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'An ally',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Restores a bit of an ally’s HP.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Giga Drain',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 91, max_power: 109},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Restores the user’s HP based on the amount of damage dealt to the target.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Beam',
+                type: ' Grass',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Cranidos',
+            trainer: 'Roark',
             type1: 'Rock',
             type2: '',
             weakness: 'Water',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0408_00_zugaidos_256.ktx.png',
             stats: {
                 base: {attack: 21, defense: 9, hp: 75, speed: 11, sp_atk: 4, sp_def: 8},
                 max: {
                     attack: 307,
-                    bulk: 475,
+                    bulk: 668,
                     defense: 96,
                     hp: 783,
                     speed: 189,
@@ -2632,6 +3316,7 @@ module.exports = {
                     sp_def: 95
                 }
             },
+            bulk: '668',
             moves: [
                 {
                     name: 'Smack Down',
@@ -2696,21 +3381,24 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}]
+            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}],
+            otherForms: ['Rampardos']
         }
         ,
         {
             name: 'Crobat',
+            trainer: 'Koga',
             type1: 'Poison',
             type2: '',
             weakness: 'Electric',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0169_00_crobat_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 7, hp: 70, speed: 12, sp_atk: 7, sp_def: 8},
                 max: {
                     attack: 275,
-                    bulk: 485,
+                    bulk: 608,
                     defense: 141,
                     hp: 461,
                     speed: 374,
@@ -2718,6 +3406,7 @@ module.exports = {
                     sp_def: 177
                 }
             },
+            bulk: '608',
             moves: [
                 {
                     name: 'Poison Fang',
@@ -2782,14 +3471,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'Its power increases if the target is poisoned or badly poisoned.'
             },
-            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}]
+            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Croconaw',
+            trainer: 'Kris',
             type1: 'Water',
             type2: 'Normal',
             weakness: 'Grass',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0159_00_alligates_256.ktx.png',
             stats: {
@@ -2803,7 +3495,7 @@ module.exports = {
                 },
                 max: {
                     attack: 248,
-                    bulk: 452,
+                    bulk: 568,
                     defense: 123,
                     hp: 601,
                     speed: 287,
@@ -2811,6 +3503,7 @@ module.exports = {
                     sp_def: 111
                 }
             },
+            bulk: '568',
             moves: [
                 {
                     name: 'Waterfall',
@@ -2884,14 +3577,17 @@ module.exports = {
                     name: 'Water Shift',
                     description: 'Normal-type moves become Water-type moves.'
                 }
-            ]
+            ],
+            otherForms: ['Totodile', 'Feraligatr']
         }
         ,
         {
             name: 'Cryogonal',
+            trainer: 'Brycen',
             type1: 'Ice',
             type2: 'Rock',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0615_00_freegeo_256.ktx.png',
             stats: {
@@ -2905,7 +3601,7 @@ module.exports = {
                 },
                 max: {
                     attack: 194,
-                    bulk: 424,
+                    bulk: 611,
                     defense: 110,
                     hp: 486,
                     speed: 340,
@@ -2913,6 +3609,7 @@ module.exports = {
                     sp_def: 138
                 }
             },
+            bulk: '611',
             moves: [
                 {
                     name: 'Ice Beam',
@@ -2986,14 +3683,17 @@ module.exports = {
                     name: 'Healing Hail 1',
                     description: 'Restores the Pokémon’s HP whenever it takes an action during a hailstorm.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Cyndaquil',
+            trainer: 'Ethan',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0155_00_hinoarashi_256.ktx_.png',
             stats: {
@@ -3007,7 +3707,7 @@ module.exports = {
                 },
                 max: {
                     attack: 123,
-                    bulk: 448,
+                    bulk: 564,
                     defense: 127,
                     hp: 528,
                     speed: 325,
@@ -3015,6 +3715,7 @@ module.exports = {
                     sp_def: 129
                 }
             },
+            bulk: '564',
             moves: [
                 {
                     name: 'Flamethrower',
@@ -3079,14 +3780,17 @@ module.exports = {
                     name: 'Speeding Sun 2',
                     description: 'Quickly charges the move gauge when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Quilava', 'Typhlosion']
         }
         ,
         {
             name: 'Delibird',
+            trainer: 'Rosa',
             type1: 'Flying',
             type2: '',
             weakness: 'Steel',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0225_00_delibird_256.ktx_.png',
             stats: {
@@ -3100,7 +3804,7 @@ module.exports = {
                 },
                 max: {
                     attack: 166,
-                    bulk: 593,
+                    bulk: 710,
                     defense: 208,
                     hp: 558,
                     speed: 221,
@@ -3108,6 +3812,7 @@ module.exports = {
                     sp_def: 183
                 }
             },
+            bulk: '710',
             moves: [
                 {
                     name: 'Aerial Ace',
@@ -3180,14 +3885,122 @@ module.exports = {
                     name: 'Healing Hail 1',
                     description: 'Restores the Pokémon’s HP whenever it takes an action during a hailstorm.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Delphox',
+            trainer: 'Serena',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0719_00_fox3_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 15,
+                    defense: 20,
+                    hp: 149,
+                    speed: 36,
+                    sp_atk: 25,
+                    sp_def: 22
+                },
+                max: {
+                    attack: 126,
+                    bulk: 515,
+                    defense: 134,
+                    hp: 625,
+                    speed: 340,
+                    sp_atk: 269,
+                    sp_def: 154
+                }
+            },
+            bulk: '515',
+            moves: [
+                {
+                    name: 'Fire Spin',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hypnosis',
+                    type: 'Psychic',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Can’t Stop Us!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Removes all status conditions from the user. Sharply raises the user’s Sp. Atk. Raises the user’s accuracy.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Overheat',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 136, max_power: 163},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Sharply lowers the user’s Sp. Atk.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Mystical Fire of Positivity',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Its power increases if the target is asleep.'
+            },
+            passives: [
+                {
+                    name: 'Stat Leech 4',
+                    description: 'Has a good chance of lowering the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful. Raises the user’s stat by the same amount.'
+                },
+                {
+                    name: 'Good Night-mare 5',
+                    description: 'Powers up moves when the target is asleep.'
+                },
+                {
+                    name: 'Go Viral 9',
+                    description: 'When a status move is used to inflict a status condition on an opponent, inflicts the same status condition on all opposing sync pairs.'
+                }
+            ],
+            otherForms: ['Fennekin', 'Braixen']
         }
         ,
         {
             name: 'Dewgong',
+            trainer: 'Pryce',
             type1: 'Ice',
             type2: '',
             weakness: 'Electric',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0087_00_jugon_256.ktx.png',
             stats: {
@@ -3201,7 +4014,7 @@ module.exports = {
                 },
                 max: {
                     attack: 237,
-                    bulk: 428,
+                    bulk: 615,
                     defense: 71,
                     hp: 592,
                     speed: 156,
@@ -3209,6 +4022,7 @@ module.exports = {
                     sp_def: 142
                 }
             },
+            bulk: '615',
             moves: [
                 {
                     name: 'Ice Beam',
@@ -3278,14 +4092,17 @@ module.exports = {
                     name: 'Superduper Effective 2',
                     description: 'Powers up moves that are super effective.'
                 }
-            ]
+            ],
+            otherForms: ['Seel']
         }
         ,
         {
             name: 'Dewott',
+            trainer: 'Hilbert',
             type1: 'Water',
             type2: '',
             weakness: 'Electric',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0502_00_futachimaru_256.ktx__0.png',
             stats: {
@@ -3299,7 +4116,7 @@ module.exports = {
                 },
                 max: {
                     attack: 225,
-                    bulk: 619,
+                    bulk: 736,
                     defense: 207,
                     hp: 566,
                     speed: 250,
@@ -3307,6 +4124,7 @@ module.exports = {
                     sp_def: 207
                 }
             },
+            bulk: '736',
             moves: [
                 {
                     name: 'Aqua Tail',
@@ -3366,14 +4184,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: ['Oshawott', 'Samurott']
         }
         ,
         {
             name: 'Dragonite',
+            trainer: 'Lance',
             type1: 'Dragon',
             type2: '',
             weakness: 'Ice',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0149_00_kairyu_256.ktx_.png',
             stats: {
@@ -3387,7 +4208,7 @@ module.exports = {
                 },
                 max: {
                     attack: 403,
-                    bulk: 506,
+                    bulk: 623,
                     defense: 159,
                     hp: 516,
                     speed: 241,
@@ -3395,6 +4216,7 @@ module.exports = {
                     sp_def: 160
                 }
             },
+            bulk: '623',
             moves: [
                 {
                     name: 'Dragon Claw',
@@ -3467,14 +4289,122 @@ module.exports = {
                     name: 'Unflappable',
                     description: 'Prevents the Pokémon from flinching.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Drifblim',
+            trainer: 'Morty',
+            type1: 'Ghost',
+            type2: '',
+            weakness: 'Electric',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0426_00_fuwaride_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 104,
+                    speed: 17,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 343,
+                    bulk: 458,
+                    defense: 102,
+                    hp: 700,
+                    speed: 300,
+                    sp_atk: 283,
+                    sp_def: 102
+                }
+            },
+            bulk: '458',
+            moves: [
+                {
+                    name: 'Shadow Ball',
+                    type: 'Ghost',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit +',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Phantom Force',
+                    type: 'Ghost',
+                    category: 'Physical',
+                    power: {min_power: 160, max_power: 192},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: '',
+                    uses: 3,
+                    effect: 'The user takes on a phantom presence stance. After a set time, this presence fades and the user attacks. No other actions can be taken while in phantom presence. Opponents’ moves will not hit the user while it is in this presence. If the user is hit by a sync move while in phantom presence, the presence will fade.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Pierce the Veil!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack. Substantially raises the user’s Attack if the user is affected by a status condition. Raises the user’s Sp. Atk and evasiveness. Sharply raises the user’s Sp. Atk and evasiveness if the user is affected by a status condition.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Mystic Seer Phantom Force',
+                type: ' Ghost',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Shook 2',
+                    description: 'Sharply raises the user’s Speed when the user’s HP drops to half or below for the first time in a battle.'
+                },
+                {
+                    name: 'Last Word',
+                    description: 'The Pokémon uses Explosion immediately before fainting.'
+                },
+                {
+                    name: 'Benefactor',
+                    description: 'Transfers this sync pair’s stat increases to the sync pair that will switch in when this sync pair switches out.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Dusclops',
+            trainer: 'Phoebe',
             type1: 'Ghost',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0356_00_samayouru_256.ktx.png',
             stats: {
@@ -3488,7 +4418,7 @@ module.exports = {
                 },
                 max: {
                     attack: 205,
-                    bulk: 649,
+                    bulk: 766,
                     defense: 221,
                     hp: 525,
                     speed: 168,
@@ -3496,6 +4426,7 @@ module.exports = {
                     sp_def: 238
                 }
             },
+            bulk: '766',
             moves: [
                 {
                     name: 'Shadow Punch',
@@ -3569,14 +4500,17 @@ module.exports = {
                     name: 'Vigilance',
                     description: 'The Pokémon is protected against critical hits.'
                 }
-            ]
+            ],
+            otherForms: ['Dusknoir']
         }
         ,
         {
             name: 'Dusknoir',
+            trainer: 'Phoebe',
             type1: 'Ghost',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0477_00_yonoir_256.ktx_.png',
             stats: {
@@ -3590,7 +4524,7 @@ module.exports = {
                 },
                 max: {
                     attack: 209,
-                    bulk: 681,
+                    bulk: 797,
                     defense: 240,
                     hp: 543,
                     speed: 171,
@@ -3598,6 +4532,7 @@ module.exports = {
                     sp_def: 244
                 }
             },
+            bulk: '797',
             moves: [
                 {
                     name: 'Shadow Punch',
@@ -3666,14 +4601,17 @@ module.exports = {
                     name: 'Vigilance',
                     description: 'The Pokémon is protected against critical hits.'
                 }
-            ]
+            ],
+            otherForms: ['Dusclops']
         }
         ,
         {
             name: 'Eevee',
+            trainer: 'Leaf',
             type1: 'Normal',
             type2: '',
             weakness: 'Fighting',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0133_00_eievui_256.ktx_.png',
             stats: {
@@ -3687,7 +4625,7 @@ module.exports = {
                 },
                 max: {
                     attack: 182,
-                    bulk: 648,
+                    bulk: 764,
                     defense: 208,
                     hp: 636,
                     speed: 221,
@@ -3695,6 +4633,7 @@ module.exports = {
                     sp_def: 209
                 }
             },
+            bulk: '764',
             moves: [
                 {
                     name: 'Tackle',
@@ -3752,7 +4691,7 @@ module.exports = {
                 power: {min_power: 0, max_power: 0},
                 target: 'All allies',
                 effect_tag: '-',
-                description: 'Increases the user’s move gauge by the sync move’s current level. Sharply raises the Attack, Defense, Sp. Atk, Sp. Def, Speed, and accuracy of all allied sync pairs.'
+                description: 'Increases the user’s move gauge by the user’s current move level. Sharply raises the Attack, Defense, Sp. Atk, Sp. Def, Speed, and accuracy of all allied sync pairs.'
             },
             passives: [
                 {
@@ -3760,14 +4699,17 @@ module.exports = {
                     description: 'Transfers this sync pair’s stat increases to the sync pair that will switch in when this sync pair switches out.'
                 },
                 {name: 'Impervious', description: 'Stats cannot be lowered.'}
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Electrode',
+            trainer: 'Lt. Surge',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0101_00_marumine_256.ktx_.png',
             stats: {
@@ -3781,7 +4723,7 @@ module.exports = {
                 },
                 max: {
                     attack: 141,
-                    bulk: 443,
+                    bulk: 632,
                     defense: 138,
                     hp: 461,
                     speed: 410,
@@ -3789,6 +4731,7 @@ module.exports = {
                     sp_def: 138
                 }
             },
+            bulk: '632',
             moves: [
                 {
                     name: 'Thunderbolt',
@@ -3853,14 +4796,17 @@ module.exports = {
                     name: 'Last Word',
                     description: 'The Pokémon uses Explosion immediately before fainting.'
                 }
-            ]
+            ],
+            otherForms: ['Voltorb']
         }
         ,
         {
             name: 'Emboar',
+            trainer: 'Hilda',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-09/pm0500_00_enbuoh_256.ktx_.png',
             stats: {
@@ -3874,7 +4820,7 @@ module.exports = {
                 },
                 max: {
                     attack: 357,
-                    bulk: 495,
+                    bulk: 612,
                     defense: 93,
                     hp: 846,
                     speed: 151,
@@ -3882,6 +4828,7 @@ module.exports = {
                     sp_def: 95
                 }
             },
+            bulk: '612',
             moves: [
                 {
                     name: 'Flame Charge',
@@ -3950,14 +4897,17 @@ module.exports = {
                     name: 'First Aid 4',
                     description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
                 }
-            ]
+            ],
+            otherForms: ['Tepig', 'Pignite']
         }
         ,
         {
             name: 'Empoleon',
+            trainer: 'Barry',
             type1: 'Water',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0395_00_emperte_256.ktx.png',
             stats: {
@@ -3971,7 +4921,7 @@ module.exports = {
                 },
                 max: {
                     attack: 200,
-                    bulk: 460,
+                    bulk: 649,
                     defense: 139,
                     hp: 501,
                     speed: 224,
@@ -3979,6 +4929,7 @@ module.exports = {
                     sp_def: 139
                 }
             },
+            bulk: '649',
             moves: [
                 {
                     name: 'Bubble',
@@ -4048,14 +4999,17 @@ module.exports = {
                     name: 'Power Flux 5',
                     description: 'The fuller the move gauge, the more this powers up moves.'
                 }
-            ]
+            ],
+            otherForms: ['Piplup', 'Prinplup']
         }
         ,
         {
             name: 'Espurr',
+            trainer: 'Calem',
             type1: 'Psychic',
             type2: '',
             weakness: 'Ghost',
+            rarity: 5,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0733_00_cat1_256.ktx_.png',
             stats: {
@@ -4069,7 +5023,7 @@ module.exports = {
                 },
                 max: {
                     attack: 126,
-                    bulk: 471,
+                    bulk: 588,
                     defense: 127,
                     hp: 549,
                     speed: 392,
@@ -4077,6 +5031,7 @@ module.exports = {
                     sp_def: 145
                 }
             },
+            bulk: '588',
             moves: [
                 {
                     name: 'Psybeam',
@@ -4142,14 +5097,122 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Meowstic']
+        }
+        ,
+        {
+            name: 'Fennekin',
+            trainer: 'Serena',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0717_00_fox1_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 9,
+                    defense: 12,
+                    hp: 106,
+                    speed: 19,
+                    sp_atk: 13,
+                    sp_def: 14
+                },
+                max: {
+                    attack: 120,
+                    bulk: 483,
+                    defense: 126,
+                    hp: 582,
+                    speed: 306,
+                    sp_atk: 240,
+                    sp_def: 146
+                }
+            },
+            bulk: '483',
+            moves: [
+                {
+                    name: 'Fire Spin',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hypnosis',
+                    type: 'Psychic',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Can’t Stop Us!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Removes all status conditions from the user. Sharply raises the user’s Sp. Atk. Raises the user’s accuracy.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Overheat',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 136, max_power: 163},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Sharply lowers the user’s Sp. Atk.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Fire Sync Beam',
+                type: ' Fire',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Stat Leech 4',
+                    description: 'Has a good chance of lowering the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful. Raises the user’s stat by the same amount.'
+                },
+                {
+                    name: 'Good Night-mare 5',
+                    description: 'Powers up moves when the target is asleep.'
+                },
+                {
+                    name: 'Go Viral 9',
+                    description: 'When a status move is used to inflict a status condition on an opponent, inflicts the same status condition on all opposing sync pairs.'
+                }
+            ],
+            otherForms: ['Braixen', 'Delphox']
         }
         ,
         {
             name: 'Feraligatr',
+            trainer: 'Kris',
             type1: 'Water',
             type2: 'Normal',
             weakness: 'Grass',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0160_00_ordile_256.ktx.png',
             stats: {
@@ -4163,7 +5226,7 @@ module.exports = {
                 },
                 max: {
                     attack: 257,
-                    bulk: 469,
+                    bulk: 586,
                     defense: 128,
                     hp: 624,
                     speed: 297,
@@ -4171,6 +5234,7 @@ module.exports = {
                     sp_def: 115
                 }
             },
+            bulk: '586',
             moves: [
                 {
                     name: 'Waterfall',
@@ -4244,14 +5308,17 @@ module.exports = {
                     name: 'Water Shift',
                     description: 'Normal-type moves become Water-type moves.'
                 }
-            ]
+            ],
+            otherForms: ['Totodile', 'Croconaw']
         }
         ,
         {
             name: 'Floatzel',
+            trainer: 'Crasher Wake',
             type1: 'Water',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0419_00_floazel_256.ktx.png',
             stats: {
@@ -4265,7 +5332,7 @@ module.exports = {
                 },
                 max: {
                     attack: 216,
-                    bulk: 448,
+                    bulk: 637,
                     defense: 138,
                     hp: 441,
                     speed: 380,
@@ -4273,6 +5340,7 @@ module.exports = {
                     sp_def: 150
                 }
             },
+            bulk: '637',
             moves: [
                 {
                     name: 'Waterfall',
@@ -4346,14 +5414,114 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Gallade',
+            trainer: 'Wally',
+            type1: 'Fighting',
+            type2: '',
+            weakness: 'Ghost',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_00_erureido_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 81,
+                    speed: 12,
+                    sp_atk: 17,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 343,
+                    bulk: 556,
+                    defense: 123,
+                    hp: 465,
+                    speed: 220,
+                    sp_atk: 306,
+                    sp_def: 148
+                }
+            },
+            bulk: '556',
+            moves: [
+                {
+                    name: 'Low Sweep',
+                    type: 'Fighting',
+                    category: 'Physical',
+                    power: {min_power: 30, max_power: 36},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Focus Blast',
+                    type: 'Fighting',
+                    category: 'Special',
+                    power: {min_power: 142, max_power: 170},
+                    accuracy: 70,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Here I Come!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Rallying Close Combat',
+                type: ' Fighting',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate.'
+            },
+            passives: [
+                {
+                    name: 'Posthaste 9',
+                    description: 'Sharply raises the user’s Speed when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Mega Gallade']
         }
         ,
         {
             name: 'Garchomp',
+            trainer: 'Cynthia',
             type1: 'Ground',
             type2: '',
             weakness: 'Ice',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0445_01_gaburias_256.ktx_.png',
             stats: {
@@ -4367,7 +5535,7 @@ module.exports = {
                 },
                 max: {
                     attack: 331,
-                    bulk: 483,
+                    bulk: 600,
                     defense: 144,
                     hp: 547,
                     speed: 325,
@@ -4375,6 +5543,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '600',
             moves: [
                 {
                     name: 'Stomping Tantrum',
@@ -4436,21 +5605,24 @@ module.exports = {
             },
             passives: [
                 {
-                    name: 'Hit and Run 2',
-                    description: 'Occasionally raises the Pokémon’s Speed after it uses a move.'
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
                 },
                 {
                     name: 'Surging Sand 5',
                     description: 'Powers up moves in a sandstorm.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Garchomp']
         }
         ,
         {
             name: 'Gengar',
+            trainer: 'Agatha',
             type1: 'Ghost',
             type2: '',
             weakness: 'Dark',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0094_00_gangar_256.ktx.png',
             stats: {
@@ -4464,7 +5636,7 @@ module.exports = {
                 },
                 max: {
                     attack: 138,
-                    bulk: 446,
+                    bulk: 566,
                     defense: 117,
                     hp: 473,
                     speed: 358,
@@ -4472,6 +5644,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '566',
             moves: [
                 {
                     name: 'Lick',
@@ -4541,14 +5714,17 @@ module.exports = {
                     name: 'Wide Awake',
                     description: 'Prevents the Pokémon from falling asleep.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Gengar']
         }
         ,
         {
             name: 'Glalie',
+            trainer: 'Glacia',
             type1: 'Ice',
             type2: '',
             weakness: 'Steel',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0362_00_onigohri_256.ktx_.png',
             stats: {
@@ -4562,7 +5738,7 @@ module.exports = {
                 },
                 max: {
                     attack: 201,
-                    bulk: 528,
+                    bulk: 645,
                     defense: 164,
                     hp: 552,
                     speed: 219,
@@ -4570,6 +5746,7 @@ module.exports = {
                     sp_def: 164
                 }
             },
+            bulk: '645',
             moves: [
                 {
                     name: 'Powder Snow',
@@ -4638,14 +5815,422 @@ module.exports = {
                     name: 'Fortuitous 4',
                     description: 'Has a good chance of raising the user’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Glalie']
+        }
+        ,
+        {
+            name: 'Golbat (Strike Special)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0042_00_golbat_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 67, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Bomb',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: ['Zubat (Strike Special)']
+        }
+        ,
+        {
+            name: 'Golbat (Support)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0042_00_golbat_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 9,
+                    hp: 71,
+                    speed: 10,
+                    sp_atk: 17,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Brainstorm!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Atk and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Bomb',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Zubat (Support)']
+        }
+        ,
+        {
+            name: 'Golbat (Tech)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0042_00_golbat_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 62,
+                    speed: 14,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 202,
+                    defense: 36,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '202',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Fang',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 34, max_power: 40},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a good chance of leaving the target badly poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Zubat (Tech)']
+        }
+        ,
+        {
+            name: 'Golisopod',
+            trainer: 'Guzma',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Electric',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0867_00_gusokumushi2_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 21,
+                    defense: 15,
+                    hp: 83,
+                    speed: 8,
+                    sp_atk: 7,
+                    sp_def: 12
+                },
+                max: {
+                    attack: 401,
+                    bulk: 578,
+                    defense: 189,
+                    hp: 446,
+                    speed: 198,
+                    sp_atk: 155,
+                    sp_def: 111
+                }
+            },
+            bulk: '578',
+            moves: [
+                {
+                    name: 'Pin Missile',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 16, max_power: 19},
+                    accuracy: 95,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Attacks the target two to five times in a row.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit +',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'First Impression',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 200, max_power: 240},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: '',
+                    uses: 3,
+                    effect: 'This move fails if this sync pair has used any moves since entering battle.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Beat ’Em Down!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Uses a maximum of three slots of the user’s move gauge. Based on the amount used, this move raises the user’s Attack and Defense by up to four stat ranks.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Your Boy’s X-Scissor',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Danger Dodge 2',
+                    description: 'Sharply raises the user’s evasiveness when the user’s HP drops to half or below for the first time in a battle.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Granbull',
+            trainer: 'Mina',
             type1: 'Fairy',
             type2: '',
             weakness: 'Steel',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0210_00_granbulu_256.ktx.png',
             stats: {
@@ -4659,7 +6244,7 @@ module.exports = {
                 },
                 max: {
                     attack: 212,
-                    bulk: 415,
+                    bulk: 603,
                     defense: 134,
                     hp: 493,
                     speed: 191,
@@ -4667,6 +6252,7 @@ module.exports = {
                     sp_def: 102
                 }
             },
+            bulk: '603',
             moves: [
                 {
                     name: 'Dazzling Gleam',
@@ -4731,14 +6317,118 @@ module.exports = {
                 effect_tag: '-',
                 description: 'The more the opponent’s Attack is lowered, the greater the power of this move.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Grotle',
+            trainer: 'Dawn',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Bug',
+            rarity: 5,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0388_00_hayashigame_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 25,
+                    hp: 121,
+                    speed: 12,
+                    sp_atk: 14,
+                    sp_def: 20
+                },
+                max: {
+                    attack: 226,
+                    bulk: 782,
+                    defense: 252,
+                    hp: 561,
+                    speed: 160,
+                    sp_atk: 184,
+                    sp_def: 210
+                }
+            },
+            bulk: '782',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Defense of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Good as New!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'An ally',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Fully restores an ally’s HP. Removes all status conditions from an ally. Removes the confused, flinching, and trapped conditions from an ally.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Siphon 9',
+                    description: 'Lowers the target’s Attack and raises the user’s Attack by an equal amount when the user is hit by an attack move.'
+                },
+                {
+                    name: 'Vigilance',
+                    description: 'The Pokémon is protected against critical hits.'
+                }
+            ],
+            otherForms: ['Turtwig', 'Torterra']
         }
         ,
         {
             name: 'Grovyle',
+            trainer: 'Brendan',
             type1: 'Grass',
             type2: '',
             weakness: 'Poison',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0253_00_juptile_256.ktx_.png',
             stats: {
@@ -4752,7 +6442,7 @@ module.exports = {
                 },
                 max: {
                     attack: 349,
-                    bulk: 461,
+                    bulk: 577,
                     defense: 141,
                     hp: 493,
                     speed: 407,
@@ -4760,6 +6450,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '577',
             moves: [
                 {
                     name: 'Bullet Seed',
@@ -4825,14 +6516,17 @@ module.exports = {
                     name: 'Lithe',
                     description: 'Prevents the Pokémon from getting paralyzed.'
                 }
-            ]
+            ],
+            otherForms: ['Treecko', 'Sceptile']
         }
         ,
         {
             name: 'Hariyama',
+            trainer: 'Brawly',
             type1: 'Fighting',
             type2: '',
             weakness: 'Flying',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0297_00_hariteyama_256.ktx_.png',
             stats: {
@@ -4846,7 +6540,7 @@ module.exports = {
                 },
                 max: {
                     attack: 211,
-                    bulk: 463,
+                    bulk: 652,
                     defense: 85,
                     hp: 767,
                     speed: 178,
@@ -4854,6 +6548,7 @@ module.exports = {
                     sp_def: 100
                 }
             },
+            bulk: '652',
             moves: [
                 {
                     name: 'Rock Smash',
@@ -4918,21 +6613,24 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: ['Makuhita']
         }
         ,
         {
             name: 'Haxorus',
+            trainer: 'Iris',
             type1: 'Dragon',
             type2: '',
             weakness: 'Ice',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0612_00_ononokus_256.ktx.png',
             stats: {
                 base: {attack: 18, defense: 6, hp: 55, speed: 9, sp_atk: 3, sp_def: 5},
                 max: {
                     attack: 253,
-                    bulk: 383,
+                    bulk: 569,
                     defense: 132,
                     hp: 419,
                     speed: 160,
@@ -4940,6 +6638,7 @@ module.exports = {
                     sp_def: 99
                 }
             },
+            bulk: '569',
             moves: [
                 {
                     name: 'Dragon Claw',
@@ -5009,14 +6708,224 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Heliolisk',
+            trainer: 'Clemont',
+            type1: 'Electric',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0732_00_frilledlizard2_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 14,
+                    hp: 99,
+                    speed: 19,
+                    sp_atk: 16,
+                    sp_def: 14
+                },
+                max: {
+                    attack: 103,
+                    bulk: 672,
+                    defense: 184,
+                    hp: 518,
+                    speed: 383,
+                    sp_atk: 261,
+                    sp_def: 184
+                }
+            },
+            bulk: '672',
+            moves: [
+                {
+                    name: 'Electroweb',
+                    type: 'Electric',
+                    category: 'Special',
+                    power: {min_power: 39, max_power: 46},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Mud-Slap',
+                    type: 'Ground',
+                    category: 'Special',
+                    power: {min_power: 13, max_power: 15},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Lowers the target’s accuracy.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Activate!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Speed and evasiveness. Ensures that the user’s next attack will be a critical hit.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Parabolic Charge',
+                    type: 'Electric',
+                    category: 'Special',
+                    power: {min_power: 46, max_power: 55},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Restores the user’s HP based on the amount of damage dealt to the target.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Light-Up-the-World Thunderbolt',
+                type: ' Electric',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'The more the target’s Speed is lowered, the greater the power of this move.'
+            },
+            passives: [
+                {name: 'Piercing Gaze', description: 'Moves never miss.'},
+                {
+                    name: 'Charging Sun 5',
+                    description: 'Powers up moves when the weather is sunny.'
+                },
+                {
+                    name: 'HP Advantage 4',
+                    description: 'The more HP the user has remaining, the more it powers up moves.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Ho-Oh',
+            trainer: 'Silver',
+            type1: 'Fire',
+            type2: '',
+            weakness: 'Water',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0250_00_houou_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 20,
+                    defense: 7,
+                    hp: 84,
+                    speed: 12,
+                    sp_atk: 20,
+                    sp_def: 8
+                },
+                max: {
+                    attack: 224,
+                    bulk: 578,
+                    defense: 130,
+                    hp: 553,
+                    speed: 231,
+                    sp_atk: 204,
+                    sp_def: 131
+                }
+            },
+            bulk: '578',
+            moves: [
+                {
+                    name: 'Overheat',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 136, max_power: 163},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Sharply lowers the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Solar Beam',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'I’ll Show You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s evasiveness and critical-hit rate. These stats are sharply raised when the weather is sunny.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sacred Fire',
+                    type: 'Fire',
+                    category: 'Physical',
+                    power: {min_power: 87, max_power: 104},
+                    accuracy: 95,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Removes the frozen condition from the user. Has a good chance of leaving the target burned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Power-Hungry Sacred Fire',
+                type: ' Fire',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Charging Sun 6',
+                    description: 'Powers up moves when the weather is sunny.'
+                },
+                {
+                    name: 'Speeding Sun 2',
+                    description: 'Quickly charges the move gauge when the weather is sunny.'
+                },
+                {
+                    name: 'Solarize',
+                    description: 'Makes the weather sunny after using a sync move.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Houndoom',
+            trainer: 'Karen',
             type1: 'Dark',
             type2: '',
             weakness: 'Fighting',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0229_00_hellgar_256.ktx.png',
             stats: {
@@ -5030,7 +6939,7 @@ module.exports = {
                 },
                 max: {
                     attack: 304,
-                    bulk: 501,
+                    bulk: 618,
                     defense: 157,
                     hp: 516,
                     speed: 328,
@@ -5038,6 +6947,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '618',
             moves: [
                 {
                     name: 'Bite',
@@ -5111,14 +7021,17 @@ module.exports = {
                     name: 'Wide Awake',
                     description: 'Prevents the Pokémon from falling asleep.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Houndoom']
         }
         ,
         {
             name: 'Infernape',
+            trainer: 'Flint',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0392_00_goukazaru_256.ktx.png',
             stats: {
@@ -5132,7 +7045,7 @@ module.exports = {
                 },
                 max: {
                     attack: 318,
-                    bulk: 416,
+                    bulk: 537,
                     defense: 119,
                     hp: 492,
                     speed: 241,
@@ -5140,6 +7053,7 @@ module.exports = {
                     sp_def: 119
                 }
             },
+            bulk: '537',
             moves: [
                 {
                     name: 'Fire Punch',
@@ -5209,21 +7123,390 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Ivysaur',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0002_00_fushigisou_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 4,
+                    hp: 63,
+                    speed: 17,
+                    sp_atk: 17,
+                    sp_def: 4
+                },
+                max: {
+                    attack: 196,
+                    bulk: 483,
+                    defense: 91,
+                    hp: 328,
+                    speed: 164,
+                    sp_atk: 196,
+                    sp_def: 91
+                }
+            },
+            bulk: '483',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Solar Beam',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Bulbasaur', 'Venusaur']
+        }
+        ,
+        {
+            name: 'Kakuna (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0014_00_cocoon_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 15,
+                    defense: 6,
+                    hp: 61,
+                    speed: 16,
+                    sp_atk: 15,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 148,
+                    bulk: 196,
+                    defense: 54,
+                    hp: 244,
+                    speed: 119,
+                    sp_atk: 148,
+                    sp_def: 54
+                }
+            },
+            bulk: '196',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Weedle (Strike Physical)', 'Beedrill (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Kakuna (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0014_00_cocoon_256.ktx_.png',
+            stats: {
+                base: {attack: 14, defense: 7, hp: 61, speed: 8, sp_atk: 14, sp_def: 7},
+                max: {
+                    attack: 95,
+                    bulk: 178,
+                    defense: 42,
+                    hp: 260,
+                    speed: 60,
+                    sp_atk: 95,
+                    sp_def: 42
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Weedle (Support)', 'Beedrill (Support)']
+        }
+        ,
+        {
+            name: 'Kakuna (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0014_00_cocoon_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 6,
+                    hp: 60,
+                    speed: 21,
+                    sp_atk: 10,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 79,
+                    bulk: 191,
+                    defense: 36,
+                    hp: 328,
+                    speed: 187,
+                    sp_atk: 79,
+                    sp_def: 36
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Weedle (Tech)', 'Beedrill (Tech)']
         }
         ,
         {
             name: 'Kingdra',
+            trainer: 'Clair',
             type1: 'Dragon',
             type2: '',
             weakness: 'Dragon',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0230_00_kingdra_256.ktx.png',
             stats: {
                 base: {attack: 8, defense: 5, hp: 70, speed: 10, sp_atk: 11, sp_def: 6},
                 max: {
                     attack: 237,
-                    bulk: 479,
+                    bulk: 601,
                     defense: 140,
                     hp: 545,
                     speed: 235,
@@ -5231,6 +7514,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '601',
             moves: [
                 {
                     name: 'Dragon Breath',
@@ -5300,14 +7584,17 @@ module.exports = {
                     name: 'Racing Rain 2',
                     description: 'Quickly charges the move gauge when the weather is rainy.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Lapras',
+            trainer: 'Lorelei',
             type1: 'Ice',
             type2: '',
             weakness: 'Grass',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0131_00_laplace_256.ktx.png',
             stats: {
@@ -5321,7 +7608,7 @@ module.exports = {
                 },
                 max: {
                     attack: 118,
-                    bulk: 582,
+                    bulk: 707,
                     defense: 160,
                     hp: 570,
                     speed: 240,
@@ -5329,6 +7616,7 @@ module.exports = {
                     sp_def: 215
                 }
             },
+            bulk: '707',
             moves: [
                 {
                     name: 'Ice Beam',
@@ -5398,14 +7686,122 @@ module.exports = {
                     name: 'Hostile Environment 1',
                     description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Leavanny',
+            trainer: 'Burgh',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 5,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0542_00_hahakomori_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 81,
+                    speed: 16,
+                    sp_atk: 22,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 208,
+                    bulk: 579,
+                    defense: 145,
+                    hp: 477,
+                    speed: 325,
+                    sp_atk: 343,
+                    sp_def: 145
+                }
+            },
+            bulk: '579',
+            moves: [
+                {
+                    name: 'Silver Wind',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of raising the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Bug Buzz',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Scurry Ahead!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense. Drastically raises the user’s Speed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Insectible Struggle Bug',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Speeding Sun 2',
+                    description: 'Quickly charges the move gauge when the weather is sunny.'
+                },
+                {
+                    name: 'Swag Bag 1',
+                    description: 'Raises the chance of raising stat values with the additional effects of moves.'
+                },
+                {
+                    name: 'On a Roll 1',
+                    description: 'Raises the chance of lowering stat values with the additional effects of moves.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Liepard',
+            trainer: 'Grimsley',
             type1: 'Dark',
             type2: '',
             weakness: 'Bug',
+            rarity: 5,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0510_00_lepardas_256.ktx__1.png',
             stats: {
@@ -5419,7 +7815,7 @@ module.exports = {
                 },
                 max: {
                     attack: 222,
-                    bulk: 535,
+                    bulk: 652,
                     defense: 182,
                     hp: 472,
                     speed: 408,
@@ -5427,6 +7823,7 @@ module.exports = {
                     sp_def: 182
                 }
             },
+            bulk: '652',
             moves: [
                 {
                     name: 'Night Slash',
@@ -5491,14 +7888,17 @@ module.exports = {
                     name: 'Lithe',
                     description: 'Prevents the Pokémon from getting paralyzed.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Lucario',
+            trainer: 'Korrina',
             type1: 'Fighting',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0448_00_lucario_256.ktx.png',
             stats: {
@@ -5512,7 +7912,7 @@ module.exports = {
                 },
                 max: {
                     attack: 325,
-                    bulk: 372,
+                    bulk: 559,
                     defense: 119,
                     hp: 426,
                     speed: 164,
@@ -5520,6 +7920,7 @@ module.exports = {
                     sp_def: 99
                 }
             },
+            bulk: '559',
             moves: [
                 {
                     name: 'Vacuum Wave',
@@ -5589,14 +7990,17 @@ module.exports = {
                     name: 'Unflappable',
                     description: 'Prevents the Pokémon from flinching.'
                 }
-            ]
+            ],
+            otherForms: ['Mega Lucario']
         }
         ,
         {
             name: 'Lunatone',
+            trainer: 'Liza',
             type1: 'Psychic',
             type2: '',
             weakness: 'Bug',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0337_00_lunatone_256.ktx.png',
             stats: {
@@ -5610,7 +8014,7 @@ module.exports = {
                 },
                 max: {
                     attack: 113,
-                    bulk: 492,
+                    bulk: 682,
                     defense: 117,
                     hp: 609,
                     speed: 134,
@@ -5618,6 +8022,7 @@ module.exports = {
                     sp_def: 154
                 }
             },
+            bulk: '682',
             moves: [
                 {
                     name: 'Confusion',
@@ -5689,14 +8094,118 @@ module.exports = {
                 },
                 {name: 'Dauntless', description: 'Sp. Atk cannot be lowered.'},
                 {name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Lycanroc',
+            trainer: 'Kukui',
+            type1: 'Rock',
+            type2: '',
+            weakness: 'Water',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-01/pm0829_11_okami2noon_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 15,
+                    defense: 12,
+                    hp: 94,
+                    speed: 23,
+                    sp_atk: 8,
+                    sp_def: 10
+                },
+                max: {
+                    attack: 244,
+                    bulk: 634,
+                    defense: 165,
+                    hp: 533,
+                    speed: 407,
+                    sp_atk: 80,
+                    sp_def: 159
+                }
+            },
+            bulk: '634',
+            moves: [
+                {
+                    name: 'Rock Tomb',
+                    type: 'Rock',
+                    category: 'Physical',
+                    power: {min_power: 39, max_power: 46},
+                    accuracy: 95,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Accelerock',
+                    type: 'Rock',
+                    category: 'Physical',
+                    power: {min_power: 75, max_power: 90},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: '',
+                    uses: 3,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Woo! Refreshing!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Refreshes the number of times the user can use its quick moves by three. Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Leer',
+                    type: 'Normal',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Lowers the target’s Defense.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Island Splintered Stormshards',
+                type: ' Rock',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Removes physical and special damage-reducing effects from the opponents’ field of play.'
+            },
+            passives: [
+                {
+                    name: 'Surging Sand 5',
+                    description: 'Powers up moves in a sandstorm.'
+                },
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Lycanroc (Midnight Form)',
+            trainer: 'Olivia',
             type1: 'Rock',
             type2: '',
             weakness: 'Grass',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0829_12_okami2night_256.ktx.png',
             stats: {
@@ -5710,7 +8219,7 @@ module.exports = {
                 },
                 max: {
                     attack: 401,
-                    bulk: 484,
+                    bulk: 600,
                     defense: 146,
                     hp: 528,
                     speed: 244,
@@ -5718,6 +8227,7 @@ module.exports = {
                     sp_def: 146
                 }
             },
+            bulk: '600',
             moves: [
                 {
                     name: 'Rock Throw',
@@ -5787,111 +8297,17 @@ module.exports = {
                     name: 'Amped Up 1',
                     description: 'Raises the Pokémon’s Speed when it lands a critical hit.'
                 }
-            ]
-        }
-        ,
-        {
-            name: 'Lycanroc',
-            type1: 'Rock',
-            type2: '',
-            weakness: 'Water',
-            role: 'Tech',
-            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-01/pm0829_11_okami2noon_256.ktx_.png',
-            stats: {
-                base: {
-                    attack: 15,
-                    defense: 12,
-                    hp: 94,
-                    speed: 23,
-                    sp_atk: 8,
-                    sp_def: 10
-                },
-                max: {
-                    attack: 244,
-                    bulk: 517,
-                    defense: 165,
-                    hp: 533,
-                    speed: 407,
-                    sp_atk: 80,
-                    sp_def: 159
-                }
-            },
-            moves: [
-                {
-                    name: 'Rock Tomb',
-                    type: 'Rock',
-                    category: 'Physical',
-                    power: {min_power: 39, max_power: 46},
-                    accuracy: 95,
-                    target: 'An opponent',
-                    cost: 2,
-                    uses: null,
-                    effect: 'Lowers the target’s Speed.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Accelerock',
-                    type: 'Rock',
-                    category: 'Physical',
-                    power: {min_power: 75, max_power: 90},
-                    accuracy: 100,
-                    target: 'An opponent',
-                    cost: '',
-                    uses: 3,
-                    effect: 'No additional effect.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Woo! Refreshing!',
-                    type: '',
-                    category: 'Status Effect',
-                    power: {min_power: 0, max_power: 0},
-                    accuracy: 0,
-                    target: 'Self',
-                    cost: '',
-                    uses: 2,
-                    effect: 'Refreshes the number of times the user can use its quick moves by three. Sharply raises the user’s Attack.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Leer',
-                    type: 'Normal',
-                    category: 'Status Effect',
-                    power: {min_power: 0, max_power: 0},
-                    accuracy: 100,
-                    target: 'All opponents',
-                    cost: 1,
-                    uses: null,
-                    effect: 'Lowers the target’s Defense.',
-                    unlock_requirements: []
-                }
             ],
-            syncMove: {
-                name: 'Island Splintered Stormshards',
-                type: ' Rock',
-                category: 'Physical',
-                power: {min_power: 250, max_power: 300},
-                target: 'An opponent',
-                effect_tag: '-',
-                description: 'Removes physical and special damage-reducing effects from the opponents’ field of play.'
-            },
-            passives: [
-                {
-                    name: 'Surging Sand 5',
-                    description: 'Powers up moves in a sandstorm.'
-                },
-                {
-                    name: 'Unflappable',
-                    description: 'Prevents the Pokémon from flinching.'
-                }
-            ]
+            otherForms: []
         }
         ,
         {
             name: 'Machamp',
+            trainer: 'Bruno',
             type1: 'Fighting',
             type2: '',
             weakness: 'Flying',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0068_00_kairiky_256.ktx.png',
             stats: {
@@ -5905,7 +8321,7 @@ module.exports = {
                 },
                 max: {
                     attack: 298,
-                    bulk: 433,
+                    bulk: 554,
                     defense: 123,
                     hp: 568,
                     speed: 178,
@@ -5913,6 +8329,7 @@ module.exports = {
                     sp_def: 104
                 }
             },
+            bulk: '554',
             moves: [
                 {
                     name: 'Karate Chop',
@@ -5982,14 +8399,17 @@ module.exports = {
                     name: 'Critical Strike 2',
                     description: 'Powers up attacks if they become critical hits.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Makuhita',
+            trainer: 'Brawly',
             type1: 'Fighting',
             type2: '',
             weakness: 'Flying',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0296_00_makunoshita_256.ktx.png',
             stats: {
@@ -6003,7 +8423,7 @@ module.exports = {
                 },
                 max: {
                     attack: 192,
-                    bulk: 437,
+                    bulk: 625,
                     defense: 83,
                     hp: 705,
                     speed: 175,
@@ -6011,6 +8431,7 @@ module.exports = {
                     sp_def: 98
                 }
             },
+            bulk: '625',
             moves: [
                 {
                     name: 'Rock Smash',
@@ -6080,14 +8501,17 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: ['Hariyama']
         }
         ,
         {
             name: 'Masquerain',
+            trainer: 'Viola',
             type1: 'Bug',
             type2: '',
             weakness: 'Rock',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0284_00_amemoth_256.ktx.png',
             stats: {
@@ -6101,7 +8525,7 @@ module.exports = {
                 },
                 max: {
                     attack: 123,
-                    bulk: 576,
+                    bulk: 701,
                     defense: 187,
                     hp: 516,
                     speed: 257,
@@ -6109,6 +8533,7 @@ module.exports = {
                     sp_def: 202
                 }
             },
+            bulk: '701',
             moves: [
                 {
                     name: 'Infestation',
@@ -6178,14 +8603,17 @@ module.exports = {
                     name: 'Terrify 1',
                     description: 'Lowers the Attack of all opposing sync pairs when the Pokémon enters a battle.'
                 }
-            ]
+            ],
+            otherForms: ['Surskit']
         }
         ,
         {
             name: 'Medicham',
+            trainer: 'Maylene',
             type1: 'Fighting',
             type2: '',
             weakness: 'Fairy',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0308_01_charem_256.ktx_.png',
             stats: {
@@ -6199,7 +8627,7 @@ module.exports = {
                 },
                 max: {
                     attack: 124,
-                    bulk: 540,
+                    bulk: 733,
                     defense: 177,
                     hp: 513,
                     speed: 230,
@@ -6207,6 +8635,7 @@ module.exports = {
                     sp_def: 177
                 }
             },
+            bulk: '733',
             moves: [
                 {
                     name: 'Rock Smash',
@@ -6271,14 +8700,17 @@ module.exports = {
                     name: 'On the Ropes 3',
                     description: 'Reduces damage when the Pokémon is in a pinch and is hit by a physical attack move.'
                 }
-            ]
+            ],
+            otherForms: ['Meditite']
         }
         ,
         {
             name: 'Meditite',
+            trainer: 'Maylene',
             type1: 'Fighting',
             type2: '',
             weakness: 'Fairy',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0307_01_asanan_256.ktx.png',
             stats: {
@@ -6292,7 +8724,7 @@ module.exports = {
                 },
                 max: {
                     attack: 120,
-                    bulk: 515,
+                    bulk: 707,
                     defense: 173,
                     hp: 466,
                     speed: 224,
@@ -6300,6 +8732,7 @@ module.exports = {
                     sp_def: 173
                 }
             },
+            bulk: '707',
             moves: [
                 {
                     name: 'Rock Smash',
@@ -6369,14 +8802,17 @@ module.exports = {
                     name: 'On the Ropes 3',
                     description: 'Reduces damage when the Pokémon is in a pinch and is hit by a physical attack move.'
                 }
-            ]
+            ],
+            otherForms: ['Medicham']
         }
         ,
         {
             name: 'Mega Alakazam',
+            trainer: 'Sabrina',
             type1: 'Psychic',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0065_51_megafoodin_256.ktx_.png',
             stats: {
@@ -6390,7 +8826,7 @@ module.exports = {
                 },
                 max: {
                     attack: 63,
-                    bulk: 584,
+                    bulk: 701,
                     defense: 160,
                     hp: 492,
                     speed: 391,
@@ -6398,6 +8834,7 @@ module.exports = {
                     sp_def: 246
                 }
             },
+            bulk: '701',
             moves: [
                 {
                     name: 'Psychic',
@@ -6467,21 +8904,24 @@ module.exports = {
                     description: 'Raises the user’s Speed when the Pokémon enters a battle.'
                 },
                 {name: 'Dauntless', description: 'Sp. Atk cannot be lowered.'}
-            ]
+            ],
+            otherForms: ['Alakazam']
         }
         ,
         {
             name: 'Mega Beedrill',
+            trainer: 'Bugsy',
             type1: 'Bug',
             type2: '',
             weakness: 'Rock',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0015_51_megaspear_256.ktx.png',
             stats: {
                 base: {attack: 22, defense: 8, hp: 67, speed: 22, sp_atk: 8, sp_def: 8},
                 max: {
                     attack: 388,
-                    bulk: 340,
+                    bulk: 523,
                     defense: 82,
                     hp: 434,
                     speed: 366,
@@ -6489,6 +8929,7 @@ module.exports = {
                     sp_def: 101
                 }
             },
+            bulk: '523',
             moves: [
                 {
                     name: 'Fell Stinger',
@@ -6562,14 +9003,17 @@ module.exports = {
                     name: 'Amped Up 1',
                     description: 'Raises the Pokémon’s Speed when it lands a critical hit.'
                 }
-            ]
+            ],
+            otherForms: ['Beedrill']
         }
         ,
         {
             name: 'Mega Charizard X',
+            trainer: 'Red',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0006_51_megalizardonX_256.ktx_.png',
             stats: {
@@ -6583,7 +9027,7 @@ module.exports = {
                 },
                 max: {
                     attack: 456,
-                    bulk: 498,
+                    bulk: 614,
                     defense: 129,
                     hp: 660,
                     speed: 265,
@@ -6591,6 +9035,7 @@ module.exports = {
                     sp_def: 129
                 }
             },
+            bulk: '614',
             moves: [
                 {
                     name: 'Heat Wave',
@@ -6637,7 +9082,7 @@ module.exports = {
                     target: 'Self',
                     cost: '',
                     uses: 2,
-                    effect: 'Drastically raises the user’s Sp. Atk and Speed. Lowers the user’s Defense and Sp. Def. If Charizard has Mega Evolved, drastically raises the user’s Attack.',
+                    effect: 'Drastically raises the user’s Sp. Atk and Speed. Lowers the user’s Defense and Sp. Def. If Charizard has Mega Evolved, also drastically raises the user’s Attack.',
                     unlock_requirements: []
                 }
             ],
@@ -6658,16 +9103,124 @@ module.exports = {
                 {name: 'Piercing Gaze', description: 'Moves never miss.'},
                 {
                     name: 'Move Gauge Refresh 4',
-                    description: 'Has a good chance of increasing the user’s move gauge by one when a move is successful.'
+                    description: 'Has a good chance of charging the user’s move gauge by one when a move is successful.'
                 }
-            ]
+            ],
+            otherForms: ['Charizard']
+        }
+        ,
+        {
+            name: 'Mega Gallade',
+            trainer: 'Wally',
+            type1: 'Fighting',
+            type2: '',
+            weakness: 'Ghost',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0475_51_megaerureido_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 21,
+                    defense: 9,
+                    hp: 81,
+                    speed: 12,
+                    sp_atk: 20,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 411,
+                    bulk: 556,
+                    defense: 123,
+                    hp: 465,
+                    speed: 220,
+                    sp_atk: 367,
+                    sp_def: 148
+                }
+            },
+            bulk: '556',
+            moves: [
+                {
+                    name: 'Close Combat',
+                    type: 'Fighting',
+                    category: 'Physical',
+                    power: {min_power: 124, max_power: 148},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Lowers the user’s Defense and Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Focus Blast',
+                    type: 'Fighting',
+                    category: 'Special',
+                    power: {min_power: 142, max_power: 170},
+                    accuracy: 70,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Here I Come!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Attack and Sp. Atk. Sharply raises the user’s accuracy.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Rallying Close Combat',
+                type: ' Fighting',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Gallade until the end of battle. Raises the user’s critical-hit rate.'
+            },
+            passives: [
+                {
+                    name: 'Posthaste 9',
+                    description: 'Sharply raises the user’s Speed when the user is hit by an attack move.'
+                },
+                {
+                    name: 'Zero In 1',
+                    description: 'Critical hits land more easily when an attack move is used.'
+                },
+                {
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
+                }
+            ],
+            otherForms: ['Gallade']
         }
         ,
         {
             name: 'Mega Garchomp',
+            trainer: 'Cynthia',
             type1: 'Ground',
             type2: '',
             weakness: 'Ice',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0445_51_megagaburias_256.ktx_.png',
             stats: {
@@ -6681,7 +9234,7 @@ module.exports = {
                 },
                 max: {
                     attack: 397,
-                    bulk: 511,
+                    bulk: 628,
                     defense: 172,
                     hp: 547,
                     speed: 325,
@@ -6689,6 +9242,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '628',
             moves: [
                 {
                     name: 'Earthquake',
@@ -6750,21 +9304,28 @@ module.exports = {
             },
             passives: [
                 {
-                    name: 'Hit and Run 2',
-                    description: 'Occasionally raises the Pokémon’s Speed after it uses a move.'
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
                 },
                 {
                     name: 'Surging Sand 5',
                     description: 'Powers up moves in a sandstorm.'
+                },
+                {
+                    name: 'Ground Shift',
+                    description: 'Normal-type moves become Ground-type moves.'
                 }
-            ]
+            ],
+            otherForms: ['Garchomp']
         }
         ,
         {
             name: 'Mega Gengar',
+            trainer: 'Agatha',
             type1: 'Ghost',
             type2: '',
             weakness: 'Dark',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0094_51_megagangar_256.ktx.png',
             stats: {
@@ -6778,7 +9339,7 @@ module.exports = {
                 },
                 max: {
                     attack: 138,
-                    bulk: 461,
+                    bulk: 582,
                     defense: 117,
                     hp: 473,
                     speed: 393,
@@ -6786,6 +9347,7 @@ module.exports = {
                     sp_def: 172
                 }
             },
+            bulk: '582',
             moves: [
                 {
                     name: 'Hex',
@@ -6855,14 +9417,17 @@ module.exports = {
                     name: 'Wide Awake',
                     description: 'Prevents the Pokémon from falling asleep.'
                 }
-            ]
+            ],
+            otherForms: ['Gengar']
         }
         ,
         {
             name: 'Mega Glalie',
+            trainer: 'Glacia',
             type1: 'Ice',
             type2: '',
             weakness: 'Steel',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0362_51_megaonigohri_256.ktx__0.png',
             stats: {
@@ -6876,7 +9441,7 @@ module.exports = {
                 },
                 max: {
                     attack: 201,
-                    bulk: 528,
+                    bulk: 645,
                     defense: 164,
                     hp: 552,
                     speed: 262,
@@ -6884,6 +9449,7 @@ module.exports = {
                     sp_def: 164
                 }
             },
+            bulk: '645',
             moves: [
                 {
                     name: 'Powder Snow',
@@ -6952,14 +9518,17 @@ module.exports = {
                     name: 'Fortuitous 4',
                     description: 'Has a good chance of raising the user’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
                 }
-            ]
+            ],
+            otherForms: ['Glalie']
         }
         ,
         {
             name: 'Mega Houndoom',
+            trainer: 'Karen',
             type1: 'Dark',
             type2: '',
             weakness: 'Fighting',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0229_51_megahellgar_256.ktx.png',
             stats: {
@@ -6973,7 +9542,7 @@ module.exports = {
                 },
                 max: {
                     attack: 304,
-                    bulk: 516,
+                    bulk: 633,
                     defense: 172,
                     hp: 516,
                     speed: 393,
@@ -6981,6 +9550,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '633',
             moves: [
                 {
                     name: 'Snarl',
@@ -7054,14 +9624,17 @@ module.exports = {
                     name: 'Wide Awake',
                     description: 'Prevents the Pokémon from falling asleep.'
                 }
-            ]
+            ],
+            otherForms: ['Houndoom']
         }
         ,
         {
             name: 'Mega Lucario',
+            trainer: 'Korrina',
             type1: 'Fighting',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0448_51_megalucario_256.ktx.png',
             stats: {
@@ -7075,7 +9648,7 @@ module.exports = {
                 },
                 max: {
                     attack: 390,
-                    bulk: 372,
+                    bulk: 559,
                     defense: 119,
                     hp: 426,
                     speed: 196,
@@ -7083,6 +9656,7 @@ module.exports = {
                     sp_def: 99
                 }
             },
+            bulk: '559',
             moves: [
                 {
                     name: 'Power-Up Punch',
@@ -7152,14 +9726,17 @@ module.exports = {
                     name: 'Unflappable',
                     description: 'Prevents the Pokémon from flinching.'
                 }
-            ]
+            ],
+            otherForms: ['Lucario']
         }
         ,
         {
             name: 'Mega Metagross',
+            trainer: 'Steven',
             type1: 'Steel',
             type2: '',
             weakness: 'Ghost',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-01/pm0376_51_megametagross_256.ktx_.png',
             stats: {
@@ -7173,7 +9750,7 @@ module.exports = {
                 },
                 max: {
                     attack: 460,
-                    bulk: 530,
+                    bulk: 646,
                     defense: 187,
                     hp: 443,
                     speed: 222,
@@ -7181,6 +9758,7 @@ module.exports = {
                     sp_def: 182
                 }
             },
+            bulk: '646',
             moves: [
                 {
                     name: 'Iron Head',
@@ -7246,14 +9824,17 @@ module.exports = {
                     description: 'Powers up moves when unity bonus is in effect.'
                 },
                 {name: 'Impervious', description: 'Stats cannot be lowered.'}
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Mega Pidgeot',
+            trainer: 'Blue',
             type1: 'Flying',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0018_51_megapigeot_256.ktx__0.png',
             stats: {
@@ -7267,7 +9848,7 @@ module.exports = {
                 },
                 max: {
                     attack: 130,
-                    bulk: 520,
+                    bulk: 636,
                     defense: 166,
                     hp: 517,
                     speed: 364,
@@ -7275,6 +9856,7 @@ module.exports = {
                     sp_def: 166
                 }
             },
+            bulk: '636',
             moves: [
                 {
                     name: 'Air Cutter',
@@ -7342,14 +9924,17 @@ module.exports = {
             passives: [
                 {name: 'Acuity', description: 'Accuracy cannot be lowered.'},
                 {name: 'Haste', description: 'Speed cannot be lowered.'}
-            ]
+            ],
+            otherForms: ['Pidgeot']
         }
         ,
         {
             name: 'Mega Pinsir',
+            trainer: 'Noland',
             type1: 'Bug',
             type2: '',
             weakness: 'Flying',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0127_51_megakailios_256.ktx.png',
             stats: {
@@ -7363,7 +9948,7 @@ module.exports = {
                 },
                 max: {
                     attack: 427,
-                    bulk: 499,
+                    bulk: 623,
                     defense: 164,
                     hp: 547,
                     speed: 293,
@@ -7371,6 +9956,7 @@ module.exports = {
                     sp_def: 137
                 }
             },
+            bulk: '623',
             moves: [
                 {
                     name: 'Fury Cutter',
@@ -7441,14 +10027,223 @@ module.exports = {
                     name: 'Unhindered',
                     description: 'When the Pokémon attacks, ignores damage-reducing effects on the opponent’s field of play.'
                 }
-            ]
+            ],
+            otherForms: ['Pinsir']
+        }
+        ,
+        {
+            name: 'Mega Sharpedo',
+            trainer: 'Grimsley',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Fairy',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0319_51_megasamehader_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 24,
+                    defense: 9,
+                    hp: 82,
+                    speed: 23,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 354,
+                    bulk: 613,
+                    defense: 140,
+                    hp: 597,
+                    speed: 462,
+                    sp_atk: 322,
+                    sp_def: 140
+                }
+            },
+            bulk: '613',
+            moves: [
+                {
+                    name: 'Liquidation',
+                    type: 'Water',
+                    category: 'Physical',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a small chance of lowering the target’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Aqua Jet',
+                    type: 'Water',
+                    category: 'Physical',
+                    power: {min_power: 75, max_power: 90},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: '',
+                    uses: 3,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sink or Swim!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Removes all status conditions from the user. Drastically raises the user’s evasiveness and critical-hit rate. The user takes damage equal to 90% of its remaining HP. If used by Mega Sharpedo, also radically raises the user’s Attack.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'High-Stakes Liquidation',
+                type: ' Water',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Sharpedo until the end of battle.'
+            },
+            passives: [
+                {
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
+                },
+                {
+                    name: 'Power Flux 5',
+                    description: 'The fuller the move gauge, the more this powers up moves.'
+                },
+                {
+                    name: 'Double Down 5',
+                    description: 'Powers up sync moves that are super effective.'
+                }
+            ],
+            otherForms: ['Sharpedo']
+        }
+        ,
+        {
+            name: 'Mega Steelix',
+            trainer: 'Jasmine',
+            type1: 'Steel',
+            type2: '',
+            weakness: 'Water',
+            rarity: 5,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_51_megahaganeil_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 9,
+                    defense: 20,
+                    hp: 140,
+                    speed: 9,
+                    sp_atk: 10,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 168,
+                    bulk: 850,
+                    defense: 360,
+                    hp: 520,
+                    speed: 140,
+                    sp_atk: 120,
+                    sp_def: 185
+                }
+            },
+            bulk: '850',
+            moves: [
+                {
+                    name: 'Gyro Ball',
+                    type: 'Steel',
+                    category: 'Physical',
+                    power: {min_power: 44, max_power: 52},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Its power is doubled if the target’s Speed has risen.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Defense of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Clang!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Allied side',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Activates the Critical-Hit Defense and Stat Reduction Defense effects on the allied field of play.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Iron Tail',
+                    type: 'Steel',
+                    category: 'Physical',
+                    power: {min_power: 132, max_power: 158},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of lowering the target’s Defense.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Steel-Clad Iron Tail',
+                type: ' Steel',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move.'
+            },
+            passives: [
+                {
+                    name: 'Endurance',
+                    description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
+                },
+                {
+                    name: 'Last Word',
+                    description: 'The Pokémon uses Explosion immediately before fainting.'
+                }
+            ],
+            otherForms: ['Steelix']
         }
         ,
         {
             name: 'Meganium',
+            trainer: 'Lyra',
             type1: 'Grass',
             type2: '',
             weakness: 'Fire',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0154_01_meganium_256.ktx.png',
             stats: {
@@ -7462,7 +10257,7 @@ module.exports = {
                 },
                 max: {
                     attack: 131,
-                    bulk: 590,
+                    bulk: 707,
                     defense: 124,
                     hp: 802,
                     speed: 177,
@@ -7470,6 +10265,7 @@ module.exports = {
                     sp_def: 175
                 }
             },
+            bulk: '707',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -7539,14 +10335,17 @@ module.exports = {
                     name: 'Solar Shield',
                     description: 'The Pokémon is not affected by status conditions when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Chikorita', 'Bayleef']
         }
         ,
         {
             name: 'Meowstic',
+            trainer: 'Calem',
             type1: 'Psychic',
             type2: '',
             weakness: 'Ghost',
+            rarity: 5,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0734_00_cat2_256.ktx_.png',
             stats: {
@@ -7560,7 +10359,7 @@ module.exports = {
                 },
                 max: {
                     attack: 129,
-                    bulk: 483,
+                    bulk: 599,
                     defense: 130,
                     hp: 564,
                     speed: 406,
@@ -7568,6 +10367,7 @@ module.exports = {
                     sp_def: 148
                 }
             },
+            bulk: '599',
             moves: [
                 {
                     name: 'Psybeam',
@@ -7633,14 +10433,315 @@ module.exports = {
                     name: 'Aggravation 1',
                     description: 'Raises the chance of inflicting the flinching, confused, or trapped condition with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Espurr']
+        }
+        ,
+        {
+            name: 'Meowth (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0052_00_nyarth_256.ktx__1.png',
+            stats: {
+                base: {attack: 13, defense: 4, hp: 58, speed: 7, sp_atk: 13, sp_def: 4},
+                max: {
+                    attack: 162,
+                    bulk: 198,
+                    defense: 55,
+                    hp: 243,
+                    speed: 122,
+                    sp_atk: 162,
+                    sp_def: 55
+                }
+            },
+            bulk: '198',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Critical Strike 1',
+                    description: 'Powers up attacks if they become critical hits.'
+                }
+            ],
+            otherForms: ['Persian (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Meowth (Support)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0052_00_nyarth_256.ktx__0.png',
+            stats: {
+                base: {attack: 15, defense: 8, hp: 62, speed: 9, sp_atk: 15, sp_def: 8},
+                max: {
+                    attack: 96,
+                    bulk: 181,
+                    defense: 43,
+                    hp: 263,
+                    speed: 61,
+                    sp_atk: 96,
+                    sp_def: 43
+                }
+            },
+            bulk: '181',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Facade',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Its power is doubled when the user is poisoned, badly poisoned, paralyzed, or burned. Ignores lowered Attack from burns.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Persian (Support)']
+        }
+        ,
+        {
+            name: 'Meowth (Tech)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0052_00_nyarth_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 5,
+                    hp: 52,
+                    speed: 10,
+                    sp_atk: 10,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 80,
+                    bulk: 191,
+                    defense: 35,
+                    hp: 333,
+                    speed: 177,
+                    sp_atk: 80,
+                    sp_def: 35
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Charm',
+                    type: 'Fairy',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Sharply lowers the target’s Attack.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {name: 'Haste', description: 'Speed cannot be lowered.'},
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Persian (Tech)']
         }
         ,
         {
             name: 'Metagross',
+            trainer: 'Steven',
             type1: 'Steel',
             type2: '',
             weakness: 'Ghost',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-01/pm0376_00_metagross_256.ktx_.png',
             stats: {
@@ -7654,7 +10755,7 @@ module.exports = {
                 },
                 max: {
                     attack: 384,
-                    bulk: 497,
+                    bulk: 613,
                     defense: 170,
                     hp: 443,
                     speed: 222,
@@ -7662,6 +10763,7 @@ module.exports = {
                     sp_def: 166
                 }
             },
+            bulk: '613',
             moves: [
                 {
                     name: 'Meteor Mash',
@@ -7727,212 +10829,17 @@ module.exports = {
                     description: 'Powers up moves when unity bonus is in effect.'
                 },
                 {name: 'Impervious', description: 'Stats cannot be lowered.'}
-            ]
-        }
-        ,
-        {
-            name: 'Mew (After Sync)',
-            type1: 'Psychic',
-            type2: '',
-            weakness: 'Bug',
-            role: 'Tech',
-            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0460_01_yukinooh_256.ktx.png',
-            stats: {
-                base: {
-                    attack: 220,
-                    defense: 220,
-                    hp: 321,
-                    speed: 220,
-                    sp_atk: 220,
-                    sp_def: 220
-                },
-                max: {
-                    attack: 280,
-                    bulk: 433,
-                    defense: 280,
-                    hp: 420,
-                    speed: 280,
-                    sp_atk: 280,
-                    sp_def: 280
-                }
-            },
-            moves: [
-                {
-                    name: 'Fire Blast',
-                    type: 'Fire',
-                    category: 'Special',
-                    power: {min_power: 116, max_power: 116},
-                    accuracy: 85,
-                    target: 'An Opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Has a very small chance of leaving the target burned.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Thunder',
-                    type: 'Electric',
-                    category: 'Special',
-                    power: {min_power: 124, max_power: 124},
-                    accuracy: 70,
-                    target: 'An Opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Never misses when the weather is rainy. Has a moderate chance of leaving the target paralyzed.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Psychic',
-                    type: 'Psychic',
-                    category: 'Special',
-                    power: {min_power: 99, max_power: 99},
-                    accuracy: 100,
-                    target: 'An Opponent',
-                    cost: 2,
-                    uses: null,
-                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
-                    unlock_requirements: ['Training Machine x5']
-                },
-                {
-                    name: 'Blizzard',
-                    type: 'Ice',
-                    category: 'Special',
-                    power: {min_power: 126, max_power: 126},
-                    accuracy: 70,
-                    target: 'An Opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Never misses during a hailstorm. Has a very small chance of leaving the target frozen.',
-                    unlock_requirements: []
-                }
             ],
-            syncMove: {
-                name: 'Pokémon Professor Psychic',
-                type: 'Psychic',
-                category: 'Special',
-                power: {min_power: 250, max_power: 250},
-                target: 'An opponent',
-                effect_tag: '-',
-                description: 'No additional effect.'
-            },
-            passives: [
-                {
-                    name: 'Superduper Effective 1',
-                    description: 'Powers up moves that are super effective.'
-                },
-                {
-                    name: 'Unfortuitous 9',
-                    description: 'Lowers the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
-                }
-            ]
-        }
-        ,
-        {
-            name: 'Mew (Synced)',
-            type1: 'Psychic',
-            type2: '',
-            weakness: 'Bug',
-            role: 'Tech',
-            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0151_00_mew_256.ktx__0.png',
-            stats: {
-                base: {
-                    attack: 10,
-                    defense: 10,
-                    hp: 100,
-                    speed: 10,
-                    sp_atk: 10,
-                    sp_def: 10
-                },
-                max: {
-                    attack: 220,
-                    bulk: 556,
-                    defense: 220,
-                    hp: 321,
-                    speed: 220,
-                    sp_atk: 220,
-                    sp_def: 220
-                }
-            },
-            moves: [
-                {
-                    name: 'Fire Blast',
-                    type: 'Fire',
-                    category: 'Special',
-                    power: {min_power: 116, max_power: 139},
-                    accuracy: 85,
-                    target: 'An opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Has a very small chance of leaving the target burned.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Thunder',
-                    type: 'Electric',
-                    category: 'Special',
-                    power: {min_power: 124, max_power: 148},
-                    accuracy: 70,
-                    target: 'An opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Never misses when the weather is rainy. Has a moderate chance of leaving the target paralyzed.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Psychic',
-                    type: 'Psychic',
-                    category: 'Special',
-                    power: {min_power: 99, max_power: 118},
-                    accuracy: 100,
-                    target: 'An opponent',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
-                    unlock_requirements: []
-                },
-                {
-                    name: 'Blizzard',
-                    type: 'Ice',
-                    category: 'Special',
-                    power: {min_power: 126, max_power: 151},
-                    accuracy: 70,
-                    target: 'All opponents',
-                    cost: 3,
-                    uses: null,
-                    effect: 'Never misses during a hailstorm. Has a very small chance of leaving the target frozen.',
-                    unlock_requirements: []
-                }
-            ],
-            syncMove: {
-                name: 'Pokémon Professor Psychic',
-                type: ' Psychic',
-                category: 'Special',
-                power: {min_power: 250, max_power: 300},
-                target: 'An opponent',
-                effect_tag: '-',
-                description: 'No additional effect.'
-            },
-            passives: [
-                {
-                    name: 'Superduper Effective 1',
-                    description: 'Powers up moves that are super effective.'
-                },
-                {
-                    name: 'Unfortuitous 9',
-                    description: 'Lowers the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
-                },
-                {
-                    name: 'Oak’s Research',
-                    description: 'Replaces some of the user’s moves with different moves after using a sync move.'
-                }
-            ]
+            otherForms: ['Mega Metagross']
         }
         ,
         {
             name: 'Mew',
+            trainer: 'Oak',
             type1: 'Psychic',
             type2: '',
             weakness: 'Bug',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0151_00_mew_256.ktx_.png',
             stats: {
@@ -7946,7 +10853,7 @@ module.exports = {
                 },
                 max: {
                     attack: 220,
-                    bulk: 556,
+                    bulk: 767,
                     defense: 220,
                     hp: 321,
                     speed: 220,
@@ -7954,6 +10861,7 @@ module.exports = {
                     sp_def: 220
                 }
             },
+            bulk: '767',
             moves: [
                 {
                     name: 'Swift',
@@ -8026,14 +10934,122 @@ module.exports = {
                     name: 'Oak’s Research',
                     description: 'Replaces some of the user’s moves with different moves after using a sync move.'
                 }
-            ]
+            ],
+            otherForms: ['Mew (Synced)']
+        }
+        ,
+        {
+            name: 'Mew (After Sync)',
+            trainer: 'Oak',
+            type1: 'Psychic',
+            type2: '',
+            weakness: 'Bug',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0151_00_mew_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 10,
+                    hp: 100,
+                    speed: 10,
+                    sp_atk: 10,
+                    sp_def: 10
+                },
+                max: {
+                    attack: 220,
+                    bulk: 767,
+                    defense: 220,
+                    hp: 321,
+                    speed: 220,
+                    sp_atk: 220,
+                    sp_def: 220
+                }
+            },
+            bulk: '767',
+            moves: [
+                {
+                    name: 'Fire Blast',
+                    type: 'Fire',
+                    category: 'Special',
+                    power: {min_power: 116, max_power: 139},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target burned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Thunder',
+                    type: 'Electric',
+                    category: 'Special',
+                    power: {min_power: 124, max_power: 148},
+                    accuracy: 70,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Never misses when the weather is rainy. Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Psychic',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Blizzard',
+                    type: 'Ice',
+                    category: 'Special',
+                    power: {min_power: 126, max_power: 151},
+                    accuracy: 70,
+                    target: 'All opponents',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Never misses during a hailstorm. Has a very small chance of leaving the target frozen.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Pokémon Professor Psychic',
+                type: ' Psychic',
+                category: 'Special',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                },
+                {
+                    name: 'Unfortuitous 9',
+                    description: 'Lowers the target’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
+                },
+                {
+                    name: 'Oak’s Research',
+                    description: 'Replaces some of the user’s moves with different moves after using a sync move.'
+                }
+            ],
+            otherForms: ['Mew']
         }
         ,
         {
             name: 'Mewtwo',
+            trainer: 'Giovanni',
             type1: 'Psychic',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0150_00_mewtwo_256.ktx__0.png',
             stats: {
@@ -8047,7 +11063,7 @@ module.exports = {
                 },
                 max: {
                     attack: 359,
-                    bulk: 369,
+                    bulk: 485,
                     defense: 96,
                     hp: 488,
                     speed: 390,
@@ -8055,6 +11071,7 @@ module.exports = {
                     sp_def: 96
                 }
             },
+            bulk: '485',
             moves: [
                 {
                     name: 'Confusion',
@@ -8119,14 +11136,122 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Milotic',
+            trainer: 'Wallace',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Electric',
+            rarity: 5,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0350_01_milokaross_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 9,
+                    defense: 14,
+                    hp: 128,
+                    speed: 16,
+                    sp_atk: 12,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 102,
+                    bulk: 683,
+                    defense: 134,
+                    hp: 740,
+                    speed: 224,
+                    sp_atk: 300,
+                    sp_def: 164
+                }
+            },
+            bulk: '683',
+            moves: [
+                {
+                    name: 'Brine',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Its power is doubled if the target’s HP is at half or below.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Whirlpool',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 85,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Grand Illusion!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Allied side',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Activates the Status Condition Reflection effect on the allied field of play. Makes the user able to endure the next hit it takes.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Mirror Coat',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'The user takes up a counterattacking posture. Using this move again will cause the user to leave this posture. No other actions can be taken while in this posture. The user will attack if hit by a special move while it is in this counterattacking posture, then the user leaves this posture. The more damage the user has taken from the opponent’s move, the greater the power of this move.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Aquatic Prince Hydro Pump',
+                type: ' Water',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Its power increases if the target is trapped.'
+            },
+            passives: [
+                {
+                    name: 'Stationary Target 5',
+                    description: 'Powers up moves when the target is trapped.'
+                },
+                {
+                    name: 'Pokey Trap 5',
+                    description: 'Increases the amount of damage the target takes from being trapped.'
+                },
+                {
+                    name: 'Recuperation 2',
+                    description: 'Restores the user’s HP after using a sync move.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Miltank',
+            trainer: 'Whitney',
             type1: 'Normal',
             type2: '',
             weakness: 'Fighting',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0241_00_miltank_256.ktx.png',
             stats: {
@@ -8140,7 +11265,7 @@ module.exports = {
                 },
                 max: {
                     attack: 286,
-                    bulk: 440,
+                    bulk: 561,
                     defense: 107,
                     hp: 577,
                     speed: 260,
@@ -8148,6 +11273,7 @@ module.exports = {
                     sp_def: 124
                 }
             },
+            bulk: '561',
             moves: [
                 {
                     name: 'Body Slam',
@@ -8215,16 +11341,19 @@ module.exports = {
             passives: [
                 {
                     name: 'Mad Strength 2',
-                    description: 'Occasionally raises the Pokémon’s Attack when one of its attacks is successful.'
+                    description: 'Has a moderate chance of raising the Pokémon’s Attack when one of its attacks is successful.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Mismagius',
+            trainer: 'Fantina',
             type1: 'Ghost',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0429_00_mumargi_256.ktx_.png',
             stats: {
@@ -8238,7 +11367,7 @@ module.exports = {
                 },
                 max: {
                     attack: 121,
-                    bulk: 456,
+                    bulk: 572,
                     defense: 123,
                     hp: 473,
                     speed: 304,
@@ -8246,6 +11375,7 @@ module.exports = {
                     sp_def: 161
                 }
             },
+            bulk: '572',
             moves: [
                 {
                     name: 'Ominous Wind',
@@ -8314,21 +11444,24 @@ module.exports = {
                     name: 'Bulk Buster 4',
                     description: 'The more HP the target has, the more it powers up moves.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Mudsdale',
+            trainer: 'Hapu',
             type1: 'Ground',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0840_00_roba2_256.ktx.png',
             stats: {
                 base: {attack: 13, defense: 9, hp: 62, speed: 7, sp_atk: 8, sp_def: 5},
                 max: {
                     attack: 236,
-                    bulk: 424,
+                    bulk: 611,
                     defense: 174,
                     hp: 471,
                     speed: 152,
@@ -8336,6 +11469,7 @@ module.exports = {
                     sp_def: 79
                 }
             },
+            bulk: '611',
             moves: [
                 {
                     name: 'Mud-Slap',
@@ -8405,14 +11539,941 @@ module.exports = {
                     name: 'Clearheaded',
                     description: 'Prevents the Pokémon from becoming confused.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Nidoqueen (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0031_00_nidoqueen_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 21,
+                    defense: 8,
+                    hp: 73,
+                    speed: 21,
+                    sp_atk: 21,
+                    sp_def: 8
+                },
+                max: {
+                    attack: 170,
+                    bulk: 205,
+                    defense: 56,
+                    hp: 256,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '205',
+            moves: [
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Jab',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Critical Strike 1',
+                    description: 'Powers up attacks if they become critical hits.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Strike Physical)', 'Nidorina (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Nidoqueen (Support)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0031_00_nidoqueen_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 73,
+                    speed: 10,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 99,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 99,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Stand Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Defense and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Support)', 'Nidorina (Support)']
+        }
+        ,
+        {
+            name: 'Nidoqueen (Tech)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0031_00_nidoqueen_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 7,
+                    hp: 75,
+                    speed: 28,
+                    sp_atk: 13,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 82,
+                    bulk: 204,
+                    defense: 37,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 37
+                }
+            },
+            bulk: '204',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Venom Drench',
+                    type: 'Poison',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Attack, Sp. Atk, and Speed if the target is poisoned or badly poisoned. Fails if the target is not poisoned or badly poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Tech)', 'Nidorina (Tech)']
+        }
+        ,
+        {
+            name: 'Nidoran♀ (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0029_00_nidoranF_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 5,
+                    hp: 53,
+                    speed: 13,
+                    sp_atk: 12,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 144,
+                    bulk: 191,
+                    defense: 53,
+                    hp: 236,
+                    speed: 116,
+                    sp_atk: 144,
+                    sp_def: 53
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Jab',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Critical Strike 1',
+                    description: 'Powers up attacks if they become critical hits.'
+                }
+            ],
+            otherForms: ['Nidorina (Strike Physical)', 'Nidoqueen (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Nidoran♀ (Support)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0029_00_nidoranF_256.ktx_.png',
+            stats: {
+                base: {attack: 12, defense: 6, hp: 53, speed: 7, sp_atk: 12, sp_def: 6},
+                max: {
+                    attack: 93,
+                    bulk: 163,
+                    defense: 36,
+                    hp: 252,
+                    speed: 59,
+                    sp_atk: 93,
+                    sp_def: 36
+                }
+            },
+            bulk: '163',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Stand Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Defense and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Nidorina (Support)', 'Nidoqueen (Support)']
+        }
+        ,
+        {
+            name: 'Nidoran♀ (Tech)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0029_00_nidoranF_256.ktx__0.png',
+            stats: {
+                base: {attack: 8, defense: 5, hp: 51, speed: 17, sp_atk: 8, sp_def: 5},
+                max: {
+                    attack: 77,
+                    bulk: 178,
+                    defense: 35,
+                    hp: 298,
+                    speed: 171,
+                    sp_atk: 77,
+                    sp_def: 35
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Venom Drench',
+                    type: 'Poison',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Attack, Sp. Atk, and Speed if the target is poisoned or badly poisoned. Fails if the target is not poisoned or badly poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Nidorina (Tech)', 'Nidoqueen (Tech)']
+        }
+        ,
+        {
+            name: 'Nidorina (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0030_00_nidorina_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 15,
+                    defense: 6,
+                    hp: 61,
+                    speed: 16,
+                    sp_atk: 15,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 148,
+                    bulk: 196,
+                    defense: 54,
+                    hp: 244,
+                    speed: 119,
+                    sp_atk: 148,
+                    sp_def: 54
+                }
+            },
+            bulk: '196',
+            moves: [
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Jab',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Critical Strike 1',
+                    description: 'Powers up attacks if they become critical hits.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Strike Physical)', 'Nidoqueen (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Nidorina (Support)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0030_00_nidorina_256.ktx_.png',
+            stats: {
+                base: {attack: 14, defense: 7, hp: 61, speed: 8, sp_atk: 14, sp_def: 7},
+                max: {
+                    attack: 95,
+                    bulk: 178,
+                    defense: 42,
+                    hp: 260,
+                    speed: 60,
+                    sp_atk: 95,
+                    sp_def: 42
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Stand Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Defense and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Tail',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 38, max_power: 45},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily. Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Support)', 'Nidoqueen (Support)']
+        }
+        ,
+        {
+            name: 'Nidorina (Tech)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ground',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0030_00_nidorina_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 6,
+                    hp: 60,
+                    speed: 21,
+                    sp_atk: 10,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 79,
+                    bulk: 191,
+                    defense: 36,
+                    hp: 328,
+                    speed: 187,
+                    sp_atk: 79,
+                    sp_def: 36
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Venom Drench',
+                    type: 'Poison',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Attack, Sp. Atk, and Speed if the target is poisoned or badly poisoned. Fails if the target is not poisoned or badly poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Impact',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Nidoran♀ (Tech)', 'Nidoqueen (Tech)']
         }
         ,
         {
             name: 'Nosepass',
+            trainer: 'Roxanne',
             type1: 'Rock',
             type2: '',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0299_00_nosepass_256.ktx.png',
             stats: {
@@ -8426,7 +12487,7 @@ module.exports = {
                 },
                 max: {
                     attack: 114,
-                    bulk: 508,
+                    bulk: 701,
                     defense: 192,
                     hp: 341,
                     speed: 101,
@@ -8434,6 +12495,7 @@ module.exports = {
                     sp_def: 192
                 }
             },
+            bulk: '701',
             moves: [
                 {
                     name: 'Ancient Power',
@@ -8503,14 +12565,17 @@ module.exports = {
                     name: 'Surging Sand 5',
                     description: 'Powers up moves in a sandstorm.'
                 }
-            ]
+            ],
+            otherForms: ['Probopass']
         }
         ,
         {
             name: 'Octillery',
+            trainer: 'Siebold',
             type1: 'Water',
             type2: '',
             weakness: 'Electric',
+            rarity: 5,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-11/pm0224_00_okutank_256.ktx_.png',
             stats: {
@@ -8524,7 +12589,7 @@ module.exports = {
                 },
                 max: {
                     attack: 139,
-                    bulk: 576,
+                    bulk: 693,
                     defense: 190,
                     hp: 541,
                     speed: 178,
@@ -8532,6 +12597,7 @@ module.exports = {
                     sp_def: 190
                 }
             },
+            bulk: '693',
             moves: [
                 {
                     name: 'Octazooka',
@@ -8566,7 +12632,7 @@ module.exports = {
                     target: 'An opponent',
                     cost: 3,
                     uses: null,
-                    effect: 'Removes the frozen condition. Has a moderate chance of leaving the target burned.',
+                    effect: 'Removes the frozen condition from the user. Has a moderate chance of leaving the target burned.',
                     unlock_requirements: []
                 },
                 {
@@ -8601,21 +12667,24 @@ module.exports = {
                     description: 'Has a good chance of raising the user’s Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness at random when an attack is successful.'
                 },
                 {name: 'Piercing Gaze', description: 'Moves never miss.'}
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Onix',
+            trainer: 'Brock',
             type1: 'Rock',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0095_00_iwark_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 8, hp: 80, speed: 10, sp_atk: 6, sp_def: 7},
                 max: {
                     attack: 193,
-                    bulk: 507,
+                    bulk: 701,
                     defense: 172,
                     hp: 547,
                     speed: 232,
@@ -8623,6 +12692,7 @@ module.exports = {
                     sp_def: 137
                 }
             },
+            bulk: '701',
             moves: [
                 {
                     name: 'Rock Throw',
@@ -8690,16 +12760,19 @@ module.exports = {
             passives: [
                 {
                     name: 'Stoic 2',
-                    description: 'Occasionally raises the Pokémon’s Defense after it uses a move.'
+                    description: 'Has a moderate chance of raising the Pokémon’s Defense after it uses a move.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Oshawott',
+            trainer: 'Hilbert',
             type1: 'Water',
             type2: '',
             weakness: 'Electric',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0501_00_mijumaru_256.ktx.png',
             stats: {
@@ -8713,7 +12786,7 @@ module.exports = {
                 },
                 max: {
                     attack: 221,
-                    bulk: 603,
+                    bulk: 719,
                     defense: 203,
                     hp: 542,
                     speed: 230,
@@ -8721,6 +12794,7 @@ module.exports = {
                     sp_def: 203
                 }
             },
+            bulk: '719',
             moves: [
                 {
                     name: 'Aqua Tail',
@@ -8785,21 +12859,24 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: ['Dewott', 'Samurott']
         }
         ,
         {
             name: 'Palossand',
+            trainer: 'Acerola',
             type1: 'Ghost',
             type2: '',
             weakness: 'Ice',
+            rarity: 5,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0823_00_sunaba2_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 8, hp: 85, speed: 8, sp_atk: 6, sp_def: 8},
                 max: {
                     attack: 159,
-                    bulk: 506,
+                    bulk: 623,
                     defense: 169,
                     hp: 489,
                     speed: 204,
@@ -8807,6 +12884,7 @@ module.exports = {
                     sp_def: 160
                 }
             },
+            bulk: '623',
             moves: [
                 {
                     name: 'Astonish',
@@ -8876,14 +12954,17 @@ module.exports = {
                     name: 'Sand Fortress',
                     description: 'Stats cannot be lowered in a sandstorm.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Palpitoad',
+            trainer: 'Clay',
             type1: 'Ground',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0536_00_gamagaru_256.ktx.png',
             stats: {
@@ -8897,7 +12978,7 @@ module.exports = {
                 },
                 max: {
                     attack: 195,
-                    bulk: 452,
+                    bulk: 640,
                     defense: 136,
                     hp: 449,
                     speed: 228,
@@ -8905,6 +12986,7 @@ module.exports = {
                     sp_def: 153
                 }
             },
+            bulk: '640',
             moves: [
                 {
                     name: 'Mud Shot',
@@ -8974,14 +13056,17 @@ module.exports = {
                     name: 'Antitoxin',
                     description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
                 }
-            ]
+            ],
+            otherForms: ['Seismitoad']
         }
         ,
         {
             name: 'Pelipper',
+            trainer: 'Winona',
             type1: 'Flying',
             type2: '',
             weakness: 'Electric',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0279_00_pelipper_256.ktx.png',
             stats: {
@@ -8995,7 +13080,7 @@ module.exports = {
                 },
                 max: {
                     attack: 188,
-                    bulk: 471,
+                    bulk: 661,
                     defense: 135,
                     hp: 454,
                     speed: 230,
@@ -9003,6 +13088,7 @@ module.exports = {
                     sp_def: 171
                 }
             },
+            bulk: '661',
             moves: [
                 {
                     name: 'Air Slash',
@@ -9072,21 +13158,24 @@ module.exports = {
                     name: 'Racing Rain 2',
                     description: 'Quickly charges the move gauge when the weather is rainy.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Persian',
+            trainer: 'Nanu',
             type1: 'Dark',
             type2: '',
             weakness: 'Bug',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0053_61_apersian_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 8, hp: 80, speed: 11, sp_atk: 6, sp_def: 7},
                 max: {
                     attack: 213,
-                    bulk: 483,
+                    bulk: 606,
                     defense: 177,
                     hp: 456,
                     speed: 314,
@@ -9094,6 +13183,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '606',
             moves: [
                 {
                     name: 'Bite',
@@ -9163,14 +13253,322 @@ module.exports = {
                     name: 'Critical Sting 1',
                     description: 'When critical hits land, raises the chance of making the target flinch, become confused, or become trapped with the additional effect of the attack.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Persian (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0053_00_persian_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 67, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Critical Strike 1',
+                    description: 'Powers up attacks if they become critical hits.'
+                }
+            ],
+            otherForms: ['Meowth (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Persian (Support)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0053_00_persian_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 9,
+                    hp: 71,
+                    speed: 10,
+                    sp_atk: 17,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Facade',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Its power is doubled when the user is poisoned, badly poisoned, paralyzed, or burned. Ignores lowered Attack from burns.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Meowth (Support)']
+        }
+        ,
+        {
+            name: 'Persian (Tech)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0053_00_persian_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 62,
+                    speed: 14,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 202,
+                    defense: 36,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '202',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Charm',
+                    type: 'Fairy',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Sharply lowers the target’s Attack.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Lithe',
+                    description: 'Prevents the Pokémon from getting paralyzed.'
+                },
+                {name: 'Haste', description: 'Speed cannot be lowered.'},
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Meowth (Tech)']
         }
         ,
         {
             name: 'Pidgeot',
+            trainer: 'Blue',
             type1: 'Flying',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0018_00_pigeot_256.ktx.png',
             stats: {
@@ -9184,7 +13582,7 @@ module.exports = {
                 },
                 max: {
                     attack: 130,
-                    bulk: 520,
+                    bulk: 636,
                     defense: 166,
                     hp: 517,
                     speed: 304,
@@ -9192,6 +13590,7 @@ module.exports = {
                     sp_def: 166
                 }
             },
+            bulk: '636',
             moves: [
                 {
                     name: 'Air Slash',
@@ -9259,14 +13658,17 @@ module.exports = {
             passives: [
                 {name: 'Acuity', description: 'Accuracy cannot be lowered.'},
                 {name: 'Haste', description: 'Speed cannot be lowered.'}
-            ]
+            ],
+            otherForms: ['Mega Pidgeot']
         }
         ,
         {
             name: 'Pignite',
+            trainer: 'Hilda',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-09/pm0499_00_chaoboo_256.ktx_.png',
             stats: {
@@ -9280,7 +13682,7 @@ module.exports = {
                 },
                 max: {
                     attack: 331,
-                    bulk: 471,
+                    bulk: 587,
                     defense: 88,
                     hp: 807,
                     speed: 146,
@@ -9288,6 +13690,7 @@ module.exports = {
                     sp_def: 90
                 }
             },
+            bulk: '587',
             moves: [
                 {
                     name: 'Flame Charge',
@@ -9356,21 +13759,24 @@ module.exports = {
                     name: 'First Aid 4',
                     description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
                 }
-            ]
+            ],
+            otherForms: ['Tepig', 'Emboar']
         }
         ,
         {
             name: 'Pikachu',
+            trainer: 'Player',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0025_00_pikachu_256.ktx.png',
             stats: {
                 base: {attack: 10, defense: 5, hp: 62, speed: 9, sp_atk: 11, sp_def: 6},
                 max: {
                     attack: 232,
-                    bulk: 402,
+                    bulk: 589,
                     defense: 99,
                     hp: 471,
                     speed: 252,
@@ -9378,6 +13784,7 @@ module.exports = {
                     sp_def: 132
                 }
             },
+            bulk: '589',
             moves: [
                 {
                     name: 'Thunder Shock',
@@ -9447,14 +13854,17 @@ module.exports = {
                     name: 'Endurance',
                     description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Pinsir',
+            trainer: 'Noland',
             type1: 'Bug',
             type2: '',
             weakness: 'Flying',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0127_00_kailios_256.ktx.png',
             stats: {
@@ -9468,7 +13878,7 @@ module.exports = {
                 },
                 max: {
                     attack: 356,
-                    bulk: 472,
+                    bulk: 595,
                     defense: 137,
                     hp: 547,
                     speed: 293,
@@ -9476,6 +13886,7 @@ module.exports = {
                     sp_def: 137
                 }
             },
+            bulk: '595',
             moves: [
                 {
                     name: 'Fury Cutter',
@@ -9540,21 +13951,323 @@ module.exports = {
                 effect_tag: '-',
                 description: 'Become Mega Pinsir until the end of battle.'
             },
-            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}]
+            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}],
+            otherForms: ['Mega Pinsir']
+        }
+        ,
+        {
+            name: 'Pinsir (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0127_00_kailios_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 53, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'X-Scissor',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Close Combat',
+                    type: 'Fighting',
+                    category: 'Physical',
+                    power: {min_power: 124, max_power: 148},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Lowers the user’s Defense and Sp. Def.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Pinsir (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0127_00_kailios_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 9,
+                    hp: 56,
+                    speed: 10,
+                    sp_atk: 13,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'X-Scissor',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Attack of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Brick Break',
+                    type: 'Fighting',
+                    category: 'Physical',
+                    power: {min_power: 35, max_power: 42},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Removes physical and special damage-reducing effects from the opponents’ field of play.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Pinsir (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0127_00_kailios_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 54,
+                    speed: 12,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 201,
+                    defense: 36,
+                    hp: 356,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '201',
+            moves: [
+                {
+                    name: 'X-Scissor',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 2',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Piplup',
+            trainer: 'Barry',
             type1: 'Water',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0393_00_pochama_256.ktx.png',
             stats: {
                 base: {attack: 9, defense: 6, hp: 62, speed: 9, sp_atk: 11, sp_def: 6},
                 max: {
                     attack: 190,
-                    bulk: 435,
+                    bulk: 624,
                     defense: 132,
                     hp: 471,
                     speed: 193,
@@ -9562,6 +14275,7 @@ module.exports = {
                     sp_def: 132
                 }
             },
+            bulk: '624',
             moves: [
                 {
                     name: 'Bubble',
@@ -9631,14 +14345,17 @@ module.exports = {
                     name: 'Power Flux 5',
                     description: 'The fuller the move gauge, the more this powers up moves.'
                 }
-            ]
+            ],
+            otherForms: ['Prinplup', 'Empoleon']
         }
         ,
         {
             name: 'Ponyta',
+            trainer: 'Blaine',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0077_00_ponyta_256.ktx.png',
             stats: {
@@ -9652,7 +14369,7 @@ module.exports = {
                 },
                 max: {
                     attack: 175,
-                    bulk: 483,
+                    bulk: 605,
                     defense: 138,
                     hp: 562,
                     speed: 418,
@@ -9660,6 +14377,7 @@ module.exports = {
                     sp_def: 141
                 }
             },
+            bulk: '605',
             moves: [
                 {
                     name: 'Flame Wheel',
@@ -9729,14 +14447,17 @@ module.exports = {
                     name: 'Hostile Environment 1',
                     description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Rapidash']
         }
         ,
         {
             name: 'Prinplup',
+            trainer: 'Barry',
             type1: 'Water',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0394_00_pottaishi_256.ktx.png',
             stats: {
@@ -9750,7 +14471,7 @@ module.exports = {
                 },
                 max: {
                     attack: 194,
-                    bulk: 445,
+                    bulk: 634,
                     defense: 135,
                     hp: 483,
                     speed: 200,
@@ -9758,6 +14479,7 @@ module.exports = {
                     sp_def: 135
                 }
             },
+            bulk: '634',
             moves: [
                 {
                     name: 'Bubble',
@@ -9827,14 +14549,17 @@ module.exports = {
                     name: 'Power Flux 5',
                     description: 'The fuller the move gauge, the more this powers up moves.'
                 }
-            ]
+            ],
+            otherForms: ['Piplup', 'Empoleon']
         }
         ,
         {
             name: 'Probopass',
+            trainer: 'Roxanne',
             type1: 'Rock',
             type2: '',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0476_00_dainose_256.ktx_.png',
             stats: {
@@ -9848,7 +14573,7 @@ module.exports = {
                 },
                 max: {
                     attack: 116,
-                    bulk: 525,
+                    bulk: 718,
                     defense: 198,
                     hp: 356,
                     speed: 103,
@@ -9856,6 +14581,7 @@ module.exports = {
                     sp_def: 198
                 }
             },
+            bulk: '718',
             moves: [
                 {
                     name: 'Ancient Power',
@@ -9920,14 +14646,17 @@ module.exports = {
                     name: 'Surging Sand 5',
                     description: 'Powers up moves in a sandstorm.'
                 }
-            ]
+            ],
+            otherForms: ['Nosepass']
         }
         ,
         {
             name: 'Quilava',
+            trainer: 'Ethan',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0156_00_magmarashi_256.ktx_.png',
             stats: {
@@ -9941,7 +14670,7 @@ module.exports = {
                 },
                 max: {
                     attack: 126,
-                    bulk: 457,
+                    bulk: 573,
                     defense: 129,
                     hp: 543,
                     speed: 347,
@@ -9949,6 +14678,7 @@ module.exports = {
                     sp_def: 131
                 }
             },
+            bulk: '573',
             moves: [
                 {
                     name: 'Flamethrower',
@@ -10013,14 +14743,17 @@ module.exports = {
                     name: 'Speeding Sun 2',
                     description: 'Quickly charges the move gauge when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Cyndaquil', 'Typhlosion']
         }
         ,
         {
             name: 'Raichu (Alola Form)',
+            trainer: 'Hau',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0026_61_araichu_256.ktx.png',
             stats: {
@@ -10034,7 +14767,7 @@ module.exports = {
                 },
                 max: {
                     attack: 84,
-                    bulk: 448,
+                    bulk: 570,
                     defense: 139,
                     hp: 403,
                     speed: 241,
@@ -10042,6 +14775,7 @@ module.exports = {
                     sp_def: 163
                 }
             },
+            bulk: '570',
             moves: [
                 {
                     name: 'Thunder Shock',
@@ -10111,14 +14845,17 @@ module.exports = {
                     name: 'First Aid 4',
                     description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Rampardos',
+            trainer: 'Roark',
             type1: 'Rock',
             type2: '',
             weakness: 'Water',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0409_00_rampald_256.ktx_.png',
             stats: {
@@ -10132,7 +14869,7 @@ module.exports = {
                 },
                 max: {
                     attack: 328,
-                    bulk: 489,
+                    bulk: 682,
                     defense: 99,
                     hp: 808,
                     speed: 193,
@@ -10140,6 +14877,7 @@ module.exports = {
                     sp_def: 97
                 }
             },
+            bulk: '682',
             moves: [
                 {
                     name: 'Smack Down',
@@ -10199,14 +14937,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}]
+            passives: [{name: 'Headstrong', description: 'Attack cannot be lowered.'}],
+            otherForms: ['Cranidos']
         }
         ,
         {
             name: 'Rapidash',
+            trainer: 'Blaine',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0078_00_gallop_256.ktx_.png',
             stats: {
@@ -10220,7 +14961,7 @@ module.exports = {
                 },
                 max: {
                     attack: 178,
-                    bulk: 510,
+                    bulk: 633,
                     defense: 140,
                     hp: 623,
                     speed: 438,
@@ -10228,6 +14969,7 @@ module.exports = {
                     sp_def: 144
                 }
             },
+            bulk: '633',
             moves: [
                 {
                     name: 'Flame Wheel',
@@ -10292,14 +15034,608 @@ module.exports = {
                     name: 'Hostile Environment 1',
                     description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
                 }
-            ]
+            ],
+            otherForms: ['Ponyta']
+        }
+        ,
+        {
+            name: 'Raticate (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0020_00_ratta_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 67, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Double-Edge',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 167, max_power: 200},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'The user also takes 25% of the damage it dealt to the target.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Standfast 3',
+                    description: 'Reduces recoil damage received from using moves that have recoil in the effect tag.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Rattata (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Raticate (Support)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0020_00_ratta_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 9,
+                    hp: 71,
+                    speed: 10,
+                    sp_atk: 17,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Rattata (Support)']
+        }
+        ,
+        {
+            name: 'Raticate (Tech)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0020_00_ratta_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 62,
+                    speed: 14,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 202,
+                    defense: 36,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '202',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Screech',
+                    type: 'Normal',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Sharply lowers the target’s Defense.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Flameproof',
+                    description: 'Prevents the Pokémon from getting burned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Rattata (Tech)']
+        }
+        ,
+        {
+            name: 'Rattata (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0019_00_koratta_256.ktx__1.png',
+            stats: {
+                base: {attack: 13, defense: 4, hp: 58, speed: 7, sp_atk: 13, sp_def: 4},
+                max: {
+                    attack: 162,
+                    bulk: 198,
+                    defense: 55,
+                    hp: 243,
+                    speed: 122,
+                    sp_atk: 162,
+                    sp_def: 55
+                }
+            },
+            bulk: '198',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Double-Edge',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 167, max_power: 200},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'The user also takes 25% of the damage it dealt to the target.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Standfast 3',
+                    description: 'Reduces recoil damage received from using moves that have recoil in the effect tag.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Raticate (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Rattata (Support)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0019_00_koratta_256.ktx_.png',
+            stats: {
+                base: {attack: 15, defense: 8, hp: 62, speed: 9, sp_atk: 15, sp_def: 8},
+                max: {
+                    attack: 96,
+                    bulk: 181,
+                    defense: 43,
+                    hp: 263,
+                    speed: 61,
+                    sp_atk: 96,
+                    sp_def: 43
+                }
+            },
+            bulk: '181',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Raticate (Support)']
+        }
+        ,
+        {
+            name: 'Rattata (Tech)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0019_00_koratta_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 5,
+                    hp: 52,
+                    speed: 10,
+                    sp_atk: 10,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 80,
+                    bulk: 191,
+                    defense: 35,
+                    hp: 333,
+                    speed: 177,
+                    sp_atk: 80,
+                    sp_def: 35
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Tackle',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 25, max_power: 30},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Screech',
+                    type: 'Normal',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Sharply lowers the target’s Defense.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Flameproof',
+                    description: 'Prevents the Pokémon from getting burned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Raticate (Tech)']
         }
         ,
         {
             name: 'Rayquaza',
+            trainer: 'Zinnia',
             type1: 'Dragon',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-01/pm0384_00_rayquaza_256.ktx_.png',
             stats: {
@@ -10313,7 +15649,7 @@ module.exports = {
                 },
                 max: {
                     attack: 347,
-                    bulk: 456,
+                    bulk: 572,
                     defense: 136,
                     hp: 506,
                     speed: 234,
@@ -10321,6 +15657,7 @@ module.exports = {
                     sp_def: 136
                 }
             },
+            bulk: '572',
             moves: [
                 {
                     name: 'Outrage',
@@ -10355,7 +15692,7 @@ module.exports = {
                     target: 'Self',
                     cost: '',
                     uses: 2,
-                    effect: 'Removes the confused, flinching, and trapped conditions. Sharply raises the user’s Attack and Sp. Atk. Raises the user’s Speed and accuracy. Sharply lowers the user’s Defense and Sp. Def.',
+                    effect: 'Removes the confused, flinching, and trapped conditions from the user. Sharply raises the user’s Attack and Sp. Atk. Raises the user’s Speed and accuracy. Sharply lowers the user’s Defense and Sp. Def.',
                     unlock_requirements: []
                 },
                 {
@@ -10385,14 +15722,17 @@ module.exports = {
                     name: 'Weather Surge 3',
                     description: 'Powers up moves when weather conditions are in effect.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Reuniclus',
+            trainer: 'Caitlin',
             type1: 'Psychic',
             type2: '',
             weakness: 'Ghost',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0579_00_lanculus_256.ktx_.png',
             stats: {
@@ -10406,7 +15746,7 @@ module.exports = {
                 },
                 max: {
                     attack: 141,
-                    bulk: 478,
+                    bulk: 595,
                     defense: 147,
                     hp: 505,
                     speed: 199,
@@ -10414,6 +15754,7 @@ module.exports = {
                     sp_def: 148
                 }
             },
+            bulk: '595',
             moves: [
                 {
                     name: 'Hidden Power',
@@ -10486,14 +15827,17 @@ module.exports = {
                     name: 'Escape Artist',
                     description: 'Prevents the Pokémon from becoming trapped.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Roserade',
+            trainer: 'Gardenia',
             type1: 'Grass',
             type2: '',
             weakness: 'Flying',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0407_01_roserade_256.ktx.png',
             stats: {
@@ -10507,7 +15851,7 @@ module.exports = {
                 },
                 max: {
                     attack: 117,
-                    bulk: 448,
+                    bulk: 570,
                     defense: 98,
                     hp: 405,
                     speed: 294,
@@ -10515,6 +15859,7 @@ module.exports = {
                     sp_def: 203
                 }
             },
+            bulk: '570',
             moves: [
                 {
                     name: 'Absorb',
@@ -10584,14 +15929,17 @@ module.exports = {
                     name: 'Speeding Sun 2',
                     description: 'Quickly charges the move gauge when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Rotom',
+            trainer: 'Elesa',
             type1: 'Electric',
             type2: '',
             weakness: 'Dark',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0479_11_rotom_256.ktx_.png',
             stats: {
@@ -10605,7 +15953,7 @@ module.exports = {
                 },
                 max: {
                     attack: 99,
-                    bulk: 696,
+                    bulk: 812,
                     defense: 261,
                     hp: 479,
                     speed: 280,
@@ -10613,6 +15961,7 @@ module.exports = {
                     sp_def: 261
                 }
             },
+            bulk: '812',
             moves: [
                 {
                     name: 'Thunder Shock',
@@ -10681,14 +16030,17 @@ module.exports = {
                     name: 'Fast Runner',
                     description: 'Evasiveness cannot be lowered.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Salamence',
+            trainer: 'Drake',
             type1: 'Dragon',
             type2: '',
             weakness: 'Fairy',
+            rarity: 4,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0373_00_bohmander_256.ktx.png',
             stats: {
@@ -10702,7 +16054,7 @@ module.exports = {
                 },
                 max: {
                     attack: 252,
-                    bulk: 541,
+                    bulk: 664,
                     defense: 183,
                     hp: 484,
                     speed: 181,
@@ -10710,6 +16062,7 @@ module.exports = {
                     sp_def: 182
                 }
             },
+            bulk: '664',
             moves: [
                 {
                     name: 'Dragon Claw',
@@ -10779,14 +16132,115 @@ module.exports = {
                     name: 'Terrify 1',
                     description: 'Lowers the Attack of all opposing sync pairs when the Pokémon enters a battle.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Salazzle',
+            trainer: 'Plumeria',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Water',
+            rarity: 5,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-03/pm0806_00_dokutokage2_256.ktx_.png',
+            stats: {
+                base: {attack: 7, defense: 9, hp: 80, speed: 20, sp_atk: 22, sp_def: 9},
+                max: {
+                    attack: 100,
+                    bulk: 571,
+                    defense: 141,
+                    hp: 476,
+                    speed: 404,
+                    sp_atk: 272,
+                    sp_def: 141
+                }
+            },
+            bulk: '571',
+            moves: [
+                {
+                    name: 'Smog',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 21, max_power: 25},
+                    accuracy: 70,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderately good chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Move Gauge Boost',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Increases the user’s move gauge by three.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Wave',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 97, max_power: 116},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Outta My Way!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Sp. Atk and Speed by up to three stat ranks based on the amount remaining in the user’s move gauge.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Wicked Enforcer Acid Downpour',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Superduper Effective 2',
+                    description: 'Powers up moves that are super effective.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Flameproof',
+                    description: 'Prevents the Pokémon from getting burned.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Samurott',
+            trainer: 'Hilbert',
             type1: 'Water',
             type2: '',
             weakness: 'Electric',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0503_00_daikenki_256.ktx_.png',
             stats: {
@@ -10800,7 +16254,7 @@ module.exports = {
                 },
                 max: {
                     attack: 233,
-                    bulk: 657,
+                    bulk: 773,
                     defense: 214,
                     hp: 630,
                     speed: 260,
@@ -10808,6 +16262,7 @@ module.exports = {
                     sp_def: 214
                 }
             },
+            bulk: '773',
             moves: [
                 {
                     name: 'Aqua Tail',
@@ -10867,14 +16322,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: ['Oshawott', 'Dewott']
         }
         ,
         {
             name: 'Sceptile',
+            trainer: 'Brendan',
             type1: 'Grass',
             type2: '',
             weakness: 'Poison',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0254_00_jukain_256.ktx_.png',
             stats: {
@@ -10888,7 +16346,7 @@ module.exports = {
                 },
                 max: {
                     attack: 358,
-                    bulk: 476,
+                    bulk: 592,
                     defense: 145,
                     hp: 513,
                     speed: 421,
@@ -10896,6 +16354,7 @@ module.exports = {
                     sp_def: 145
                 }
             },
+            bulk: '592',
             moves: [
                 {
                     name: 'Bullet Seed',
@@ -10961,14 +16420,17 @@ module.exports = {
                     name: 'Lithe',
                     description: 'Prevents the Pokémon from getting paralyzed.'
                 }
-            ]
+            ],
+            otherForms: ['Treecko', 'Grovyle']
         }
         ,
         {
             name: 'Scolipede',
+            trainer: 'Roxie',
             type1: 'Poison',
             type2: '',
             weakness: 'Psychic',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0545_00_pendror_256.ktx_.png',
             stats: {
@@ -10982,7 +16444,7 @@ module.exports = {
                 },
                 max: {
                     attack: 316,
-                    bulk: 448,
+                    bulk: 568,
                     defense: 157,
                     hp: 468,
                     speed: 358,
@@ -10990,6 +16452,7 @@ module.exports = {
                     sp_def: 121
                 }
             },
+            bulk: '568',
             moves: [
                 {
                     name: 'Poison Tail',
@@ -11051,24 +16514,326 @@ module.exports = {
             },
             passives: [
                 {
-                    name: 'Hit and Run 2',
-                    description: 'Occasionally raises the Pokémon’s Speed after it uses a move.'
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
                 }
-            ]
+            ],
+            otherForms: ['Whirlipede']
+        }
+        ,
+        {
+            name: 'Scyther (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Rock',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0123_00_strike_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 53, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Slash',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Bug Buzz',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Haste', description: 'Speed cannot be lowered.'},
+                {
+                    name: 'Critical Strike 3',
+                    description: 'Powers up attacks if they become critical hits.'
+                },
+                {
+                    name: 'Bug Shift',
+                    description: 'Normal-type moves become Bug-type moves.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Scyther (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Rock',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0123_00_strike_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 9,
+                    hp: 56,
+                    speed: 10,
+                    sp_atk: 13,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Fury Cutter',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 8, max_power: 9},
+                    accuracy: 95,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Its power increases when used in succession.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X-Scissor',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 50, max_power: 60},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Haste', description: 'Speed cannot be lowered.'},
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Endurance',
+                    description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Scyther (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Rock',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0123_00_strike_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 54,
+                    speed: 12,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 201,
+                    defense: 36,
+                    hp: 356,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '201',
+            moves: [
+                {
+                    name: 'Fury Cutter',
+                    type: 'Bug',
+                    category: 'Physical',
+                    power: {min_power: 8, max_power: 9},
+                    accuracy: 95,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Its power increases when used in succession.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Struggle Bug',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 30, max_power: 36},
+                    accuracy: 100,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Lowers the target’s Sp. Atk.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Haste', description: 'Speed cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Seel',
+            trainer: 'Pryce',
             type1: 'Ice',
             type2: '',
             weakness: 'Electric',
+            rarity: 3,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0086_00_pawou_256.ktx.png',
             stats: {
                 base: {attack: 10, defense: 8, hp: 67, speed: 7, sp_atk: 10, sp_def: 8},
                 max: {
                     attack: 232,
-                    bulk: 410,
+                    bulk: 598,
                     defense: 68,
                     hp: 574,
                     speed: 152,
@@ -11076,6 +16841,7 @@ module.exports = {
                     sp_def: 134
                 }
             },
+            bulk: '598',
             moves: [
                 {
                     name: 'Ice Beam',
@@ -11145,14 +16911,17 @@ module.exports = {
                     name: 'Superduper Effective 2',
                     description: 'Powers up moves that are super effective.'
                 }
-            ]
+            ],
+            otherForms: ['Dewgong']
         }
         ,
         {
             name: 'Seismitoad',
+            trainer: 'Clay',
             type1: 'Ground',
             type2: '',
             weakness: 'Grass',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0537_00_gamageroge_256.ktx_.png',
             stats: {
@@ -11166,7 +16935,7 @@ module.exports = {
                 },
                 max: {
                     attack: 214,
-                    bulk: 464,
+                    bulk: 653,
                     defense: 140,
                     hp: 461,
                     speed: 248,
@@ -11174,6 +16943,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '653',
             moves: [
                 {
                     name: 'Mud Shot',
@@ -11238,14 +17008,17 @@ module.exports = {
                     name: 'Antitoxin',
                     description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
                 }
-            ]
+            ],
+            otherForms: ['Palpitoad']
         }
         ,
         {
             name: 'Serperior',
+            trainer: 'Rosa',
             type1: 'Grass',
             type2: '',
             weakness: 'Flying',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0497_00_jalorda_256.ktx.png',
             stats: {
@@ -11259,7 +17032,7 @@ module.exports = {
                 },
                 max: {
                     attack: 87,
-                    bulk: 683,
+                    bulk: 800,
                     defense: 192,
                     hp: 659,
                     speed: 178,
@@ -11267,6 +17040,7 @@ module.exports = {
                     sp_def: 252
                 }
             },
+            bulk: '800',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -11331,14 +17105,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}]
+            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}],
+            otherForms: ['Snivy', 'Servine']
         }
         ,
         {
             name: 'Servine',
+            trainer: 'Rosa',
             type1: 'Grass',
             type2: '',
             weakness: 'Flying',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0496_00_janovy_256.ktx.png',
             stats: {
@@ -11352,7 +17129,7 @@ module.exports = {
                 },
                 max: {
                     attack: 84,
-                    bulk: 631,
+                    bulk: 748,
                     defense: 186,
                     hp: 599,
                     speed: 172,
@@ -11360,6 +17137,7 @@ module.exports = {
                     sp_def: 228
                 }
             },
+            bulk: '748',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -11424,21 +17202,234 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}]
+            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}],
+            otherForms: ['Snivy', 'Serperior']
+        }
+        ,
+        {
+            name: 'Seviper',
+            trainer: 'Lucy',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 4,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0336_00_habunake_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 12,
+                    hp: 93,
+                    speed: 11,
+                    sp_atk: 13,
+                    sp_def: 12
+                },
+                max: {
+                    attack: 215,
+                    bulk: 487,
+                    defense: 156,
+                    hp: 482,
+                    speed: 220,
+                    sp_atk: 215,
+                    sp_def: 156
+                }
+            },
+            bulk: '487',
+            moves: [
+                {
+                    name: 'Poison Fang',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 34, max_power: 40},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a good chance of leaving the target badly poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Wrap',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 39, max_power: 46},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'I Dare You...',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Removes all status conditions from the user. Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Bomb',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Pike Queen Poison Fang',
+                type: ' Poison',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Its power increases if the target is poisoned or badly poisoned.'
+            },
+            passives: [
+                {
+                    name: 'Unhindered',
+                    description: 'When the Pokémon attacks, ignores damage-reducing effects on the opponent’s field of play.'
+                },
+                {
+                    name: 'Toxic Power 3',
+                    description: 'Powers up moves when the target is poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stationary Target 3',
+                    description: 'Powers up moves when the target is trapped.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Sharpedo',
+            trainer: 'Grimsley',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Fairy',
+            rarity: 5,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0319_00_samehader_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 22,
+                    defense: 9,
+                    hp: 82,
+                    speed: 18,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 322,
+                    bulk: 613,
+                    defense: 140,
+                    hp: 597,
+                    speed: 356,
+                    sp_atk: 322,
+                    sp_def: 140
+                }
+            },
+            bulk: '613',
+            moves: [
+                {
+                    name: 'Waterfall',
+                    type: 'Water',
+                    category: 'Physical',
+                    power: {min_power: 45, max_power: 54},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a small chance of making the target flinch.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Liquidation',
+                    type: 'Water',
+                    category: 'Physical',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a small chance of lowering the target’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sink or Swim!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Removes all status conditions from the user. Drastically raises the user’s evasiveness and critical-hit rate. The user takes damage equal to 90% of its remaining HP. If used by Mega Sharpedo, also radically raises the user’s Attack.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'High-Stakes Liquidation',
+                type: ' Water',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Sharpedo until the end of battle.'
+            },
+            passives: [
+                {
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
+                },
+                {
+                    name: 'Power Flux 5',
+                    description: 'The fuller the move gauge, the more this powers up moves.'
+                },
+                {
+                    name: 'Double Down 5',
+                    description: 'Powers up sync moves that are super effective.'
+                }
+            ],
+            otherForms: ['Mega Sharpedo']
         }
         ,
         {
             name: 'Slaking',
+            trainer: 'Norman',
             type1: 'Normal',
             type2: '',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0289_00_kekking_256.ktx.png',
             stats: {
                 base: {attack: 12, defense: 6, hp: 67, speed: 6, sp_atk: 2, sp_def: 6},
                 max: {
                     attack: 326,
-                    bulk: 454,
+                    bulk: 645,
                     defense: 132,
                     hp: 525,
                     speed: 120,
@@ -11446,6 +17437,7 @@ module.exports = {
                     sp_def: 132
                 }
             },
+            bulk: '645',
             moves: [
                 {
                     name: 'Body Slam',
@@ -11515,21 +17507,24 @@ module.exports = {
                     name: 'Power Reserves 2',
                     description: 'Powers up moves in a pinch.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Snivy',
+            trainer: 'Rosa',
             type1: 'Grass',
             type2: '',
             weakness: 'Flying',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0495_00_tsutarja_256.ktx.png',
             stats: {
                 base: {attack: 5, defense: 9, hp: 82, speed: 7, sp_atk: 6, sp_def: 9},
                 max: {
                     attack: 82,
-                    bulk: 597,
+                    bulk: 713,
                     defense: 182,
                     hp: 572,
                     speed: 168,
@@ -11537,6 +17532,7 @@ module.exports = {
                     sp_def: 207
                 }
             },
+            bulk: '713',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -11601,14 +17597,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}]
+            passives: [{name: 'Stalwart', description: 'Sp. Def cannot be lowered.'}],
+            otherForms: ['Servine', 'Serperior']
         }
         ,
         {
             name: 'Solgaleo',
+            trainer: 'Player',
             type1: 'Steel',
             type2: '',
             weakness: 'Ground',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0873_00_sun_256.ktx_.png',
             stats: {
@@ -11622,7 +17621,7 @@ module.exports = {
                 },
                 max: {
                     attack: 369,
-                    bulk: 498,
+                    bulk: 614,
                     defense: 156,
                     hp: 529,
                     speed: 259,
@@ -11630,6 +17629,7 @@ module.exports = {
                     sp_def: 150
                 }
             },
+            bulk: '614',
             moves: [
                 {
                     name: 'Metal Claw',
@@ -11689,14 +17689,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Solrock',
+            trainer: 'Tate',
             type1: 'Psychic',
             type2: 'Rock',
             weakness: 'Dark',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0338_00_solrock_256.ktx.png',
             stats: {
@@ -11710,7 +17713,7 @@ module.exports = {
                 },
                 max: {
                     attack: 324,
-                    bulk: 472,
+                    bulk: 663,
                     defense: 175,
                     hp: 491,
                     speed: 154,
@@ -11718,6 +17721,7 @@ module.exports = {
                     sp_def: 119
                 }
             },
+            bulk: '663',
             moves: [
                 {
                     name: 'Zen Headbutt',
@@ -11789,21 +17793,121 @@ module.exports = {
                 },
                 {name: 'Headstrong', description: 'Attack cannot be lowered.'},
                 {name: 'Unbending', description: 'Defense cannot be lowered.'}
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Squirtle',
+            trainer: 'Player',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Grass',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0007_00_zenigame_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 3,
+                    hp: 54,
+                    speed: 14,
+                    sp_atk: 13,
+                    sp_def: 3
+                },
+                max: {
+                    attack: 191,
+                    bulk: 478,
+                    defense: 90,
+                    hp: 319,
+                    speed: 161,
+                    sp_atk: 191,
+                    sp_def: 90
+                }
+            },
+            bulk: '478',
+            moves: [
+                {
+                    name: 'Bubble Beam',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 49, max_power: 58},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hydro Pump',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 80,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Water Sync Beam',
+                type: ' Water',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Wartortle', 'Blastoise']
         }
         ,
         {
             name: 'Starmie',
+            trainer: 'Misty',
             type1: 'Water',
             type2: '',
             weakness: 'Electric',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0121_00_starmie_256.ktx.png',
             stats: {
                 base: {attack: 5, defense: 10, hp: 82, speed: 8, sp_atk: 7, sp_def: 9},
                 max: {
                     attack: 115,
-                    bulk: 569,
+                    bulk: 765,
                     defense: 179,
                     hp: 542,
                     speed: 211,
@@ -11811,6 +17915,7 @@ module.exports = {
                     sp_def: 193
                 }
             },
+            bulk: '765',
             moves: [
                 {
                     name: 'Bubble Beam',
@@ -11878,23 +17983,123 @@ module.exports = {
             passives: [
                 {
                     name: 'Healing Hand 2',
-                    description: 'Occasionally removes all status conditions of all allied sync pairs after the Pokémon uses a move.'
+                    description: 'Has a moderate chance of removing all status conditions of all allied sync pairs after the Pokémon uses a move.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Steelix',
+            trainer: 'Jasmine',
+            type1: 'Steel',
+            type2: '',
+            weakness: 'Water',
+            rarity: 5,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0208_01_haganeil_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 8,
+                    defense: 17,
+                    hp: 140,
+                    speed: 9,
+                    sp_atk: 10,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 140,
+                    bulk: 790,
+                    defense: 300,
+                    hp: 520,
+                    speed: 140,
+                    sp_atk: 120,
+                    sp_def: 185
+                }
+            },
+            bulk: '790',
+            moves: [
+                {
+                    name: 'Gyro Ball',
+                    type: 'Steel',
+                    category: 'Physical',
+                    power: {min_power: 44, max_power: 52},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Its power is doubled if the target’s Speed has risen.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Defense of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Clang!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Allied side',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Activates the Critical-Hit Defense and Stat Reduction Defense effects on the allied field of play.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Iron Tail',
+                    type: 'Steel',
+                    category: 'Physical',
+                    power: {min_power: 132, max_power: 158},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of lowering the target’s Defense.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Steel-Clad Iron Tail',
+                type: ' Steel',
+                category: 'Physical',
+                power: {min_power: 160, max_power: 192},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'Become Mega Steelix until the end of battle. The more the user’s Defense has been raised, the greater the power of this move.'
+            },
+            passives: [
+                {
+                    name: 'Endurance',
+                    description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
+                }
+            ],
+            otherForms: ['Mega Steelix']
         }
         ,
         {
             name: 'Stoutland',
+            trainer: 'Cheren',
             type1: 'Normal',
             type2: '',
             weakness: 'Fighting',
+            rarity: 5,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0508_00_mooland_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 9, hp: 92, speed: 12, sp_atk: 5, sp_def: 8},
                 max: {
                     attack: 203,
-                    bulk: 587,
+                    bulk: 704,
                     defense: 207,
                     hp: 640,
                     speed: 227,
@@ -11902,6 +18107,7 @@ module.exports = {
                     sp_def: 148
                 }
             },
+            bulk: '704',
             moves: [
                 {
                     name: 'Facade',
@@ -11971,21 +18177,24 @@ module.exports = {
                     name: 'Outrun 4',
                     description: 'Quickly charges the move gauge when the Pokémon is affected by a status condition.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Surskit',
+            trainer: 'Viola',
             type1: 'Bug',
             type2: '',
             weakness: 'Rock',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0283_00_ametama_256.ktx.png',
             stats: {
                 base: {attack: 6, defense: 9, hp: 80, speed: 10, sp_atk: 9, sp_def: 8},
                 max: {
                     attack: 120,
-                    bulk: 547,
+                    bulk: 671,
                     defense: 183,
                     hp: 501,
                     speed: 239,
@@ -11993,6 +18202,7 @@ module.exports = {
                     sp_def: 182
                 }
             },
+            bulk: '671',
             moves: [
                 {
                     name: 'Infestation',
@@ -12062,21 +18272,24 @@ module.exports = {
                     name: 'Terrify 1',
                     description: 'Lowers the Attack of all opposing sync pairs when the Pokémon enters a battle.'
                 }
-            ]
+            ],
+            otherForms: ['Masquerain']
         }
         ,
         {
             name: 'Swanna',
+            trainer: 'Skyla',
             type1: 'Flying',
             type2: '',
             weakness: 'Rock',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0581_00_swanna_256.ktx.png',
             stats: {
                 base: {attack: 6, defense: 9, hp: 82, speed: 8, sp_atk: 6, sp_def: 9},
                 max: {
                     attack: 190,
-                    bulk: 534,
+                    bulk: 730,
                     defense: 160,
                     hp: 591,
                     speed: 211,
@@ -12084,6 +18297,7 @@ module.exports = {
                     sp_def: 160
                 }
             },
+            bulk: '730',
             moves: [
                 {
                     name: 'Gust',
@@ -12148,21 +18362,24 @@ module.exports = {
                 effect_tag: '-',
                 description: 'The more the user’s Speed has been raised, the greater the power of this move.'
             },
-            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}]
+            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Sylveon',
+            trainer: 'Valerie',
             type1: 'Fairy',
             type2: '',
             weakness: 'Poison',
+            rarity: 4,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0767_00_ninnfi_256.ktx_.png',
             stats: {
                 base: {attack: 8, defense: 5, hp: 75, speed: 5, sp_atk: 13, sp_def: 9},
                 max: {
                     attack: 122,
-                    bulk: 425,
+                    bulk: 546,
                     defense: 102,
                     hp: 493,
                     speed: 153,
@@ -12170,6 +18387,7 @@ module.exports = {
                     sp_def: 144
                 }
             },
+            bulk: '546',
             moves: [
                 {
                     name: 'Disarming Voice',
@@ -12234,14 +18452,322 @@ module.exports = {
                     name: 'HP Advantage 4',
                     description: 'The more HP the user has remaining, the more it powers up moves.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Tauros (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0128_00_kentauros_256.ktx__1.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 53, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Double-Edge',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 167, max_power: 200},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'The user also takes 25% of the damage it dealt to the target.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Standfast 5',
+                    description: 'Reduces recoil damage received from using moves that have recoil in the effect tag.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Tauros (Support)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0128_00_kentauros_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 9,
+                    hp: 56,
+                    speed: 10,
+                    sp_atk: 13,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Brainstorm!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Atk and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Thunderbolt',
+                    type: 'Electric',
+                    category: 'Special',
+                    power: {min_power: 47, max_power: 56},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Terrify 1',
+                    description: 'Lowers the Attack of all opposing sync pairs when the Pokémon enters a battle.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Tauros (Tech)',
+            trainer: 'Player',
+            type1: 'Normal',
+            type2: '',
+            weakness: 'Fighting',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0128_00_kentauros_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 54,
+                    speed: 12,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 201,
+                    defense: 36,
+                    hp: 356,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '201',
+            moves: [
+                {
+                    name: 'Body Slam',
+                    type: 'Normal',
+                    category: 'Physical',
+                    power: {min_power: 53, max_power: 63},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target paralyzed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Blizzard',
+                    type: 'Ice',
+                    category: 'Special',
+                    power: {min_power: 126, max_power: 151},
+                    accuracy: 70,
+                    target: 'All opponents',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Never misses during a hailstorm. Has a very small chance of leaving the target frozen.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Normal Sync Impact',
+                type: ' Normal',
+                category: 'Physical',
+                power: {min_power: 250, max_power: 300},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Terrify 1',
+                    description: 'Lowers the Attack of all opposing sync pairs when the Pokémon enters a battle.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Tepig',
+            trainer: 'Hilda',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-09/pm0498_00_pokabu_256.ktx_.png',
             stats: {
@@ -12255,7 +18781,7 @@ module.exports = {
                 },
                 max: {
                     attack: 320,
-                    bulk: 453,
+                    bulk: 570,
                     defense: 85,
                     hp: 775,
                     speed: 143,
@@ -12263,6 +18789,7 @@ module.exports = {
                     sp_def: 87
                 }
             },
+            bulk: '570',
             moves: [
                 {
                     name: 'Flame Charge',
@@ -12331,14 +18858,17 @@ module.exports = {
                     name: 'First Aid 4',
                     description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
                 }
-            ]
+            ],
+            otherForms: ['Pignite', 'Emboar']
         }
         ,
         {
             name: 'Togedemaru',
+            trainer: 'Sophocles',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0858_00_nijichu_256.ktx.png',
             stats: {
@@ -12352,7 +18882,7 @@ module.exports = {
                 },
                 max: {
                     attack: 213,
-                    bulk: 467,
+                    bulk: 590,
                     defense: 136,
                     hp: 481,
                     speed: 354,
@@ -12360,6 +18890,7 @@ module.exports = {
                     sp_def: 157
                 }
             },
+            bulk: '590',
             moves: [
                 {
                     name: 'Zing Zap',
@@ -12429,14 +18960,17 @@ module.exports = {
                     name: 'Endurance',
                     description: 'If the Pokémon enters battle with full HP, allows it to endure a single overwhelming attack with 1 HP left.'
                 }
-            ]
+            ],
+            otherForms: []
         }
         ,
         {
             name: 'Torchic',
+            trainer: 'Player',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 3,
             role: 'Support',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-10/pm0255_00_achamo_256.ktx_.png',
             stats: {
@@ -12450,7 +18984,7 @@ module.exports = {
                 },
                 max: {
                     attack: 178,
-                    bulk: 531,
+                    bulk: 726,
                     defense: 163,
                     hp: 566,
                     speed: 312,
@@ -12458,6 +18992,7 @@ module.exports = {
                     sp_def: 163
                 }
             },
+            bulk: '726',
             moves: [
                 {
                     name: 'Flame Charge',
@@ -12517,21 +19052,24 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}]
+            passives: [{name: 'Haste', description: 'Speed cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Torkoal',
+            trainer: 'Flannery',
             type1: 'Fire',
             type2: '',
             weakness: 'Water',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0324_00_cotoise_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 8, hp: 70, speed: 9, sp_atk: 7, sp_def: 8},
                 max: {
                     attack: 79,
-                    bulk: 528,
+                    bulk: 724,
                     defense: 194,
                     hp: 448,
                     speed: 190,
@@ -12539,6 +19077,7 @@ module.exports = {
                     sp_def: 172
                 }
             },
+            bulk: '724',
             moves: [
                 {
                     name: 'Ember',
@@ -12603,14 +19142,118 @@ module.exports = {
                 effect_tag: '-',
                 description: 'Its power increases if the target is burned.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Torterra',
+            trainer: 'Dawn',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Bug',
+            rarity: 5,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0389_00_dodaitose_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 26,
+                    defense: 34,
+                    hp: 146,
+                    speed: 17,
+                    sp_atk: 20,
+                    sp_def: 27
+                },
+                max: {
+                    attack: 253,
+                    bulk: 809,
+                    defense: 263,
+                    hp: 586,
+                    speed: 165,
+                    sp_atk: 190,
+                    sp_def: 217
+                }
+            },
+            bulk: '809',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Defense of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Good as New!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'An ally',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Fully restores an ally’s HP. Removes all status conditions from an ally. Removes the confused, flinching, and trapped conditions from an ally.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'New Dawn Wood Hammer',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'The more the user’s Attack has been raised, the greater the power of this move.'
+            },
+            passives: [
+                {
+                    name: 'Power Siphon 9',
+                    description: 'Lowers the target’s Attack and raises the user’s Attack by an equal amount when the user is hit by an attack move.'
+                },
+                {
+                    name: 'Vigilance',
+                    description: 'The Pokémon is protected against critical hits.'
+                }
+            ],
+            otherForms: ['Turtwig', 'Grotle']
         }
         ,
         {
             name: 'Totodile',
+            trainer: 'Kris',
             type1: 'Water',
             type2: 'Water',
             weakness: 'Grass',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0158_00_waninoko_256.ktx.png',
             stats: {
@@ -12624,7 +19267,7 @@ module.exports = {
                 },
                 max: {
                     attack: 223,
-                    bulk: 441,
+                    bulk: 557,
                     defense: 120,
                     hp: 586,
                     speed: 266,
@@ -12632,6 +19275,7 @@ module.exports = {
                     sp_def: 108
                 }
             },
+            bulk: '557',
             moves: [
                 {
                     name: 'Waterfall',
@@ -12705,14 +19349,17 @@ module.exports = {
                     name: 'Water Shift',
                     description: 'Normal-type moves become Water-type moves.'
                 }
-            ]
+            ],
+            otherForms: ['Croconaw', 'Feraligatr']
         }
         ,
         {
             name: 'Toucannon',
+            trainer: 'Kahili',
             type1: 'Flying',
             type2: '',
             weakness: 'Ice',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0809_00_kuchibashi3_256.ktx.png',
             stats: {
@@ -12726,7 +19373,7 @@ module.exports = {
                 },
                 max: {
                     attack: 389,
-                    bulk: 496,
+                    bulk: 618,
                     defense: 156,
                     hp: 512,
                     speed: 236,
@@ -12734,6 +19381,7 @@ module.exports = {
                     sp_def: 154
                 }
             },
+            bulk: '618',
             moves: [
                 {
                     name: 'Peck',
@@ -12768,7 +19416,7 @@ module.exports = {
                     target: 'An opponent',
                     cost: 2,
                     uses: null,
-                    effect: 'The user gets ready to counterattack. Using this move again will cause the user to attack. No other actions can be taken while ready to counterattack. The user will attack if attacked with a move while it is ready to counterattack. Leaves opponents burned when they use physical moves to attack the user while it is ready to counterattack.',
+                    effect: 'The user takes up a counterattacking posture. Using this move again will cause the user to attack, then leave this posture. No other actions can be taken while in this posture. The user will attack if hit by an attack move while it is in this counterattacking posture, then the user leaves this posture. If the move was a physical attack move, leaves the opponent that used it burned.',
                     unlock_requirements: ['Training Machine x5']
                 },
                 {
@@ -12798,14 +19446,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'No additional effect.'
             },
-            passives: [{name: 'Piercing Gaze', description: 'Moves never miss.'}]
+            passives: [{name: 'Piercing Gaze', description: 'Moves never miss.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Treecko',
+            trainer: 'Brendan',
             type1: 'Grass',
             type2: '',
             weakness: 'Poison',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0252_00_kimori_256.ktx.png',
             stats: {
@@ -12819,7 +19470,7 @@ module.exports = {
                 },
                 max: {
                     attack: 342,
-                    bulk: 451,
+                    bulk: 568,
                     defense: 139,
                     hp: 478,
                     speed: 384,
@@ -12827,6 +19478,7 @@ module.exports = {
                     sp_def: 139
                 }
             },
+            bulk: '568',
             moves: [
                 {
                     name: 'Bullet Seed',
@@ -12897,14 +19549,118 @@ module.exports = {
                     name: 'Lithe',
                     description: 'Prevents the Pokémon from getting paralyzed.'
                 }
-            ]
+            ],
+            otherForms: ['Grovyle', 'Sceptile']
+        }
+        ,
+        {
+            name: 'Turtwig',
+            trainer: 'Dawn',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Bug',
+            rarity: 5,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-05/pm0387_00_naetle_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 14,
+                    defense: 20,
+                    hp: 104,
+                    speed: 9,
+                    sp_atk: 11,
+                    sp_def: 16
+                },
+                max: {
+                    attack: 220,
+                    bulk: 748,
+                    defense: 228,
+                    hp: 544,
+                    speed: 157,
+                    sp_atk: 181,
+                    sp_def: 206
+                }
+            },
+            bulk: '748',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense All',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the Defense of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Good as New!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'An ally',
+                    cost: '',
+                    uses: 1,
+                    effect: 'Fully restores an ally’s HP. Removes all status conditions from an ally. Removes the confused, flinching, and trapped conditions from an ally.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Siphon 9',
+                    description: 'Lowers the target’s Attack and raises the user’s Attack by an equal amount when the user is hit by an attack move.'
+                },
+                {
+                    name: 'Vigilance',
+                    description: 'The Pokémon is protected against critical hits.'
+                }
+            ],
+            otherForms: ['Grotle', 'Torterra']
         }
         ,
         {
             name: 'Typhlosion',
+            trainer: 'Ethan',
             type1: 'Fire',
             type2: '',
             weakness: 'Rock',
+            rarity: 5,
             role: 'Strike (Special)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-12/pm0157_00_bakphoon_256.ktx_.png',
             stats: {
@@ -12918,7 +19674,7 @@ module.exports = {
                 },
                 max: {
                     attack: 131,
-                    bulk: 475,
+                    bulk: 591,
                     defense: 134,
                     hp: 565,
                     speed: 357,
@@ -12926,6 +19682,7 @@ module.exports = {
                     sp_def: 136
                 }
             },
+            bulk: '591',
             moves: [
                 {
                     name: 'Flamethrower',
@@ -12990,21 +19747,24 @@ module.exports = {
                     name: 'Speeding Sun 2',
                     description: 'Quickly charges the move gauge when the weather is sunny.'
                 }
-            ]
+            ],
+            otherForms: ['Cyndaquil', 'Quilava']
         }
         ,
         {
             name: 'Tyranitar',
+            trainer: 'Brock',
             type1: 'Rock',
             type2: '',
             weakness: 'Fighting',
+            rarity: 3,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0248_00_bangiras_256.ktx.png',
             stats: {
                 base: {attack: 11, defense: 6, hp: 67, speed: 7, sp_atk: 10, sp_def: 4},
                 max: {
                     attack: 247,
-                    bulk: 428,
+                    bulk: 616,
                     defense: 171,
                     hp: 493,
                     speed: 133,
@@ -13012,6 +19772,7 @@ module.exports = {
                     sp_def: 78
                 }
             },
+            bulk: '616',
             moves: [
                 {
                     name: 'Rock Tomb',
@@ -13081,14 +19842,717 @@ module.exports = {
                     name: 'Sand Fortress',
                     description: 'Stats cannot be lowered in a sandstorm.'
                 }
-            ]
+            ],
+            otherForms: []
+        }
+        ,
+        {
+            name: 'Venomoth (Strike Special)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0049_00_morphon_256.ktx__0_0.png',
+            stats: {
+                base: {attack: 16, defense: 5, hp: 67, speed: 9, sp_atk: 16, sp_def: 5},
+                max: {
+                    attack: 170,
+                    bulk: 203,
+                    defense: 56,
+                    hp: 252,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '203',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Psychic',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {name: 'Dauntless', description: 'Sp. Atk cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Venonat (Strike Special)']
+        }
+        ,
+        {
+            name: 'Venomoth (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0049_00_morphon_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 9,
+                    hp: 71,
+                    speed: 10,
+                    sp_atk: 17,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 98,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 98,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Def',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Brainstorm!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Atk and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Psybeam',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 48, max_power: 57},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target confused.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Venonat (Support)']
+        }
+        ,
+        {
+            name: 'Venomoth (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0049_00_morphon_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 6,
+                    hp: 62,
+                    speed: 14,
+                    sp_atk: 12,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 82,
+                    bulk: 202,
+                    defense: 36,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 36
+                }
+            },
+            bulk: '202',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Stun Spore',
+                    type: 'Grass',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {
+                    name: 'Troublemaker 1',
+                    description: 'Raises the chance of success for status moves that inflict status conditions.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Venonat (Tech)']
+        }
+        ,
+        {
+            name: 'Venonat (Strike Special)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0048_00_kongpang_256.ktx__0_0.png',
+            stats: {
+                base: {attack: 13, defense: 4, hp: 58, speed: 7, sp_atk: 13, sp_def: 4},
+                max: {
+                    attack: 162,
+                    bulk: 198,
+                    defense: 55,
+                    hp: 243,
+                    speed: 122,
+                    sp_atk: 162,
+                    sp_def: 55
+                }
+            },
+            bulk: '198',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Psychic',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 99, max_power: 118},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Sp. Def.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {name: 'Dauntless', description: 'Sp. Atk cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Venomoth (Strike Special)']
+        }
+        ,
+        {
+            name: 'Venonat (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0048_00_kongpang_256.ktx_.png',
+            stats: {
+                base: {attack: 15, defense: 8, hp: 62, speed: 9, sp_atk: 15, sp_def: 8},
+                max: {
+                    attack: 96,
+                    bulk: 181,
+                    defense: 43,
+                    hp: 263,
+                    speed: 61,
+                    sp_atk: 96,
+                    sp_def: 43
+                }
+            },
+            bulk: '181',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Def',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Brainstorm!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Atk and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Psybeam',
+                    type: 'Psychic',
+                    category: 'Special',
+                    power: {min_power: 48, max_power: 57},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of leaving the target confused.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Venomoth (Support)']
+        }
+        ,
+        {
+            name: 'Venonat (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Flying',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0048_00_kongpang_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 5,
+                    hp: 52,
+                    speed: 10,
+                    sp_atk: 10,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 80,
+                    bulk: 191,
+                    defense: 35,
+                    hp: 333,
+                    speed: 177,
+                    sp_atk: 80,
+                    sp_def: 35
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Infestation',
+                    type: 'Bug',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target trapped.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Stun Spore',
+                    type: 'Grass',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 90,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Leaves the target paralyzed.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Beam',
+                type: ' Bug',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Clearheaded',
+                    description: 'Prevents the Pokémon from becoming confused.'
+                },
+                {
+                    name: 'Troublemaker 1',
+                    description: 'Raises the chance of success for status moves that inflict status conditions.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Venomoth (Tech)']
+        }
+        ,
+        {
+            name: 'Venusaur',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0003_00_fushigibana_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 24,
+                    defense: 7,
+                    hp: 77,
+                    speed: 23,
+                    sp_atk: 24,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 218,
+                    bulk: 494,
+                    defense: 94,
+                    hp: 342,
+                    speed: 170,
+                    sp_atk: 218,
+                    sp_def: 94
+                }
+            },
+            bulk: '494',
+            moves: [
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Solar Beam',
+                    type: 'Grass',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny, and the user can attack right away.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Bulbasaur', 'Ivysaur']
         }
         ,
         {
             name: 'Victreebel',
+            trainer: 'Ramos',
             type1: 'Grass',
             type2: '',
             weakness: 'Ice',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-02/pm0071_00_utsubot_256.ktx_.png',
             stats: {
@@ -13102,7 +20566,7 @@ module.exports = {
                 },
                 max: {
                     attack: 228,
-                    bulk: 434,
+                    bulk: 623,
                     defense: 124,
                     hp: 476,
                     speed: 250,
@@ -13110,6 +20574,7 @@ module.exports = {
                     sp_def: 137
                 }
             },
+            bulk: '623',
             moves: [
                 {
                     name: 'Bullet Seed',
@@ -13162,7 +20627,7 @@ module.exports = {
             ],
             syncMove: {
                 name: 'Old Growth Razor Leaf',
-                type: '  Grass',
+                type: ' Grass',
                 category: 'Physical',
                 power: {min_power: 200, max_power: 240},
                 target: 'An opponent',
@@ -13172,23 +20637,341 @@ module.exports = {
             passives: [
                 {
                     name: 'Defense Crush 2',
-                    description: 'Occasionally lowers the target’s Defense when an attack against it is successful.'
+                    description: 'Has a moderate chance of lowering the target’s Defense when an attack against it is successful.'
                 }
-            ]
+            ],
+            otherForms: ['Weepinbell']
+        }
+        ,
+        {
+            name: 'Victreebel (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0071_00_utsubot_256.ktx__0_0.png',
+            stats: {
+                base: {
+                    attack: 21,
+                    defense: 8,
+                    hp: 73,
+                    speed: 21,
+                    sp_atk: 21,
+                    sp_def: 8
+                },
+                max: {
+                    attack: 170,
+                    bulk: 205,
+                    defense: 56,
+                    hp: 256,
+                    speed: 124,
+                    sp_atk: 170,
+                    sp_def: 56
+                }
+            },
+            bulk: '205',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: ['Bellsprout (Strike Physical)', 'Weepinbell (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Victreebel (Support)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0071_00_utsubot_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 18,
+                    defense: 9,
+                    hp: 73,
+                    speed: 10,
+                    sp_atk: 18,
+                    sp_def: 9
+                },
+                max: {
+                    attack: 99,
+                    bulk: 210,
+                    defense: 56,
+                    hp: 272,
+                    speed: 62,
+                    sp_atk: 99,
+                    sp_def: 56
+                }
+            },
+            bulk: '210',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Def',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Keep Cool!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Def and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Bellsprout (Support)', 'Weepinbell (Support)']
+        }
+        ,
+        {
+            name: 'Victreebel (Tech)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0071_00_utsubot_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 13,
+                    defense: 7,
+                    hp: 75,
+                    speed: 28,
+                    sp_atk: 13,
+                    sp_def: 7
+                },
+                max: {
+                    attack: 82,
+                    bulk: 204,
+                    defense: 37,
+                    hp: 360,
+                    speed: 196,
+                    sp_atk: 82,
+                    sp_def: 37
+                }
+            },
+            bulk: '204',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sleep Powder',
+                    type: 'Grass',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Bellsprout (Tech)', 'Weepinbell (Tech)']
         }
         ,
         {
             name: 'Vileplume',
+            trainer: 'Erika',
             type1: 'Grass',
             type2: '',
             weakness: 'Fire',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0045_01_ruffresia_256.ktx.png',
             stats: {
                 base: {attack: 7, defense: 7, hp: 85, speed: 9, sp_atk: 7, sp_def: 8},
                 max: {
                     attack: 47,
-                    bulk: 583,
+                    bulk: 781,
                     defense: 137,
                     hp: 596,
                     speed: 190,
@@ -13196,6 +20979,7 @@ module.exports = {
                     sp_def: 230
                 }
             },
+            bulk: '781',
             moves: [
                 {
                     name: 'Energy Ball',
@@ -13260,14 +21044,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'Its power increases if the target is paralyzed.'
             },
-            passives: [{name: 'Piercing Gaze', description: 'Moves never miss.'}]
+            passives: [{name: 'Piercing Gaze', description: 'Moves never miss.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Voltorb',
+            trainer: 'Lt. Surge',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0100_00_biriridama_256.ktx.png',
             stats: {
@@ -13281,7 +21068,7 @@ module.exports = {
                 },
                 max: {
                     attack: 138,
-                    bulk: 432,
+                    bulk: 620,
                     defense: 135,
                     hp: 446,
                     speed: 400,
@@ -13289,6 +21076,7 @@ module.exports = {
                     sp_def: 135
                 }
             },
+            bulk: '620',
             moves: [
                 {
                     name: 'Thunderbolt',
@@ -13358,14 +21146,376 @@ module.exports = {
                     name: 'Last Word',
                     description: 'The Pokémon uses Explosion immediately before fainting.'
                 }
-            ]
+            ],
+            otherForms: ['Electrode']
+        }
+        ,
+        {
+            name: 'Wartortle',
+            trainer: 'Player',
+            type1: 'Water',
+            type2: '',
+            weakness: 'Grass',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-04/pm0008_00_kameil_256.ktx_.png',
+            stats: {
+                base: {
+                    attack: 17,
+                    defense: 4,
+                    hp: 63,
+                    speed: 17,
+                    sp_atk: 17,
+                    sp_def: 4
+                },
+                max: {
+                    attack: 196,
+                    bulk: 483,
+                    defense: 91,
+                    hp: 328,
+                    speed: 164,
+                    sp_atk: 196,
+                    sp_def: 91
+                }
+            },
+            bulk: '483',
+            moves: [
+                {
+                    name: 'Bubble Beam',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 49, max_power: 58},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a very small chance of lowering the target’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Atk',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Atk.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hydro Pump',
+                    type: 'Water',
+                    category: 'Special',
+                    power: {min_power: 125, max_power: 150},
+                    accuracy: 80,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Race You!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Water Sync Beam',
+                type: ' Water',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Squirtle', 'Blastoise']
+        }
+        ,
+        {
+            name: 'Weedle (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0013_00_beedle_256.ktx__1.png',
+            stats: {
+                base: {
+                    attack: 12,
+                    defense: 5,
+                    hp: 53,
+                    speed: 13,
+                    sp_atk: 12,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 144,
+                    bulk: 191,
+                    defense: 53,
+                    hp: 236,
+                    speed: 116,
+                    sp_atk: 144,
+                    sp_def: 53
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Attack',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Attack.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {name: 'Headstrong', description: 'Attack cannot be lowered.'},
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                }
+            ],
+            otherForms: ['Kakuna (Strike Physical)', 'Beedrill (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Weedle (Support)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0013_00_beedle_256.ktx_.png',
+            stats: {
+                base: {attack: 12, defense: 6, hp: 53, speed: 7, sp_atk: 12, sp_def: 6},
+                max: {
+                    attack: 93,
+                    bulk: 163,
+                    defense: 36,
+                    hp: 252,
+                    speed: 59,
+                    sp_atk: 93,
+                    sp_def: 36
+                }
+            },
+            bulk: '163',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Defense',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Defense.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Strike Together!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Attack and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Kakuna (Support)', 'Beedrill (Support)']
+        }
+        ,
+        {
+            name: 'Weedle (Tech)',
+            trainer: 'Player',
+            type1: 'Bug',
+            type2: '',
+            weakness: 'Psychic',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0013_00_beedle_256.ktx__0.png',
+            stats: {
+                base: {attack: 8, defense: 5, hp: 51, speed: 17, sp_atk: 8, sp_def: 5},
+                max: {
+                    attack: 77,
+                    bulk: 178,
+                    defense: 35,
+                    hp: 298,
+                    speed: 171,
+                    sp_atk: 77,
+                    sp_def: 35
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Poison Sting',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 12, max_power: 14},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'On My Mark!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense, Sp. Def, and critical-hit rate.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Bug Sync Impact',
+                type: ' Bug',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Hostile Environment 1',
+                    description: 'Raises the chance of inflicting status conditions with the additional effects of moves.'
+                },
+                {
+                    name: 'Dirty Fighting 1',
+                    description: 'Powers up moves when the move’s target or targets are affected by a status condition.'
+                }
+            ],
+            otherForms: ['Kakuna (Tech)', 'Beedrill (Tech)']
         }
         ,
         {
             name: 'Weepinbell',
+            trainer: 'Ramos',
             type1: 'Grass',
             type2: '',
             weakness: 'Ice',
+            rarity: 3,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0070_00_utsudon_256.ktx.png',
             stats: {
@@ -13379,7 +21529,7 @@ module.exports = {
                 },
                 max: {
                     attack: 207,
-                    bulk: 423,
+                    bulk: 612,
                     defense: 122,
                     hp: 461,
                     speed: 230,
@@ -13387,6 +21537,7 @@ module.exports = {
                     sp_def: 134
                 }
             },
+            bulk: '612',
             moves: [
                 {
                     name: 'Bullet Seed',
@@ -13454,16 +21605,327 @@ module.exports = {
             passives: [
                 {
                     name: 'Defense Crush 2',
-                    description: 'Occasionally lowers the target’s Defense when an attack against it is successful.'
+                    description: 'Has a moderate chance of lowering the target’s Defense when an attack against it is successful.'
                 }
-            ]
+            ],
+            otherForms: ['Victreebel']
+        }
+        ,
+        {
+            name: 'Weepinbell (Strike Physical)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Strike (Physical)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0070_00_utsudon_256.ktx__0_0.png',
+            stats: {
+                base: {
+                    attack: 15,
+                    defense: 6,
+                    hp: 61,
+                    speed: 16,
+                    sp_atk: 15,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 148,
+                    bulk: 196,
+                    defense: 54,
+                    hp: 244,
+                    speed: 119,
+                    sp_atk: 148,
+                    sp_def: 54
+                }
+            },
+            bulk: '196',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Seed Bomb',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 100, max_power: 120},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: ['Bellsprout (Strike Physical)', 'Victreebel (Strike Physical)']
+        }
+        ,
+        {
+            name: 'Weepinbell (Support)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0070_00_utsudon_256.ktx_.png',
+            stats: {
+                base: {attack: 14, defense: 7, hp: 61, speed: 8, sp_atk: 14, sp_def: 7},
+                max: {
+                    attack: 95,
+                    bulk: 178,
+                    defense: 42,
+                    hp: 260,
+                    speed: 60,
+                    sp_atk: 95,
+                    sp_def: 42
+                }
+            },
+            bulk: '178',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Sp. Def',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Sp. Def.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Keep Cool!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Def and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Razor Leaf',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 43, max_power: 51},
+                    accuracy: 95,
+                    target: 'All opponents',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Critical hits land more easily.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Natural Remedy',
+                    description: 'Once per battle, removes all status conditions from the user when the user is inflicted by any status condition.'
+                },
+                {
+                    name: 'Quick Cure',
+                    description: 'Removes the confused, flinching, and trapped conditions from the user once during battle.'
+                }
+            ],
+            otherForms: ['Bellsprout (Support)', 'Victreebel (Support)']
+        }
+        ,
+        {
+            name: 'Weepinbell (Tech)',
+            trainer: 'Player',
+            type1: 'Grass',
+            type2: '',
+            weakness: 'Fire',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0070_00_utsudon_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 6,
+                    hp: 60,
+                    speed: 21,
+                    sp_atk: 10,
+                    sp_def: 6
+                },
+                max: {
+                    attack: 79,
+                    bulk: 191,
+                    defense: 36,
+                    hp: 328,
+                    speed: 187,
+                    sp_atk: 79,
+                    sp_def: 36
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Vine Whip',
+                    type: 'Grass',
+                    category: 'Physical',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sleep Powder',
+                    type: 'Grass',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 75,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Puts the target to sleep.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Grass Sync Impact',
+                type: ' Grass',
+                category: 'Physical',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Wide Awake',
+                    description: 'Prevents the Pokémon from falling asleep.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Bellsprout (Tech)', 'Victreebel (Tech)']
         }
         ,
         {
             name: 'Whirlipede',
+            trainer: 'Roxie',
             type1: 'Poison',
             type2: '',
             weakness: 'Psychic',
+            rarity: 4,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0544_00_wheega_256.ktx.png',
             stats: {
@@ -13477,7 +21939,7 @@ module.exports = {
                 },
                 max: {
                     attack: 297,
-                    bulk: 438,
+                    bulk: 559,
                     defense: 154,
                     hp: 456,
                     speed: 345,
@@ -13485,6 +21947,7 @@ module.exports = {
                     sp_def: 119
                 }
             },
+            bulk: '559',
             moves: [
                 {
                     name: 'Poison Tail',
@@ -13551,17 +22014,20 @@ module.exports = {
             },
             passives: [
                 {
-                    name: 'Hit and Run 2',
-                    description: 'Occasionally raises the Pokémon’s Speed after it uses a move.'
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
                 }
-            ]
+            ],
+            otherForms: ['Scolipede']
         }
         ,
         {
             name: 'Xatu',
+            trainer: 'Will',
             type1: 'Psychic',
             type2: 'Psychic',
             weakness: 'Electric',
+            rarity: 4,
             role: 'Tech',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-08/pm0178_01_natio_256.ktx.png',
             stats: {
@@ -13575,7 +22041,7 @@ module.exports = {
                 },
                 max: {
                     attack: 175,
-                    bulk: 559,
+                    bulk: 685,
                     defense: 196,
                     hp: 461,
                     speed: 355,
@@ -13583,6 +22049,7 @@ module.exports = {
                     sp_def: 196
                 }
             },
+            bulk: '685',
             moves: [
                 {
                     name: 'Stored Power',
@@ -13617,7 +22084,7 @@ module.exports = {
                     target: 'Self',
                     cost: '',
                     uses: 2,
-                    effect: 'If any of the target’s stats have been raised, the user’s same stats are raised by double that amount.',
+                    effect: 'If any of the target’s stats have been raised, the user’s same stats are changed to double that amount.',
                     unlock_requirements: ['Training Machine x5']
                 },
                 {
@@ -13647,14 +22114,17 @@ module.exports = {
                 effect_tag: '-',
                 description: 'Its power increases if the target is confused.'
             },
-            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}]
+            passives: [{name: 'Impervious', description: 'Stats cannot be lowered.'}],
+            otherForms: []
         }
         ,
         {
             name: 'Zebstrika',
+            trainer: 'Elesa',
             type1: 'Electric',
             type2: '',
             weakness: 'Ground',
+            rarity: 5,
             role: 'Strike (Physical)',
             image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2019-09/pm0523_00_zebraika_256.ktx_.png',
             stats: {
@@ -13668,7 +22138,7 @@ module.exports = {
                 },
                 max: {
                     attack: 306,
-                    bulk: 492,
+                    bulk: 608,
                     defense: 103,
                     hp: 788,
                     speed: 329,
@@ -13676,6 +22146,7 @@ module.exports = {
                     sp_def: 103
                 }
             },
+            bulk: '608',
             moves: [
                 {
                     name: 'Spark',
@@ -13737,14 +22208,318 @@ module.exports = {
             },
             passives: [
                 {
-                    name: 'Hit and Run 2',
-                    description: 'Occasionally raises the Pokémon’s Speed after it uses a move.'
+                    name: 'Fast-Track 2',
+                    description: 'Has a moderate chance of raising the Pokémon’s Speed after it uses a move.'
                 },
                 {
                     name: 'Lithe',
                     description: 'Prevents the Pokémon from getting paralyzed.'
                 }
-            ]
+            ],
+            otherForms: []
         }
+        ,
+        {
+            name: 'Zubat (Strike Special)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Strike (Special)',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0041_00_zubat_256.ktx__1.png',
+            stats: {
+                base: {attack: 13, defense: 4, hp: 58, speed: 7, sp_atk: 13, sp_def: 4},
+                max: {
+                    attack: 162,
+                    bulk: 198,
+                    defense: 55,
+                    hp: 243,
+                    speed: 122,
+                    sp_atk: 162,
+                    sp_def: 55
+                }
+            },
+            bulk: '198',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Dire Hit',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s critical-hit rate.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Keep it Up!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Bomb',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'Power Reserves 2',
+                    description: 'Powers up moves in a pinch.'
+                },
+                {
+                    name: 'Superduper Effective 1',
+                    description: 'Powers up moves that are super effective.'
+                }
+            ],
+            otherForms: ['Golbat (Strike Special)']
+        }
+        ,
+        {
+            name: 'Zubat (Support)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Support',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0041_00_zubat_256.ktx_.png',
+            stats: {
+                base: {attack: 15, defense: 8, hp: 62, speed: 9, sp_atk: 15, sp_def: 8},
+                max: {
+                    attack: 96,
+                    bulk: 181,
+                    defense: 43,
+                    hp: 263,
+                    speed: 61,
+                    sp_atk: 96,
+                    sp_def: 43
+                }
+            },
+            bulk: '181',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Let’s Brainstorm!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'All allies',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the Sp. Atk and Speed of all allied sync pairs.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Sludge Bomb',
+                    type: 'Poison',
+                    category: 'Special',
+                    power: {min_power: 92, max_power: 110},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 3,
+                    uses: null,
+                    effect: 'Has a moderate chance of leaving the target poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'First Aid 2',
+                    description: 'Restores a bit of the Pokémon’s HP once during battle when the Pokémon is in a pinch.'
+                },
+                {
+                    name: 'Revenge Boost 1',
+                    description: 'Has a small chance of charging the user’s move gauge by one when the user is hit by an attack move.'
+                }
+            ],
+            otherForms: ['Golbat (Support)']
+        }
+        ,
+        {
+            name: 'Zubat (Tech)',
+            trainer: 'Player',
+            type1: 'Poison',
+            type2: '',
+            weakness: 'Ice',
+            rarity: 3,
+            role: 'Tech',
+            image: '/pokemonmasters/sites/pokemonmasters/files/styles/55x55/public/2020-06/pm0041_00_zubat_256.ktx__0.png',
+            stats: {
+                base: {
+                    attack: 10,
+                    defense: 5,
+                    hp: 52,
+                    speed: 10,
+                    sp_atk: 10,
+                    sp_def: 5
+                },
+                max: {
+                    attack: 80,
+                    bulk: 191,
+                    defense: 35,
+                    hp: 333,
+                    speed: 177,
+                    sp_atk: 80,
+                    sp_def: 35
+                }
+            },
+            bulk: '191',
+            moves: [
+                {
+                    name: 'Gust',
+                    type: 'Flying',
+                    category: 'Special',
+                    power: {min_power: 20, max_power: 24},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 1,
+                    uses: null,
+                    effect: 'No additional effect.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'X Speed',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Sharply raises the user’s Speed.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Hang in There!',
+                    type: '',
+                    category: 'Status Effect',
+                    power: {min_power: 0, max_power: 0},
+                    accuracy: 0,
+                    target: 'Self',
+                    cost: '',
+                    uses: 2,
+                    effect: 'Raises the user’s Defense and Sp. Def. Makes the user gradually heal itself.',
+                    unlock_requirements: []
+                },
+                {
+                    name: 'Poison Fang',
+                    type: 'Poison',
+                    category: 'Physical',
+                    power: {min_power: 34, max_power: 40},
+                    accuracy: 100,
+                    target: 'An opponent',
+                    cost: 2,
+                    uses: null,
+                    effect: 'Has a good chance of leaving the target badly poisoned.',
+                    unlock_requirements: []
+                }
+            ],
+            syncMove: {
+                name: 'Poison Sync Beam',
+                type: ' Poison',
+                category: 'Special',
+                power: {min_power: 200, max_power: 240},
+                target: 'An opponent',
+                effect_tag: '-',
+                description: 'No additional effect.'
+            },
+            passives: [
+                {
+                    name: 'Unflappable',
+                    description: 'Prevents the Pokémon from flinching.'
+                },
+                {
+                    name: 'Antitoxin',
+                    description: 'Prevents the Pokémon from getting poisoned or badly poisoned.'
+                },
+                {
+                    name: 'Stamina Reserves 2',
+                    description: 'Once per battle, charges the user’s move gauge by two when the user is in a pinch.'
+                }
+            ],
+            otherForms: ['Golbat (Tech)']
+        }
+        ,
+
     ]
 };
